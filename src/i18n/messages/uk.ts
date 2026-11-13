@@ -46,6 +46,16 @@ const en = {
     "city-corporation": "City of London",
     combined: "Combined authorities",
   },
+  /** Lower-case labels for counts in running text ("63 unitary councils"). */
+  kindsCount: {
+    county: "county councils",
+    district: "district councils",
+    metropolitan: "metropolitan districts",
+    "london-borough": "London boroughs",
+    unitary: "unitary councils",
+    "city-corporation": "City of London",
+    combined: "combined authorities",
+  },
   kindExplain: {
     county: "Runs county-wide services such as schools, social care and roads, alongside district councils.",
     district: "Runs local services such as bins, housing and planning, alongside a county council (in Northern Ireland, councils with narrower powers).",

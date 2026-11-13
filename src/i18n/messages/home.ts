@@ -4,12 +4,12 @@ export const homeMessages = defineMessages({
   en: {
     title: "Every council meeting in Wales, in plain words",
     lede:
-      "Wales has 22 councils. Between them they hold hundreds of meetings a month, and decide on schools, bins, housing, roads, planning and council tax. Their papers are public but hard to follow. OpenCouncil reads them every day and tells you, in English and Welsh, what was decided and why.",
+      "Wales has 22 councils. Between them they hold hundreds of meetings a month, and decide on schools, bins, housing, roads, planning and council tax. Their papers are public but hard to follow. OpenCouncils reads them every day and tells you, in English and Welsh, what was decided and why.",
     searchLabel: "Search every council",
     postcodeLabel: "Or find your councillors",
     postcodePlaceholder: "Postcode",
     postcodeSubmit: "Find",
-    mapTitle: "Councils on OpenCouncil",
+    mapTitle: "Councils on OpenCouncils",
     mapLede: "Choose a covered council to see its meetings, councillors and decisions.",
     doTitle: "What you can do here",
     features: [
@@ -30,7 +30,7 @@ export const homeMessages = defineMessages({
       {
         key: "search",
         title: "Search every council at once",
-        body: "One search covers the agendas, minutes and decisions of every council on OpenCouncil. Find out where else a school closure, a 20mph scheme or a new development has come up.",
+        body: "One search covers the agendas, minutes and decisions of every council on OpenCouncils. Find out where else a school closure, a 20mph scheme or a new development has come up.",
         link: "Search",
         href: "/search",
       },
@@ -43,12 +43,12 @@ export const homeMessages = defineMessages({
       },
     ],
     howTitle: "How a summary is made",
-    howLede: "Councils don't publish a word-for-word record of their meetings. Their minutes are the official account of what was decided, so OpenCouncil only says what was decided once the minutes are out.",
+    howLede: "Councils don't publish a word-for-word record of their meetings. Their minutes are the official account of what was decided, so OpenCouncils only says what was decided once the minutes are out.",
     steps: [
       { title: "The agenda is published", body: "About a week before the meeting, the council publishes the agenda and the reports councillors will discuss." },
-      { title: "The meeting happens", body: "Councillors debate and vote. OpenCouncil records who attended." },
+      { title: "The meeting happens", body: "Councillors debate and vote. OpenCouncils records who attended." },
       { title: "The minutes come out", body: "Usually a few weeks later, the council publishes the minutes: the official record of what was decided." },
-      { title: "OpenCouncil explains it", body: "AI reads the minutes and reports and writes a short account in English and Welsh. Every point links to the document it came from." },
+      { title: "OpenCouncils explains it", body: "AI reads the minutes and reports and writes a short account in English and Welsh. Every point links to the document it came from." },
     ],
     topicsTitle: "Topics across Wales",
     topicsLede: "Compare what different councils are doing about the same thing.",
@@ -65,12 +65,12 @@ export const homeMessages = defineMessages({
   cy: {
     title: "Pob cyfarfod cyngor yng Nghymru, mewn geiriau clir",
     lede:
-      "Mae gan Gymru 22 o gynghorau. Rhyngddyn nhw maen nhw'n cynnal cannoedd o gyfarfodydd y mis, ac yn penderfynu ar ysgolion, biniau, tai, ffyrdd, cynllunio a'r dreth gyngor. Mae eu papurau'n gyhoeddus ond yn anodd eu dilyn. Mae OpenCouncil yn eu darllen bob dydd ac yn dweud wrthych chi, yn Gymraeg ac yn Saesneg, beth gafodd ei benderfynu a pham.",
+      "Mae gan Gymru 22 o gynghorau. Rhyngddyn nhw maen nhw'n cynnal cannoedd o gyfarfodydd y mis, ac yn penderfynu ar ysgolion, biniau, tai, ffyrdd, cynllunio a'r dreth gyngor. Mae eu papurau'n gyhoeddus ond yn anodd eu dilyn. Mae OpenCouncils yn eu darllen bob dydd ac yn dweud wrthych chi, yn Gymraeg ac yn Saesneg, beth gafodd ei benderfynu a pham.",
     searchLabel: "Chwilio pob cyngor",
     postcodeLabel: "Neu dewch o hyd i'ch cynghorwyr",
     postcodePlaceholder: "Cod post",
     postcodeSubmit: "Chwilio",
-    mapTitle: "Cynghorau ar OpenCouncil",
+    mapTitle: "Cynghorau ar OpenCouncils",
     mapLede: "Dewiswch gyngor sydd wedi'i gynnwys i weld ei gyfarfodydd, ei gynghorwyr a'i benderfyniadau.",
     doTitle: "Beth allwch chi ei wneud yma",
     features: [
@@ -91,7 +91,7 @@ export const homeMessages = defineMessages({
       {
         key: "search",
         title: "Chwilio pob cyngor ar yr un pryd",
-        body: "Mae un chwiliad yn cynnwys agendâu, cofnodion a phenderfyniadau pob cyngor ar OpenCouncil. Gwelwch ble arall mae cau ysgol, cynllun 20mya neu ddatblygiad newydd wedi codi.",
+        body: "Mae un chwiliad yn cynnwys agendâu, cofnodion a phenderfyniadau pob cyngor ar OpenCouncils. Gwelwch ble arall mae cau ysgol, cynllun 20mya neu ddatblygiad newydd wedi codi.",
         link: "Chwilio",
         href: "/search",
       },
@@ -104,12 +104,12 @@ export const homeMessages = defineMessages({
       },
     ],
     howTitle: "Sut mae crynodeb yn cael ei wneud",
-    howLede: "Dyw cynghorau ddim yn cyhoeddi cofnod gair am air o'u cyfarfodydd. Eu cofnodion yw'r cyfrif swyddogol o'r hyn a benderfynwyd, felly dim ond ar ôl i'r cofnodion gael eu cyhoeddi y mae OpenCouncil yn dweud beth a benderfynwyd.",
+    howLede: "Dyw cynghorau ddim yn cyhoeddi cofnod gair am air o'u cyfarfodydd. Eu cofnodion yw'r cyfrif swyddogol o'r hyn a benderfynwyd, felly dim ond ar ôl i'r cofnodion gael eu cyhoeddi y mae OpenCouncils yn dweud beth a benderfynwyd.",
     steps: [
       { title: "Caiff yr agenda ei chyhoeddi", body: "Tua wythnos cyn y cyfarfod, mae'r cyngor yn cyhoeddi'r agenda a'r adroddiadau y bydd cynghorwyr yn eu trafod." },
-      { title: "Mae'r cyfarfod yn digwydd", body: "Mae cynghorwyr yn trafod ac yn pleidleisio. Mae OpenCouncil yn cofnodi pwy oedd yno." },
+      { title: "Mae'r cyfarfod yn digwydd", body: "Mae cynghorwyr yn trafod ac yn pleidleisio. Mae OpenCouncils yn cofnodi pwy oedd yno." },
       { title: "Mae'r cofnodion yn cael eu cyhoeddi", body: "Fel arfer ychydig wythnosau'n ddiweddarach, mae'r cyngor yn cyhoeddi'r cofnodion: y cofnod swyddogol o'r hyn a benderfynwyd." },
-      { title: "Mae OpenCouncil yn ei esbonio", body: "Mae AI yn darllen y cofnodion a'r adroddiadau ac yn ysgrifennu cyfrif byr yn Gymraeg ac yn Saesneg. Mae pob pwynt yn cysylltu â'r ddogfen y daeth ohoni." },
+      { title: "Mae OpenCouncils yn ei esbonio", body: "Mae AI yn darllen y cofnodion a'r adroddiadau ac yn ysgrifennu cyfrif byr yn Gymraeg ac yn Saesneg. Mae pob pwynt yn cysylltu â'r ddogfen y daeth ohoni." },
     ],
     topicsTitle: "Pynciau ledled Cymru",
     topicsLede: "Cymharwch beth mae gwahanol gynghorau'n ei wneud am yr un peth.",

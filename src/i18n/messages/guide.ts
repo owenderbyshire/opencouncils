@@ -80,8 +80,8 @@ export const guideMessages = defineMessages<{
         id: "have-your-say",
         title: "Have your say",
         paras: [
-          "Contact your councillors. They represent everyone in their ward, whether or not you voted for them. Find them with your postcode on OpenCouncil, then email or phone them. Say what the issue is, where, and what you would like them to do.",
-          "Go to a meeting, or watch it. Meetings are listed on OpenCouncil and on the council's website, with the time and place. Every council must broadcast meetings of the full Council, and many also broadcast the Cabinet and planning committee.",
+          "Contact your councillors. They represent everyone in their ward, whether or not you voted for them. Find them with your postcode on OpenCouncils, then email or phone them. Say what the issue is, where, and what you would like them to do.",
+          "Go to a meeting, or watch it. Meetings are listed on OpenCouncils and on the council's website, with the time and place. Every council must broadcast meetings of the full Council, and many also broadcast the Cabinet and planning committee.",
           "Speak at a planning committee. Most councils let people who support or object to a planning application speak at the committee meeting that decides it, if they register in advance. Check the council's website for the deadline.",
           "Ask a question or start a petition. Every Welsh council must have a petition scheme, and many let members of the public ask questions at full Council meetings. Each council must publish a public participation strategy explaining how people can take part.",
           "Respond to consultations. Councils consult on budgets, school changes, local plans and more. Consultations are listed on each council's website.",
@@ -173,8 +173,8 @@ export const guideMessages = defineMessages<{
         id: "have-your-say",
         title: "Dweud eich dweud",
         paras: [
-          "Cysylltwch â'ch cynghorwyr. Maen nhw'n cynrychioli pawb yn eu ward, p'un a wnaethoch chi bleidleisio drostyn nhw ai peidio. Dewch o hyd iddyn nhw gyda'ch cod post ar OpenCouncil, yna anfonwch e-bost neu ffoniwch. Dywedwch beth yw'r mater, ble, a beth hoffech chi iddyn nhw ei wneud.",
-          "Ewch i gyfarfod, neu gwyliwch e. Mae cyfarfodydd wedi'u rhestru ar OpenCouncil ac ar wefan y cyngor, gyda'r amser a'r lle. Rhaid i bob cyngor ddarlledu cyfarfodydd y Cyngor llawn, ac mae llawer hefyd yn darlledu'r Cabinet a'r pwyllgor cynllunio.",
+          "Cysylltwch â'ch cynghorwyr. Maen nhw'n cynrychioli pawb yn eu ward, p'un a wnaethoch chi bleidleisio drostyn nhw ai peidio. Dewch o hyd iddyn nhw gyda'ch cod post ar OpenCouncils, yna anfonwch e-bost neu ffoniwch. Dywedwch beth yw'r mater, ble, a beth hoffech chi iddyn nhw ei wneud.",
+          "Ewch i gyfarfod, neu gwyliwch e. Mae cyfarfodydd wedi'u rhestru ar OpenCouncils ac ar wefan y cyngor, gyda'r amser a'r lle. Rhaid i bob cyngor ddarlledu cyfarfodydd y Cyngor llawn, ac mae llawer hefyd yn darlledu'r Cabinet a'r pwyllgor cynllunio.",
           "Siaradwch mewn pwyllgor cynllunio. Mae'r rhan fwyaf o gynghorau'n gadael i bobl sy'n cefnogi neu'n gwrthwynebu cais cynllunio siarad yng nghyfarfod y pwyllgor sy'n penderfynu arno, os ydyn nhw'n cofrestru ymlaen llaw. Edrychwch ar wefan y cyngor am y dyddiad cau.",
           "Gofynnwch gwestiwn neu ddechrau deiseb. Rhaid i bob cyngor yng Nghymru gael cynllun deisebau, ac mae llawer yn gadael i aelodau'r cyhoedd ofyn cwestiynau mewn cyfarfodydd o'r Cyngor llawn. Rhaid i bob cyngor gyhoeddi strategaeth cyfranogiad y cyhoedd yn esbonio sut gall pobl gymryd rhan.",
           "Ymatebwch i ymgynghoriadau. Mae cynghorau'n ymgynghori ar gyllidebau, newidiadau i ysgolion, cynlluniau lleol a mwy. Mae ymgynghoriadau wedi'u rhestru ar wefan pob cyngor.",

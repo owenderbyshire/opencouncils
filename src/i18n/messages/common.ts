@@ -69,18 +69,18 @@ export const common = defineMessages({
       title: "Page not found",
       body: "There is no page at this address. It may have moved, or the link may be wrong.",
       home: "Go to the home page",
-      search: "Search OpenCouncil",
+      search: "Search OpenCouncils",
     },
     /** The beta notice above the top bar (src/components/beta-banner.tsx). `short` is the one line shown on phones. */
     beta: {
       label: "Beta notice",
-      long: "**Beta** OpenCouncil reads the councils' own data every day, but if something looks wrong please tell us at [{email}](email).",
+      long: "**Beta** OpenCouncils reads the councils' own data every day, but if something looks wrong please tell us at [{email}](email).",
       short: "**Beta** Something wrong? [{email}](email)",
       dismiss: "Hide this notice",
     },
   },
   cy: {
-    siteName: "OpenCouncil",
+    siteName: "OpenCouncils",
     description:
       "Beth mae cynghorau Cymru yn ei benderfynu, a pham, mewn Cymraeg a Saesneg clir. Cyfarfodydd, cynghorwyr, presenoldeb a datganiadau o fuddiant. Annibynnol ac am ddim.",
     skipToContent: "Neidio i'r cynnwys",
@@ -104,7 +104,7 @@ export const common = defineMessages({
     },
     footer: {
       independent:
-        "Prosiect annibynnol yw OpenCouncil. Nid yw'n cael ei redeg na'i gymeradwyo gan unrhyw gyngor na gan Lywodraeth Cymru.",
+        "Prosiect annibynnol yw OpenCouncils. Nid yw'n cael ei redeg na'i gymeradwyo gan unrhyw gyngor na gan Lywodraeth Cymru.",
       publishedBy: "Cyhoeddwyd gan",
       licence: "Yn cynnwys gwybodaeth y sector cyhoeddus a drwyddedir o dan y",
       licenceLink: "Drwydded Llywodraeth Agored v3.0",
@@ -113,13 +113,13 @@ export const common = defineMessages({
       familyTitle: "Rhan o deulu Edau",
       family: {
         opensenedd: { name: "OpenSenedd", note: "Beth mae'r Senedd yn ei drafod a'i benderfynu" },
-        opencouncil: { name: "OpenCouncil", note: "Beth mae 22 cyngor Cymru yn ei benderfynu" },
+        opencouncil: { name: "OpenCouncils", note: "Beth mae 22 cyngor Cymru yn ei benderfynu" },
         opencharity: { name: "OpenCharity", note: "Pob elusen yng Nghymru" },
         openeconomy: { name: "OpenEconomy", note: "Economi Cymru mewn ffigurau" },
       },
       edau: "Data o [Edau](edau), storfa Datblygu Cymru o ddata cyhoeddus Cymru.",
       sisterNote: "Am gynghorau Cymru yn fanylach, gweler [OpenCouncil](sister).",
-      about: "Am OpenCouncil",
+      about: "Am OpenCouncils",
       contact: "Cysylltu",
     },
     words: {
@@ -142,11 +142,11 @@ export const common = defineMessages({
       title: "Heb ddod o hyd i'r dudalen",
       body: "Does dim tudalen yn y cyfeiriad hwn. Efallai ei bod wedi symud, neu fod y ddolen yn anghywir.",
       home: "Mynd i'r hafan",
-      search: "Chwilio OpenCouncil",
+      search: "Chwilio OpenCouncils",
     },
     beta: {
       label: "Hysbysiad beta",
-      long: "**Beta** Mae OpenCouncil yn darllen data'r cynghorau eu hunain bob dydd, ond os oes rhywbeth yn edrych yn anghywir, e-bostiwch [{email}](email).",
+      long: "**Beta** Mae OpenCouncils yn darllen data'r cynghorau eu hunain bob dydd, ond os oes rhywbeth yn edrych yn anghywir, e-bostiwch [{email}](email).",
       short: "**Beta** Rhywbeth o'i le? [{email}](email)",
       dismiss: "Cuddio'r hysbysiad hwn",
     },

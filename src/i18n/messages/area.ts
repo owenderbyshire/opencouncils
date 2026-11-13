@@ -10,7 +10,7 @@ export const areaMessages = defineMessages({
     ...placesMessages.en,
     tab: "Your area",
     title: "{name}: the area",
-    notReady: "OpenCouncil doesn't hold the neighbourhood figures for this council area yet.",
+    notReady: "OpenCouncils doesn't hold the neighbourhood figures for this council area yet.",
     lede1:
       "What kind of place the council serves, told through its **{n} neighbourhoods** of about 1,600 people each: town and country, Welsh speakers, deprivation and second homes. Hover over or tap a neighbourhood to see its name.",
     yourArea: "Your neighbourhood, from your postcode, is **{name}**. It is outlined on each map.",
@@ -24,7 +24,7 @@ export const areaMessages = defineMessages({
     ...placesMessages.cy,
     tab: "Eich ardal",
     title: "{name}: yr ardal",
-    notReady: "Nid yw OpenCouncil yn dal ffigurau cymdogaethau'r ardal cyngor hon eto.",
+    notReady: "Nid yw OpenCouncils yn dal ffigurau cymdogaethau'r ardal cyngor hon eto.",
     lede1:
       "Pa fath o le mae'r cyngor yn ei wasanaethu, drwy ei **{n} cymdogaeth** o tua 1,600 o bobl yr un: tref a gwlad, siaradwyr Cymraeg, amddifadedd ac ail gartrefi. Hofrwch dros gymdogaeth neu ei thapio i weld ei henw.",
     yourArea: "Eich cymdogaeth chi, o'ch cod post, yw **{name}**. Mae wedi'i hamlinellu ar bob map.",

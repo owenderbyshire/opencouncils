@@ -71,7 +71,7 @@ export const moneyMessages = defineMessages({
     allServices: "All services",
     papersTitle: "Budget papers",
     papersLede: "The reports behind each year's budget and council tax, from full Council and Cabinet meetings. Each opens the meeting's papers.",
-    papersNone: "No budget papers found in the meetings OpenCouncil holds yet.",
+    papersNone: "No budget papers found in the meetings OpenCouncils holds yet.",
     papersDocs: "{n} documents",
     sourcesTitle: "Where these figures come from",
     sources:
@@ -146,7 +146,7 @@ export const moneyMessages = defineMessages({
     allServices: "Pob gwasanaeth",
     papersTitle: "Papurau'r gyllideb",
     papersLede: "Yr adroddiadau y tu ôl i gyllideb a threth gyngor pob blwyddyn, o gyfarfodydd y Cyngor llawn a'r Cabinet. Mae pob un yn agor papurau'r cyfarfod.",
-    papersNone: "Heb ddod o hyd i bapurau'r gyllideb yn y cyfarfodydd sydd gan OpenCouncil eto.",
+    papersNone: "Heb ddod o hyd i bapurau'r gyllideb yn y cyfarfodydd sydd gan OpenCouncils eto.",
     papersDocs: "{n} dogfen",
     sourcesTitle: "O ble mae'r ffigurau hyn yn dod",
     sources:

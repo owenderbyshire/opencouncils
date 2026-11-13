@@ -17,7 +17,7 @@ export const placesMessages = defineMessages({
     orPick: "Or choose a constituency",
     mapLabel: "Map of Wales's 16 Senedd constituencies",
     indexFacts: "{welsh} speak Welsh. {rural} of neighbourhoods are villages or countryside.",
-    notReady: "OpenCouncil doesn't hold the neighbourhood figures for this area yet.",
+    notReady: "OpenCouncils doesn't hold the neighbourhood figures for this area yet.",
 
     // Constituency page
     kicker: "Senedd constituency",
@@ -150,7 +150,7 @@ export const placesMessages = defineMessages({
     orPick: "Neu dewiswch etholaeth",
     mapLabel: "Map o 16 etholaeth Senedd Cymru",
     indexFacts: "Mae {welsh} yn siarad Cymraeg. Mae {rural} o'r cymdogaethau yn bentrefi neu gefn gwlad.",
-    notReady: "Nid yw OpenCouncil yn dal ffigurau cymdogaethau'r ardal hon eto.",
+    notReady: "Nid yw OpenCouncils yn dal ffigurau cymdogaethau'r ardal hon eto.",
 
     kicker: "Etholaeth Senedd",
     lede1:

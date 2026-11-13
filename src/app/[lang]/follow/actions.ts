@@ -75,7 +75,7 @@ function confirmEmail(
   const html = `<!doctype html><html lang="${locale}"><body style="margin:0;padding:24px 12px;background:#e9edf1;font-family:'IBM Plex Sans',-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:#1c2630">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center">
 <table role="presentation" width="560" cellpadding="0" cellspacing="0" style="width:100%;max-width:560px;background:#fff;border-radius:10px"><tr><td style="padding:28px 28px 24px">
-<p style="margin:0;font-family:Georgia,serif;font-size:17px;font-weight:600">OpenCouncil</p>
+<p style="margin:0;font-family:Georgia,serif;font-size:17px;font-weight:600">OpenCouncils</p>
 <p style="margin:18px 0 8px;font-size:15px;line-height:1.5">${esc(t.intro)}</p>
 <ul style="margin:0 0 18px;padding-left:20px;font-size:15px;line-height:1.6">${names.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>
 <p style="margin:0 0 20px"><a href="${esc(link)}" style="display:inline-block;background:#1c2630;color:#fff;text-decoration:none;padding:10px 16px;border-radius:4px;font-weight:600">${esc(t.button)}</a></p>

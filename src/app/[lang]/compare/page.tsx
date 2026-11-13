@@ -58,7 +58,7 @@ async function Table({ locale, searchParams }: { locale: Locale; searchParams: P
       bandD: m?.bandD.at(-1)?.total ?? null,
       spend: m?.spend?.total?.perHead ?? null,
       councillors: a?.councillors || null,
-      // Only where OpenCouncil holds a full year of the council's meetings.
+      // Only where OpenCouncils holds a full year of the council's meetings.
       meetings: a?.fullYear ? a.meetings : null,
       // The Vale's minutes don't record absences, so its rate isn't comparable.
       attendance: a?.fullYear && c.id !== "vale-of-glamorgan" ? a.attendance : null,

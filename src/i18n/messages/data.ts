@@ -4,10 +4,10 @@ import { defineMessages } from "../server";
 export const dataMessages = defineMessages({
   en: {
     title: "Open data",
-    lede: "Everything OpenCouncil collects is free to download: meetings, decisions, councillors, planning applications and consultations from all 22 councils. The licence below says what you may reuse.",
+    lede: "Everything OpenCouncils collects is free to download: meetings, decisions, councillors, planning applications and consultations from all 22 councils. The licence below says what you may reuse.",
     licenceTitle: "Licence",
     licence:
-      "Council records are public sector information, published under the [Open Government Licence v3.0](ogl). The plain-language summaries are written by OpenCouncil with the help of AI and are free to reuse. Please credit \"OpenCouncil\" and link to the page the data came from. Planning applications are collected by UK PlanIt from each authority's register; no licence is stated for them, so they are All rights reserved.",
+      "Council records are public sector information, published under the [Open Government Licence v3.0](ogl). The plain-language summaries are written by OpenCouncils with the help of AI and are free to reuse. Please credit \"OpenCouncils\" and link to the page the data came from. Planning applications are collected by UK PlanIt from each authority's register; no licence is stated for them, so they are All rights reserved.",
     downloadsTitle: "Download",
     downloadsLede: "Spreadsheet files (CSV) of the latest records. Each file opens in Excel, Numbers or Google Sheets.",
     downloads: {
@@ -47,10 +47,10 @@ export const dataMessages = defineMessages({
   },
   cy: {
     title: "Data agored",
-    lede: "Mae popeth y mae OpenCouncil yn ei gasglu yn rhydd i'w lawrlwytho: cyfarfodydd, penderfyniadau, cynghorwyr, ceisiadau cynllunio ac ymgynghoriadau o bob un o'r 22 cyngor. Mae'r drwydded isod yn dweud beth gallwch chi ei ailddefnyddio.",
+    lede: "Mae popeth y mae OpenCouncils yn ei gasglu yn rhydd i'w lawrlwytho: cyfarfodydd, penderfyniadau, cynghorwyr, ceisiadau cynllunio ac ymgynghoriadau o bob un o'r 22 cyngor. Mae'r drwydded isod yn dweud beth gallwch chi ei ailddefnyddio.",
     licenceTitle: "Trwydded",
     licence:
-      "Mae cofnodion y cynghorau yn wybodaeth sector cyhoeddus, wedi'u cyhoeddi o dan y [Drwydded Llywodraeth Agored v3.0](ogl). OpenCouncil sy'n ysgrifennu'r crynodebau iaith glir gyda chymorth AI, ac maen nhw'n rhydd i'w hailddefnyddio. Rhowch gydnabyddiaeth i \"OpenCouncil\" a dolen i'r dudalen y daeth y data ohoni. Mae UK PlanIt yn casglu'r ceisiadau cynllunio o gofrestr pob awdurdod; does dim trwydded wedi'i nodi ar eu cyfer, felly cedwir pob hawl.",
+      "Mae cofnodion y cynghorau yn wybodaeth sector cyhoeddus, wedi'u cyhoeddi o dan y [Drwydded Llywodraeth Agored v3.0](ogl). OpenCouncils sy'n ysgrifennu'r crynodebau iaith glir gyda chymorth AI, ac maen nhw'n rhydd i'w hailddefnyddio. Rhowch gydnabyddiaeth i \"OpenCouncils\" a dolen i'r dudalen y daeth y data ohoni. Mae UK PlanIt yn casglu'r ceisiadau cynllunio o gofrestr pob awdurdod; does dim trwydded wedi'i nodi ar eu cyfer, felly cedwir pob hawl.",
     downloadsTitle: "Lawrlwytho",
     downloadsLede: "Ffeiliau taenlen (CSV) o'r cofnodion diweddaraf. Mae pob ffeil yn agor yn Excel, Numbers neu Google Sheets.",
     downloads: {

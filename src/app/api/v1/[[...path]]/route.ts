@@ -1,5 +1,5 @@
 /**
- * OpenCouncil's open data API. Read-only JSON (or CSV with ?format=csv),
+ * OpenCouncils' open data API. Read-only JSON (or CSV with ?format=csv),
  * free to use under the Open Government Licence. See /data for the guide.
  *
  *   /api/v1                                   what's available
@@ -37,7 +37,7 @@ import { isId } from "@/lib/route";
 import { SITE } from "@/lib/site";
 import { TOPIC_BY_SLUG } from "@/lib/topics";
 
-const LICENCE = "Open Government Licence v3.0 (council records); summaries by OpenCouncil, free to reuse with attribution; planning applications (collected by UK PlanIt): All rights reserved, as no licence is stated";
+const LICENCE = "Open Government Licence v3.0 (council records); summaries by OpenCouncils, free to reuse with attribution; planning applications (collected by UK PlanIt): All rights reserved, as no licence is stated";
 
 function json(body: unknown, status = 200): Response {
   return new Response(JSON.stringify(body, null, 1), {

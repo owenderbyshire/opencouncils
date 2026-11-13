@@ -123,7 +123,7 @@ export const performanceMessages = defineMessages({
       },
       "planning-speed": {
         name: "Planning applications decided within eight weeks",
-        note: "Of applications with a recorded decision, the share decided within eight weeks of arriving, from the applications OpenCouncil has collected since it began collecting each register. Worked out by OpenCouncil from UK PlanIt's data, so it differs from the official measure, which counts agreed extensions as on time.",
+        note: "Of applications with a recorded decision, the share decided within eight weeks of arriving, from the applications OpenCouncils has collected since it began collecting each register. Worked out by OpenCouncils from UK PlanIt's data, so it differs from the official measure, which counts agreed extensions as on time.",
       },
       attendance: {
         name: "Councillors' attendance at meetings",
@@ -136,7 +136,7 @@ export const performanceMessages = defineMessages({
     } as Record<string, { name: string; note: string }>,
     planningName: "Planning applications decided within eight weeks",
     planningNote:
-      "Of the applications, other than large ones, that the council received three to six months ago, the share decided within eight weeks of arriving. Eight weeks is the usual legal time limit, though applicants can agree to more. Worked out by OpenCouncil from applications collected by UK PlanIt, so it differs from the official measure.",
+      "Of the applications, other than large ones, that the council received three to six months ago, the share decided within eight weeks of arriving. Eight weeks is the usual legal time limit, though applicants can agree to more. Worked out by OpenCouncils from applications collected by UK PlanIt, so it differs from the official measure.",
     planningDetail: "{within} of {received} applications.",
     attendanceName: "Councillors' attendance at meetings",
     attendanceNote: "Of the meetings councillors were expected at in the last 12 months, the share they attended, from the council's own records. Sending a substitute counts as an absence.",
@@ -274,7 +274,7 @@ export const performanceMessages = defineMessages({
       },
       "planning-speed": {
         name: "Ceisiadau cynllunio a benderfynwyd o fewn wyth wythnos",
-        note: "O'r ceisiadau sydd â phenderfyniad wedi'i gofnodi, y gyfran a benderfynwyd o fewn wyth wythnos i'w derbyn, o'r ceisiadau y mae OpenCouncil wedi'u casglu ers dechrau casglu pob cofrestr. Wedi'i gyfrifo gan OpenCouncil o ddata UK PlanIt, felly mae'n wahanol i'r mesur swyddogol, sy'n cyfrif estyniadau y cytunwyd arnyn nhw fel rhai ar amser.",
+        note: "O'r ceisiadau sydd â phenderfyniad wedi'i gofnodi, y gyfran a benderfynwyd o fewn wyth wythnos i'w derbyn, o'r ceisiadau y mae OpenCouncils wedi'u casglu ers dechrau casglu pob cofrestr. Wedi'i gyfrifo gan OpenCouncils o ddata UK PlanIt, felly mae'n wahanol i'r mesur swyddogol, sy'n cyfrif estyniadau y cytunwyd arnyn nhw fel rhai ar amser.",
       },
       attendance: {
         name: "Presenoldeb cynghorwyr mewn cyfarfodydd",
@@ -287,7 +287,7 @@ export const performanceMessages = defineMessages({
     } as Record<string, { name: string; note: string }>,
     planningName: "Ceisiadau cynllunio a benderfynwyd o fewn wyth wythnos",
     planningNote:
-      "O'r ceisiadau, ac eithrio rhai mawr, a ddaeth i law'r cyngor dri i chwe mis yn ôl, y gyfran a benderfynwyd o fewn wyth wythnos i'w derbyn. Wyth wythnos yw'r terfyn amser cyfreithiol arferol, er y gall ymgeiswyr gytuno i fwy. Wedi'i gyfrifo gan OpenCouncil o geisiadau a gasglwyd gan UK PlanIt, felly mae'n wahanol i'r mesur swyddogol.",
+      "O'r ceisiadau, ac eithrio rhai mawr, a ddaeth i law'r cyngor dri i chwe mis yn ôl, y gyfran a benderfynwyd o fewn wyth wythnos i'w derbyn. Wyth wythnos yw'r terfyn amser cyfreithiol arferol, er y gall ymgeiswyr gytuno i fwy. Wedi'i gyfrifo gan OpenCouncils o geisiadau a gasglwyd gan UK PlanIt, felly mae'n wahanol i'r mesur swyddogol.",
     planningDetail: "{within} o {received} o geisiadau.",
     attendanceName: "Presenoldeb cynghorwyr mewn cyfarfodydd",
     attendanceNote: "O'r cyfarfodydd yr oedd disgwyl i gynghorwyr fod ynddyn nhw yn ystod y 12 mis diwethaf, y gyfran y daethon nhw iddyn nhw, o gofnodion y cyngor ei hun. Mae anfon dirprwy yn cyfrif fel absenoldeb.",

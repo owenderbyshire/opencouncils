@@ -55,7 +55,7 @@ export default async function HomePage() {
                     {n === "England" ? (
                       <span className="block text-meta">
                         {KINDS.filter((k) => councilsIn(n, k).length)
-                          .map((k) => `${formatNumber(locale, councilsIn(n, k).length)} ${t.kinds[k].toLowerCase()}`)
+                          .map((k) => `${formatNumber(locale, councilsIn(n, k).length)} ${t.kindsCount[k]}`)
                           .join(", ")}
                       </span>
                     ) : null}

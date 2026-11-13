@@ -89,7 +89,7 @@ async function calendar(locale: Locale, councilId: string, committee?: number): 
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//OpenCouncil//Council meetings//EN",
+    "PRODID:-//OpenCouncils//Council meetings//EN",
     "CALSCALE:GREGORIAN",
     `X-WR-CALNAME:${ics(councilName(locale, c))}`,
     "X-WR-TIMEZONE:Europe/London",
@@ -148,7 +148,7 @@ async function plannedCalendar(locale: Locale, councilId: string | undefined, to
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//OpenCouncil//Planned decisions//EN",
+    "PRODID:-//OpenCouncils//Planned decisions//EN",
     "CALSCALE:GREGORIAN",
     `X-WR-CALNAME:${ics(c ? t.feed.nameCouncil.replace("{name}", councilName(locale, c)) : `${t.feed.name}, ${common[locale].siteName}`)}`,
   ];
