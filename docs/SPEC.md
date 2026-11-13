@@ -29,6 +29,8 @@ Wales has 22 councils. The UK has around 370, and that number is moving because 
 | 9 | Monitoring and briefing prices match the rest of the suite |
 | 10 | Yellow accent colour |
 | 11 | Own repo: opencouncils |
+| 12 | Start from a copy of the Welsh OpenCouncil code, widened to the UK (not a fresh build or shared engine) |
+| 13 | First slice: council register and the platform census together |
 
 ## The landscape
 
@@ -56,7 +58,7 @@ For the build, the data model treats councils as things that are created, merged
 
 **Relationship to opencouncil.wales.** Two separate sites. opencouncil.wales remains the Welsh product: bilingual, Edau-fed, with the five Welsh enrichments. OpenCouncils reads Welsh council data from it, so Wales is never collected twice. Light cross-links between the two.
 
-**Engine.** Follows the shared-engine approach agreed for the parliament sites: one codebase, configured per nation. OpenCouncils is the multi-nation configuration. The Welsh OpenCouncil is proven first (Cardiff pilot, then all 22).
+**Code.** Copied from the Welsh OpenCouncil codebase on 13 November 2026 (decision 12) and widened to the UK. The two codebases are separate from here on; changes are not shared back.
 
 **Name clash.** Open Council Data UK (opencouncildata.co.uk) uses a similar name for council and councillor data. No approach planned. Its free data carries a share-alike licence, which would oblige OpenCouncils to release derived data on the same terms, so councils' own sites are the primary source instead.
 
@@ -158,3 +160,14 @@ A council gets AI decision summaries once someone is monitoring it, which ties r
 
 - **Domain.** opencouncils.com is available to buy; attach it to the Vercel project once bought.
 - **Infrastructure (done 13 November 2026):** repo owenderbyshire/opencouncils; Vercel project opencouncils in the Datblygu team, production branch main; Neon database connected as DATABASE_URL (pooled) and DATABASE_URL_UNPOOLED (direct, for migrations and Hetzner jobs).
+
+## Build status
+
+**13 November 2026: first slice pushed.**
+- Welsh code copied, rebranded (OpenCouncils, yellow, English only, Published by DC Group); Welsh-only sections unrouted and out of the nightly run.
+- UK council register: 382 principal councils (England 317, Scotland 32, Wales 22, Northern Ireland 11) from mySociety's register, plus 15 combined authorities held for phase two. Lineage for Surrey's April 2027 reorganisation.
+- Pages: home, all UK councils (filter by nation and type), a register page for every council, reorganisation tracker.
+- Platform census job and weekly workflow, waiting on GitHub secrets to run.
+- The 22 Welsh councils use the addresses already checked on opencouncil.wales; their records load once the pipeline runs.
+
+**Next:** run the census, switch on the first councils outside Wales, UK control map (needs composition data and UK boundaries), Democracy Club elections.
