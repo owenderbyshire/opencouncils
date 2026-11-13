@@ -1,0 +1,2532 @@
+{
+  "meta": {
+    "title": "Welsh local elections 2027: research data for Local Record",
+    "compiledOn": "2026-10-27",
+    "method": "Web search and fetch only. Figures are copied from the cited sources. Nothing is estimated. Where sources conflict, both are noted.",
+    "partyKeys": {
+      "lab": "Labour",
+      "con": "Conservative",
+      "ld": "Liberal Democrats",
+      "grn": "Green",
+      "ref": "Reform UK",
+      "pc": "Plaid Cymru",
+      "ind": "Independent",
+      "other": "Independents, local groups and minor parties combined (Open Council Data's 'Independent / Other')"
+    }
+  },
+  "election2027": {
+    "pollingDay": "2027-05-06",
+    "pollingDayConfirmed": true,
+    "sources": [
+      {
+        "url": "https://cardiff.gov.uk/upcomingelections",
+        "says": "Local Government | 6 May 2027 | Photo ID not needed"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2027_Welsh_local_elections",
+        "says": "6 May 2027; all seats on 22 councils"
+      },
+      {
+        "url": "https://www.pollcheck.co.uk/local-elections-2027",
+        "says": "Thursday 6 May 2027; 22 Welsh councils, whole-council elections"
+      }
+    ],
+    "termLength": {
+      "value": "5 years",
+      "source": "https://www.gov.wales/local-government-and-elections-wales-act-2021",
+      "says": "Local elections are now held every 5 years, whereas previously they were held every 4 years."
+    },
+    "photoId": {
+      "required": false,
+      "source": "https://cardiff.gov.uk/upcomingelections"
+    },
+    "franchise": {
+      "summary": "Voting age 16. British, Irish, EU and qualifying Commonwealth citizens, and citizens of other countries who are legally resident (have permission to live in the UK or do not need it).",
+      "changedSince2022": false,
+      "note": "Votes at 16 and for qualifying foreign citizens came in under the Local Government and Elections (Wales) Act 2021 and already applied at the May 2022 council elections. Not new for 2027.",
+      "sources": [
+        "https://www.gov.wales/local-government-and-elections-wales-act-2021",
+        "https://www.legislation.gov.uk/asc/2021/1/section/2/enacted/data.htm"
+      ],
+      "asOf": "2026-10-27"
+    },
+    "automaticVoterRegistration": {
+      "changedSince2022": true,
+      "summary": "Welsh Government laid regulations (24 June 2026) to roll out automatic voter registration for the local government register across all Welsh councils for the 2027 elections, after pilots in Carmarthenshire, Gwynedd, Newport and Powys. Councils will identify eligible people by data matching, notify them and their right to opt out, then add them.",
+      "commencement": "Regulations 'expected to come into force this Autumn' (2026). Whether they are now in force was not confirmed.",
+      "legalBasis": "Elections and Elected Bodies (Wales) Act 2024",
+      "sources": [
+        "https://media.service.gov.wales/news/automatic-voter-registration-to-be-introduced-across-wales-ahead-of-2027-local-government-elections"
+      ],
+      "asOf": "2026-06-24"
+    },
+    "votingSystem": {
+      "system": "First past the post (single-member wards); plurality block voting in multi-member wards",
+      "stvAdoptedByAnyCouncil": false,
+      "summary": "The 2021 Act lets each council choose STV by a two-thirds vote of all its members. Three councils consulted and voted; all three votes failed. No council will use STV in 2027.",
+      "councilVotes": [
+        {
+          "council": "gwynedd",
+          "date": "2024-10-24",
+          "for": 45,
+          "against": 22,
+          "abstain": 1,
+          "threshold": "two-thirds of all members (46 of 69)",
+          "outcome": "failed by one vote",
+          "sources": [
+            "https://www.electoral-reform.org.uk/majority-of-councillors-vote-for-stv-in-gwynedd-but-vote-fails-to-reach-high-threshold-by-one-vote/",
+            "https://democracy.gwynedd.llyw.cymru/documents/g5163/Decisions 24th-Oct-2024 13.30 The Council.pdf?T=2"
+          ]
+        },
+        {
+          "council": "powys",
+          "date": "2024-10-17",
+          "for": 21,
+          "against": 33,
+          "abstain": 5,
+          "outcome": "rejected",
+          "note": "Consultation (12 Aug to 30 Sep 2024) found 60.5% for STV. Decision needed before 15 Nov 2024 for 2027.",
+          "sources": [
+            "https://brecon-radnor.co.uk/news/powys-councillors-vote-down-stv-system-at-meeting-731576"
+          ]
+        },
+        {
+          "council": "ceredigion",
+          "date": "2024-11-14",
+          "for": 18,
+          "against": 17,
+          "threshold": "two-thirds of members (26)",
+          "outcome": "rejected",
+          "note": "The council's news page is dated 15/11/2024. The fetch tool read the meeting date as 14 November 2023, which looks like a misreading; check the page.",
+          "sources": [
+            "https://www.ceredigion.gov.uk/resident/news/2024/single-transferable-vote-system-rejected"
+          ]
+        }
+      ],
+      "asOf": "2026-10-27"
+    },
+    "boundaryChanges": {
+      "summary": "Most councils keep the wards used in 2022 (set by the 2021-22 electoral arrangements orders). The Welsh Government accepted Democracy and Boundary Commission Cymru final recommendations for three councils without changes, to take effect for May 2027: Vale of Glamorgan, Carmarthenshire and Caerphilly.",
+      "ministerialDecision": {
+        "date": "2026-06-24",
+        "by": "Siân Gwenllian MS, Cabinet Minister for Local Government, Housing and Planning",
+        "says": "implemented without modification ... taking effect in readiness for the May 2027 Local Government elections",
+        "source": "https://www.gov.wales/node/77166"
+      },
+      "ordersMade": "Not confirmed. As at 24 June 2026 the orders were being drafted. No made electoral arrangements order for these three councils was found on legislation.gov.uk. The 2026 orders found (WSI 2026 No. 87, 95, 102) are community orders, not council ward orders.",
+      "councils": [
+        {
+          "council": "vale-of-glamorgan",
+          "councillorsNow": 54,
+          "councillors2027": 59,
+          "wards2027": 26,
+          "finalRecommendationsDate": "2026-01-29",
+          "sources": [
+            "https://www.dbcc.gov.wales/news/01-26/new-vale-of-glamorgan-council-ward-boundaries-recommended",
+            "https://www.valeofglamorgan.gov.uk/Documents/_Committee%20Reports/Cabinet/2026/26-02-26/Electoral-Arrangements-Review-Final-Recommendations.pdf"
+          ],
+          "note": "The Commission and the council's cabinet report give the existing figure as 58 councillors across 26 wards, but 54 councillors were elected in 2022 and 54 seats appear in every composition source. The 58 is unexplained; check it."
+        },
+        {
+          "council": "carmarthenshire",
+          "councillorsNow": 75,
+          "councillors2027": null,
+          "draftProposal": {
+            "councillors": 74,
+            "wards": 47,
+            "date": "2025-10-02"
+          },
+          "finalRecommendationsDate": "2026-01-30",
+          "sources": [
+            "https://www.dbcc.gov.wales/reviews/01-26/carmarthenshire-final-recommendations",
+            "https://www.dbcc.gov.wales/news/10-25/new-carmarthenshire-council-ward-boundaries-proposed",
+            "https://llanellistandard.com/?p=1366464"
+          ],
+          "note": "Final councillor and ward numbers not verified (they are in the final report PDF, which could not be read). The draft proposed 74 councillors in 47 wards, down from 75 in 51."
+        },
+        {
+          "council": "caerphilly",
+          "councillorsNow": 69,
+          "councillors2027": 68,
+          "finalRecommendationsDate": "2026-03-11",
+          "sources": [
+            "https://www.dbcc.gov.wales/news/03-26/new-caerphilly-council-ward-boundaries-recommended",
+            "https://www.dbcc.gov.wales/reviews/03-26/caerffili-argymhellion-terfynol"
+          ],
+          "note": "The Commission's news item gives 24 multi-member wards (12 two-member, 10 three-member, 2 four-member), which totals 62, not 68. Single-member wards are presumably not counted in that list; total ward count not verified."
+        }
+      ],
+      "totalSeats2027": {
+        "value": null,
+        "note": "Not confirmed. If the Vale goes 54 to 59 and Caerphilly 69 to 68, and Carmarthenshire's final figure is unknown, the total cannot be stated. Pollcheck gives 1,238 seats; Wikipedia gives 1,234 (the current total). Neither shows its working."
+      },
+      "asOf": "2026-10-27"
+    },
+    "otherContext": {
+      "seneddFirstMinister": "Rhun ap Iorwerth (Plaid Cymru), elected 12 May 2026, leading a minority government",
+      "welshLabourLeader": "Ken Skates (from 15 July 2026, per Wikipedia's 2027 local elections infobox; not checked further)",
+      "reformUkWalesLeader": "Helen Jenner replaced Dan Thomas in September 2026 (per Wikipedia's Next Senedd election page; not checked further)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2027_Welsh_local_elections",
+        "https://en.wikipedia.org/wiki/Next_Senedd_election",
+        "https://en.wikipedia.org/wiki/2026_Senedd_election"
+      ]
+    }
+  },
+  "councils": [
+    {
+      "id": "blaenau-gwent",
+      "control": {
+        "summary": "Labour majority",
+        "administration": [
+          "Labour"
+        ],
+        "openCouncilDataLabel": "LAB",
+        "leader": {
+          "name": "Stephen Thomas",
+          "party": "Labour",
+          "since": "2022-05-26"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Blaenau_Gwent_County_Borough_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 19,
+          "con": 0,
+          "ld": 0,
+          "grn": 1,
+          "ref": 0,
+          "pc": 0,
+          "other": 13
+        },
+        "vacant": 0,
+        "total": 33,
+        "majorityThreshold": 17,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=382&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 21,
+          "ind": 12
+        },
+        "total": 33,
+        "source": "https://en.wikipedia.org/wiki/2022_Blaenau_Gwent_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)",
+        "note": "Infobox likely counts Carl Bainton (elected Independent, joined Labour within days, reported 16 May 2022) as Labour; check the council's declared results."
+      }
+    },
+    {
+      "id": "bridgend",
+      "control": {
+        "summary": "No overall control (Labour minority)",
+        "administration": [
+          "Labour"
+        ],
+        "openCouncilDataLabel": "LAB min",
+        "leader": {
+          "name": "John Spanswick",
+          "party": "Labour",
+          "since": "2024-05-15"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://opencouncildata.co.uk/councils.php?model=W&y=0",
+          "https://en.wikipedia.org/wiki/Bridgend_County_Borough_Council"
+        ],
+        "note": "Wikipedia still describes a Labour majority; Open Council Data shows Labour on 25 of 51, one short of a majority, and labels it a Labour minority."
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 25,
+          "con": 1,
+          "ld": 0,
+          "grn": 0,
+          "ref": 0,
+          "pc": 1,
+          "other": 24
+        },
+        "vacant": 0,
+        "total": 51,
+        "majorityThreshold": 26,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=383&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 27,
+          "ind": 21,
+          "pc": 2,
+          "con": 1
+        },
+        "total": 51,
+        "source": "https://en.wikipedia.org/wiki/2022_Bridgend_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "caerphilly",
+      "control": {
+        "summary": "Labour majority",
+        "administration": [
+          "Labour"
+        ],
+        "openCouncilDataLabel": "LAB",
+        "leader": {
+          "name": "Jamie Pritchard",
+          "party": "Labour",
+          "since": "2025-11-11"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Caerphilly_County_Borough_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 41,
+          "con": 0,
+          "ld": 0,
+          "grn": 1,
+          "ref": 0,
+          "pc": 19,
+          "other": 7
+        },
+        "vacant": 1,
+        "total": 69,
+        "majorityThreshold": 35,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=384&y=0",
+        "note": "One vacancy (Open Council Data and Wikipedia, Oct 2026)."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 45,
+          "pc": 18,
+          "ind": 6
+        },
+        "total": 69,
+        "source": "https://en.wikipedia.org/wiki/2022_Caerphilly_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "cardiff",
+      "control": {
+        "summary": "Labour majority",
+        "administration": [
+          "Labour"
+        ],
+        "openCouncilDataLabel": "LAB",
+        "leader": {
+          "name": "Chris Weaver",
+          "party": "Labour",
+          "since": "2026-05-22"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Cardiff_Council",
+          "https://www.hellorayo.co.uk/hits-radio/south-wales/news/chris-weaver-set-to-become-cardiff-council-leader"
+        ],
+        "note": "Huw Thomas led the council until 10 May 2026. The leader start date (22 May 2026) is from Wikipedia only; not checked against council minutes."
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 50,
+          "con": 9,
+          "ld": 10,
+          "grn": 1,
+          "ref": 1,
+          "pc": 2,
+          "other": 6
+        },
+        "vacant": 0,
+        "total": 79,
+        "majorityThreshold": 40,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=385&y=0",
+        "note": "Other (6) includes Independents and Propel. Wikipedia's Oct 2025 table sums to 80 and is unreliable."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 55,
+          "con": 11,
+          "ld": 10,
+          "common_ground": 2,
+          "propel": 1
+        },
+        "total": 79,
+        "source": "https://en.wikipedia.org/wiki/2022_Cardiff_Council_election",
+        "asOf": "2026-10-27 (retrieved)",
+        "note": "Common Ground was a Plaid Cymru and Green joint list; the Wales-wide totals count its 2 seats as Plaid Cymru."
+      }
+    },
+    {
+      "id": "carmarthenshire",
+      "control": {
+        "summary": "Plaid Cymru (disputed: majority or no overall control)",
+        "administration": [
+          "Plaid Cymru",
+          "Independent Group"
+        ],
+        "openCouncilDataLabel": "PC",
+        "leader": {
+          "name": "Linda Evans",
+          "party": "Plaid Cymru",
+          "since": "2025-11-13"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Carmarthenshire_County_Council",
+          "https://newsroom.carmarthenshire.gov.wales/2025/12/carmarthenshire-county-council-welcomes-new-leader",
+          "https://opencouncildata.co.uk/councils.php?model=W&y=0"
+        ],
+        "note": "Wikipedia: no overall control since May 2024, Plaid Cymru and Independent Group coalition. Open Council Data: Plaid 39 of 75 (a bare majority) after the Saron by-election gain (22 Oct 2026). The coalition with the Independents is not confirmed as still in place."
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 14,
+          "con": 0,
+          "ld": 0,
+          "grn": 1,
+          "ref": 1,
+          "pc": 39,
+          "other": 20
+        },
+        "vacant": 0,
+        "total": 75,
+        "majorityThreshold": 38,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=386&y=0",
+        "note": "Wikipedia (Aug 2025 table): PC 37, Lab 18, Ind 18, Reform 2. Open Council Data has Lab 14 and Other 20, which suggests later Labour departures; these are not individually verified."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "pc": 38,
+          "lab": 23,
+          "ind": 14
+        },
+        "total": 75,
+        "source": "https://en.wikipedia.org/wiki/2022_Carmarthenshire_County_Council_election",
+        "asOf": "2026-10-27 (retrieved)",
+        "note": "Independents: 8 Independent, 3 New Independent, 3 unaffiliated."
+      }
+    },
+    {
+      "id": "ceredigion",
+      "control": {
+        "summary": "Plaid Cymru majority",
+        "administration": [
+          "Plaid Cymru"
+        ],
+        "openCouncilDataLabel": "PC",
+        "leader": {
+          "name": "Bryan Davies",
+          "party": "Plaid Cymru",
+          "since": "2022-05-13"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Ceredigion_County_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 0,
+          "con": 0,
+          "ld": 7,
+          "grn": 0,
+          "ref": 0,
+          "pc": 21,
+          "other": 10
+        },
+        "vacant": 0,
+        "total": 38,
+        "majorityThreshold": 20,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=387&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "pc": 20,
+          "ind": 9,
+          "ld": 7,
+          "lab": 1,
+          "gwlad": 1
+        },
+        "total": 38,
+        "source": "https://en.wikipedia.org/wiki/2022_Ceredigion_County_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "conwy",
+      "control": {
+        "summary": "No overall control",
+        "administration": [
+          "Conwy First Independent Group",
+          "Labour",
+          "Plaid Cymru a'r Blaid Werdd (Plaid Cymru and Green)"
+        ],
+        "openCouncilDataLabel": "IND/LAB/PC",
+        "leader": {
+          "name": "Julie Fallon",
+          "party": "Independent",
+          "since": "2025-10-08"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Conwy_County_Borough_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 6,
+          "con": 7,
+          "ld": 4,
+          "grn": 1,
+          "ref": 2,
+          "pc": 8,
+          "other": 26
+        },
+        "vacant": 1,
+        "total": 55,
+        "majorityThreshold": 28,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=388&y=0",
+        "note": "One vacancy; Bryn by-election due 19 November 2026 (Wikipedia)."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "ind": 22,
+          "lab": 11,
+          "con": 10,
+          "pc": 7,
+          "ld": 4,
+          "grn": 1
+        },
+        "total": 55,
+        "source": "https://en.wikipedia.org/wiki/2022_Conwy_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "denbighshire",
+      "control": {
+        "summary": "No overall control (administration unconfirmed)",
+        "administration": null,
+        "openCouncilDataLabel": "LAB/PC",
+        "leader": {
+          "name": "Hugh Evans",
+          "party": "Independent",
+          "since": null
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://sirddinbych.gov.uk/en/your-council/about-the-council/how-the-council-works/the-leader-cabinet-and-elected-councillors.aspx",
+          "https://en.wikipedia.org/wiki/Denbighshire_County_Council",
+          "https://nation.cymru/news/councils-new-leaders-vow-to-tackle-recycling-problems-and-revisit-bridge-plans/",
+          "https://www.wlga.wales/leadership-meetings/executive-board/"
+        ],
+        "note": "Jason McLellan (Labour) stepped down at the end of August 2026 and dissolved the Labour/Plaid cabinet. The council's website names Hugh Evans as Leader and Huw Hilditch-Roberts as Deputy. The WLGA page lists Hugh Evans as 'Labour', which conflicts with his long-standing Independent label. Open Council Data and Pollcheck still show a Labour/Plaid coalition. The make-up of the new administration and the exact start date are unverified."
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 14,
+          "con": 8,
+          "ld": 0,
+          "grn": 2,
+          "ref": 1,
+          "pc": 7,
+          "other": 16
+        },
+        "vacant": 0,
+        "total": 48,
+        "majorityThreshold": 25,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=389&y=0",
+        "note": "Wikipedia's dated table (July 2025) differs: Lab 15, Ind 13, Con 9, PC 8, Grn 2, LD 1. Open Council Data figures are used."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 19,
+          "ind": 12,
+          "pc": 8,
+          "con": 6,
+          "grn": 2,
+          "ld": 1
+        },
+        "total": 48,
+        "source": "https://en.wikipedia.org/wiki/2022_Denbighshire_County_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "flintshire",
+      "control": {
+        "summary": "No overall control (Labour-led)",
+        "administration": [
+          "Labour",
+          "Independent Group",
+          "Eagle group"
+        ],
+        "openCouncilDataLabel": "LAB min",
+        "leader": {
+          "name": "Dave Hughes",
+          "party": "Labour",
+          "since": "2024-09-24"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Flintshire_County_Council",
+          "https://opencouncildata.co.uk/councils.php?model=W&y=0"
+        ],
+        "note": "Wikipedia describes a Labour, Independent Group and Eagle coalition (Oct 2024); Open Council Data labels it a Labour minority."
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 26,
+          "con": 1,
+          "ld": 4,
+          "grn": 0,
+          "ref": 8,
+          "pc": 0,
+          "other": 27
+        },
+        "vacant": 1,
+        "total": 67,
+        "majorityThreshold": 34,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=390&y=0",
+        "note": "One vacancy (Open Council Data). Groups include Flintshire People's Voice (counted in Other)."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 31,
+          "ind": 30,
+          "ld": 4,
+          "con": 2
+        },
+        "total": 67,
+        "source": "https://en.wikipedia.org/wiki/2022_Flintshire_County_Council_election",
+        "asOf": "2026-10-27 (retrieved)",
+        "note": "The Wales-wide 2022 article lists Flintshire with 66 seats; the council has 67."
+      }
+    },
+    {
+      "id": "gwynedd",
+      "control": {
+        "summary": "Plaid Cymru majority",
+        "administration": [
+          "Plaid Cymru"
+        ],
+        "openCouncilDataLabel": "PC",
+        "leader": {
+          "name": "Nia Wyn Jeffreys",
+          "party": "Plaid Cymru",
+          "since": "2024-12-05"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Gwynedd_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 0,
+          "con": 0,
+          "ld": 1,
+          "grn": 0,
+          "ref": 0,
+          "pc": 45,
+          "other": 23
+        },
+        "vacant": 0,
+        "total": 69,
+        "majorityThreshold": 35,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=391&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "pc": 44,
+          "ind": 23,
+          "lab": 1,
+          "ld": 1
+        },
+        "total": 69,
+        "source": "https://en.wikipedia.org/wiki/2022_Gwynedd_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "isle-of-anglesey",
+      "control": {
+        "summary": "Plaid Cymru majority",
+        "administration": [
+          "Plaid Cymru"
+        ],
+        "openCouncilDataLabel": "PC",
+        "leader": {
+          "name": "Gary Pritchard",
+          "party": "Plaid Cymru",
+          "since": "2024-09-26"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Isle_of_Anglesey_County_Council"
+        ],
+        "note": "Plaid holds 18 of 35, exactly the majority threshold (Open Council Data)."
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 3,
+          "con": 0,
+          "ld": 1,
+          "grn": 0,
+          "ref": 1,
+          "pc": 18,
+          "other": 12
+        },
+        "vacant": 0,
+        "total": 35,
+        "majorityThreshold": 18,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=392&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "pc": 21,
+          "ind": 10,
+          "lab": 3,
+          "ld": 1
+        },
+        "total": 35,
+        "source": "https://en.wikipedia.org/wiki/2022_Isle_of_Anglesey_County_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "merthyr-tydfil",
+      "control": {
+        "summary": "No overall control (Labour minority)",
+        "administration": [
+          "Labour",
+          "Dowlais and Pant Community Independents",
+          "one non-aligned Independent"
+        ],
+        "openCouncilDataLabel": "IND min",
+        "leader": {
+          "name": "Brent Carter",
+          "party": "Labour",
+          "since": "2024-09-18"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Merthyr_Tydfil_County_Borough_Council",
+          "https://www.merthyr.gov.uk/news-and-events/latest-news/labour-led-administration-takes-over-political-leadership-of-merthyr-tydfil-county-borough-council"
+        ],
+        "note": "Open Council Data labels Merthyr 'IND min', which conflicts with the WLGA, the council's news release and Wikipedia (Labour-led since Sept 2024)."
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 15,
+          "con": 0,
+          "ld": 0,
+          "grn": 0,
+          "ref": 0,
+          "pc": 0,
+          "other": 15
+        },
+        "vacant": 0,
+        "total": 30,
+        "majorityThreshold": 16,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=393&y=0",
+        "note": "Labour 15, Independents 15 (9 Independent Group, 2 Dowlais and Pant Community Independents, 3 non-aligned per Wikipedia June 2026; that breakdown sums to 14, unexplained)."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "ind": 15,
+          "lab": 15
+        },
+        "total": 30,
+        "source": "https://en.wikipedia.org/wiki/2022_Merthyr_Tydfil_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "monmouthshire",
+      "control": {
+        "summary": "No overall control (Labour-led)",
+        "administration": [
+          "Labour",
+          "Green Independent Group"
+        ],
+        "openCouncilDataLabel": "LAB min",
+        "leader": {
+          "name": "Mary Ann Brocklesby",
+          "party": "Labour",
+          "since": "2022-05-19"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Monmouthshire_County_Council",
+          "https://opencouncildata.co.uk/councils.php?model=W&y=0"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 18,
+          "con": 19,
+          "ld": 0,
+          "grn": 1,
+          "ref": 0,
+          "pc": 2,
+          "other": 6
+        },
+        "vacant": 0,
+        "total": 46,
+        "majorityThreshold": 24,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=394&y=0",
+        "note": "Wikipedia (Aug 2025): Lab 21, Con 19, Ind 5, Grn 1. Open Council Data: Lab 18, PC 2, Other 6. The difference is not explained by any by-election found."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 22,
+          "con": 18,
+          "ind": 5,
+          "grn": 1
+        },
+        "total": 46,
+        "source": "https://en.wikipedia.org/wiki/2022_Monmouthshire_County_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "neath-port-talbot",
+      "control": {
+        "summary": "No overall control",
+        "administration": [
+          "Independent Group",
+          "Plaid Cymru"
+        ],
+        "supportArrangement": "Liberal Democrats and Green (confidence and supply)",
+        "openCouncilDataLabel": "IND/PC",
+        "leader": {
+          "name": "Steve Hunt",
+          "party": "Independent",
+          "since": "2022-06-07"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Neath_Port_Talbot_County_Borough_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 22,
+          "con": 0,
+          "ld": 3,
+          "grn": 1,
+          "ref": 0,
+          "pc": 11,
+          "other": 23
+        },
+        "vacant": 0,
+        "total": 60,
+        "majorityThreshold": 31,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=395&y=0",
+        "note": "Wikipedia's 'July 2025' figures sum to 62 and are unreliable; Open Council Data figures are used."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 27,
+          "ind": 18,
+          "pc": 12,
+          "ld": 2,
+          "grn": 1
+        },
+        "total": 60,
+        "source": "https://en.wikipedia.org/wiki/2022_Neath_Port_Talbot_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "newport",
+      "control": {
+        "summary": "Labour majority",
+        "administration": [
+          "Labour"
+        ],
+        "openCouncilDataLabel": "LAB",
+        "leader": {
+          "name": "Dimitri Batrouni",
+          "party": "Labour",
+          "since": "2024-05-21"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Newport_City_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 33,
+          "con": 6,
+          "ld": 1,
+          "grn": 2,
+          "ref": 0,
+          "pc": 0,
+          "other": 9
+        },
+        "vacant": 0,
+        "total": 51,
+        "majorityThreshold": 26,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=396&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 35,
+          "con": 7,
+          "ind": 4,
+          "newport_independents": 3,
+          "ld": 1,
+          "grn": 1
+        },
+        "total": 51,
+        "source": "https://en.wikipedia.org/wiki/2022_Newport_City_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "pembrokeshire",
+      "control": {
+        "summary": "Independent (most seats held by Independents, coalition administration)",
+        "administration": [
+          "Independents (non-affiliated)",
+          "Labour",
+          "Plaid Cymru",
+          "Liberal Democrats"
+        ],
+        "openCouncilDataLabel": "IND/LAB/LD",
+        "leader": {
+          "name": "Tessa Hodgson",
+          "party": "Independent",
+          "since": "2026-05-15"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Pembrokeshire_County_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 9,
+          "con": 12,
+          "ld": 2,
+          "grn": 0,
+          "ref": 1,
+          "pc": 3,
+          "other": 33
+        },
+        "vacant": 0,
+        "total": 60,
+        "majorityThreshold": 31,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=397&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "ind": 35,
+          "con": 11,
+          "lab": 10,
+          "pc": 2,
+          "ld": 2
+        },
+        "total": 60,
+        "source": "https://en.wikipedia.org/wiki/2022_Pembrokeshire_County_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "powys",
+      "control": {
+        "summary": "No overall control",
+        "administration": [
+          "Liberal Democrats",
+          "Labour",
+          "Green"
+        ],
+        "openCouncilDataLabel": "LD/LAB",
+        "leader": {
+          "name": "Jake Berriman",
+          "party": "Liberal Democrats",
+          "since": "2025-05-15"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Powys_County_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 9,
+          "con": 12,
+          "ld": 23,
+          "grn": 1,
+          "ref": 3,
+          "pc": 4,
+          "other": 16
+        },
+        "vacant": 0,
+        "total": 68,
+        "majorityThreshold": 35,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=398&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "ld": 24,
+          "ind": 17,
+          "con": 14,
+          "lab": 9,
+          "pc": 3,
+          "grn": 1
+        },
+        "total": 68,
+        "source": "https://en.wikipedia.org/wiki/2022_Powys_County_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "rhondda-cynon-taf",
+      "control": {
+        "summary": "Labour majority",
+        "administration": [
+          "Labour"
+        ],
+        "openCouncilDataLabel": "LAB",
+        "leader": {
+          "name": "Ann Crimmings",
+          "party": "Labour",
+          "since": "2026-04-29"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://www.rctcbc.gov.uk/EN/Newsroom/PressReleases/2026/April/CouncillorAnnCrimmingselectedLeaderofRhonddaCynonTafCouncil.aspx"
+        ],
+        "note": "Succeeded Andrew Morgan. Wikipedia's council article had not been updated and still names Andrew Morgan."
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 57,
+          "con": 2,
+          "ld": 0,
+          "grn": 1,
+          "ref": 0,
+          "pc": 8,
+          "other": 7
+        },
+        "vacant": 0,
+        "total": 75,
+        "majorityThreshold": 38,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=399&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 59,
+          "pc": 8,
+          "ind": 6,
+          "con": 2
+        },
+        "total": 75,
+        "source": "https://en.wikipedia.org/wiki/2022_Rhondda_Cynon_Taf_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "swansea",
+      "control": {
+        "summary": "Labour majority",
+        "administration": [
+          "Labour"
+        ],
+        "openCouncilDataLabel": "LAB",
+        "leader": {
+          "name": "Rob Stewart",
+          "party": "Labour",
+          "since": "2014-09-09"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Swansea_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 44,
+          "con": 4,
+          "ld": 14,
+          "grn": 1,
+          "ref": 1,
+          "pc": 0,
+          "other": 11
+        },
+        "vacant": 0,
+        "total": 75,
+        "majorityThreshold": 38,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=400&y=0",
+        "note": "Wikipedia (June 2026): Con 5, Reform 0 after the Mumbles by-election (Con gain from Reform, 18 June 2026). Open Council Data still shows Con 4, Reform 1."
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 45,
+          "ld": 11,
+          "con": 7,
+          "ind": 5,
+          "uplands": 4,
+          "independents_at_swansea": 2,
+          "grn": 1
+        },
+        "total": 75,
+        "source": "https://en.wikipedia.org/wiki/2022_Swansea_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "torfaen",
+      "control": {
+        "summary": "Labour majority",
+        "administration": [
+          "Labour"
+        ],
+        "openCouncilDataLabel": "LAB",
+        "leader": {
+          "name": "Anthony Hunt",
+          "party": "Labour",
+          "since": "2017-01-01"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Torfaen_County_Borough_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 28,
+          "con": 0,
+          "ld": 0,
+          "grn": 0,
+          "ref": 4,
+          "pc": 0,
+          "other": 8
+        },
+        "vacant": 0,
+        "total": 40,
+        "majorityThreshold": 21,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=401&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 30,
+          "ind": 10
+        },
+        "total": 40,
+        "source": "https://en.wikipedia.org/wiki/2022_Torfaen_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "vale-of-glamorgan",
+      "control": {
+        "summary": "No overall control (Labour-led)",
+        "administration": [
+          "Labour",
+          "Llantwit First Independents",
+          "one Independent"
+        ],
+        "openCouncilDataLabel": "LAB/IND",
+        "leader": {
+          "name": "Lis Burnett",
+          "party": "Labour",
+          "since": "2022-05-23"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Vale_of_Glamorgan_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 24,
+          "con": 13,
+          "ld": 0,
+          "grn": 0,
+          "ref": 0,
+          "pc": 8,
+          "other": 9
+        },
+        "vacant": 0,
+        "total": 54,
+        "majorityThreshold": 28,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=402&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "lab": 25,
+          "con": 13,
+          "pc": 8,
+          "llantwit_first_independents": 4,
+          "ind": 4
+        },
+        "total": 54,
+        "source": "https://en.wikipedia.org/wiki/2022_Vale_of_Glamorgan_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    },
+    {
+      "id": "wrexham",
+      "control": {
+        "summary": "No overall control",
+        "administration": [
+          "Independent Group",
+          "Conservative"
+        ],
+        "openCouncilDataLabel": "IND/CON",
+        "leader": {
+          "name": "Mark Pritchard",
+          "party": "Independent",
+          "since": "2014-09-24"
+        },
+        "asOf": "2026-10-27",
+        "sources": [
+          "https://www.wlga.wales/leadership-meetings/executive-board/",
+          "https://en.wikipedia.org/wiki/Wrexham_County_Borough_Council"
+        ]
+      },
+      "currentComposition": {
+        "seats": {
+          "lab": 14,
+          "con": 7,
+          "ld": 0,
+          "grn": 0,
+          "ref": 1,
+          "pc": 7,
+          "other": 27
+        },
+        "vacant": 0,
+        "total": 56,
+        "majorityThreshold": 29,
+        "asOf": "2026-10-27 (retrieved; Open Council Data's log includes changes to 23 Oct 2026)",
+        "source": "https://opencouncildata.co.uk/council.php?c=403&y=0"
+      },
+      "election2022": {
+        "date": "2022-05-05",
+        "seats": {
+          "ind": 23,
+          "lab": 14,
+          "con": 9,
+          "pc": 9,
+          "ld": 1
+        },
+        "total": 56,
+        "source": "https://en.wikipedia.org/wiki/2022_Wrexham_County_Borough_Council_election",
+        "asOf": "2026-10-27 (retrieved)"
+      }
+    }
+  ],
+  "walesTotals": {
+    "current": {
+      "lab": 471,
+      "con": 101,
+      "ld": 70,
+      "grn": 14,
+      "ref": 24,
+      "pc": 203,
+      "other": 348,
+      "vacant": 3,
+      "total": 1234,
+      "asOf": "2026-10-27 (retrieved)",
+      "source": "https://opencouncildata.co.uk/councils.php?model=W&y=0",
+      "controlCounts": "Labour majority: 7 (Blaenau Gwent, Caerphilly, Cardiff, Newport, Rhondda Cynon Taf, Swansea, Torfaen). Plaid Cymru majority: 3 to 4 (Ceredigion, Gwynedd, Isle of Anglesey; Carmarthenshire disputed). No overall control or minority: the rest. See each council's notes."
+    },
+    "election2022": {
+      "seats": {
+        "lab": 528,
+        "ind": 314,
+        "pc": 202,
+        "con": 111,
+        "ld": 69,
+        "other": 2,
+        "grn": 8
+      },
+      "total": 1234,
+      "source": "Sum of the 22 per-council Wikipedia articles",
+      "officialSummary": {
+        "lab": 526,
+        "ind": 307,
+        "pc": 202,
+        "con": 111,
+        "ld": 69,
+        "grn": 8,
+        "other": 9,
+        "postponedOrVacant": 2,
+        "councilsControlled": {
+          "lab": 8,
+          "pc": 4,
+          "noc": 10
+        },
+        "voteShare": {
+          "lab": 34.0,
+          "ind": 21.76,
+          "pc": 16.87,
+          "con": 15.28,
+          "ld": 6.97,
+          "grn": 2.27,
+          "other": 2.84
+        },
+        "source": "https://en.wikipedia.org/wiki/2022_Welsh_local_elections"
+      },
+      "note": "The per-council sum gives Labour 528 against 526 in the Wales-wide table, which also lists 2 seats as vacant after the election. Independents plus others match (316). The most likely explanation is that 2 postponed contests later went to Labour and are counted in the council articles; this is not verified. The Electoral Reform Society gives slightly different national totals (Ind 310, PC 200, Other 8, total 1,232): https://electoral-reform.org.uk/?p=6902"
+    }
+  },
+  "polling": {
+    "localElectionPolls": {
+      "found": 0,
+      "note": "No published opinion poll of voting intention for the Welsh council elections was found. Pollcheck says its council seat projections are 'coming soon' (none published).",
+      "sources": [
+        "https://www.pollcheck.co.uk/local-elections-2027"
+      ],
+      "asOf": "2026-10-27"
+    },
+    "seneddPolls": [
+      {
+        "type": "Senedd",
+        "pollster": "More in Common",
+        "client": "Cavendish Cymru and Senedd Sources",
+        "fieldwork": "24-30 Sep 2026",
+        "sample": null,
+        "shares": {
+          "pc": 32,
+          "ref": 27,
+          "lab": 18,
+          "con": 12,
+          "grn": 6,
+          "ld": 5,
+          "other": 1
+        },
+        "sources": [
+          "https://www.moreincommon.org.uk/research/plaid-cymru-governing-a-fragmented-wales/",
+          "https://nation.cymru/news/plaid-holds-senedd-poll-lead-as-labour-recovers-ground/",
+          "https://en.wikipedia.org/wiki/Next_Senedd_election"
+        ],
+        "note": "Percentages from Wikipedia and electionpolling.co.uk; the More in Common page and Nation.Cymru report the five-point Plaid lead and Labour +7 since May but give no figures in the readable text. Sample size not found."
+      },
+      {
+        "type": "Senedd",
+        "pollster": "YouGov",
+        "client": "ITV Cymru Wales (Barn Cymru)",
+        "fieldwork": "not published in readable sources (released 15 Sep 2026)",
+        "sample": null,
+        "shares": {
+          "pc": 32,
+          "ref": 27,
+          "lab": 13,
+          "con": 11,
+          "grn": 7,
+          "ld": 5,
+          "other": 5
+        },
+        "sources": [
+          "https://www.itv.com/news/wales/2026-09-15/welsh-support-grows-for-burnhams-labour-as-plaid-stays-top-in-senedd",
+          "https://yougov.com/en-gb/articles/55588-labours-westminster-vote-share-up-10pts-in-wales-in-first-yougov-poll-since-andy-burnham-became-pm"
+        ]
+      },
+      {
+        "type": "Senedd",
+        "pollster": "Survation",
+        "client": "YesCymru",
+        "fieldwork": "13-24 Aug 2026",
+        "sample": 1023,
+        "shares": {
+          "pc": 33,
+          "ref": 31,
+          "lab": 14,
+          "con": 9,
+          "grn": 6,
+          "ld": 5,
+          "other": 2
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/Next_Senedd_election",
+          "https://electionpolling.co.uk/polls/senedd",
+          "https://nation.cymru/news/nearly-one-in-three-would-vote-for-welsh-independence-poll-finds/"
+        ],
+        "note": "Voting intention figures from Wikipedia and electionpolling.co.uk only; the Nation.Cymru report covers the independence question. Not checked against Survation's tables."
+      },
+      {
+        "type": "Senedd (final pre-election)",
+        "pollster": "Find Out Now",
+        "client": null,
+        "fieldwork": "1-6 May 2026",
+        "sample": 2001,
+        "shares": {
+          "pc": 35,
+          "ref": 28,
+          "lab": 9,
+          "con": 11,
+          "grn": 9,
+          "ld": 6,
+          "other": 2
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Senedd_election",
+          "https://findoutnow.co.uk/blog/senedd-voting-intention-may-2026/"
+        ],
+        "note": "Find Out Now's page did not render; figures from Wikipedia."
+      },
+      {
+        "type": "Senedd (final pre-election)",
+        "pollster": "Survation",
+        "client": null,
+        "fieldwork": "1-6 May 2026",
+        "sample": 1054,
+        "shares": {
+          "pc": 30,
+          "ref": 28,
+          "lab": 15,
+          "con": 10,
+          "grn": 7,
+          "ld": 6,
+          "other": 3
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Senedd_election"
+        ]
+      },
+      {
+        "type": "Senedd (final pre-election, MRP)",
+        "pollster": "YouGov",
+        "client": "ITV Cymru Wales / Wales Governance Centre, Cardiff University",
+        "fieldwork": "25 Apr-4 May 2026 (Wrexham.com) or 27 Apr-4 May 2026 (Wikipedia)",
+        "sample": "2,391 (Wrexham.com) or 4,647 (Wikipedia)",
+        "shares": {
+          "pc": 33,
+          "ref": 29,
+          "lab": 12,
+          "con": 9,
+          "grn": 8,
+          "ld": 6,
+          "other": 3
+        },
+        "sources": [
+          "https://wrexham.com/news/last-yougov-poll-predicts-senedd-election-result-make-sure-you-have-your-real-say-on-thursday-291624.html",
+          "https://en.wikipedia.org/wiki/2026_Senedd_election"
+        ],
+        "note": "Sources disagree on fieldwork dates and sample size."
+      },
+      {
+        "type": "Senedd",
+        "pollster": "More in Common",
+        "client": null,
+        "fieldwork": "2 Mar-27 Apr 2026",
+        "sample": 2159,
+        "shares": {
+          "pc": 30,
+          "ref": 27,
+          "lab": 16,
+          "con": 12,
+          "grn": 9,
+          "ld": 4,
+          "other": 2
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Senedd_election"
+        ]
+      },
+      {
+        "type": "Senedd",
+        "pollster": "Survation",
+        "client": "Newyddion S4C / Aberystwyth University",
+        "fieldwork": "17-23 Apr 2026",
+        "sample": "1,065 adults (Cambrian News); 834 (Wikipedia, likely those giving a voting intention)",
+        "shares": {
+          "ref": 30,
+          "pc": 28,
+          "lab": 15,
+          "con": 10,
+          "grn": 10,
+          "ld": 4,
+          "other": 4
+        },
+        "sources": [
+          "https://www.cambrian-news.co.uk/news/politics/new-senedd-poll-shows-reform-edge-ahead-of-plaid-cymru-902207",
+          "https://www.aber.ac.uk/en/news/archive/2026/04/title-287196-en.html"
+        ]
+      },
+      {
+        "type": "Senedd",
+        "pollster": "Find Out Now",
+        "client": "Plaid Cymru",
+        "fieldwork": "18-22 Apr 2026",
+        "sample": 2012,
+        "shares": {
+          "pc": 29,
+          "ref": 27,
+          "lab": 10,
+          "con": 13,
+          "grn": 11,
+          "ld": 6,
+          "other": 4
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Senedd_election",
+          "https://findoutnow.co.uk/blog/senedd-voting-intention-april-2026/"
+        ],
+        "note": "Commissioned by a party."
+      },
+      {
+        "type": "Senedd",
+        "pollster": "YouGov",
+        "client": "ITV Cymru Wales / Cardiff University",
+        "fieldwork": "6-15 Apr 2026",
+        "sample": 2387,
+        "shares": {
+          "pc": 29,
+          "ref": 29,
+          "lab": 13,
+          "con": 8,
+          "grn": 10,
+          "ld": 6,
+          "other": 4
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Senedd_election"
+        ]
+      },
+      {
+        "type": "Senedd",
+        "pollster": "JL Partners",
+        "client": "The Telegraph",
+        "fieldwork": "31 Mar-13 Apr 2026",
+        "sample": 2050,
+        "shares": {
+          "pc": 29,
+          "ref": 25,
+          "lab": 16,
+          "con": 12,
+          "grn": 9,
+          "ld": 6,
+          "other": 4
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Senedd_election"
+        ]
+      },
+      {
+        "type": "Senedd",
+        "pollster": "Ipsos",
+        "client": null,
+        "fieldwork": "2-8 Apr 2026",
+        "sample": 747,
+        "shares": {
+          "pc": 30,
+          "ref": 25,
+          "lab": 15,
+          "con": 12,
+          "grn": 10,
+          "ld": 6,
+          "other": 2
+        },
+        "sources": [
+          "https://www.ipsos.com/en-uk/plaid-cymru-has-slight-lead-over-reform-uk-new-ipsos-wales-senedd-poll-half-voters-may-change-mind",
+          "https://en.wikipedia.org/wiki/2026_Senedd_election"
+        ],
+        "note": "Ipsos page confirms PC 30, Ref 25, Lab 15, dates and sample; other shares from Wikipedia."
+      }
+    ],
+    "seneddPollsNote": "Only three Senedd polls have been published since the 7 May 2026 election. The 2026 Senedd election used a closed-list system with one vote per voter, so there is no constituency/list split. All polls are online panels of adults aged 16+ in Wales.",
+    "westminsterPolls": [
+      {
+        "type": "Westminster (Wales)",
+        "pollster": "YouGov",
+        "client": "ITV Cymru Wales (Barn Cymru)",
+        "fieldwork": "not published in readable sources (released 15 Sep 2026)",
+        "sample": null,
+        "shares": {
+          "pc": 27,
+          "ref": 19,
+          "lab": 18,
+          "con": 16,
+          "grn": 8,
+          "ld": 5,
+          "other": 7
+        },
+        "sources": [
+          "https://yougov.com/en-gb/articles/55588-labours-westminster-vote-share-up-10pts-in-wales-in-first-yougov-poll-since-andy-burnham-became-pm",
+          "https://www.itv.com/news/wales/2026-09-15/welsh-support-grows-for-burnhams-labour-as-plaid-stays-top-in-senedd"
+        ]
+      }
+    ],
+    "westminsterPollsNote": "Only one Wales Westminster poll with full figures was verified. Pollcheck's 3-poll average (as at 30 Sep 2026) is Reform 25.7, Plaid 22.0, Labour 19.7, Con 15.0, Green 8.7, which implies two other recent Westminster polls (Survation and More in Common are named), but their figures could not be read. More in Common reports Reform would be the largest party in Wales at a general election, without figures.",
+    "westminsterAverage": {
+      "source": "https://pollcheck.co.uk/welsh-polls",
+      "asOf": "2026-09-30",
+      "shares": {
+        "ref": 25.7,
+        "pc": 22.0,
+        "lab": 19.7,
+        "con": 15.0,
+        "grn": 8.7
+      },
+      "type": "Westminster (Wales), poll average, not a poll"
+    },
+    "seneddAverage": {
+      "source": "https://www.pollcheck.co.uk/senedd-polls",
+      "asOf": "2026-10-23",
+      "shares": {
+        "pc": 32.5,
+        "ref": 28.8,
+        "lab": 15.0,
+        "con": 10.8,
+        "grn": 6.2
+      },
+      "type": "Senedd, post-election poll average, not a poll"
+    }
+  },
+  "senedd2026": {
+    "date": "2026-05-07",
+    "system": "Closed party lists, 16 six-member constituencies, 96 Members (D'Hondt)",
+    "turnout": 51.6,
+    "electorate": 2433921,
+    "results": [
+      {
+        "party": "pc",
+        "seats": 43,
+        "votes": 444665,
+        "share": 35.41
+      },
+      {
+        "party": "ref",
+        "seats": 34,
+        "votes": 367985,
+        "share": 29.3
+      },
+      {
+        "party": "lab",
+        "seats": 9,
+        "votes": 139203,
+        "share": 11.08
+      },
+      {
+        "party": "con",
+        "seats": 7,
+        "votes": 134926,
+        "share": 10.74
+      },
+      {
+        "party": "grn",
+        "seats": 2,
+        "votes": 84608,
+        "share": 6.74
+      },
+      {
+        "party": "ld",
+        "seats": 1,
+        "votes": 56012,
+        "share": 4.46
+      },
+      {
+        "party": "other",
+        "seats": 0,
+        "votes": 33794,
+        "share": 2.69
+      }
+    ],
+    "government": "Plaid Cymru minority; Rhun ap Iorwerth elected First Minister on 12 May 2026",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Senedd_election",
+      "https://www.itv.com/news/wales/2026-05-07/senedd-election-2026-the-full-results",
+      "https://research.senedd.wales/research-articles/senedd-election-an-initial-analysis-of-the-results/"
+    ],
+    "note": "Votes and shares match the sum of ITV's 16 constituency tables. Seats for Plaid, Reform, Labour and Green confirmed by ITV; Conservative 7 and Lib Dem 1 from Wikipedia only (they make the total 96). Turnout 51.6% confirmed by Senedd Research. The six-member, D'Hondt detail comes from the Senedd Cymru (Members and Elections) Act 2024 and was not re-checked in this session.",
+    "asOf": "2026-10-27"
+  },
+  "byElections": {
+    "source": "Open Council Data UK by-election archive",
+    "sourceUrls": [
+      "https://opencouncildata.co.uk/changesC.php?y=2022",
+      "https://opencouncildata.co.uk/changesC.php?y=2023",
+      "https://opencouncildata.co.uk/changesC.php?y=2024",
+      "https://opencouncildata.co.uk/changesC.php?y=2025",
+      "https://opencouncildata.co.uk/changesC.php?y=2026"
+    ],
+    "period": "May 2022 to 23 Oct 2026",
+    "asOf": "2026-10-27",
+    "caveats": [
+      "Open Council Data says its list 'may not be comprehensive and doesn't always include by-elections on May election days'.",
+      "Dates are Open Council Data's record dates. They are often a day or more after polling day (e.g. Saron: polling 22 Oct 2026, recorded 23 Oct).",
+      "'fromParty' is the outgoing councillor's affiliation at the time of the vacancy, after any defections, so it is not always the party that won in 2022. Wikipedia sometimes reports the same contest against the 2022 party (e.g. Powys Yscir: Wikipedia 'LD gain from Con', OCD 'Reform to LD').",
+      "Gwynedd Bethel a'r Felinheli (Nov 2025): Open Council Data records Plaid to 'People's Administration'; Wikipedia records a Plaid hold. Unresolved.",
+      "Party labels are shortened: FPV = Flintshire People's Voice."
+    ],
+    "count": 92,
+    "seatsChangingHands": 46,
+    "netChangeByParty": {
+      "Con": {
+        "gains": 8,
+        "losses": 2,
+        "net": 6
+      },
+      "FPV": {
+        "gains": 1,
+        "losses": 0,
+        "net": 1
+      },
+      "Green": {
+        "gains": 1,
+        "losses": 0,
+        "net": 1
+      },
+      "Ind": {
+        "gains": 7,
+        "losses": 15,
+        "net": -8
+      },
+      "Independents@Swansea": {
+        "gains": 0,
+        "losses": 1,
+        "net": -1
+      },
+      "LD": {
+        "gains": 4,
+        "losses": 0,
+        "net": 4
+      },
+      "Lab": {
+        "gains": 5,
+        "losses": 17,
+        "net": -12
+      },
+      "PC": {
+        "gains": 8,
+        "losses": 7,
+        "net": 1
+      },
+      "People's Administration": {
+        "gains": 1,
+        "losses": 0,
+        "net": 1
+      },
+      "Reform": {
+        "gains": 11,
+        "losses": 4,
+        "net": 7
+      }
+    },
+    "rows": [
+      {
+        "ocdRecordDate": "2026-10-23",
+        "council": "carmarthenshire",
+        "ward": "Saron",
+        "fromParty": "Lab",
+        "toParty": "PC",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-10-16",
+        "council": "flintshire",
+        "ward": "Higher Kinnerton",
+        "fromParty": "Ind",
+        "toParty": "FPV",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-09-04",
+        "council": "rhondda-cynon-taf",
+        "ward": "Llantwit Fardre",
+        "fromParty": "Con",
+        "toParty": "Con",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-08-07",
+        "council": "caerphilly",
+        "ward": "Hengoed",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-07-31",
+        "council": "isle-of-anglesey",
+        "ward": "Bro'r Llynnoedd",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-07-11",
+        "council": "neath-port-talbot",
+        "ward": "Trebanos",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-07-11",
+        "council": "pembrokeshire",
+        "ward": "Pembroke Dock: Market",
+        "fromParty": "Ind",
+        "toParty": "Con",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-07-10",
+        "council": "cardiff",
+        "ward": "Splott",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-07-10",
+        "council": "flintshire",
+        "ward": "Argoed and New Brighton",
+        "fromParty": "LD",
+        "toParty": "LD",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-07-10",
+        "council": "flintshire",
+        "ward": "Connah's Quay Central",
+        "fromParty": "Ind",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-07-10",
+        "council": "gwynedd",
+        "ward": "Llanrug",
+        "fromParty": "PC",
+        "toParty": "Ind",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-07-10",
+        "council": "vale-of-glamorgan",
+        "ward": "Baruc",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-07-04",
+        "council": "powys",
+        "ward": "Glantwymyn",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-07-04",
+        "council": "powys",
+        "ward": "Llanyre with Nantmel",
+        "fromParty": "Reform",
+        "toParty": "Reform",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-07-04",
+        "council": "powys",
+        "ward": "Yscir with Honddu Isaf and Llanddew",
+        "fromParty": "Reform",
+        "toParty": "LD",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-07-03",
+        "council": "torfaen",
+        "ward": "Llantarnam",
+        "fromParty": "Reform",
+        "toParty": "Reform",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-06-26",
+        "council": "carmarthenshire",
+        "ward": "Llangennech",
+        "fromParty": "Reform",
+        "toParty": "PC",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-06-26",
+        "council": "denbighshire",
+        "ward": "Llanrhaeadr-yng-Nghinmeirch",
+        "fromParty": "PC",
+        "toParty": "Ind",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-06-26",
+        "council": "denbighshire",
+        "ward": "Rhyl South",
+        "fromParty": "Ind",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-06-26",
+        "council": "merthyr-tydfil",
+        "ward": "Dowlais and Pant",
+        "fromParty": "Reform",
+        "toParty": "Lab",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-06-26",
+        "council": "rhondda-cynon-taf",
+        "ward": "Treorchy",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-06-19",
+        "council": "conwy",
+        "ward": "Gogarth Mostyn",
+        "fromParty": "Reform",
+        "toParty": "Reform",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-06-19",
+        "council": "conwy",
+        "ward": "Tudno",
+        "fromParty": "Reform",
+        "toParty": "Reform",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-06-19",
+        "council": "swansea",
+        "ward": "Morriston",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-06-19",
+        "council": "swansea",
+        "ward": "Mumbles",
+        "fromParty": "Reform",
+        "toParty": "Con",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-06-19",
+        "council": "wrexham",
+        "ward": "Acton and Maesydre",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-06-19",
+        "council": "wrexham",
+        "ward": "Grosvenor",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-06-19",
+        "council": "wrexham",
+        "ward": "Queensway",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-05-29",
+        "council": "swansea",
+        "ward": "Fairwood",
+        "fromParty": "Con",
+        "toParty": "LD",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-05-10",
+        "council": "newport",
+        "ward": "Rogerstone North",
+        "fromParty": "Con",
+        "toParty": "Con",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-05-10",
+        "council": "powys",
+        "ward": "Llandrindod South",
+        "fromParty": "LD",
+        "toParty": "LD",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2026-03-18",
+        "council": "pembrokeshire",
+        "ward": "Milford: Hakin",
+        "fromParty": "Ind",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-02-20",
+        "council": "caerphilly",
+        "ward": "Van",
+        "fromParty": "Lab",
+        "toParty": "PC",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-02-11",
+        "council": "pembrokeshire",
+        "ward": "Fishguard: North East",
+        "fromParty": "Ind",
+        "toParty": "PC",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-02-06",
+        "council": "isle-of-anglesey",
+        "ward": "Ynys Gybi",
+        "fromParty": "PC",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2026-01-23",
+        "council": "flintshire",
+        "ward": "Leeswood",
+        "fromParty": "Lab",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-12-13",
+        "council": "caerphilly",
+        "ward": "Penyrheol",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-11-15",
+        "council": "gwynedd",
+        "ward": "Bethel a'r Felinheli",
+        "fromParty": "PC",
+        "toParty": "People's Administration",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-09-19",
+        "council": "cardiff",
+        "ward": "Trowbridge",
+        "fromParty": "Lab",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-09-12",
+        "council": "vale-of-glamorgan",
+        "ward": "Illtyd",
+        "fromParty": "Lab",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-08-22",
+        "council": "gwynedd",
+        "ward": "Abermaw",
+        "fromParty": "Ind",
+        "toParty": "Ind",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-08-15",
+        "council": "cardiff",
+        "ward": "Grangetown",
+        "fromParty": "Lab",
+        "toParty": "Green",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-08-08",
+        "council": "carmarthenshire",
+        "ward": "Llangennech",
+        "fromParty": "Lab",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-07-26",
+        "council": "cardiff",
+        "ward": "Llanrumney",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-07-18",
+        "council": "denbighshire",
+        "ward": "Prestatyn Central",
+        "fromParty": "Con",
+        "toParty": "Con",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-07-18",
+        "council": "neath-port-talbot",
+        "ward": "Baglan",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-07-18",
+        "council": "rhondda-cynon-taf",
+        "ward": "Pontypridd Town",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-07-04",
+        "council": "powys",
+        "ward": "Llanidloes",
+        "fromParty": "LD",
+        "toParty": "LD",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-05-31",
+        "council": "carmarthenshire",
+        "ward": "Lliedi",
+        "fromParty": "Ind",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-05-01",
+        "council": "bridgend",
+        "ward": "Pyle, Kenfig Hill and Cefn Cribwr",
+        "fromParty": "Lab",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-04-11",
+        "council": "gwynedd",
+        "ward": "Teigl",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-04-04",
+        "council": "neath-port-talbot",
+        "ward": "Cwmllynfell and Ystalyfera",
+        "fromParty": "Lab",
+        "toParty": "LD",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-03-29",
+        "council": "swansea",
+        "ward": "Penllergaer",
+        "fromParty": "Independents@Swansea",
+        "toParty": "Ind",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2025-03-07",
+        "council": "carmarthenshire",
+        "ward": "Llanddarog",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-02-14",
+        "council": "pembrokeshire",
+        "ward": "Haverfordwest: Prendergast",
+        "fromParty": "Ind",
+        "toParty": "Ind",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2025-02-14",
+        "council": "torfaen",
+        "ward": "Trevethin and Penygarn",
+        "fromParty": "Lab",
+        "toParty": "Reform",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-10-28",
+        "council": "denbighshire",
+        "ward": "Prestatyn North",
+        "fromParty": "Lab",
+        "toParty": "Con",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-10-28",
+        "council": "isle-of-anglesey",
+        "ward": "Talybolion",
+        "fromParty": "PC",
+        "toParty": "Ind",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-10-28",
+        "council": "monmouthshire",
+        "ward": "Town",
+        "fromParty": "Lab",
+        "toParty": "Con",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-10-19",
+        "council": "gwynedd",
+        "ward": "Llanberis",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2024-10-19",
+        "council": "ceredigion",
+        "ward": "Tirymynach",
+        "fromParty": "LD",
+        "toParty": "LD",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2024-10-10",
+        "council": "powys",
+        "ward": "Machynlleth",
+        "fromParty": "Ind",
+        "toParty": "PC",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-09-27",
+        "council": "denbighshire",
+        "ward": "Rhyl Trellewelyn",
+        "fromParty": "Lab",
+        "toParty": "Con",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-09-06",
+        "council": "merthyr-tydfil",
+        "ward": "Bedlinog and Trelewis",
+        "fromParty": "Ind",
+        "toParty": "Lab",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-08-16",
+        "council": "caerphilly",
+        "ward": "Aberbargoed and Bargoed",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2024-06-05",
+        "council": "powys",
+        "ward": "Rhiwcynon",
+        "fromParty": "Ind",
+        "toParty": "Con",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-04-30",
+        "council": "cardiff",
+        "ward": "Grangetown",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2024-04-23",
+        "council": "pembrokeshire",
+        "ward": "St Ishmael's",
+        "fromParty": "Ind",
+        "toParty": "Con",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-03-29",
+        "council": "neath-port-talbot",
+        "ward": "Neath East",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2024-03-28",
+        "council": "flintshire",
+        "ward": "Brynford and Halkyn",
+        "fromParty": "Con",
+        "toParty": "Lab",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-03-08",
+        "council": "bridgend",
+        "ward": "Aberkenfig",
+        "fromParty": "PC",
+        "toParty": "Lab",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-03-08",
+        "council": "carmarthenshire",
+        "ward": "Elli",
+        "fromParty": "Ind",
+        "toParty": "Ind",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2024-02-16",
+        "council": "neath-port-talbot",
+        "ward": "Briton Ferry East",
+        "fromParty": "Ind",
+        "toParty": "Lab",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-02-16",
+        "council": "neath-port-talbot",
+        "ward": "Rhos",
+        "fromParty": "PC",
+        "toParty": "Ind",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-02-10",
+        "council": "blaenau-gwent",
+        "ward": "Ebbw Vale South",
+        "fromParty": "Lab",
+        "toParty": "Ind",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2024-02-10",
+        "council": "gwynedd",
+        "ward": "Criccieth",
+        "fromParty": "Ind",
+        "toParty": "PC",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2023-12-14",
+        "council": "denbighshire",
+        "ward": "Rhyl South West",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2023-12-01",
+        "council": "powys",
+        "ward": "Talybont-on-Usk",
+        "fromParty": "LD",
+        "toParty": "LD",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2023-11-18",
+        "council": "ceredigion",
+        "ward": "Aberystwyth Penparcau",
+        "fromParty": "Ind",
+        "toParty": "PC",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2023-11-17",
+        "council": "powys",
+        "ward": "Crickhowell with Cwmdu and Tretower",
+        "fromParty": "Ind",
+        "toParty": "LD",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2023-09-01",
+        "council": "caerphilly",
+        "ward": "Penmaen",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2023-04-28",
+        "council": "swansea",
+        "ward": "Penderry",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2023-04-21",
+        "council": "isle-of-anglesey",
+        "ward": "Aethwy",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2023-03-01",
+        "council": "wrexham",
+        "ward": "Smithfield",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2023-02-15",
+        "council": "denbighshire",
+        "ward": "Rhyl Ty Newydd",
+        "fromParty": "Lab",
+        "toParty": "Con",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2023-02-03",
+        "council": "torfaen",
+        "ward": "Llantarnam",
+        "fromParty": "Ind",
+        "toParty": "Ind",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2022-11-21",
+        "council": "rhondda-cynon-taf",
+        "ward": "Abercynon",
+        "fromParty": "Lab",
+        "toParty": "Lab",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2022-10-21",
+        "council": "monmouthshire",
+        "ward": "Devauden",
+        "fromParty": "Con",
+        "toParty": "Con",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2022-10-20",
+        "council": "ceredigion",
+        "ward": "Lampeter",
+        "fromParty": "Lab",
+        "toParty": "PC",
+        "change": true
+      },
+      {
+        "ocdRecordDate": "2022-10-20",
+        "council": "rhondda-cynon-taf",
+        "ward": "Ynysybwl",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2022-09-27",
+        "council": "gwynedd",
+        "ward": "Llanuwchllyn",
+        "fromParty": "PC",
+        "toParty": "PC",
+        "change": false
+      },
+      {
+        "ocdRecordDate": "2022-08-24",
+        "council": "bridgend",
+        "ward": "Bridgend Central",
+        "fromParty": "Lab",
+        "toParty": "Ind",
+        "change": true
+      }
+    ]
+  },
+  "conflictsAndGaps": [
+    "Denbighshire: new leader Hugh Evans (Sept 2026); administration make-up unverified; WLGA lists him as Labour, other sources Independent.",
+    "Carmarthenshire: Plaid majority (OCD, 39/75) vs no overall control with a Plaid/Independent coalition (Wikipedia). Labour's current seat count differs (OCD 14, Wikipedia Aug 2025 18).",
+    "Merthyr Tydfil: OCD 'IND min' vs Labour minority led by Brent Carter (WLGA, council, Wikipedia).",
+    "Bridgend: Wikipedia 'Labour majority' vs OCD Labour 25/51 (minority).",
+    "Monmouthshire: Labour 18 (OCD) vs 21 (Wikipedia, Aug 2025).",
+    "Swansea: OCD not updated for the June 2026 Mumbles result.",
+    "Vale of Glamorgan: Commission and council report show 58 existing councillors; 2022 election and all composition sources show 54.",
+    "Carmarthenshire final ward review numbers not verified; Caerphilly ward breakdown in the Commission news item does not add up.",
+    "Electoral arrangements orders for the three reviewed councils not found as made.",
+    "Total seats in 2027 not confirmed (1,234 now; Pollcheck says 1,238).",
+    "Post-election Senedd polls: sample sizes for More in Common and YouGov (Sept 2026) not found; fieldwork dates for YouGov Sept 2026 not found.",
+    "Only one Wales Westminster poll verified since the Senedd election."
+  ]
+}

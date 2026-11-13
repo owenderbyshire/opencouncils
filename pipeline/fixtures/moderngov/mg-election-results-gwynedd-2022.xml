@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<election>
+  <candidatecount> 125</candidatecount>
+  <electionid>343</electionid>
+  <title>Local Government Elections 2022</title>
+  <electiontype>Local</electiontype>
+  <description>
+  </description>
+  <externallink>
+  </externallink>
+  <population>0</population>
+  <electorate>0</electorate>
+  <numballotpapersissued>0</numballotpapersissued>
+  <numproxyvotes>0</numproxyvotes>
+  <comment>
+  </comment>
+  <visiblity>Intranet and Internet</visiblity>
+  <candidates>
+    <candidate>
+      <areatagid>13357</areatagid>
+      <electionareaid>258</electionareaid>
+      <areatitle>Pen draw Llyn</areatitle>
+      <candidatename>Dafydd Huw Williams</candidatename>
+      <numvotes>203</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>0</politicalpartytagid>
+      <politicalpartytitle>
+      </politicalpartytitle>
+      <politicalpartycolour>LightGrey</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:39</votedatetime>
+      <iselected>False</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13357</areatagid>
+      <electionareaid>258</electionareaid>
+      <areatitle>Pen draw Llyn</areatitle>
+      <candidatename>Gareth Williams</candidatename>
+      <numvotes>697</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>0</politicalpartytagid>
+      <politicalpartytitle>
+      </politicalpartytitle>
+      <politicalpartycolour>LightGrey</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:39</votedatetime>
+      <iselected>True</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13358</areatagid>
+      <electionareaid>282</electionareaid>
+      <areatitle>Yr Eifl</areatitle>
+      <candidatename>Jina Gwyrfai</candidatename>
+      <numvotes>198</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>13095</politicalpartytagid>
+      <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+      <politicalpartycolour>Yellow</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:38</votedatetime>
+      <iselected>True</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13358</areatagid>
+      <electionareaid>282</electionareaid>
+      <areatitle>Yr Eifl</areatitle>
+      <candidatename>Lois Fychan</candidatename>
+      <numvotes>175</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>0</politicalpartytagid>
+      <politicalpartytitle>
+      </politicalpartytitle>
+      <politicalpartycolour>LightGrey</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:38</votedatetime>
+      <iselected>False</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13358</areatagid>
+      <electionareaid>282</electionareaid>
+      <areatitle>Yr Eifl</areatitle>
+      <candidatename>Cian Ireland</candidatename>
+      <numvotes>196</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>24</politicalpartytagid>
+      <politicalpartytitle>Labour</politicalpartytitle>
+      <politicalpartycolour>Crimson</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:38</votedatetime>
+      <iselected>False</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13125</areatagid>
+      <electionareaid>214</electionareaid>
+      <areatitle>Cricieth</areatitle>
+      <candidatename>Lorraine Sally Johnson</candidatename>
+      <numvotes>62</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>24</politicalpartytagid>
+      <politicalpartytitle>Labour</politicalpartytitle>
+      <politicalpartycolour>Crimson</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:38</votedatetime>
+      <iselected>False</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13125</areatagid>
+      <electionareaid>214</electionareaid>
+      <areatitle>Cricieth</areatitle>
+      <candidatename>Shannon Marie Orritt</candidatename>
+      <numvotes>231</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>13095</politicalpartytagid>
+      <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+      <politicalpartycolour>Yellow</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:38</votedatetime>
+      <iselected>False</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13125</areatagid>
+      <electionareaid>214</electionareaid>
+      <areatitle>Cricieth</areatitle>
+      <candidatename>Eirwyn Williams</candidatename>
+      <numvotes>263</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>13096</politicalpartytagid>
+      <politicalpartytitle>Independent</politicalpartytitle>
+      <politicalpartycolour>DarkGray</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:38</votedatetime>
+      <iselected>True</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13152</areatagid>
+      <electionareaid>266</electionareaid>
+      <areatitle>Gogledd Pwllheli</areatitle>
+      <candidatename>Dylan Bullard</candidatename>
+      <numvotes>269</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>13096</politicalpartytagid>
+      <politicalpartytitle>Independent</politicalpartytitle>
+      <politicalpartycolour>DarkGray</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:37</votedatetime>
+      <iselected>False</iselected>
+    </candidate>
+    <candidate>
+      <areatagid>13152</areatagid>
+      <electionareaid>266</electionareaid>
+      <areatitle>Gogledd Pwllheli</areatitle>
+      <candidatename>Elin Hywel</candidatename>
+      <numvotes>331</numvotes>
+      <numvotes2>0</numvotes2>
+      <politicalpartytagid>13095</politicalpartytagid>
+      <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+      <politicalpartycolour>Yellow</politicalpartycolour>
+      <votedatetime>06/05/2022, 13:37</votedatetime>
+      <iselected>True</iselected>
+    </candidate>
+  </candidates>
+</election>

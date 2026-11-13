@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+      <head>
+		<script src="/Scripts/jquery-3.3.1.js"></script>
+
+		 <script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="/Scripts/expressive.annotations.validate.js"></script>
+<script src="/Scripts/validation/LimitFileSize.js"></script>
+<script src="/Scripts/validation/LimitFileType.js"></script>
+
+		<script src="/Scripts/def/jquery-ui/jquery-ui.js"></script>
+<script src="/Scripts/def/common/addRemoveCommentDocuments.js"></script>
+<script src="/Scripts/def/common/canComment.js"></script>
+<script src="/Scripts/def/common/characterCount.js"></script>
+<script src="/Scripts/def/common/CILCalculator.js"></script>
+<script src="/Scripts/def/common/clearForm.js"></script>
+<script src="/Scripts/def/common/collapsableDocumentGrid.js"></script>
+<script src="/Scripts/def/common/cookie-alert.js"></script>
+<script src="/Scripts/def/common/CustomAttributeValidation.js"></script>
+<script src="/Scripts/def/common/datepicker-day.js"></script>
+<script src="/Scripts/def/common/datepicker.js"></script>
+<script src="/Scripts/def/common/datePickerDialog.js"></script>
+<script src="/Scripts/def/common/datePickerDialogCalendarButton.js"></script>
+<script src="/Scripts/def/common/downloadSelectedDocuments.js"></script>
+<script src="/Scripts/def/common/exportResultsToCSV.js"></script>
+<script src="/Scripts/def/common/expressive.annotations.customValidation.js"></script>
+<script src="/Scripts/def/common/gazetteerSearch.js"></script>
+<script src="/Scripts/def/common/gazetteerStreetSearch.js"></script>
+<script src="/Scripts/def/common/js.cookie.js"></script>
+<script src="/Scripts/def/common/pageChange.js"></script>
+<script src="/Scripts/def/common/responsiveTabs.js"></script>
+<script src="/Scripts/def/common/resultsPerPage.js"></script>
+<script src="/Scripts/def/common/RetrieveAdviceLevels.js"></script>
+<script src="/Scripts/def/common/sortTable.js"></script>
+<script src="/Scripts/def/common/tabs.js"></script>
+<script src="/Scripts/def/common/toggleCaretUpDown.js"></script>
+<script src="/Scripts/def/common/Utilities.js"></script>
+<script src="/Scripts/Site.js"></script>
+
+	
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Planning Register</title>
+    <meta name="description" content="Planning application portal" />
+    <meta name="keywords" content="planning" />
+    <link rel="stylesheet" href="https://www.bridgend.gov.uk/css/bootstrap-custom.min.css" />
+    <link rel="stylesheet" href="https://www.bridgend.gov.uk//libs/font-awesome/css/all.min.css" />
+</head>
+<body>
+    <a id="skip" class="visually-hidden" href="#main-content">Skip to main content</a>
+    <div id="header-container">
+        <nav id="top-nav">
+            <div class="container d-flex flex-wrap justify-content-end">
+                <ul class="nav">
+                    <li class="nav-item"><a href="https://bridgend-self.achieveservice.com/en" class="nav-link px-2">My Account</a></li>
+                    <li class="nav-item"><a href="http://www.bridgend.gov.uk/cy/" class="nav-link px-2">Cymraeg</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header id="header" class="header">
+            <div class="container py-3">
+                <div class="row">
+                    <div id="header-left" class="col-3 col-lg-7">
+                        <a id="header-logo" href="https://www.bridgend.gov.uk/">
+                            <img width="100" alt="Bridgend CBC" src="https://www.bridgend.gov.uk/images/logo.png" />
+                            <span id="header-logo-cy-text">Cyngor Bwrdeistref Sirol Pen-y-bont ar Ogwr</span>
+                            <span id="header-logo-en-text">Bridgend County Borough Council</span>
+                        </a>
+                    </div>
+                    <div id="header-right" class="col-9 col-lg-5">
+                        <form id="search" action="https://www.bridgend.gov.uk/search/" method="get" role="search">
+                            <label class="visually-hidden" for="search-input">Search criteria</label>
+                            <div class="input-group">
+                                <input id="search-input" type="text" class="search-input form-control" placeholder="Search site" title="Search site" name="query" />
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fa-solid fa-search" aria-hidden="true" title="Search site"></i>
+                                    <span class="fa-sr-only">Search site</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <nav id="main-nav">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item nav-item-active">
+                    <a href="https://www.bridgend.gov.uk/residents/" class="nav-link px-2">Residents</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.bridgend.gov.uk/business/" class="nav-link px-2">Business</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.bridgend.gov.uk/council/" class="nav-link px-2">Council</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main id="main-content">
+        <nav class="container mt-4" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a aria-label="Link(External): Bridgend resident page." href="http://www.bridgend.gov.uk/residents/">Residents</a></li>
+                <li class="breadcrumb-item"><a href="http://www.bridgend.gov.uk/residents/planning-and-building-control/">Planning and building control</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Planning Register</li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="row mt-4 mb-md-3">
+                <div class="col">
+                    <h1>Planning Register</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col">
+
+<script>
+	var rootURL = "/";
+</script>
+
+<a class="sr-only sr-only-focusable skipLink" 
+   href="#myTopnav">
+		Skip to the tab headings
+</a>
+
+<div>
+	<h1>Planning Application Details for : P/26/548/FUL</h1>
+	<p>
+		<a aria-label="Link(Internal): Back To List" class="hyperlink" href="/Search/Results">Back To List</a>  &mdash;
+		<a aria-label="Link(Internal): New Search" class="hyperlink" href="/Search/Planning/Advanced">New Search</a>
+
+		<br />
+		<h2>
+					<a href="mailto:planning@bridgend.gov.uk?subject=Comment for planning application P/26/548/FUL&amp;body=Case Officer: Case Officer%0D%0AYour Name: %0D%0AYour Address: %0D%0ASpeak at Committee (Yes or No): %0D%0ADo you support / object / comment only: %0D%0AComments: ">Comment on this planning application</a>
+		</h2>
+	</p>
+
+	<hr />
+	<div class="form-group">
+
+		<div class=" tab-header topnav scrollToHeader" id="myTopnav" role="tablist">
+			<a data-toggle="tab" tabindex="-1" role="tab"
+			   aria-label="Tab heading: Main details"
+			   class="tab btn-primary round" href="#details" id="details">Details</a>
+			<a data-toggle="tab" tabindex="0" role="tab"
+			   aria-label="Tab heading: Other details"
+			   class="tab" href="#otherdetails" id="otherdetails">Other Details</a>
+			<a data-toggle="tab" tabindex="0" role="tab"
+			   aria-label="Tab heading: Decision"
+			   class="tab" href="#decision" id="decision">Decision</a>
+			<a data-toggle="tab" tabindex="0" role="tab"
+			   aria-label="Tab heading: Consultees"
+			   class="tab" href="#consultees" id="consultees">Consultees</a>
+			<a data-toggle="tab" tabindex="0" role="tab"
+			   aria-label="Tab heading: Documents"
+			   class="tab" href="#documents" id="documents">Documents</a>
+			<a data-toggle="tab" tabindex="0" role="tab"
+			   aria-label="Tab heading: Public notices"
+			   class="tab" href="#publicnotices" id="publicnotices">Public Notices</a>
+			<a style="font-size:15px;" class="icon">&#9776;</a>
+		</div>
+
+		<div class="tab-content">
+			<div class="tabContent tab-pane fade in active" id="details">
+				
+<dl class="BaseDisplayDataList">
+	<dt>Application Location</dt>
+	<dd>7 Caerau Road
+Caerau
+Maesteg
+CF34 0PB</dd>
+
+	<dt>Easting</dt>
+	<dd>285570</dd>
+
+	<dt>Northing</dt>
+	<dd>194297</dd>
+
+	<dt>Proposal</dt>
+	<dd class="overflowText">Change of use of rear ground floor from commercial to a self contained one bedroom residential flat, retaining the existing shop at the front.</dd>
+
+	<dt>Community Council</dt>
+	<dd>Maesteg Town Council</dd>
+
+	<dt>Application Type</dt>
+	<dd>Full Planning Application</dd>
+	
+	<dt>Status</dt>
+	<dd>Under consideration</dd>
+
+
+
+</dl>
+			</div>
+			<div class="tabContent fade in tab-pane" id="otherdetails">
+				
+
+<dl class="BaseDisplayDataList">
+	<dt>Received</dt>
+	<dd>02/10/2026</dd>
+
+	<dt>Validated</dt>
+	<dd>29/10/2026</dd>
+
+	<dt>Expires</dt>
+	<dd>24/12/2026</dd>
+
+
+
+
+	<dt>Decision Type</dt>
+	<dd>-</dd>
+
+	<dt>Committee Date</dt>
+	<dd>-</dd>
+
+	<dt>Building Control Application</dt>
+	<dd></dd>
+
+	<dt><label for="EnvironmentalStatement">Environmental Statement                </label></dt>
+	<dd><input data-val="true" data-val-required="The environment_statement field is required." disabled="True" id="EnvironmentalStatement" name="Application.environment_statement" type="checkbox" value="true" /><input name="Application.environment_statement" type="hidden" value="false" /></dd>
+
+	<dt><label for="departureFlag">Departure   </label></dt>
+	<dd><input data-val="true" data-val-required="The departure_flag field is required." disabled="True" id="departureFlag" name="Application.departure_flag" type="checkbox" value="true" /><input name="Application.departure_flag" type="hidden" value="false" /></dd>
+</dl>
+			</div>
+			<div class="tabContent fade in" id="decision">
+				
+<dl class="BaseDisplayDataList">
+	<dt>Decision</dt>
+	<dd>-</dd>
+
+	<dt>Decision Date</dt>
+	<dd>-</dd>
+</dl>
+			</div>
+</div></div></body></html>

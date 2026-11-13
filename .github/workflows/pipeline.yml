@@ -1,0 +1,76 @@
+# Keeps the database up to date. Runs every morning; can also be started by
+# hand from the Actions tab to run one job with arguments (for example a
+# backfill: job "backfill", args "--council cardiff --from 2022-05-01").
+name: Data pipeline
+
+on:
+  schedule:
+    - cron: "15 5 * * *" # 05:15 UTC: the daily run
+    - cron: "45 */6 * * *" # every six hours: one more council's meeting history
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "Job or sequence to run (daily, meetings, meeting-details, summaries, ...). See `pnpm pipeline list`."
+        required: true
+        default: daily
+      args:
+        description: "Extra arguments, e.g. --council cardiff --from 2022-05-01 --to 2026-10-31"
+        required: false
+        default: ""
+      lane:
+        description: "Optional. Runs in their own lane go alongside the main queue instead of waiting (and don't replace a waiting run there)."
+        required: false
+        default: ""
+
+# Reference-data jobs (places, council-data) can run alongside the meetings
+# pipeline; everything else waits its turn.
+concurrency:
+  group: pipeline-${{ github.event.inputs.lane && format('lane-{0}', github.event.inputs.lane) || github.event.schedule == '45 */6 * * *' && 'history' || github.event.schedule == '20 2 * * *' && 'planning' || contains(fromJSON('["places","council-data","planning","probe","statswales-probe","performance","history"]'), github.event.inputs.job) && github.event.inputs.job || 'main' }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    # GitHub's runners until the repository variable RUNNER is "hetzner"; then the self-hosted runner on the owner's
+    # Hetzner server (set up with Edau's docs/self-hosted-runner.md). CI on pull requests stays on GitHub's runners.
+    runs-on: ${{ vars.RUNNER == 'hetzner' && fromJSON('["self-hosted","hetzner"]') || 'ubuntu-latest' }}
+    timeout-minutes: 340
+    env:
+      DATABASE_URL_DIRECT: ${{ secrets.DATABASE_URL_DIRECT }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL_DIRECT }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
+      EMAIL_TOKEN_SECRET: ${{ secrets.EMAIL_TOKEN_SECRET }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      ADMIN_EMAIL: ${{ vars.ADMIN_EMAIL }}
+      ALERTS_FROM: ${{ vars.ALERTS_FROM }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      # The self-hosted runner has Poppler already and no password-free sudo.
+      - run: command -v pdftotext >/dev/null || (sudo apt-get update -q && sudo apt-get install -y -q poppler-utils)
+      - run: pnpm install --frozen-lockfile
+      - name: Apply database migrations
+        run: pnpm db:migrate
+      - name: Install Chromium for browser jobs
+        if: contains(github.event.inputs.job, 'browser')
+        run: pnpm exec playwright install ${{ runner.environment != 'self-hosted' && '--with-deps' || '' }} chromium
+      - name: Run pipeline
+        env:
+          JOB: ${{ github.event.schedule == '45 */6 * * *' && 'history-runs' || github.event.schedule == '20 2 * * *' && 'planning-alerts' || github.event.inputs.job || 'daily' }}
+          ARGS: ${{ github.event.inputs.args }}
+          # The daily planning run spends what three runs a day used to.
+          PLANNING_BUDGET: ${{ github.event.schedule == '20 2 * * *' && '90' || '' }}
+        run: |
+          case "$JOB" in *[!a-z0-9,-]*) echo "Invalid job name"; exit 1;; esac
+          # Several jobs may be given, separated by commas; each gets the same arguments.
+          # ARGS is split into words on purpose (e.g. --from 2022-05-01 --to 2026-10-31).
+          status=0
+          for step in $(echo "$JOB" | tr ',' ' '); do
+            pnpm pipeline "$step" $ARGS || status=1
+          done
+          exit $status

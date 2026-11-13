@@ -1,0 +1,71 @@
+/** Strings for the data pictures: the council chamber and the map of who runs each council. */
+import { defineMessages } from "../server";
+
+export const graphicsMessages = defineMessages({
+  en: {
+    chamber: {
+      title: "Who sits on the council",
+      summary: "{name} has {total} seats: {list}.",
+      thumb: "{name}: {list}",
+      seats: "{label} {n}",
+      vacant: "No councillor listed",
+      vacantOne: "One seat has no councillor on the council's list, because it is empty or the list is out of date.",
+      vacantMany: "{n} seats have no councillor on the council's list, because they are empty or the list is out of date.",
+      source: "From the council's own list of councillors. Local groups keep the council's own name for them.",
+    },
+    control: {
+      title: "Who runs each council",
+      lede: "Each council in the colour of the party or group that runs it. A solid colour means a majority of seats; stripes mean it runs the council without one.",
+      mapLabel: "Map of Wales's 22 councils, coloured by who runs each one. The same information follows as a list.",
+      majority: "Majority of seats",
+      minority: "Runs it without a majority",
+      disputed: "Sources differ",
+      count: "{party}: {n}",
+      councilsOne: "1 council",
+      councilsMany: "{n} councils",
+      withMajority: "With a majority: {list}.",
+      withoutMajority: "Without a majority: {list}.",
+      disputedLine: "{council}: sources differ on whether {party} has a majority.",
+      source: "As at {date}, from the Welsh Local Government Association, council websites and other public sources. [Who runs each council, and the sources](e)",
+    },
+    figures: {
+      meetings: "meetings",
+      decisions: "decisions explained",
+      councillors: "councillors",
+      councils: "councils",
+    },
+  },
+  cy: {
+    chamber: {
+      title: "Pwy sy'n eistedd ar y cyngor",
+      summary: "Mae gan {name} {total} o seddi: {list}.",
+      thumb: "{name}: {list}",
+      seats: "{label} {n}",
+      vacant: "Dim cynghorydd wedi'i restru",
+      vacantOne: "Does dim cynghorydd ar restr y cyngor ar gyfer un sedd, am ei bod yn wag neu fod y rhestr heb ei diweddaru.",
+      vacantMany: "Does dim cynghorydd ar restr y cyngor ar gyfer {n} o seddi, am eu bod yn wag neu fod y rhestr heb ei diweddaru.",
+      source: "O restr cynghorwyr y cyngor ei hun. Mae grwpiau lleol yn cadw'r enw sydd gan y cyngor arnyn nhw.",
+    },
+    control: {
+      title: "Pwy sy'n rhedeg pob cyngor",
+      lede: "Pob cyngor yn lliw'r blaid neu'r grŵp sy'n ei redeg. Mae lliw llawn yn golygu mwyafrif o'r seddi; mae streipiau'n golygu ei fod yn rhedeg y cyngor heb fwyafrif.",
+      mapLabel: "Map o 22 cyngor Cymru, wedi'u lliwio yn ôl pwy sy'n rhedeg pob un. Mae'r un wybodaeth yn dilyn fel rhestr.",
+      majority: "Mwyafrif o'r seddi",
+      minority: "Yn ei redeg heb fwyafrif",
+      disputed: "Mae'r ffynonellau'n wahanol",
+      count: "{party}: {n}",
+      councilsOne: "1 cyngor",
+      councilsMany: "{n} cyngor",
+      withMajority: "Gyda mwyafrif: {list}.",
+      withoutMajority: "Heb fwyafrif: {list}.",
+      disputedLine: "{council}: mae'r ffynonellau'n wahanol ynghylch a oes gan {party} fwyafrif.",
+      source: "Fel yr oedd ar {date}, gan Gymdeithas Llywodraeth Leol Cymru, gwefannau'r cynghorau a ffynonellau cyhoeddus eraill. [Pwy sy'n rhedeg pob cyngor, a'r ffynonellau](e)",
+    },
+    figures: {
+      meetings: "cyfarfod",
+      decisions: "penderfyniad wedi'u hesbonio",
+      councillors: "cynghorydd",
+      councils: "cyngor",
+    },
+  },
+});

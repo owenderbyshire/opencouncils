@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+      <head>
+		<script src="/Scripts/jquery-3.3.1.js"></script>
+
+		 <script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="/Scripts/expressive.annotations.validate.js"></script>
+<script src="/Scripts/validation/LimitFileSize.js"></script>
+<script src="/Scripts/validation/LimitFileType.js"></script>
+
+		<script src="/Scripts/def/jquery-ui/jquery-ui.js"></script>
+<script src="/Scripts/def/common/addRemoveCommentDocuments.js"></script>
+<script src="/Scripts/def/common/canComment.js"></script>
+<script src="/Scripts/def/common/characterCount.js"></script>
+<script src="/Scripts/def/common/CILCalculator.js"></script>
+<script src="/Scripts/def/common/clearForm.js"></script>
+<script src="/Scripts/def/common/collapsableDocumentGrid.js"></script>
+<script src="/Scripts/def/common/cookie-alert.js"></script>
+<script src="/Scripts/def/common/CustomAttributeValidation.js"></script>
+<script src="/Scripts/def/common/datepicker-day.js"></script>
+<script src="/Scripts/def/common/datepicker.js"></script>
+<script src="/Scripts/def/common/datePickerDialog.js"></script>
+<script src="/Scripts/def/common/datePickerDialogCalendarButton.js"></script>
+<script src="/Scripts/def/common/downloadSelectedDocuments.js"></script>
+<script src="/Scripts/def/common/exportResultsToCSV.js"></script>
+<script src="/Scripts/def/common/expressive.annotations.customValidation.js"></script>
+<script src="/Scripts/def/common/gazetteerSearch.js"></script>
+<script src="/Scripts/def/common/gazetteerStreetSearch.js"></script>
+<script src="/Scripts/def/common/js.cookie.js"></script>
+<script src="/Scripts/def/common/pageChange.js"></script>
+<script src="/Scripts/def/common/responsiveTabs.js"></script>
+<script src="/Scripts/def/common/resultsPerPage.js"></script>
+<script src="/Scripts/def/common/RetrieveAdviceLevels.js"></script>
+<script src="/Scripts/def/common/sortTable.js"></script>
+<script src="/Scripts/def/common/tabs.js"></script>
+<script src="/Scripts/def/common/toggleCaretUpDown.js"></script>
+<script src="/Scripts/def/common/Utilities.js"></script>
+<script src="/Scripts/Site.js"></script>
+
+	
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Planning Register</title>
+    <meta name="description" content="Planning application portal" />
+    <meta name="keywords" content="planning" />
+    <link rel="stylesheet" href="https://www.bridgend.gov.uk/css/bootstrap-custom.min.css" />
+    <link rel="stylesheet" href="https://www.bridgend.gov.uk//libs/font-awesome/css/all.min.css" />
+</head>
+<body>
+    <a id="skip" class="visually-hidden" href="#main-content">Skip to main content</a>
+    <div id="header-container">
+        <nav id="top-nav">
+            <div class="container d-flex flex-wrap justify-content-end">
+                <ul class="nav">
+                    <li class="nav-item"><a href="https://bridgend-self.achieveservice.com/en" class="nav-link px-2">My Account</a></li>
+                    <li class="nav-item"><a href="http://www.bridgend.gov.uk/cy/" class="nav-link px-2">Cymraeg</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header id="header" class="header">
+            <div class="container py-3">
+                <div class="row">
+                    <div id="header-left" class="col-3 col-lg-7">
+                        <a id="header-logo" href="https://www.bridgend.gov.uk/">
+                            <img width="100" alt="Bridgend CBC" src="https://www.bridgend.gov.uk/images/logo.png" />
+                            <span id="header-logo-cy-text">Cyngor Bwrdeistref Sirol Pen-y-bont ar Ogwr</span>
+                            <span id="header-logo-en-text">Bridgend County Borough Council</span>
+                        </a>
+                    </div>
+                    <div id="header-right" class="col-9 col-lg-5">
+                        <form id="search" action="https://www.bridgend.gov.uk/search/" method="get" role="search">
+                            <label class="visually-hidden" for="search-input">Search criteria</label>
+                            <div class="input-group">
+                                <input id="search-input" type="text" class="search-input form-control" placeholder="Search site" title="Search site" name="query" />
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fa-solid fa-search" aria-hidden="true" title="Search site"></i>
+                                    <span class="fa-sr-only">Search site</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <nav id="main-nav">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item nav-item-active">
+                    <a href="https://www.bridgend.gov.uk/residents/" class="nav-link px-2">Residents</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.bridgend.gov.uk/business/" class="nav-link px-2">Business</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.bridgend.gov.uk/council/" class="nav-link px-2">Council</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main id="main-content">
+        <nav class="container mt-4" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a aria-label="Link(External): Bridgend resident page." href="http://www.bridgend.gov.uk/residents/">Residents</a></li>
+                <li class="breadcrumb-item"><a href="http://www.bridgend.gov.uk/residents/planning-and-building-control/">Planning and building control</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Planning Register</li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="row mt-4 mb-md-3">
+                <div class="col">
+                    <h1>Planning Register</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col">
+
+<script>
+	var rootURL = "/";
+</script><a aria-label="Link(Internal): Return to search." class="hyperlink searchResultsLink" href="/Search/Planning/Advanced">Return to search</a>
+
+<h1>General Hints</h1>
+<p>Results are displayed and sorted by date received. To search within the displayed results page, use “CTRL F” to find a particular word. Please click on the “Application Number” to show more details for the required application.<br /><br /> Any search will provide details regarding the application file reference, its address, application type, details of the proposal, important dates and decision. Further information including the applicants name, agent details, case officer details, a list of consultees, any conditions/reasons for approval or reasons for refusal,and details with regard to appeals can also be obtained.</p>
+
+	<hr />
+<a class="sr-only sr-only-focusable skipLink" 
+   href="#firstApplication">
+		Skip to the first result.
+</a><a class="sr-only sr-only-focusable skipLink" 
+   href="#bottomSkipLink">
+		Skip to the bottom of the table
+</a>	<div class="results-page-pla" data-module="0">
+		
+
+<div class="pager">
+    <div class="pagination">
+        <script>var AjaxPagerContainers = ['results-page-pla'];</script><script src="/Scripts/def/ajaxpager/ajaxpager.js" defer></script>
+<ul class="ajax-pager"><li class="active"><span>1</span></li><li><a aria-label="Page 2." data-ajax-target="/Search/ResultsPage/2?module=PLA" href="">2</a></li></ul>
+    </div>
+</div>
+<hr />
+<label>No of Records per Page</label>
+<select id="resultsPerPage" name="resultsPerPage" class="resultsPerPage"
+		aria-label="Dropdown input: No of Records per Page">
+		<option value="10"  selected>10</option>
+		<option value="25" >25</option>
+		<option value="50" >50</option>
+</select>
+<hr />
+
+<table class="table" summary="Planning results table">
+	<thead>
+		<tr class="tableheadcolour">
+			<th>Application</th>
+			<th>Location and Proposal</th>
+			<th>Applicant</th>
+			<th>Decision</th>
+			<th>Decision Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application P/26/433/LAP" class="hyperlink" href="/Planning/Display/P/26/433/LAP">P/26/433/LAP</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						8 St David&#39;s Road, Cefn Glas, Bridgend, CF31 4LA
+					</span> <br />
+					<span class="overflowText">
+						Use within Use Class C3(b) of Schedule 1, Part C of the Town and Country Planning (Use Classes) Order 1987 (as amended) as a dwellinghouse by not more than 4 residents living together as a single household where care is provided.
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application T/26/7/CON" class="hyperlink" href="/Planning/Display/T/26/7/CON">T/26/7/CON</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						St Teilo&#39;s Church, Merthyr Mawr Road, Merthyr Mawr, Bridgend
+					</span> <br />
+					<span class="overflowText">
+						Reduce the height of 6 laurel trees and remove overhanging branches
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application T/26/31/TPO" class="hyperlink" href="/Planning/Display/T/26/31/TPO">T/26/31/TPO</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						Tusker House
+Bridgend Road
+Dan-y-graig
+Porthcawl
+CF36 5ST
+					</span> <br />
+					<span class="overflowText">
+						G1 - Sycamore - Remove saplings in areas of dense colonisation; G2 - Sycamore - Selectively thin trees of poor health and form in densely populated areas; G3 - Hazel - Coppice trees in coop 1 to begin coppice rotation.
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application P/26/548/FUL" class="hyperlink" href="/Planning/Display/P/26/548/FUL">P/26/548/FUL</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						7 Caerau Road
+Caerau
+Maesteg
+CF34 0PB
+					</span> <br />
+					<span class="overflowText">
+						Change of use of rear ground floor from commercial to a self contained one bedroom residential flat, retaining the existing shop at the front.
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application P/26/561/FUL" class="hyperlink" href="/Planning/Display/P/26/561/FUL">P/26/561/FUL</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						37 John Street
+Price Town
+Nant-y-moel
+CF32 7SU
+					</span> <br />
+					<span class="overflowText">
+						Convert the lower ground floor to studio flat with garden and retain the ground floor and upper floors as a dwelling house.
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application P/26/570/FUL" class="hyperlink" href="/Planning/Display/P/26/570/FUL">P/26/570/FUL</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						Land south of Newbridge Farm
+off Bowham Avenue
+Bridgend
+CF31 3PA
+					</span> <br />
+					<span class="overflowText">
+						Three shipping containers, a new compacted hardcore gravel path surrounding the pitch and linking to the existing car park, spectator barriers, new fence and a new hardstand area at the eastern end of the rugby pitch.
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application T/26/35/TPO" class="hyperlink" href="/Planning/Display/T/26/35/TPO">T/26/35/TPO</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						34 Gregory Close, Pencoed, Bridgend, CF35 6RF
+					</span> <br />
+					<span class="overflowText">
+						50% reduction in height of crown to ash tree (T1) located at the front of the property.
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application P/26/579/NMA" class="hyperlink" href="/Planning/Display/P/26/579/NMA">P/26/579/NMA</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						Hillsborough Place South Car Park, Dock Street, Porthcawl, CF36 3BW
+					</span> <br />
+					<span class="overflowText">
+						Non material amendment to P/25/619/BCB to alter conditions 8, 9, 10, 11 and 12 to extend the timescales for the submission of detailed from 3 months to 12 months
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application P/26/584/FUL" class="hyperlink" href="/Planning/Display/P/26/584/FUL">P/26/584/FUL</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						St Teilo&#39;s Church
+Merthyr Mawr Road
+Merthyr Mawr
+Bridgend
+CF32 0LS
+					</span> <br />
+					<span class="overflowText">
+						Erection of a freestanding toilet and storage building within the churchyard of St Teilo’s Church, with associated access, drainage and landscaping works.
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a aria-label="Link(Internal): View planning application P/26/580/FUL" class="hyperlink" href="/Planning/Display/P/26/580/FUL">P/26/580/FUL</a>
+				</td>
+				<td style="max-width: 150px;">
+					<span class="overflowText">
+						14 Bowham Avenue, Bridgend, CF31 3PD
+					</span> <br />
+					<span class="overflowText">
+						Single storey extension to be built to replace a previous outbuilding (garage)
+					</span>
+				</td>
+				<td>Applicant</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+	</tbody>
+</table>
+
+<div class="pager">
+    <div class="pagination">
+        <script>AjaxPagerContainers.push('results-page-pla');</script><ul class="ajax-pager"><li class="active"><span>1</span></li><li><a aria-label="Page 2." data-ajax-target="/Search/ResultsPage/2?module=PLA" href="">2</a></li></ul>
+    </div>
+</div>
+	</div>
+<a class="sr-only sr-only-focusable skipLink" id="bottomSkipLink" 
+   href="#main-content">
+		Back to top
+</a></div>
+            </div>
+        </div>
+    </main>
+    <section id="atoz">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h2 class="h5">A to Z Search</h2>
+                </div>
+                <div class="col-md-10">
+                    <ul class="atoz-navigation">
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=A" title="A" aria-label="Main A to Z - A">A</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=B" title="B" aria-label="Main A to Z - B">B</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=C" title="C" aria-label="Main A to Z - C">C</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=D" title="D" aria-label="Main A to Z - D">D</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=E" title="E" aria-label="Main A to Z - E">E</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=F" title="F" aria-label="Main A to Z - F">F</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=G" title="G" aria-label="Main A to Z - G">G</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=H" title="H" aria-label="Main A to Z - H">H</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=I" title="I" aria-label="Main A to Z - I">I</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=J" title="J" aria-label="Main A to Z - J">J</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=K" title="K" aria-label="Main A to Z - K">K</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=L" title="L" aria-label="Main A to Z - L">L</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=M" title="M" aria-label="Main A to Z - M">M</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=N" title="N" aria-label="Main A to Z - N">N</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=O" title="O" aria-label="Main A to Z - O">O</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=P" title="P" aria-label="Main A to Z - P">P</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=Q" title="Q" aria-label="Main A to Z - Q">Q</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=R" title="R" aria-label="Main A to Z - R">R</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=S" title="S" aria-label="Main A to Z - S">S</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=T" title="T" aria-label="Main A to Z - T">T</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=U" title="U" aria-label="Main A to Z - U">U</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=V" title="V" aria-label="Main A to Z - V">V</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=W" title="W" aria-label="Main A to Z - W">W</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=X" title="X" aria-label="Main A to Z - X">X</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=Y" title="Y" aria-label="Main A to Z - Y">Y</a></li>
+                        <li><a href="https://www.bridgend.gov.uk/a-to-z-search-results/?l=Z" title="Z" aria-label="Main A to Z - Z">Z</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer mt-3 mb-5">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-12 col-md-7">
+                    <ul class="footer-links">
+                        <li class="footer-links-item"><a href="https://www.bridgend.gov.uk/accessibility/">Accessibility</a></li>
+                        <li class="footer-links-item"><a href="https://www.bridgend.gov.uk/cookie-policy/">Cookie policy</a></li>
+                        <li class="footer-links-item"><a href="https://www.bridgend.gov.uk/privacy-statement/">Privacy statement</a></li>
+                        <li class="footer-links-item"><a href="https://www.bridgend.gov.uk/council/customer-services/contact-us/">Contact us</a></li>
+                        <li class="footer-links-item"><a href="https://www.bridgend.gov.uk/terms-and-conditions/">Terms and conditions</a></li>
+                        <li class="footer-links-item"><a href="https://www.bridgend.gov.uk/sitemap/">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-5 footer-right">
+                    <img src="https://www.bridgend.gov.uk/images/disability-confident-leader-en.png" alt="Disability Confident Leader logo" width="200" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <ul class="footer-social">
+                        <li class="footer-social-item">
+                            <a aria-label="Link(External): Bridgend facebook page." target="_blank" href="https://www.facebook.com/BridgendCBC" title="Facebook" rel="noopener noreferrer">
+                                <span class="fa-stack" aria-hidden="true">
+                                    <span class="fa-solid fa-circle fa-stack-2x"></span>
+                                    <span class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></span>
+                                </span>
+                                <span class="visually-hidden">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a aria-label="Link(External): Bridgend youtube link." target="_blank" href="https://www.youtube.com/channel/UC2INePrUjAQs1r6N6FgviJg" title="YouTube" rel="noopener noreferrer">
+                                <span class="fa-stack" aria-hidden="true">
+                                    <span class="fa-solid fa-circle fa-stack-2x"></span>
+                                    <span class="fa-brands fa-youtube fa-stack-1x fa-inverse"></span>
+                                </span>
+                                <span class="visually-hidden">YouTube</span>
+                            </a>
+                        </li>
+
+                        <li class="footer-social-item">
+                            <a aria-label="Link(External): Bridgend instagram page." target="_blank" href="https://www.instagram.com/bridgendcbc/" title="Instagram" rel="noopener noreferrer">
+                                <span class="fa-stack" aria-hidden="true">
+                                    <span class="fa-solid fa-circle fa-stack-2x"></span>
+                                    <span class="fa-brands fa-instagram fa-stack-1x fa-inverse"></span>
+                                </span>
+                                <span class="visually-hidden">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a target="_blank" href="https://twitter.com/bridgendcbc" title="Twitter" rel="noopener noreferrer">
+                                <span class="fa-stack" aria-hidden="true">
+                                    <span class="fa-solid fa-circle fa-stack-2x"></span>
+                                    <span class="fa-brands fa-x-twitter fa-stack-1x fa-inverse"></span>
+                                </span>
+                                <span class="visually-hidden">Twitter</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-5">
+                    <p class="footer-copyright">&copy; 2025 Copyright Bridgend CBC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a id="back-to-top" href="#" class="btn btn-tertiary" role="button">
+        <i class="fas fa-chevron-up"></i> <span class="visually-hidden">Back to top</span>
+    </a>
+
+    <script src="https://www.bridgend.gov.uk/libs/jquery/jquery.min.js"></script>
+    <script src="https://www.bridgend.gov.uk/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.bridgend.gov.uk/scripts/main.js"></script>
+
+
+			<link href="/Content/def/jquery-ui/jquery-ui.css" rel="stylesheet"/>
+<link href="/Content/def/jquery-ui/jquery-ui.structure.css" rel="stylesheet"/>
+<link href="/Content/def/jquery-ui/jquery-ui.theme.css" rel="stylesheet"/>
+<link href="/Content/bootstrap.css" rel="stylesheet"/>
+<link href="/Content/site.css" rel="stylesheet"/>
+<link href="/Content/def/common/cookie-alert.css" rel="stylesheet"/>
+<link href="/Content/def/common/datePicker.css" rel="stylesheet"/>
+<link href="/Content/def/common/responsiveTabs.css" rel="stylesheet"/>
+<link href="/Content/def/common/tabs.css" rel="stylesheet"/>
+<link href="/Content/def/common/toggleCaretUpDown.css" rel="stylesheet"/>
+
+			</body>
+		
+
+			</html>
+			<script>
+			$(".rating--group span label").on('click keypress', function (e) {
+			if (e.type !== 'keypress' || e.which === 13) {
+			$(this).siblings("input[type=radio]").click();
+			$("div.collapse").css("display", "block");
+			$(".label-experience-message").text("Please let us know why you have had a  " + $(this).prop("title"));
+			}
+			})
+			</script>
+		
+

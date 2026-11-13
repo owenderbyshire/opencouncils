@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<committees>
+  <committeescount> 210</committeescount>
+  <committee>
+    <committeeid>578</committeeid>
+    <committeetitle>Agriculture and Rural Development Committee  - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>609</committeeid>
+    <committeetitle>Audit Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>593</committeeid>
+    <committeetitle>Audit Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>664</committeeid>
+    <committeetitle>Audit Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>563</committeeid>
+    <committeetitle>Broadcasting Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>592</committeeid>
+    <committeetitle>Broadcasting Sub-committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>909</committeeid>
+    <committeetitle>Business Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Business Committee</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>425</committeeid>
+    <committeetitle>Business Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Business Committee</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>615</committeeid>
+    <committeetitle>Business Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Business Committee</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>144</committeeid>
+    <committeetitle>Business Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Business Committee</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>594</committeeid>
+    <committeetitle>Business Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Business Committee</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>699</committeeid>
+    <committeetitle>Business Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Business Committee</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>586</committeeid>
+    <committeetitle>Business Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Business Committee</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>993</committeeid>
+    <committeetitle>Chairs' Forum</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Chairs' Forum</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>462</committeeid>
+    <committeetitle>Chairs' Forum - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Chairs' Forum</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>397</committeeid>
+    <committeetitle>Chairs' Forum - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Chairs' Forum</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>799</committeeid>
+    <committeetitle>Chairs' Forum - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Chairs' Forum</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>585</committeeid>
+    <committeetitle>Children and Young People Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>565</committeeid>
+    <committeetitle>Children's Commissioner Appointment Advisory Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>443</committeeid>
+    <committeetitle>Children, Young People and Education Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>224</committeeid>
+    <committeetitle>Children, Young People and Education Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>736</committeeid>
+    <committeetitle>Children, Young People, and Education Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>494</committeeid>
+    <committeetitle>Climate Change Expert Reference Group - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>444</committeeid>
+    <committeetitle>Climate Change, Environment and Rural Affairs Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>741</committeeid>
+    <committeetitle>Climate Change, Environment, and Infrastructure Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>978</committeeid>
+    <committeetitle>Climate Change, Environment, Sustainability and Rural Affairs Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>450</committeeid>
+    <committeetitle>Committee for the Scrutiny of the First Minister - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>302</committeeid>
+    <committeetitle>Committee for the Scrutiny of the First Minister - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>607</committeeid>
+    <committeetitle>Committee for the Scrutiny of the First Minister - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>805</committeeid>
+    <committeetitle>Committee for the Scrutiny of the First Minister - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>575</committeeid>
+    <committeetitle>Committee for the Scrutiny of the First Minister - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>328</committeeid>
+    <committeetitle>Committee of the Whole Assembly - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Inactive Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>569</committeeid>
+    <committeetitle>Committee of the Whole Assembly - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>512</committeeid>
+    <committeetitle>Committee of the Whole Senedd - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>698</committeeid>
+    <committeetitle>Committee of the Whole Senedd - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Plenary</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>633</committeeid>
+    <committeetitle>Committee on Better Governance for Wales White Paper - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>637</committeeid>
+    <committeetitle>Committee on Rail Infrastructure and Improved Passenger Services - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>634</committeeid>
+    <committeetitle>Committee on School Funding - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>542</committeeid>
+    <committeetitle>Committee on Senedd Electoral Reform - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>605</committeeid>
+    <committeetitle>Committee on Smoking in Public Places - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>638</committeeid>
+    <committeetitle>Committee on Standing Orders - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>636</committeeid>
+    <committeetitle>Committee on the Government of Wales Bill - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>635</committeeid>
+    <committeetitle>Committee on the Inquiry into the E.coli outbreak in Wales - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>387</committeeid>
+    <committeetitle>Committee on the protection of children from battery inflicted on grounds of reasonable punishment - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Inactive Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>399</committeeid>
+    <committeetitle>Committees Visiting Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>268</committeeid>
+    <committeetitle>Common Agricultural Policy Task and Finish Group - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committee sub-groups</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>269</committeeid>
+    <committeetitle>Common Fisheries Policy Task and Finish Group - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committee sub-groups</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>590</committeeid>
+    <committeetitle>Communities and Culture Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>226</committeeid>
+    <committeetitle>Communities, Equality and Local Government Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>979</committeeid>
+    <committeetitle>Constitution, Justice and External Affairs Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>632</committeeid>
+    <committeetitle>Constitutional Affairs Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>219</committeeid>
+    <committeetitle>Constitutional and Legislative Affairs Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>900</committeeid>
+    <committeetitle>Cost of living and poverty - WYP3</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Welsh Youth Parliament</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>902</committeeid>
+    <committeetitle>Crime and safety - WYP3</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Welsh Youth Parliament</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>579</committeeid>
+    <committeetitle>Culture Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>980</committeeid>
+    <committeetitle>Culture, Communications, Cymraeg and Sport Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>742</committeeid>
+    <committeetitle>Culture, Communications, Welsh Language, Sport, and International Relations Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>445</committeeid>
+    <committeetitle>Culture, Welsh Language and Communications Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>564</committeeid>
+    <committeetitle>Culture, Welsh Language and Sport Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>981</committeeid>
+    <committeetitle>Early Years, Children, Young People and Education Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>600</committeeid>
+    <committeetitle>Economic Development and Transport - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>580</committeeid>
+    <committeetitle>Economic Development Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>982</committeeid>
+    <committeetitle>Economy, Energy and Connectivity Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>446</committeeid>
+    <committeetitle>Economy, Infrastructure and Skills Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>738</committeeid>
+    <committeetitle>Economy, Trade, and Rural Affairs Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>582</committeeid>
+    <committeetitle>Education &amp; Lifelong Learning Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>602</committeeid>
+    <committeetitle>Education and Lifelong Learning - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>856</committeeid>
+    <committeetitle>Education and the School Curriculum - WYP2</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Welsh Youth Parliament</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>566</committeeid>
+    <committeetitle>Education, Lifelong Learning and Skills - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>228</committeeid>
+    <committeetitle>Enterprise and Business Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>587</committeeid>
+    <committeetitle>Enterprise and Learning Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>567</committeeid>
+    <committeetitle>Enterprise, Innovation and Networks - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>225</committeeid>
+    <committeetitle>Environment and Sustainability Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>568</committeeid>
+    <committeetitle>Environment, Planning and Countryside - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>622</committeeid>
+    <committeetitle>Environment, Planning and Transport Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>740</committeeid>
+    <committeetitle>Equality and Social Justice Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>611</committeeid>
+    <committeetitle>Equality of Opportunity Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>595</committeeid>
+    <committeetitle>Equality of Opportunity Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>584</committeeid>
+    <committeetitle>Equality of Opportunity Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>983</committeeid>
+    <committeetitle>Equality, Human Rights and Social Justice Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>447</committeeid>
+    <committeetitle>Equality, Local Government and Communities Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>612</committeeid>
+    <committeetitle>European and External Affairs Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>596</committeeid>
+    <committeetitle>European and External Affairs Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>583</committeeid>
+    <committeetitle>European and External Affairs Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>449</committeeid>
+    <committeetitle>External Affairs and Additional Legislation Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>984</committeeid>
+    <committeetitle>Finance Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>440</committeeid>
+    <committeetitle>Finance Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>229</committeeid>
+    <committeetitle>Finance Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>734</committeeid>
+    <committeetitle>Finance Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>581</committeeid>
+    <committeetitle>Finance Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>891</committeeid>
+    <committeetitle>Future Senedd Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Inactive Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>985</committeeid>
+    <committeetitle>Health and Social Care Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>227</committeeid>
+    <committeetitle>Health and Social Care Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>737</committeeid>
+    <committeetitle>Health and Social Care Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>570</committeeid>
+    <committeetitle>Health and Social Services - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>623</committeeid>
+    <committeetitle>Health and Social Services Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>448</committeeid>
+    <committeetitle>Health, Social Care and Sport Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>588</committeeid>
+    <committeetitle>Health, Wellbeing and Local Government Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>676</committeeid>
+    <committeetitle>Healthy Eating in Schools (Wales) Measure 2009 - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>616</committeeid>
+    <committeetitle>House Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>679</committeeid>
+    <committeetitle>House Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>386</committeeid>
+    <committeetitle>Independent Advisers</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>986</committeeid>
+    <committeetitle>Legislation Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>613</committeeid>
+    <committeetitle>Legislation Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>597</committeeid>
+    <committeetitle>Legislation Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>688</committeeid>
+    <committeetitle>Legislation Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>618</committeeid>
+    <committeetitle>Legislation Committee No. 1 - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>624</committeeid>
+    <committeetitle>Legislation Committee No. 2 - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>629</committeeid>
+    <committeetitle>Legislation Committee No. 3 - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>630</committeeid>
+    <committeetitle>Legislation Committee No. 4 - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>631</committeeid>
+    <committeetitle>Legislation Committee No. 5 - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>434</committeeid>
+    <committeetitle>Legislation, Justice and Constitution Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>725</committeeid>
+    <committeetitle>Legislation, Justice and Constitution Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>991</committeeid>
+    <committeetitle>Llywydd's Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>775</committeeid>
+    <committeetitle>Llywydd's Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>555</committeeid>
+    <committeetitle>Llywydd’s Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>625</committeeid>
+    <committeetitle>Local Government and Environment Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>626</committeeid>
+    <committeetitle>Local Government and Housing Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>739</committeeid>
+    <committeetitle>Local Government and Housing Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>571</committeeid>
+    <committeetitle>Local Government and Public Services - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>987</committeeid>
+    <committeetitle>Local Government, Housing and Planning Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>381</committeeid>
+    <committeetitle>Management Board</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Senedd Commission</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>906</committeeid>
+    <committeetitle>Member Accountability Bill Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>604</committeeid>
+    <committeetitle>Mid and West Wales Regional Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>617</committeeid>
+    <committeetitle>Mid Wales Regional Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>644</committeeid>
+    <committeetitle>Mid Wales Regional Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>689</committeeid>
+    <committeetitle>National Assembly for Wales Commission Audit and Risk Assurance Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>619</committeeid>
+    <committeetitle>North Wales Regional Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>606</committeeid>
+    <committeetitle>North Wales Regional Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>510</committeeid>
+    <committeetitle>Official Opening of the Fifth National Assembly for Wales</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Ceremonial Occasion</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>1066</committeeid>
+    <committeetitle>Official Opening of the Seventh Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Ceremonial Occasion</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>800</committeeid>
+    <committeetitle>Official Opening of the Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Ceremonial Occasion</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>853</committeeid>
+    <committeetitle>Our Mental Health and Wellbeing - WYP2</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Welsh Youth Parliament</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>574</committeeid>
+    <committeetitle>Panel of Chairs - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>988</committeeid>
+    <committeetitle>Petitions Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>430</committeeid>
+    <committeetitle>Petitions Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>218</committeeid>
+    <committeetitle>Petitions Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>744</committeeid>
+    <committeetitle>Petitions Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>577</committeeid>
+    <committeetitle>Petitions Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>610</committeeid>
+    <committeetitle>Planning Decision Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>599</committeeid>
+    <committeetitle>Planning Decision Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>908</committeeid>
+    <committeetitle>Plenary</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Plenary</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>401</committeeid>
+    <committeetitle>Plenary - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Plenary</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>703</committeeid>
+    <committeetitle>Plenary - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Plenary</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>153</committeeid>
+    <committeetitle>Plenary - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Plenary</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>702</committeeid>
+    <committeetitle>Plenary - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Plenary</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>700</committeeid>
+    <committeetitle>Plenary - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Plenary</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>701</committeeid>
+    <committeetitle>Plenary - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Plenary</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>627</committeeid>
+    <committeetitle>Post 16 Education and Training Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>628</committeeid>
+    <committeetitle>Pre 16 Education, Schools and Early Learning Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>273</committeeid>
+    <committeetitle>Procurement Task and Finish Group - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>649</committeeid>
+    <committeetitle>Proposed Additional Learning Needs LCO Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>657</committeeid>
+    <committeetitle>Proposed Affordable Housing LCO Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>662</committeeid>
+    <committeetitle>Proposed Domestic Fire Safety LCO Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>652</committeeid>
+    <committeetitle>Proposed Domiciliary Care LCO Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>660</committeeid>
+    <committeetitle>Proposed Environmental Protection and Waste Management LCO Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>659</committeeid>
+    <committeetitle>Proposed Healthy Eating in Schools Measure Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>654</committeeid>
+    <committeetitle>Proposed Learner Travel Measure Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>656</committeeid>
+    <committeetitle>Proposed Learning and Skills Measure Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>658</committeeid>
+    <committeetitle>Proposed Local Government Measure Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>651</committeeid>
+    <committeetitle>Proposed NHS Redress (Wales) Measure Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>690</committeeid>
+    <committeetitle>Proposed Provision of Mental Health Services LCO Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>691</committeeid>
+    <committeetitle>Proposed Vulnerable Children LCO Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+  </committee>
+  <committee>
+    <committeeid>653</committeeid>
+    <committeetitle>Proposed Vulnerable Children LCO Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>655</committeeid>
+    <committeetitle>Proposed Welsh Red Meat Industry LCO Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>989</committeeid>
+    <committeetitle>Public Accounts and Public Administration Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>735</committeeid>
+    <committeetitle>Public Accounts and Public Administration Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>441</committeeid>
+    <committeetitle>Public Accounts Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>230</committeeid>
+    <committeetitle>Public Accounts Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>576</committeeid>
+    <committeetitle>Public Accounts Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>276</committeeid>
+    <committeetitle>Public Accounts Committee Task and Finish Group - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committee sub-groups</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>601</committeeid>
+    <committeetitle>Public Audit (Wales) Bill Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>603</committeeid>
+    <committeetitle>Public Audit (Wales) Bill Committee 2004 - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>608</committeeid>
+    <committeetitle>Public Audit Act Commencement Order Committee 2005 - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>901</committeeid>
+    <committeetitle>Public transport and active travel - WYP3</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Welsh Youth Parliament</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>870</committeeid>
+    <committeetitle>Reform Bill Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Inactive Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>375</committeeid>
+    <committeetitle>Remuneration Board (2010 - 2020)</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Senedd Commission</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>558</committeeid>
+    <committeetitle>Remuneration Board (2020 - 2025)</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Senedd Commission</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>903</committeeid>
+    <committeetitle>Remuneration Board (2025 - )</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Senedd Commission</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>591</committeeid>
+    <committeetitle>Rural Development Sub-Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>258</committeeid>
+    <committeetitle>Senedd Commission</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Senedd Commission</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>373</committeeid>
+    <committeetitle>Senedd Commission Audit and Risk Assurance Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Senedd Commission</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>642</committeeid>
+    <committeetitle>Shadow Commission - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>647</committeeid>
+    <committeetitle>SO25: Special Assembly Procedure Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>573</committeeid>
+    <committeetitle>Social Justice and Regeneration - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>620</committeeid>
+    <committeetitle>South East Wales Regional Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>645</committeeid>
+    <committeetitle>South East Wales Regional Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>640</committeeid>
+    <committeetitle>South Wales Central Regional Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>641</committeeid>
+    <committeetitle>South Wales East Regional Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>643</committeeid>
+    <committeetitle>South Wales West Regional Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>621</committeeid>
+    <committeetitle>South West Wales Regional Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>646</committeeid>
+    <committeetitle>South West Wales Regional Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>811</committeeid>
+    <committeetitle>Special Purpose Committee on Senedd Reform - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>990</committeeid>
+    <committeetitle>Standards of Conduct Committee</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>451</committeeid>
+    <committeetitle>Standards of Conduct Committee - Fifth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>614</committeeid>
+    <committeetitle>Standards of Conduct Committee - First Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>231</committeeid>
+    <committeetitle>Standards of Conduct Committee - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>598</committeeid>
+    <committeetitle>Standards of Conduct Committee - Second Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>743</committeeid>
+    <committeetitle>Standards of Conduct Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>693</committeeid>
+    <committeetitle>Standards of Conduct Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>311</committeeid>
+    <committeetitle>Sub Committees on The Smoke-free Premises etc. (Wales) (Amendment) Regulations 2012 - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Inactive Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>506</committeeid>
+    <committeetitle>Sub-Committee on the Regulation of Registered Social Landlords (Wales) Bill</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committee sub-groups</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>589</committeeid>
+    <committeetitle>Sustainability Committee - Third Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>299</committeeid>
+    <committeetitle>Task and Finish Group on Participation in the Arts in Wales - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committee sub-groups</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>275</committeeid>
+    <committeetitle>Task and Finish Group on the future outlook for the media in Wales - Fourth Assembly</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committee sub-groups</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>855</committeeid>
+    <committeetitle>The Climate and the Environment - WYP2</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Welsh Youth Parliament</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>859</committeeid>
+    <committeetitle>The Presentation of a Motion of Condolence to His Majesty The King</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Ceremonial Occasion</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>865</committeeid>
+    <committeetitle>Wales COVID-19 Inquiry Special Purpose Committee - Sixth Senedd</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Committees</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>823</committeeid>
+    <committeetitle>Welsh Youth Parliament 2 - Plenary</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>True</committeeexpired>
+    <committeecategory>Welsh Youth Parliament</committeecategory>
+  </committee>
+  <committee>
+    <committeeid>896</committeeid>
+    <committeetitle>Welsh Youth Parliament 3 - Plenary</committeetitle>
+    <committeedeleted>False</committeedeleted>
+    <committeeexpired>False</committeeexpired>
+    <committeecategory>Welsh Youth Parliament</committeecategory>
+  </committee>
+</committees>

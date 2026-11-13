@@ -1,0 +1,3 @@
+# Disallow all webbot searching 
+User-agent: *
+Disallow: /

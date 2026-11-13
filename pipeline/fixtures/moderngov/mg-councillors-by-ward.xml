@@ -1,0 +1,3760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<councillorsbyward>
+  <wards>
+    <ward>
+      <wardtitle>Afan Ogwr Rhondda</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>8696</councillorid>
+          <fullusername>Steve Bayliss MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/9/6/Info00008696/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/9/6/Info00008696/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7097</phone>
+            <email>Steve.Bayliss-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>4491</councillorid>
+          <fullusername>Alun Cox MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/9/4/Info00004491/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/9/4/Info00004491/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7574</phone>
+            <email>Alun.Cox-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>330</councillorid>
+          <fullusername>Sera Evans MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/3/3/Info00000330/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/3/3/Info00000330/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/sera.plaid">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/sera_plaid">
+            </Spare3>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/sera_plaid/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7374</phone>
+            <email>Sera.Evans-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12142</councillorid>
+          <fullusername>Benjamin Hodge Mckenna MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/4/1/Info00012142/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/4/1/Info00012142/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6479</phone>
+            <email>Benjamin.HodgeMckenna-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5053</councillorid>
+          <fullusername>Huw Irranca-Davies MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/5/0/Info00005053/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/5/0/Info00005053/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour and Co-operative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Llywydd</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.huwirranca-davies.wales">
+            </Spare1>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7328</phone>
+            <email>Huw.Irranca-Davies-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Unit 2</line1>
+            <line2>112-113 Commercial Street</line2>
+            <line3>Maesteg</line3>
+            <postcode>CF34 9DL</postcode>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12164</councillorid>
+          <fullusername>Elyn Stephens MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/6/1/Info00012164/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/6/1/Info00012164/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/profile.php?id=61587291416488">
+            </Spare2>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/elyn.stephens.ms_as/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7362</phone>
+            <email>Elyn.Stephens-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Bangor Conwy Môn</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>2717</councillorid>
+          <fullusername>Rhun ap Iorwerth MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/1/7/Info00002717/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/1/7/Info00002717/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>First Minister of Wales</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="www.rhunapiorwerth.cymru">
+            </Spare1>
+            <Spare2 label="Facebook" value="http://www.facebook.com/rhunynysmon">
+            </Spare2>
+            <Spare3 label="Twitter" value="http://twitter.com/RhunapIorwerth">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <email>Rhun.apIorwerth-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+            <line1>1B Church Street</line1>
+            <line2>Llangefni</line2>
+            <line3>Ynys M&amp;#244;n</line3>
+            <postcode>LL77 7DU</postcode>
+            <phone>01248 723 599</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>02/08/2013</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12169</councillorid>
+          <fullusername>John Clark MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/9/6/1/Info00012169/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/9/6/1/Info00012169/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6225</phone>
+            <email>John.Clark-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>212</councillorid>
+          <fullusername>Janet Finch-Saunders MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/1/2/Info00000212/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/1/2/Info00000212/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Conservative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Conservative Party Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.JanetFinchSaunders.org.uk">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/JFinchSaunders">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/JanetFSMS">
+            </Spare3>
+            <Spare4 label="Blog" value="https://www.linkedin.com/in/janet-finch-saunders-ms-41280558/">
+            </Spare4>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7247</phone>
+            <email>Janet.Finch-Saunders-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>29 Madog Street</line1>
+            <line2>Llandudno</line2>
+            <line3>Conwy</line3>
+            <postcode>LL30 2TL</postcode>
+            <phone>01492 871 198</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12153</councillorid>
+          <fullusername>Helen Jenner MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/5/1/Info00012153/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/5/1/Info00012153/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 110 0010</phone>
+            <email>Helen.Jenner-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5084</councillorid>
+          <fullusername>Mair Rowlands MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/8/0/Info00005084/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/8/0/Info00005084/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/profile.php?id=61574579363690">
+            </Spare2>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/mair_rowlands_plaid/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7327</phone>
+            <email>Mair.Rowlands-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12165</councillorid>
+          <fullusername>Elfed Williams MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/6/1/Info00012165/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/6/1/Info00012165/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7561</phone>
+            <email>Elfed.Williams-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Blaenau Gwent Caerffili Rhymni</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12154</councillorid>
+          <fullusername>Catherine Cullen MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/5/1/Info00012154/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/5/1/Info00012154/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/people/Catherine-Cullen-MS/61569736022830/">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/CatCullenMS">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7314</phone>
+            <email>Catherine.Cullen-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5207</councillorid>
+          <fullusername>Delyth Jewell MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/0/2/Info00005207/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/0/2/Info00005207/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Deputy Minister for Social Care, Mental Health and Women’s Health</keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7138</phone>
+            <email>Delyth.Jewell-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+            <line1>27 Commercial Street</line1>
+            <line2>Nelson</line2>
+            <line3>Treharris</line3>
+            <postcode>CF46 6NF</postcode>
+            <phone>0300 200 7138</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/02/2019</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12144</councillorid>
+          <fullusername>Joshua Kim MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/4/1/Info00012144/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/4/1/Info00012144/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7334</phone>
+            <email>Joshua.Kim-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>11971</councillorid>
+          <fullusername>Llŷr Powell MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/7/9/Info00011971/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/7/9/Info00011971/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7296</phone>
+            <email>Llyr.Powell-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12143</councillorid>
+          <fullusername>Niamh Salkeld MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/4/1/Info00012143/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/4/1/Info00012143/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7351</phone>
+            <email>Niamh.Salkeld-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>518</councillorid>
+          <fullusername>Lindsay Whittle MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/8/1/5/Info00000518/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/8/1/5/Info00000518/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7502</phone>
+            <email>Lindsay.Whittle-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>24/10/2025</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Brycheiniog Tawe Nedd</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>4983</councillorid>
+          <fullusername>Jane Dodds MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/8/9/Info00004983/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/8/9/Info00004983/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Liberal Democrats</politicalpartytitle>
+          <politicalgrouptitle>Not affiliated to a Political Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.janedodds.wales/">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/JaneDoddsWLD">
+            </Spare2>
+            <Spare3 label="Twitter" value="http://www.twitter.com/DoddsJane">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7231</phone>
+            <email>Jane.Dodds-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>8585</councillorid>
+          <fullusername>James Evans MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/8/5/Info00008585/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/8/5/Info00008585/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.james-evans.wales/">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://facebook.com/JamesEvansMS">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://twitter.com/JamesEvansMS">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <email>James.Evans-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>2 Penycamlais</line1>
+            <line2>Rich Way</line2>
+            <line3>Brecon</line3>
+            <postcode>LD3 7EH</postcode>
+            <phone>01874 793 142</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12170</councillorid>
+          <fullusername>Iain McIntosh MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/7/1/Info00012170/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/7/1/Info00012170/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/IainMcIntoshMS">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/IainCMcIntosh">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6571</phone>
+            <email>Iain.McIntosh-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12171</councillorid>
+          <fullusername>David Mills MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/7/1/Info00012171/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/7/1/Info00012171/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6497</phone>
+            <email>David.Mills-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12172</councillorid>
+          <fullusername>Rebeca Phillips MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/7/1/Info00012172/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/7/1/Info00012172/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7358</phone>
+            <email>Rebeca.Phillips-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>8670</councillorid>
+          <fullusername>Sioned Williams MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/7/6/Info00008670/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/7/6/Info00008670/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Deputy First Minister and Cabinet Minister for Social Justice and Equality</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.sionedwilliams.wales">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/SionedWilliamsPlaidCymru">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://twitter.com/Sioned_W">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <email>Sioned.Williams-MS@Senedd.Wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>34 Alfred street</line1>
+            <line2>Neath</line2>
+            <postcode>SA11 1EH</postcode>
+            <phone>01639 203 204</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Caerdydd Ffynnon Taf</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12141</councillorid>
+          <fullusername>Zaynub Akbar MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/4/1/Info00012141/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/4/1/Info00012141/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare4 label="Blog" value="https://www.instagram.com/pccaerdyddffynnontaf/">
+            </Spare4>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7442</phone>
+            <email>Zaynub.Akbar-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12173</councillorid>
+          <fullusername>Nick Carter MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/7/1/Info00012173/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/7/1/Info00012173/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare4 label="Blog" value="https://www.instagram.com/pccaerdyddffynnontaf/">
+            </Spare4>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7541</phone>
+            <email>Nick.Carter-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12174</councillorid>
+          <fullusername>Cai Parry-Jones MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/7/1/Info00012174/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/7/1/Info00012174/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/people/Cai-Parry-Jones-MS/61582026762035/">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/Cai_ParryJones">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7407</phone>
+            <email>Cai.Parry-Jones-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12176</councillorid>
+          <fullusername>Paul Rock MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/7/1/Info00012176/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/7/1/Info00012176/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Green Party</politicalpartytitle>
+          <politicalgrouptitle>Not affiliated to a Political Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/PaulRockCardiff">
+            </Spare2>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7226</phone>
+            <email>Paul.Rock-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12175</councillorid>
+          <fullusername>Shav Taj MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/7/1/Info00012175/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/7/1/Info00012175/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6518</phone>
+            <email>Shav.Taj-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12140</councillorid>
+          <fullusername>Dafydd Trystan Davies MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/4/1/Info00012140/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/4/1/Info00012140/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Cabinet Minister for Government Effectiveness and the Constitution</keyposts>
+          <additionalcontactinfo>
+            <Spare4 label="Blog" value="https://www.instagram.com/pccaerdyddffynnontaf/">
+            </Spare4>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7209</phone>
+            <email>Dafydd.TrystanDavies-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Caerdydd Penarth</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12145</councillorid>
+          <fullusername>Anna Brychan MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/4/1/Info00012145/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/4/1/Info00012145/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Cabinet Minister for Education and the Welsh Language</keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7402</phone>
+            <email>Anna.Brychan-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12155</councillorid>
+          <fullusername>Leticia Gonzalez MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/5/1/Info00012155/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/5/1/Info00012155/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7398</phone>
+            <email>Leticia.Gonzalez-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12166</councillorid>
+          <fullusername>Kiera Marshall MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/6/1/Info00012166/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/6/1/Info00012166/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare3 label="Twitter" value="https://x.com/Kiera__Marshall">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7322</phone>
+            <email>Kiera.Marshall-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12146</councillorid>
+          <fullusername>Joe Martin MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/4/1/Info00012146/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/4/1/Info00012146/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7380</phone>
+            <email>Joe.Martin-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5025</councillorid>
+          <fullusername>Anthony Slaughter MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/2/0/Info00005025/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/2/0/Info00005025/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Green Party</politicalpartytitle>
+          <politicalgrouptitle>Not affiliated to a Political Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7251</phone>
+            <email>Anthony.Slaughter-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12156</councillorid>
+          <fullusername>Huw Thomas MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/5/1/Info00012156/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/5/1/Info00012156/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/HuwthomasMS/">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/HuwThomasMS">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6490</phone>
+            <email>Huw.Thomas-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Casnewydd Islwyn</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>4967</councillorid>
+          <fullusername>Lyn Ackerman MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/6/9/Info00004967/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/6/9/Info00004967/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7422</phone>
+            <email>Lyn.Ackerman-AS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>336</councillorid>
+          <fullusername>Natasha Asghar MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/3/3/Info00000336/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/3/3/Info00000336/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Conservative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Conservative Party Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.natashaasghar.wales">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://facebook.com/NatashaAsgharMS">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/natasghar">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7235</phone>
+            <email>Natasha.Asghar-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Rathbone House</line1>
+            <line2>1 Serpentine Road</line2>
+            <line3>Newport</line3>
+            <postcode>NP20 4PF</postcode>
+            <phone>01633 215 138</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5038</councillorid>
+          <fullusername>Jayne Bryant MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/8/3/0/Info00005038/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/8/3/0/Info00005038/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/jbryantnewport">
+            </Spare2>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/jbryantwales/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7104</phone>
+            <email>Jayne.Bryant-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Newport Market</line1>
+            <line2>Riverside House</line2>
+            <line3>Upper Dock Street</line3>
+            <postcode>NP20 1DB</postcode>
+            <phone>01633 376 627</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>8579</councillorid>
+          <fullusername>Peredur Owen Griffiths MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/9/7/5/Info00008579/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/9/7/5/Info00008579/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Commissioner</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.partyof.wales/senedd#PeredurOwenGriffiths">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/POwenGriffiths">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://twitter.com/PeredurPlaidAS">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7204</phone>
+            <email>Peredur.OwenGriffiths-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12147</councillorid>
+          <fullusername>Dan Thomas MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/4/1/Info00012147/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/4/1/Info00012147/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7349</phone>
+            <email>Dan.Thomas-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12157</councillorid>
+          <fullusername>Art Wright MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/5/1/Info00012157/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/5/1/Info00012157/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/profile.php?id=61592112403753&amp;mibextid=wwXIfr&amp;rdid=uK1Ruq8qG7IDZluK&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CUQhtowuX%2F%3Fmibextid%3DwwXIfr#">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/ArtWrightMS">
+            </Spare3>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/art.wrightms/#">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7364</phone>
+            <email>Art.Wright-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Ceredigion Penfro</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12179</councillorid>
+          <fullusername>Claire Archibald MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/9/7/1/Info00012179/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/9/7/1/Info00012179/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/profile.php?id=61589674079830">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/ReformClaire">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7183</phone>
+            <email>Claire.Archibald-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>145</councillorid>
+          <fullusername>Paul Davies MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/4/1/Info00000145/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/4/1/Info00000145/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Conservative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Conservative Party Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.paul-davies.org.uk">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/PaulDaviesMS">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/PaulDaviesPembs">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7216</phone>
+            <email>Paul.Davies-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>20 Upper Market Street</line1>
+            <line2>Haverfordwest</line2>
+            <line3>Pembrokeshire</line3>
+            <postcode>SA61 1QA</postcode>
+            <phone>01437 766 425</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>04/05/2007</startdate>
+              <enddate>31/03/2011</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12177</councillorid>
+          <fullusername>Kerry Ferguson MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/7/1/Info00012177/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/7/1/Info00012177/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Deputy Presiding Officer</keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/KerryEFerguson/">
+            </Spare2>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/kerryeferguson/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7414</phone>
+            <email>Kerry.Ferguson-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+            <line1>32 Heol y Wig</line1>
+            <line2>Aberystwyth</line2>
+            <line3>Ceredigion</line3>
+            <postcode>SY23 2LN</postcode>
+            <phone>01970 624516</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>162</councillorid>
+          <fullusername>Rt. Hon. Elin Jones MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/6/1/Info00000162/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/6/1/Info00000162/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Cabinet Minister for Finance</keyposts>
+          <additionalcontactinfo>
+            <Spare4 label="Blog" value="https://www.ceredigionpenfro.cymru/">
+            </Spare4>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <email>Elin.Jones-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Ty Goronwy</line1>
+            <line2>32 Heol y Wig</line2>
+            <line3>Aberystwyth</line3>
+            <postcode>SY23 2LN</postcode>
+            <phone>01970 624 516</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>07/05/1999</startdate>
+              <enddate>30/04/2003</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>02/05/2003</startdate>
+              <enddate>02/05/2007</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>04/05/2007</startdate>
+              <enddate>31/03/2011</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12180</councillorid>
+          <fullusername>Paul Marr MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/8/1/Info00012180/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/8/1/Info00012180/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7342</phone>
+            <email>Paul.Marr-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12178</councillorid>
+          <fullusername>Anna Nicholl MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/8/7/1/Info00012178/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/8/7/1/Info00012178/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7439</phone>
+            <email>Anna.Nicholl-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Ty Goronwy</line1>
+            <line2>32 Heol y Wig</line2>
+            <line3>Aberystwyth</line3>
+            <postcode>SY23 2LN</postcode>
+            <phone>01970 624 516</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Clwyd</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12182</councillorid>
+          <fullusername>Louise Emery MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/8/1/Info00012182/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/8/1/Info00012182/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6273</phone>
+            <email>Louise.Emery-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>425</councillorid>
+          <fullusername>Llyr Gruffydd MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/2/4/Info00000425/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/2/4/Info00000425/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Cabinet Minister for Rural Resilience and Sustainability</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.llyrgruffydd.cymru/">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/LlyrGruffydd/">
+            </Spare2>
+            <Spare3 label="Twitter" value="http://twitter.com/LlyrGruffydd">
+            </Spare3>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/llyr_gruffydd/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <email>Llyr.Gruffydd-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Birch House Business Centre</line1>
+            <line2>Hen Lon Parcwr</line2>
+            <line3>Ruthin</line3>
+            <line4>Denbighsire</line4>
+            <postcode>LL15 1NA</postcode>
+            <phone>01824 703 593</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12184</councillorid>
+          <fullusername>Becca Martin MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/8/1/Info00012184/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/8/1/Info00012184/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/profile.php?id=61589463405591">
+            </Spare2>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7558</phone>
+            <email>Becca.Martin-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12181</councillorid>
+          <fullusername>Adrian Mason MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/8/1/Info00012181/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/8/1/Info00012181/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6277</phone>
+            <email>Adrian.Mason-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>171</councillorid>
+          <fullusername>Darren Millar MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/7/1/Info00000171/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/7/1/Info00000171/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Conservative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Conservative Party Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="http://www.darrenmillar.wales">
+            </Spare1>
+            <Spare2 label="Facebook" value="http://www.facebook.com/DarrenMillarMS">
+            </Spare2>
+            <Spare3 label="Twitter" value="http://www.twitter.com/DarrenMillarMS">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7214</phone>
+            <email>Darren.Millar-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>North Wales Business Park</line1>
+            <line2>Abergele</line2>
+            <postcode>LL22 8LJ</postcode>
+            <phone>0300 200 6206</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>04/05/2007</startdate>
+              <enddate>31/03/2011</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12183</councillorid>
+          <fullusername>Tom Montgomery MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/8/1/Info00012183/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/8/1/Info00012183/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/profile.php?id=100064871679590">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/TMontgomeryMS">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6303</phone>
+            <email>Tom.Montgomery-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Fflint Wrecsam</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12185</councillorid>
+          <fullusername>Cristiana Emsley MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/5/8/1/Info00012185/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/5/8/1/Info00012185/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6353</phone>
+            <email>Cristiana.Emsley-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>278</councillorid>
+          <fullusername>Carrie Harper MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/8/7/2/Info00000278/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/8/7/2/Info00000278/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7545</phone>
+            <email>Carrie.Harper-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>350</councillorid>
+          <fullusername>Marc Jones MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/5/3/Info00000350/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/5/3/Info00000350/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/marcplaid">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/marcvjones">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7465</phone>
+            <email>Marc.Jones-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>8734</councillorid>
+          <fullusername>Sam Rowlands MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/3/7/Info00008734/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/3/7/Info00008734/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Conservative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Conservative Party Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.samrowlands.org.uk">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/SamRowlandsMS">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/SamRowlands_">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7267</phone>
+            <email>Sam.Rowlands-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Office 122, Glendale House</line1>
+            <line2>Glendale Avenue</line2>
+            <line3>Sandycroft Industrial Estate</line3>
+            <line4>Sandycroft</line4>
+            <postcode>CH5 2QP</postcode>
+            <phone>0300 200 7267</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>267</councillorid>
+          <fullusername>Ken Skates MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/6/2/Info00000267/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/6/2/Info00000267/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/KenSkatesMS/">
+            </Spare2>
+            <Spare3 label="Twitter" value="http://www.twitter.com/KenSkatesMS">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7114</phone>
+            <email>Ken.Skates-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Office of Ken Skates MS</line1>
+            <line2>Croesnewydd Hall</line2>
+            <line3>Wrexham Technology Park</line3>
+            <line4>Wrexham</line4>
+            <postcode>LL13 7YP</postcode>
+            <phone>01978 869 058</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5113</councillorid>
+          <fullusername>Nigel Williams MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/1/1/Info00005113/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/1/1/Info00005113/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare3 label="Twitter" value="https://x.com/NigelWReform">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6364</phone>
+            <email>Nigel.Williams-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Gwynedd Maldwyn</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>269</councillorid>
+          <fullusername>Mabon ap Gwynfor MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/9/6/2/Info00000269/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/9/6/2/Info00000269/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Cabinet Minister for Health and Care</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://mabonapgwynfor.com">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/mabonplaidcymru">
+            </Spare2>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7175</phone>
+            <email>Mabon.ap.Gwynfor-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12186</councillorid>
+          <fullusername>Beca Brown MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/8/1/Info00012186/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/8/1/Info00012186/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7452</phone>
+            <email>Beca.Brown-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12187</councillorid>
+          <fullusername>Andrew Griffin MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/8/1/Info00012187/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/8/1/Info00012187/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/AndrewGriffinMS">
+            </Spare2>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7571</phone>
+            <email>Andrew.Griffin-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>4981</councillorid>
+          <fullusername>Siân Gwenllian MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/8/9/Info00004981/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/8/9/Info00004981/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Cabinet Minister for Local Government, Housing and Planning</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.siangwenllian.cymru/">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/SianGwenllianASMS">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://twitter.com/siangwenfelin">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7378</phone>
+            <email>Sian.Gwenllian-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+            <line1>8 Castle Street</line1>
+            <line2>Caernarfon</line2>
+            <postcode>LL55 1SE</postcode>
+            <phone>01286 672 076</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12188</councillorid>
+          <fullusername>Claire Johnson-Wood MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/8/8/1/Info00012188/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/8/8/1/Info00012188/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6376</phone>
+            <email>Claire.Johnson-Wood-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>8371</councillorid>
+          <fullusername>Elwyn Vaughan MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/7/3/Info00008371/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/7/3/Info00008371/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7448</phone>
+            <email>Elwyn.Vaughan-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Gŵyr Abertawe</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>4650</councillorid>
+          <fullusername>John Davies MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/5/6/Info00004650/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/5/6/Info00004650/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7419</phone>
+            <email>John.Davies-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12189</councillorid>
+          <fullusername>Safa Elhassan MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/9/8/1/Info00012189/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/9/8/1/Info00012189/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7394</phone>
+            <email>Safa.Elhassan-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>332</councillorid>
+          <fullusername>Mike Hedges MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/3/3/Info00000332/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/3/3/Info00000332/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour and Co-operative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="http://www.mikehedges.org.uk">
+            </Spare1>
+            <Spare3 label="Twitter" value="http://www.twitter.com/MikeHedgesAM">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7140</phone>
+            <email>Mike.Hedges-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>97 Pleasant Street</line1>
+            <line2>Morriston</line2>
+            <line3>Swansea</line3>
+            <postcode>SA6 6HJ</postcode>
+            <phone>01792 790 621</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12190</councillorid>
+          <fullusername>Francesca O'Brien MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/9/1/Info00012190/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/9/1/Info00012190/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6463</phone>
+            <email>Francesca.OBrien-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12191</councillorid>
+          <fullusername>Steven Rodaway MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/9/1/Info00012191/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/9/1/Info00012191/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7092</phone>
+            <email>Steven.Rodaway-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5083</councillorid>
+          <fullusername>Gwyn Williams MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/8/0/Info00005083/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/8/0/Info00005083/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7395</phone>
+            <email>Gwyn.Williams-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Pen-y-bont Bro Morgannwg</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12167</councillorid>
+          <fullusername>Sarah Cooper-Lesadd MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/6/1/Info00012167/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/6/1/Info00012167/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/SarahCooperLesaddMS/">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/SarahCLesadd">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7430</phone>
+            <email>Sarah.Cooper-Lesadd-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>143</councillorid>
+          <fullusername>Andrew RT Davies MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/4/1/Info00000143/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/4/1/Info00000143/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Conservative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Conservative Party Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Commissioner</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="http://www.AndrewRTDavies.co.uk">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/AndrewRTDavies">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://www.twitter.com/AndrewRTDavies">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7227</phone>
+            <email>AndrewRT.Davies-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>04/05/2007</startdate>
+              <enddate>31/03/2011</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>4822</councillorid>
+          <fullusername>Mark Hooper MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/2/8/Info00004822/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/2/8/Info00004822/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Deputy Minister for Transport</keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7433</phone>
+            <email>Mark.Hooper-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>8594</councillorid>
+          <fullusername>Sarah Murphy MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/9/5/Info00008594/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/9/5/Info00008594/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour and Co-operative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare3 label="Twitter" value="https://twitter.com/sarah4bridgend">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <email>Sarah.Murphy-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <phone>01656 253 009</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5196</councillorid>
+          <fullusername>Sarah Rees MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/9/1/Info00005196/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/9/1/Info00005196/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7405</phone>
+            <email>Sarah.Rees-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12148</councillorid>
+          <fullusername>Gareth Thomas MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/8/4/1/Info00012148/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/8/4/1/Info00012148/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7436</phone>
+            <email>Gareth.Thomas-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Pontypridd Cynon Merthyr</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12150</councillorid>
+          <fullusername>Sara Crowley MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/5/1/Info00012150/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/5/1/Info00012150/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7330</phone>
+            <email>Sara.Crowley-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>426</councillorid>
+          <fullusername>Heledd Fychan MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/6/2/4/Info00000426/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/6/2/4/Info00000426/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Trefnydd, Chief Whip and Cabinet Minister for Culture and Sport</keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/HeleddFychanPlaidCymru">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://twitter.com/heledd_plaid">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <email>Heledd.Fychan-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+            <line1>2 High Street</line1>
+            <line2>Pontypridd</line2>
+            <line3>Rhondda Cynon Taf</line3>
+            <postcode>CF37 1QJ</postcode>
+            <phone>01443 853 214</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5107</councillorid>
+          <fullusername>Vikki Howells MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/0/1/Info00005107/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/0/1/Info00005107/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Commissioner</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="http://www.vikkihowells.com">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/VikkiHowells4PCM">
+            </Spare2>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/vikkihowells4pcm/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7163</phone>
+            <email>Vikki.Howells-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>27 High Street</line1>
+            <line2>Aberdare</line2>
+            <postcode>CF44 7AA</postcode>
+            <phone>01685 881 388</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12159</councillorid>
+          <fullusername>David Hughes MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/9/5/1/Info00012159/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/9/5/1/Info00012159/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6380</phone>
+            <email>David.Hughes-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12149</councillorid>
+          <fullusername>Lis McLean MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/9/4/1/Info00012149/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/9/4/1/Info00012149/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/profile.php?id=100080099814823">
+            </Spare2>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7343</phone>
+            <email>Lis.McLean-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12158</councillorid>
+          <fullusername>Jason O'Connell MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/8/5/1/Info00012158/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/8/5/1/Info00012158/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/PCMReform">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/jason_oco">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 6394</phone>
+            <email>Jason.OConnell-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Sir Fynwy Torfaen</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>12168</councillorid>
+          <fullusername>Donna Cushing MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/8/6/1/Info00012168/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/8/6/1/Info00012168/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7339</phone>
+            <email>Donna.Cushing-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>4787</councillorid>
+          <fullusername>Peter Fox MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/7/8/7/Info00004787/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/7/8/7/Info00004787/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Conservative Party</politicalpartytitle>
+          <politicalgrouptitle>Welsh Conservative Party Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.peterfox.uk">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/PeterFoxMS/">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/PeterFoxOBE">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7211</phone>
+            <email>Peter.Fox-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>Unit 5</line1>
+            <line2>Llanover Business Centre</line2>
+            <line3>Llanover</line3>
+            <line4>Abergavenny</line4>
+            <postcode>NP7 9HA</postcode>
+            <phone>01291 674 898</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>4562</councillorid>
+          <fullusername>Laura Anne Jones MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/6/5/Info00004562/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/6/5/Info00004562/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Commissioner</keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7239</phone>
+            <email>Laura.Jones-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>02/05/2003</startdate>
+              <enddate>02/05/2007</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/07/2020</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12151</councillorid>
+          <fullusername>Matthew Jones MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/5/1/Info00012151/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/5/1/Info00012151/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/MatthewPlaid">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/MatthewTorfaen">
+            </Spare3>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/matthewplaid/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7292</phone>
+            <email>Matthew.Jones-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>174</councillorid>
+          <fullusername>Lynne Neagle MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/4/7/1/Info00000174/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/4/7/1/Info00000174/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Welsh Labour</politicalpartytitle>
+          <politicalgrouptitle>Welsh Labour Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/lynneneagleMS">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://twitter.com/lynne_neagle">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7168</phone>
+            <email>Lynne.Neagle-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>73 Upper Trosnant Street</line1>
+            <line2>Pontypool</line2>
+            <postcode>NP4 8AU</postcode>
+            <phone>01495 740 022</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>07/05/1999</startdate>
+              <enddate>30/04/2003</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>02/05/2003</startdate>
+              <enddate>02/05/2007</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>04/05/2007</startdate>
+              <enddate>31/03/2011</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2011</startdate>
+              <enddate>05/04/2016</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12160</councillorid>
+          <fullusername>Stephen Senior MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/6/1/Info00012160/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/6/1/Info00012160/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7337</phone>
+            <email>Stephen.Senior-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+    <ward>
+      <wardtitle>Sir Gaerfyrddin</wardtitle>
+      <councillors>
+        <councillorcount> 6</councillorcount>
+        <councillor>
+          <councillorid>8650</councillorid>
+          <fullusername>Gareth Beer MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/5/6/Info00008650/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/5/6/Info00008650/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7201</phone>
+            <email>Gareth.Beer-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>8643</councillorid>
+          <fullusername>Cefin Campbell MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/3/4/6/Info00008643/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/3/4/6/Info00008643/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Deputy Minister for Skills and Tertiary Education</keyposts>
+          <additionalcontactinfo>
+            <Spare1 label="Website (non-Assembly)" value="https://www.cefincampbell.cymru">
+            </Spare1>
+            <Spare2 label="Facebook" value="https://www.facebook.com/cefincampbellplaid/">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://twitter.com/cefincampbell">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7366</phone>
+            <email>Cefin.Campbell-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+            <line1>First Floor</line1>
+            <line2>Agriculture House</line2>
+            <line3>Cambrian Place</line3>
+            <line4>Carmarthen</line4>
+            <postcode>SA31 1QG</postcode>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12152</councillorid>
+          <fullusername>Carmelo Colasanto MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/2/5/1/Info00012152/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/2/5/1/Info00012152/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7232</phone>
+            <email>Carmelo.Colasanto-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>12161</councillorid>
+          <fullusername>Sarah Edwards MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/6/1/Info00012161/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/6/1/Info00012161/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Reform UK</politicalpartytitle>
+          <politicalgrouptitle>Reform UK Wales Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>
+          </keyposts>
+          <additionalcontactinfo>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7384</phone>
+            <email>Sarah.Edwards-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>261</councillorid>
+          <fullusername>Nerys Evans MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/1/6/2/Info00000261/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/1/6/2/Info00000261/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Deputy Minister for Public and Preventative Health</keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="https://www.facebook.com/profile.php?id=61574855319484">
+            </Spare2>
+            <Spare3 label="Twitter" value="https://x.com/NerysEvans">
+            </Spare3>
+            <Spare5 label="Welsh Government First Point of Contact Centre" value="https://www.instagram.com/nerysplaid/">
+            </Spare5>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7413</phone>
+            <email>Nerys.Evans-AS@senedd.cymru</email>
+          </workaddress>
+          <homeaddress>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>04/05/2007</startdate>
+              <enddate>31/03/2011</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+        <councillor>
+          <councillorid>5030</councillorid>
+          <fullusername>Adam Price MS</fullusername>
+          <photosmallurl>https://business.senedd.wales/UserData/0/3/0/Info00005030/smallpic.jpg</photosmallurl>
+          <photobigurl>https://business.senedd.wales/UserData/0/3/0/Info00005030/bigpic.jpg</photobigurl>
+          <politicalpartytitle>Plaid Cymru</politicalpartytitle>
+          <politicalgrouptitle>Plaid Cymru Group</politicalgrouptitle>
+          <districttitle>
+          </districttitle>
+          <representing>
+          </representing>
+          <keyposts>Cabinet Minister for Enterprise, Connectivity and Energy</keyposts>
+          <additionalcontactinfo>
+            <Spare2 label="Facebook" value="http://www.facebook.com/AdamPricePlaid">
+            </Spare2>
+            <Spare3 label="Twitter" value="http://twitter.com/Adamprice">
+            </Spare3>
+          </additionalcontactinfo>
+          <workaddress>
+            <line1>Welsh Parliament</line1>
+            <line2>Cardiff Bay</line2>
+            <line3>Cardiff</line3>
+            <postcode>CF99 1SN</postcode>
+            <phone>0300 200 7177</phone>
+            <email>Adam.Price-MS@senedd.wales</email>
+          </workaddress>
+          <homeaddress>
+            <line1>37 Wind Street</line1>
+            <line2>Ammanford</line2>
+            <postcode>SA18 3DN</postcode>
+            <phone>01269 597 677</phone>
+          </homeaddress>
+          <termsofoffice>
+            <termofoffice>
+              <startdate>06/05/2016</startdate>
+              <enddate>28/04/2021</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2021</startdate>
+              <enddate>07/04/2026</enddate>
+            </termofoffice>
+            <termofoffice>
+              <startdate>08/05/2026</startdate>
+              <enddate>unspecified</enddate>
+            </termofoffice>
+          </termsofoffice>
+        </councillor>
+      </councillors>
+    </ward>
+  </wards>
+</councillorsbyward>

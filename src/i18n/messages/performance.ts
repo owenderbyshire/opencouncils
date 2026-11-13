@@ -1,0 +1,310 @@
+/**
+ * Strings for "How it's doing": official measures of a council's services,
+ * each explained in plain words and compared with Wales.
+ */
+import { defineMessages } from "../server";
+
+export const performanceMessages = defineMessages({
+  en: {
+    tab: "How it's doing",
+    title: "{name}: how it's doing",
+    lede: "Official figures on some of the council's most important services, compared with the rest of Wales. Each says what it measures and where it comes from.",
+    waiting: "These figures appear after the next data update.",
+    themes: {
+      housing: "Homelessness",
+      homes: "New homes",
+      schools: "Schools",
+      children: "Children and young people",
+      "social-care": "Social care",
+      roads: "Roads and transport",
+      planning: "Planning",
+      money: "Money",
+      democracy: "The council itself",
+    },
+    walesAverage: "Wales",
+    otherCouncil: "Another council",
+    rangeLine: "The {n} councils with a figure range from {min} to {max}.",
+    rangeSummary: "{name}: {v}. Wales: {w}. The {n} councils with a figure range from {min} to {max}.",
+    rangeSummaryNoWales: "{name}: {v}. The {n} councils with a figure range from {min} to {max}.",
+    trendSummary: "{name}: {first} in {from}, {last} in {to}.",
+    walesTitle: "Council services across Wales",
+    walesLede: "Official figures on council services for every council in Wales, one measure at a time. Choose a measure to see each council's figure alongside the figure for Wales.",
+    council: "Council",
+    figure: "Figure",
+    periodCol: "Period",
+    periodLine: "Figures for {period}.",
+    pickMeasure: "Choose a measure",
+    carriedShort: "Last year's figure",
+    dashNote: "A dash means there is no published figure for that council.",
+    compareCaution: "Councils differ in size, population and the places they serve, so a difference between two councils doesn't on its own show that one is doing better. Each council's page explains its figures and how they have changed.",
+    figuresTitle: "Figures by theme",
+    figuresLede: "Each figure shows where the council sits among the 22 councils (the others are not named) and the figure for Wales, with its change over time. Sums that grow with a council's size are shown on their own.",
+    allCouncilsLink: "See every council's figures for each measure.",
+    perPeople: "{v} per {per} people",
+    perChildren: "{v} per {per} children",
+    millions: "£{n} million",
+    carriedForward: "The council didn't submit figures for this year, so the Welsh Government used last year's.",
+    better: { higher: "Higher is better.", lower: "Lower is better." },
+    context: "Shown for context. Higher or lower isn't simply better or worse.",
+    change: "{change} on {then}",
+    up: "Up {n}",
+    down: "Down {n}",
+    points: { one: "{n} percentage point", other: "{n} percentage points" },
+    same: "No change",
+    asOf: "{period}",
+    measures: {
+      "homelessness-prevented": {
+        name: "Homelessness prevented",
+        note: "Of households the council helped because they were about to lose their home, the share who kept a home for at least six months.",
+      },
+      "homelessness-relieved": {
+        name: "Homelessness relieved",
+        note: "Of households who were already homeless and whom the council had to help find a home, the share it succeeded for.",
+      },
+      "temporary-accommodation": {
+        name: "People in temporary accommodation",
+        note: "Homeless people the council has placed in temporary accommodation, such as hostels, B&Bs and short-term flats, on the last day of the month, per 10,000 people in the area.",
+      },
+      "council-homes-built": {
+        name: "Council homes built",
+        note: "New homes finished by the council itself during the year. Housing associations build most new social homes, so many councils build none.",
+      },
+      "homes-built": {
+        name: "All new homes built",
+        note: "New homes finished in the area during the year, by builders, housing associations and the council, per 10,000 people.",
+      },
+      "children-looked-after": {
+        name: "Children in care",
+        note: "Children looked after by the council on 31 March, per 10,000 children in the area. It reflects local need as much as the council's work.",
+      },
+      "secondary-attendance": {
+        name: "Secondary school attendance",
+        note: "The share of possible half-day sessions that pupils aged 11 to 15 attended, across the school year.",
+      },
+      "placement-moves": {
+        name: "Children in care who moved home three or more times",
+        note: "Of children in care during the year, the share who had three or more placements. Fewer moves usually means more stable care.",
+      },
+      "child-assessments-on-time": {
+        name: "Children's assessments done on time",
+        note: "Of new assessments of children's care and support needs, the share completed within the legal time limit.",
+      },
+      "adult-assessment-waits": {
+        name: "Adults waiting over three months for a care assessment",
+        note: "Adults who had been waiting more than three months for the council to assess their care needs, per 10,000 people in the area, at the end of the month.",
+      },
+      "home-care-waits": {
+        name: "Adults waiting over three months for home care",
+        note: "Adults who had been waiting more than three months for care at home to start, per 10,000 people in the area, at the end of the month.",
+      },
+      "council-tax-collected": {
+        name: "Council tax collected",
+        note: "Of the council tax due for the year, the share the council collected by the end of it.",
+      },
+      "council-tax-unpaid": {
+        name: "Council tax unpaid at the end of the year",
+        note: "Council tax due for the year that was still unpaid on 31 March. The council keeps chasing it in later years. Shown in pounds, so councils with more homes have bigger figures.",
+      },
+      "council-tax-written-off": {
+        name: "Council tax written off",
+        note: "Council tax the council gave up trying to collect during the year, because it could not be recovered, for this year's bills and earlier years' together. A minus figure means the council reversed more earlier write-offs than it made. Shown in pounds, so councils with more homes have bigger figures.",
+      },
+      "council-tax-arrears": {
+        name: "Council tax still owed from earlier years",
+        note: "Council tax from previous years still owed to the council on 31 March, after amounts it has written off. Shown in pounds, so councils with more homes have bigger figures.",
+      },
+      "business-rates-collected": {
+        name: "Business rates collected",
+        note: "Of the business rates due for the year, the share the council collected by the end of it.",
+      },
+      "road-casualties": {
+        name: "People killed or seriously injured on the roads",
+        note: "People killed or seriously injured in road collisions in the area during the year, per 100,000 people. Recorded by the police. Not compared between areas: police forces in Wales record serious injuries in different ways (Dyfed-Powys changed its method in 2023 and South Wales in 2025), so the figures can't fairly be compared between areas.",
+      },
+      "planning-speed": {
+        name: "Planning applications decided within eight weeks",
+        note: "Of applications with a recorded decision, the share decided within eight weeks of arriving, from the applications OpenCouncil has collected since it began collecting each register. Worked out by OpenCouncil from UK PlanIt's data, so it differs from the official measure, which counts agreed extensions as on time.",
+      },
+      attendance: {
+        name: "Councillors' attendance at meetings",
+        note: "Of the meetings councillors were expected at in the last 12 months, the share they attended, from the council's own records. Sending a substitute counts as an absence.",
+      },
+      "welsh-medium-year-1": {
+        name: "Year 1 pupils taught in Welsh",
+        note: "The share of Year 1 pupils taught Welsh as a first language. Each council has a ten-year plan to raise it.",
+      },
+    } as Record<string, { name: string; note: string }>,
+    planningName: "Planning applications decided within eight weeks",
+    planningNote:
+      "Of the applications, other than large ones, that the council received three to six months ago, the share decided within eight weeks of arriving. Eight weeks is the usual legal time limit, though applicants can agree to more. Worked out by OpenCouncil from applications collected by UK PlanIt, so it differs from the official measure.",
+    planningDetail: "{within} of {received} applications.",
+    attendanceName: "Councillors' attendance at meetings",
+    attendanceNote: "Of the meetings councillors were expected at in the last 12 months, the share they attended, from the council's own records. Sending a substitute counts as an absence.",
+    inspectionsTitle: "Inspections and reports",
+    inspectorsTitle: "Other inspections",
+    inspectionsLede:
+      "Independent bodies inspect councils and publish what they find. The council also publishes a self-assessment every year, saying how well it thinks it is doing.",
+    inspections: {
+      audit: { name: "Audit Wales", note: "Checks the council's accounts and how well it is run." },
+      estyn: { name: "Estyn", note: "Inspects schools and the council's education services." },
+      ciw: { name: "Care Inspectorate Wales", note: "Inspects social services for adults and children." },
+      ombudsman: { name: "Public Services Ombudsman for Wales", note: "Looks into complaints about the council and about councillors' conduct." },
+    },
+    sourcesTitle: "Where these figures come from",
+    sources:
+      "Welsh Government statistics published on StatsWales, unless a measure says otherwise. Figures are the latest published for each council, and the period is shown with each one.",
+    statsWales: "This measure on StatsWales",
+    viaEdau: "(via Edau)",
+  },
+  cy: {
+    tab: "Sut mae'n gwneud",
+    title: "{name}: sut mae'n gwneud",
+    lede: "Ffigurau swyddogol ar rai o wasanaethau pwysicaf y cyngor, o'u cymharu â gweddill Cymru. Mae pob un yn dweud beth mae'n ei fesur ac o ble mae'n dod.",
+    waiting: "Bydd y ffigurau hyn yn ymddangos ar ôl y diweddariad data nesaf.",
+    themes: {
+      housing: "Digartrefedd",
+      homes: "Cartrefi newydd",
+      schools: "Ysgolion",
+      children: "Plant a phobl ifanc",
+      "social-care": "Gofal cymdeithasol",
+      roads: "Ffyrdd a thrafnidiaeth",
+      planning: "Cynllunio",
+      money: "Arian",
+      democracy: "Y cyngor ei hun",
+    },
+    walesAverage: "Cymru",
+    otherCouncil: "Cyngor arall",
+    rangeLine: "Mae ffigurau'r {n} cyngor sydd â ffigur rhwng {min} a {max}.",
+    rangeSummary: "{name}: {v}. Cymru: {w}. Mae ffigurau'r {n} cyngor sydd â ffigur rhwng {min} a {max}.",
+    rangeSummaryNoWales: "{name}: {v}. Mae ffigurau'r {n} cyngor sydd â ffigur rhwng {min} a {max}.",
+    trendSummary: "{name}: {first} yn {from}, {last} yn {to}.",
+    walesTitle: "Gwasanaethau cynghorau ledled Cymru",
+    walesLede: "Ffigurau swyddogol ar wasanaethau cynghorau ar gyfer pob cyngor yng Nghymru, un mesur ar y tro. Dewiswch fesur i weld ffigur pob cyngor ochr yn ochr â'r ffigur ar gyfer Cymru.",
+    council: "Cyngor",
+    figure: "Ffigur",
+    periodCol: "Cyfnod",
+    periodLine: "Ffigurau ar gyfer {period}.",
+    pickMeasure: "Dewiswch fesur",
+    carriedShort: "Ffigur y llynedd",
+    dashNote: "Mae llinell yn golygu nad oes ffigur wedi'i gyhoeddi ar gyfer y cyngor hwnnw.",
+    compareCaution: "Mae cynghorau'n wahanol o ran maint, poblogaeth a'r lleoedd maen nhw'n eu gwasanaethu, felly nid yw gwahaniaeth rhwng dau gyngor ar ei ben ei hun yn dangos bod un yn gwneud yn well. Mae tudalen pob cyngor yn esbonio ei ffigurau a sut maen nhw wedi newid.",
+    figuresTitle: "Ffigurau yn ôl thema",
+    figuresLede: "Mae pob ffigur yn dangos ble mae'r cyngor ymhlith y 22 cyngor (heb enwi'r lleill) a'r ffigur ar gyfer Cymru, gyda'r newid dros amser. Mae symiau sy'n tyfu gyda maint cyngor yn cael eu dangos ar eu pen eu hunain.",
+    allCouncilsLink: "Gweld ffigurau pob cyngor ar gyfer pob mesur.",
+    perPeople: "{v} fesul {per} o bobl",
+    perChildren: "{v} fesul {per} o blant",
+    millions: "£{n} miliwn",
+    carriedForward: "Ni chyflwynodd y cyngor ffigurau ar gyfer y flwyddyn hon, felly defnyddiodd Llywodraeth Cymru ffigurau'r llynedd.",
+    better: { higher: "Gorau po uchaf.", lower: "Gorau po isaf." },
+    context: "Wedi'i ddangos ar gyfer cyd-destun. Nid yw uwch neu is yn golygu gwell neu waeth.",
+    change: "{change} ar {then}",
+    up: "{n} yn uwch",
+    down: "{n} yn is",
+    points: { one: "{n} pwynt canran", other: "{n} pwynt canran" },
+    same: "Dim newid",
+    asOf: "{period}",
+    measures: {
+      "homelessness-prevented": {
+        name: "Atal digartrefedd",
+        note: "O'r aelwydydd y helpodd y cyngor am eu bod ar fin colli eu cartref, y gyfran a gadwodd gartref am o leiaf chwe mis.",
+      },
+      "homelessness-relieved": {
+        name: "Lleddfu digartrefedd",
+        note: "O'r aelwydydd a oedd eisoes yn ddigartref ac yr oedd rhaid i'r cyngor eu helpu i ddod o hyd i gartref, y gyfran y llwyddodd ar eu cyfer.",
+      },
+      "temporary-accommodation": {
+        name: "Pobl mewn llety dros dro",
+        note: "Pobl ddigartref y mae'r cyngor wedi'u rhoi mewn llety dros dro, fel hosteli, llety gwely a brecwast a fflatiau tymor byr, ar ddiwrnod olaf y mis, fesul 10,000 o bobl yn yr ardal.",
+      },
+      "council-homes-built": {
+        name: "Cartrefi cyngor a adeiladwyd",
+        note: "Cartrefi newydd a orffennwyd gan y cyngor ei hun yn ystod y flwyddyn. Cymdeithasau tai sy'n adeiladu'r rhan fwyaf o gartrefi cymdeithasol newydd, felly nid yw llawer o gynghorau'n adeiladu dim.",
+      },
+      "homes-built": {
+        name: "Pob cartref newydd a adeiladwyd",
+        note: "Cartrefi newydd a orffennwyd yn yr ardal yn ystod y flwyddyn, gan adeiladwyr, cymdeithasau tai a'r cyngor, fesul 10,000 o bobl.",
+      },
+      "children-looked-after": {
+        name: "Plant mewn gofal",
+        note: "Plant sy'n derbyn gofal gan y cyngor ar 31 Mawrth, fesul 10,000 o blant yn yr ardal. Mae'n adlewyrchu angen lleol gymaint â gwaith y cyngor.",
+      },
+      "secondary-attendance": {
+        name: "Presenoldeb mewn ysgolion uwchradd",
+        note: "Cyfran y sesiynau hanner diwrnod posibl y daeth disgyblion 11 i 15 oed iddyn nhw, ar draws y flwyddyn ysgol.",
+      },
+      "placement-moves": {
+        name: "Plant mewn gofal a symudodd gartref dair gwaith neu fwy",
+        note: "O'r plant mewn gofal yn ystod y flwyddyn, y gyfran a gafodd dri lleoliad neu fwy. Mae llai o symud fel arfer yn golygu gofal mwy sefydlog.",
+      },
+      "child-assessments-on-time": {
+        name: "Asesiadau plant a wnaed ar amser",
+        note: "O'r asesiadau newydd o anghenion gofal a chymorth plant, y gyfran a gwblhawyd o fewn y terfyn amser cyfreithiol.",
+      },
+      "adult-assessment-waits": {
+        name: "Oedolion yn aros dros dri mis am asesiad gofal",
+        note: "Oedolion a oedd wedi bod yn aros mwy na thri mis i'r cyngor asesu eu hanghenion gofal, fesul 10,000 o bobl yn yr ardal, ar ddiwedd y mis.",
+      },
+      "home-care-waits": {
+        name: "Oedolion yn aros dros dri mis am ofal cartref",
+        note: "Oedolion a oedd wedi bod yn aros mwy na thri mis i ofal yn y cartref ddechrau, fesul 10,000 o bobl yn yr ardal, ar ddiwedd y mis.",
+      },
+      "council-tax-collected": {
+        name: "Treth gyngor a gasglwyd",
+        note: "O'r dreth gyngor oedd yn ddyledus am y flwyddyn, y gyfran a gasglodd y cyngor erbyn ei diwedd.",
+      },
+      "council-tax-unpaid": {
+        name: "Treth gyngor heb ei thalu ar ddiwedd y flwyddyn",
+        note: "Treth gyngor oedd yn ddyledus am y flwyddyn ac a oedd heb ei thalu ar 31 Mawrth. Mae'r cyngor yn dal i geisio'i chasglu mewn blynyddoedd wedyn. Mewn punnoedd, felly mae gan gynghorau â mwy o gartrefi ffigurau mwy.",
+      },
+      "council-tax-written-off": {
+        name: "Treth gyngor a ddilëwyd",
+        note: "Treth gyngor y rhoddodd y cyngor y gorau i geisio'i chasglu yn ystod y flwyddyn, am nad oedd modd ei hadennill, ar gyfer biliau'r flwyddyn hon a blynyddoedd cynt gyda'i gilydd. Mae ffigur minws yn golygu bod y cyngor wedi gwrthdroi mwy o ddileadau blaenorol nag a wnaeth. Mewn punnoedd, felly mae gan gynghorau â mwy o gartrefi ffigurau mwy.",
+      },
+      "council-tax-arrears": {
+        name: "Treth gyngor sy'n dal yn ddyledus o flynyddoedd cynt",
+        note: "Treth gyngor o flynyddoedd blaenorol a oedd yn dal yn ddyledus i'r cyngor ar 31 Mawrth, ar ôl symiau y mae wedi'u dileu. Mewn punnoedd, felly mae gan gynghorau â mwy o gartrefi ffigurau mwy.",
+      },
+      "business-rates-collected": {
+        name: "Ardrethi busnes a gasglwyd",
+        note: "O'r ardrethi busnes oedd yn ddyledus am y flwyddyn, y gyfran a gasglodd y cyngor erbyn ei diwedd.",
+      },
+      "road-casualties": {
+        name: "Pobl a laddwyd neu a anafwyd yn ddifrifol ar y ffyrdd",
+        note: "Pobl a laddwyd neu a anafwyd yn ddifrifol mewn gwrthdrawiadau ffordd yn yr ardal yn ystod y flwyddyn, fesul 100,000 o bobl. Wedi'i gofnodi gan yr heddlu. Heb ei gymharu rhwng ardaloedd: mae heddluoedd Cymru'n cofnodi anafiadau difrifol mewn ffyrdd gwahanol (newidiodd Dyfed-Powys ei ddull yn 2023 a De Cymru yn 2025), felly ni ellir cymharu'r ffigurau rhwng ardaloedd yn deg.",
+      },
+      "planning-speed": {
+        name: "Ceisiadau cynllunio a benderfynwyd o fewn wyth wythnos",
+        note: "O'r ceisiadau sydd â phenderfyniad wedi'i gofnodi, y gyfran a benderfynwyd o fewn wyth wythnos i'w derbyn, o'r ceisiadau y mae OpenCouncil wedi'u casglu ers dechrau casglu pob cofrestr. Wedi'i gyfrifo gan OpenCouncil o ddata UK PlanIt, felly mae'n wahanol i'r mesur swyddogol, sy'n cyfrif estyniadau y cytunwyd arnyn nhw fel rhai ar amser.",
+      },
+      attendance: {
+        name: "Presenoldeb cynghorwyr mewn cyfarfodydd",
+        note: "O'r cyfarfodydd yr oedd disgwyl i gynghorwyr fod ynddyn nhw yn ystod y 12 mis diwethaf, y gyfran y daethon nhw iddyn nhw, o gofnodion y cyngor ei hun. Mae anfon dirprwy yn cyfrif fel absenoldeb.",
+      },
+      "welsh-medium-year-1": {
+        name: "Disgyblion Blwyddyn 1 a addysgir yn Gymraeg",
+        note: "Cyfran y disgyblion Blwyddyn 1 a addysgir Cymraeg fel iaith gyntaf. Mae gan bob cyngor gynllun deng mlynedd i'w chodi.",
+      },
+    } as Record<string, { name: string; note: string }>,
+    planningName: "Ceisiadau cynllunio a benderfynwyd o fewn wyth wythnos",
+    planningNote:
+      "O'r ceisiadau, ac eithrio rhai mawr, a ddaeth i law'r cyngor dri i chwe mis yn ôl, y gyfran a benderfynwyd o fewn wyth wythnos i'w derbyn. Wyth wythnos yw'r terfyn amser cyfreithiol arferol, er y gall ymgeiswyr gytuno i fwy. Wedi'i gyfrifo gan OpenCouncil o geisiadau a gasglwyd gan UK PlanIt, felly mae'n wahanol i'r mesur swyddogol.",
+    planningDetail: "{within} o {received} o geisiadau.",
+    attendanceName: "Presenoldeb cynghorwyr mewn cyfarfodydd",
+    attendanceNote: "O'r cyfarfodydd yr oedd disgwyl i gynghorwyr fod ynddyn nhw yn ystod y 12 mis diwethaf, y gyfran y daethon nhw iddyn nhw, o gofnodion y cyngor ei hun. Mae anfon dirprwy yn cyfrif fel absenoldeb.",
+    inspectionsTitle: "Arolygiadau ac adroddiadau",
+    inspectorsTitle: "Arolygiadau eraill",
+    inspectionsLede:
+      "Mae cyrff annibynnol yn arolygu cynghorau ac yn cyhoeddi'r hyn maen nhw'n ei ganfod. Mae'r cyngor hefyd yn cyhoeddi hunanasesiad bob blwyddyn, yn dweud pa mor dda y mae'n credu ei fod yn gwneud.",
+    inspections: {
+      audit: { name: "Archwilio Cymru", note: "Yn gwirio cyfrifon y cyngor a pha mor dda y caiff ei redeg." },
+      estyn: { name: "Estyn", note: "Yn arolygu ysgolion a gwasanaethau addysg y cyngor." },
+      ciw: { name: "Arolygiaeth Gofal Cymru", note: "Yn arolygu gwasanaethau cymdeithasol i oedolion a phlant." },
+      ombudsman: { name: "Ombwdsmon Gwasanaethau Cyhoeddus Cymru", note: "Yn ymchwilio i gwynion am y cyngor ac am ymddygiad cynghorwyr." },
+    },
+    sourcesTitle: "O ble mae'r ffigurau hyn yn dod",
+    sources:
+      "Ystadegau Llywodraeth Cymru a gyhoeddir ar StatsCymru, oni bai bod mesur yn dweud fel arall. Y ffigurau yw'r diweddaraf a gyhoeddwyd ar gyfer pob cyngor, a dangosir y cyfnod gyda phob un.",
+    statsWales: "Y mesur hwn ar StatsCymru",
+    viaEdau: "(drwy Edau)",
+  },
+});

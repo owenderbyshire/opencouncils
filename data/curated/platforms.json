@@ -1,0 +1,6 @@
+{
+  "note": "Written by scripts/export-platforms.mjs from the platform census (pnpm pipeline census). 'active' lists councils outside Wales switched on for full pages.",
+  "checked": null,
+  "active": [],
+  "councils": {}
+}

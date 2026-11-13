@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<getmeetings>
+  <meetingscount> 6</meetingscount>
+  <committeescount> 1</committeescount>
+  <committee>
+    <committeeid>908</committeeid>
+    <committeetitle>Plenary</committeetitle>
+    <committeemeetingcount> 6</committeemeetingcount>
+    <committeemeetings>
+      <meeting>
+        <meetingid>16313</meetingid>
+        <meetingdate>06/10/2026</meetingdate>
+        <meetingstatus>Confirmed</meetingstatus>
+        <meetingtime>13.30</meetingtime>
+        <iswebcast>True</iswebcast>
+      </meeting>
+      <meeting>
+        <meetingid>16314</meetingid>
+        <meetingdate>07/10/2026</meetingdate>
+        <meetingstatus>Confirmed</meetingstatus>
+        <meetingtime>13.30</meetingtime>
+        <iswebcast>True</iswebcast>
+      </meeting>
+      <meeting>
+        <meetingid>16315</meetingid>
+        <meetingdate>13/10/2026</meetingdate>
+        <meetingstatus>Confirmed</meetingstatus>
+        <meetingtime>13.30</meetingtime>
+        <iswebcast>True</iswebcast>
+      </meeting>
+      <meeting>
+        <meetingid>16316</meetingid>
+        <meetingdate>14/10/2026</meetingdate>
+        <meetingstatus>Confirmed</meetingstatus>
+        <meetingtime>13.30</meetingtime>
+        <iswebcast>True</iswebcast>
+      </meeting>
+      <meeting>
+        <meetingid>16317</meetingid>
+        <meetingdate>20/10/2026</meetingdate>
+        <meetingstatus>Confirmed</meetingstatus>
+        <meetingtime>13.30</meetingtime>
+        <iswebcast>True</iswebcast>
+      </meeting>
+      <meeting>
+        <meetingid>16318</meetingid>
+        <meetingdate>21/10/2026</meetingdate>
+        <meetingstatus>Confirmed</meetingstatus>
+        <meetingtime>13.30</meetingtime>
+        <iswebcast>True</iswebcast>
+      </meeting>
+    </committeemeetings>
+  </committee>
+</getmeetings>

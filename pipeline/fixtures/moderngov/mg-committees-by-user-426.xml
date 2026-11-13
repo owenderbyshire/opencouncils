@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<committees>
+  <committeescount> 2</committeescount>
+  <committee>
+    <committeeid>909</committeeid>
+    <committeetitle>Business Committee</committeetitle>
+    <committeeexpired>False</committeeexpired>
+    <userrole>Member</userrole>
+    <committeedetailsurl>https://business.senedd.wales/mgCommitteeDetails.aspx?ID=909</committeedetailsurl>
+    <committeemeetingssurl>https://business.senedd.wales/ieListMeetings.aspx?CommitteeId=909</committeemeetingssurl>
+  </committee>
+  <committee>
+    <committeeid>908</committeeid>
+    <committeetitle>Plenary</committeetitle>
+    <committeeexpired>False</committeeexpired>
+    <userrole>Member</userrole>
+    <committeedetailsurl>https://business.senedd.wales/mgCommitteeDetails.aspx?ID=908</committeedetailsurl>
+    <committeemeetingssurl>https://business.senedd.wales/ieListMeetings.aspx?CommitteeId=908</committeemeetingssurl>
+  </committee>
+</committees>

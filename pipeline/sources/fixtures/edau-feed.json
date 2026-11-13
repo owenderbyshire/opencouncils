@@ -1,0 +1,67 @@
+{
+  "temporaryAccommodation": {
+    "feed": "dataset",
+    "id": "35713e0f-e755-4444-ab14-915d8d9432e1",
+    "page": 1,
+    "page_size": 5000,
+    "slice": "labels:[\"total\",\"total number of homeless people temporarily accommodated\"]",
+    "about": {
+      "titleEn": "Homeless people in temporary accommodation by local authority",
+      "titleCy": "Pobl ddigartref mewn llety dros dro yn ôl awdurdod lleol",
+      "designation": "official",
+      "coverageEnd": "2026-07-31",
+      "nextUpdate": "2026-11-19",
+      "archived": false,
+      "replacedBy": null
+    },
+    "rows": [
+      {
+        "measure": "Total number of homeless people temporarily accommodated", "period": "31 July 2026", "periodEnd": "2026-07-31", "place": "W06000015", "dims": { "Accommodation type": "Total" }, "value": 1532, "note": null,
+        "row": { "Area": "Cardiff", "Area_reference": "558", "Period": "31 July 2026", "Period_reference": "20260731", "Period_sort": "1785542399000", "Accommodation type": "Total", "Accommodation type_reference": "10", "Data description": "Total number of homeless people temporarily accommodated", "Data description_reference": "1", "Data values": 1532, "Notes": null },
+        "slices": ["labels:[\"total\",\"total number of homeless people temporarily accommodated\"]"]
+      },
+      {
+        "measure": "Total number of homeless people temporarily accommodated", "period": "30 June 2026", "periodEnd": "2026-06-30", "place": "W06000015", "dims": { "Accommodation type": "Total" }, "value": 1498, "note": null,
+        "row": { "Area": "Cardiff", "Area_reference": "558", "Period": "30 June 2026", "Period_reference": "20260630", "Period_sort": "1782863999000", "Accommodation type": "Total", "Accommodation type_reference": "10", "Data description": "Total number of homeless people temporarily accommodated", "Data description_reference": "1", "Data values": 1498, "Notes": null },
+        "slices": ["labels:[\"total\",\"total number of homeless people temporarily accommodated\"]"]
+      },
+      {
+        "measure": "Total number of homeless people temporarily accommodated", "period": "31 July 2026", "periodEnd": "2026-07-31", "place": "W06000011", "dims": { "Accommodation type": "Total" }, "value": 640, "note": "Estimated",
+        "row": { "Area": "Swansea", "Area_reference": "570", "Period": "31 July 2026", "Period_reference": "20260731", "Period_sort": "1785542399000", "Accommodation type": "Total", "Accommodation type_reference": "10", "Data description": "Total number of homeless people temporarily accommodated", "Data description_reference": "1", "Data values": 640, "Notes": "Estimated" },
+        "slices": ["labels:[\"total\",\"total number of homeless people temporarily accommodated\"]"]
+      },
+      {
+        "measure": "Total number of homeless people temporarily accommodated", "period": "31 July 2026", "periodEnd": "2026-07-31", "place": "W92000004", "dims": { "Accommodation type": "Total" }, "value": 11904, "note": null,
+        "row": { "Area": "Wales", "Area_reference": "596", "Period": "31 July 2026", "Period_reference": "20260731", "Period_sort": "1785542399000", "Accommodation type": "Total", "Accommodation type_reference": "10", "Data description": "Total number of homeless people temporarily accommodated", "Data description_reference": "1", "Data values": 11904, "Notes": null },
+        "slices": ["labels:[\"total\",\"total number of homeless people temporarily accommodated\"]", "filters:[[\"AccommodationType\",[\"10\"]],[\"LACode\",[\"596\"]],[\"Measure\",[\"1\",\"2\"]]]"]
+      },
+      {
+        "measure": "Of which, children under 16", "period": "31 July 2026", "periodEnd": "2026-07-31", "place": "W92000004", "dims": { "Accommodation type": "Total" }, "value": 3105, "note": null,
+        "row": { "Area": "Wales", "Area_reference": "596", "Period": "31 July 2026", "Period_reference": "20260731", "Period_sort": "1785542399000", "Accommodation type": "Total", "Accommodation type_reference": "10", "Data description": "Of which, children under 16", "Data description_reference": "2", "Data values": 3105, "Notes": null },
+        "slices": ["filters:[[\"AccommodationType\",[\"10\"]],[\"LACode\",[\"596\"]],[\"Measure\",[\"1\",\"2\"]]]"]
+      },
+      {
+        "measure": "Total number of homeless people temporarily accommodated", "period": "31 July 2026", "periodEnd": "2026-07-31", "place": "W06000015", "dims": { "Accommodation type": "Bed and breakfast" }, "value": 210, "note": null,
+        "row": null,
+        "slices": []
+      }
+    ],
+    "next_page": null
+  },
+  "bandD": {
+    "feed": "dataset",
+    "id": "3ca971eb-7d9b-4b79-89fa-6d7f77431aad",
+    "page": 1,
+    "page_size": 5000,
+    "slice": "whole",
+    "about": { "titleEn": "Average Band D council tax by billing authority", "titleCy": "Treth gyngor Band D gyfartalog yn ôl awdurdod bilio", "designation": "accredited", "coverageEnd": "2027-03-31", "nextUpdate": "2027-03", "archived": false, "replacedBy": null },
+    "rows": [
+      { "row": { "Billing authority": "Cardiff", "Billing authority_reference": "558", "Year": "2026-27", "Year_reference": "202627", "Year_sort": "1774915200000", "Band": "£ per band D", "Band_reference": "D", "Component": "Total CT for billing authority area", "Component_reference": "1", "Data values": 2103.41, "Notes": null }, "slices": ["whole"] },
+      { "row": { "Billing authority": "Cardiff", "Billing authority_reference": "558", "Year": "2026-27", "Year_reference": "202627", "Year_sort": "1774915200000", "Band": "£ per band D", "Band_reference": "D", "Component": "County council CT (exc. community councils)", "Component_reference": "2", "Data values": 1755.05, "Notes": null }, "slices": ["whole"] },
+      { "row": { "Billing authority": "Cardiff", "Billing authority_reference": "558", "Year": "2026-27", "Year_reference": "202627", "Year_sort": "1774915200000", "Band": "£ per band D", "Band_reference": "D", "Component": "Community council CT", "Component_reference": "3", "Data values": 0, "Notes": null }, "slices": ["whole"] },
+      { "row": { "Billing authority": "Cardiff", "Billing authority_reference": "558", "Year": "2026-27", "Year_reference": "202627", "Year_sort": "1774915200000", "Band": "£ per band D", "Band_reference": "D", "Component": "Police council tax within county area", "Component_reference": "4", "Data values": 348.36, "Notes": null }, "slices": ["whole"] },
+      { "row": { "Billing authority": "Total Unitary Authorities", "Billing authority_reference": "599", "Year": "2026-27", "Year_reference": "202627", "Year_sort": "1774915200000", "Band": "£ per band D", "Band_reference": "D", "Component": "Total CT for billing authority area", "Component_reference": "1", "Data values": 2214.87, "Notes": null }, "slices": ["whole"] }
+    ],
+    "next_page": null
+  }
+}

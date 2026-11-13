@@ -1,0 +1,7 @@
+# Disallow all webbot searching BUT allow Google access to mgRss for calendar sync.
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+Allow: /mgRss.aspx

@@ -1,0 +1,52 @@
+# Platform census: finds every UK council's committee system and checks its
+# ModernGov data service, then commits data/curated/platforms.json if it changed.
+# Weekly, and by hand from the Actions tab (args e.g. "--council woking" or "--limit 50").
+name: Platform census
+
+on:
+  schedule:
+    - cron: "40 3 * * 1" # Mondays 03:40 UTC
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "Extra arguments, e.g. --council woking, --limit 50, --all"
+        required: false
+        default: ""
+
+concurrency:
+  group: census
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  census:
+    runs-on: ${{ vars.RUNNER == 'hetzner' && fromJSON('["self-hosted","hetzner"]') || 'ubuntu-latest' }}
+    timeout-minutes: 120
+    env:
+      DATABASE_URL_DIRECT: ${{ secrets.DATABASE_URL_DIRECT }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL_DIRECT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm db:migrate
+      - name: Run the census
+        env:
+          ARGS: ${{ github.event.inputs.args }}
+        run: pnpm pipeline census $ARGS
+      - name: Write platforms.json
+        run: node scripts/export-platforms.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "opencouncils-census"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/curated/platforms.json
+          git diff --cached --quiet && echo "No change" && exit 0
+          git commit -m "Platform census: update platforms.json"
+          git push

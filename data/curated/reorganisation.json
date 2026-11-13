@@ -1,0 +1,33 @@
+{
+  "note": "English local government reorganisation not yet in mySociety's register. Each change lists the councils it creates and, for each, the councils it replaces. status: 'confirmed' (legislation made), 'paused' (decision under the government's review of 7 September 2026), 'withdrawn'. Sources in each change.",
+  "changes": [
+    {
+      "id": "surrey-2027",
+      "area": "Surrey",
+      "status": "confirmed",
+      "vestingDate": "2027-04-01",
+      "dayBefore": "2027-03-31",
+      "shadowElection": "2026-05-07",
+      "sources": [
+        "https://www.gov.uk/government/news/review-of-local-government-reorganisation-launched",
+        "https://www.instituteforgovernment.org.uk/explainer/local-government-unitarisation"
+      ],
+      "new": [
+        {
+          "id": "east-surrey",
+          "name": "East Surrey Council",
+          "short": "East Surrey",
+          "region": "South East",
+          "replaces": ["surrey", "elmbridge", "epsom-and-ewell", "mole-valley", "reigate-and-banstead", "tandridge"]
+        },
+        {
+          "id": "west-surrey",
+          "name": "West Surrey Council",
+          "short": "West Surrey",
+          "region": "South East",
+          "replaces": ["surrey", "guildford", "runnymede", "spelthorne", "surrey-heath", "waverley", "woking"]
+        }
+      ]
+    }
+  ]
+}

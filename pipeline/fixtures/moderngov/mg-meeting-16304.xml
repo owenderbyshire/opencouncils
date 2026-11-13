@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meeting>
+  <meetingid>16304</meetingid>
+  <meetingdate>19/10/2026</meetingdate>
+  <meetingstatus>Confirmed; Hybrid</meetingstatus>
+  <isdisplayallowed>True</isdisplayallowed>
+  <meetingtime>13.30</meetingtime>
+  <meetingactualstarttime>13.31</meetingactualstarttime>
+  <meetingplannedfinishtime>15.40</meetingplannedfinishtime>
+  <meetingactualfinishtime>18.55</meetingactualfinishtime>
+  <meetinglocation>Committee Room 1 - Senedd</meetinglocation>
+  <iswebcast>True</iswebcast>
+  <agendaid>16281</agendaid>
+  <agendapublished>True</agendapublished>
+  <decisionpublished>False</decisionpublished>
+  <minutepublished>False</minutepublished>
+  <meetingroom>
+    <roomtitle>Committee Room 1</roomtitle>
+    <roomdisplaytitle>CR1</roomdisplaytitle>
+    <bookingfromdate>
+    </bookingfromdate>
+    <bookingtodate>
+    </bookingtodate>
+    <bookedbytitle>
+    </bookedbytitle>
+    <bookingcomment>
+    </bookingcomment>
+    <directionstext>Go through security and turn right into the main area of the building. Obtain a ticket from reception then walk across the bridge and turn left into Committee Viewing Gallery 1</directionstext>
+    <displaylocationtitle>Y_Senedd</displaylocationtitle>
+    <addresssummary>Committee Room 1 - Senedd</addresssummary>
+  </meetingroom>
+  <agendaitems>
+    <agendaitem>
+      <agendaitemid>107921</agendaitemid>
+      <agendaitemtitle>Informal pre-meeting</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>0</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>
+      </fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>True</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>0</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>
+      </preferreddate>
+      <refertocommittee>
+      </refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>107922</agendaitemid>
+      <agendaitemtitle>Public meeting</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>0</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>
+      </fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>True</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>0</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>
+      </preferreddate>
+      <refertocommittee>
+      </refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>107924</agendaitemid>
+      <agendaitemtitle>Introductions, apologies, substitutions and declarations of interest</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>1</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>1.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>1</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>107954</agendaitemid>
+      <agendaitemtitle>Instruments that raise no reporting issues under Standing Order 21.2 or 21.3</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>2</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>2.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>2</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108883</agendaitemid>
+      <agendaitemtitle>SL(7)014 - The Environment (Principles, Governance and Biodiversity Targets) (Wales) Act 2026 (Commencement No. 1) Order 2026</agendaitemtitle>
+      <agendatext>
+
+&lt;div class=WordSection1&gt;
+
+&lt;p class=MsoNormal&gt;&lt;a
+href="https://laiddocuments.senedd.wales/sub-ld18201-en.pdf"&gt;Order&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;a
+href="https://laiddocuments.senedd.wales/sub-ld18201-em-en.pdf"&gt;Explanatory
+Memorandum&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>2</agendaitemnumber>
+      <agendaitemsubnumber>a)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>2.1</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>2</minutesitemnumber>
+      <minutesitemsubnumber>a)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177637</attachmentid>
+          <title>LC(7)-09-26 - Paper 2.1a - Draft report</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177637</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>SL(7)014 - The Environment (Principles, Governance and Biodiversity Targets) (Wales) Act 2026 (Commencement No. 1) Order 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108840</agendaitemid>
+      <agendaitemtitle>SL(7)016 - The Non-Domestic Rating (Description and Value of Differential Multipliers) (Amendment) (Wales) Regulations 2026</agendaitemtitle>
+      <agendatext>
+
+&lt;div class=WordSection1&gt;
+
+&lt;p class=MsoNormal&gt;&lt;a
+href="https://laiddocuments.senedd.wales/sub-ld18209-en.pdf"&gt;Regulations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;a
+href="https://laiddocuments.senedd.wales/sub-ld18209-em-en.pdf"&gt;Explanatory
+Memorandum&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>2</agendaitemnumber>
+      <agendaitemsubnumber>b)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>2.2</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>2</minutesitemnumber>
+      <minutesitemsubnumber>b)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177618</attachmentid>
+          <title>LC(7)-09-26 - Paper 2.2a - Draft report</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177618</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>SL(7)016 - The Non-Domestic Rating (Description and Value of Differential Multipliers) (Amendment) (Wales) Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>107923</agendaitemid>
+      <agendaitemtitle>Instruments that raise issues to be reported to the Senedd under Standing Order 21.2 or 21.3</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>3</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>3.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>3</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108845</agendaitemid>
+      <agendaitemtitle>SL(7)015 - The Scallop (Amendment of Minimum Conservation Reference Sizes) (Wales) Regulations 2026</agendaitemtitle>
+      <agendatext>
+
+&lt;div class=WordSection1&gt;
+
+&lt;p class=MsoNormal&gt;&lt;a
+href="https://laiddocuments.senedd.wales/sub-ld18205-en.pdf"&gt;Regulations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;a
+href="https://laiddocuments.senedd.wales/sub-ld18205-em-en.pdf"&gt;Explanatory
+Memorandum&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>3</agendaitemnumber>
+      <agendaitemsubnumber>a)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>3.1</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>3</minutesitemnumber>
+      <minutesitemsubnumber>a)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177619</attachmentid>
+          <title>LC(7)-09-26 - Paper 3.1a - Draft report</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177619</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>SL(7)015 - The Scallop (Amendment of Minimum Conservation Reference Sizes) (Wales) Regulations 2026</ownertitle>
+        </linkeddoc>
+        <linkeddoc>
+          <attachmentid>177620</attachmentid>
+          <title>LC(7)-09-26 - Paper 3.1b - Written Statement by the Cabinet Minister for Rural Resilience and Sustainability, 5 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177620</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>2</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>SL(7)015 - The Scallop (Amendment of Minimum Conservation Reference Sizes) (Wales) Regulations 2026</ownertitle>
+        </linkeddoc>
+        <linkeddoc>
+          <attachmentid>177916</attachmentid>
+          <title>LC(7)-09-26 - Paper 3.1c - Welsh Government Response</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177916</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>3</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>SL(7)015 - The Scallop (Amendment of Minimum Conservation Reference Sizes) (Wales) Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108931</agendaitemid>
+      <agendaitemtitle>SL(7)017 - The Water Resources (Control of Agricultural Pollution) (Wales) (Amendment) Regulations 2026</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>3</agendaitemnumber>
+      <agendaitemsubnumber>b)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>3.2</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>3</minutesitemnumber>
+      <minutesitemsubnumber>b)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177721</attachmentid>
+          <title>LC(7)-09-26 - Paper 3.2a - Draft report</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177721</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>SL(7)017 - The Water Resources (Control of Agricultural Pollution) (Wales) (Amendment) Regulations 2026</ownertitle>
+        </linkeddoc>
+        <linkeddoc>
+          <attachmentid>177722</attachmentid>
+          <title>LC(7)-09-26 - Paper 3.2b - Letter from the Cabinet Minister for Rural Resilience and Sustainability to the Llywydd, 14 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177722</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>2</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>SL(7)017 - The Water Resources (Control of Agricultural Pollution) (Wales) (Amendment) Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>107955</agendaitemid>
+      <agendaitemtitle>Instruments that raise issues to be reported to the Senedd under Standing Order 21.2 or 21.3 - previously considered</agendaitemtitle>
+      <agendatext>
+
+&lt;div class=WordSection1&gt;
+
+&lt;p class=MsoNormal&gt;Nothing to consider this week.&lt;/p&gt;
+
+&lt;/div&gt;
+
+</agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>4</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>4.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>4</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>107926</agendaitemid>
+      <agendaitemtitle>Papers to note</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108846</agendaitemid>
+      <agendaitemtitle>Outgoing correspondence</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>0</agendaitemnumber>
+      <agendaitemsubnumber>a)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>
+      </fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>True</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>0</minutesitemnumber>
+      <minutesitemsubnumber>a)  </minutesitemsubnumber>
+      <preferreddate>
+      </preferreddate>
+      <refertocommittee>
+      </refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108932</agendaitemid>
+      <agendaitemtitle>Letter to the Cabinet Minister for Finance: The Council Tax (Discounts, Disregards and Exemptions) (Wales) (Amendment) Regulations 2026</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>a)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.1</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>a)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177745</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.1a - Letter to the Cabinet Minister for Finance, 15 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177745</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter to the Cabinet Minister for Finance: The Council Tax (Discounts, Disregards and Exemptions) (Wales) (Amendment) Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108935</agendaitemid>
+      <agendaitemtitle>Letter to the Cabinet Minister for Rural Resilience and Sustainability: the draft Mandatory Water Efficiency Labelling Regulations 2026</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>b)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.2</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>b)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177746</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.2a - Letter to the Cabinet Minister for Rural Resilience and Sustainability, 15 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177746</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter to the Cabinet Minister for Rural Resilience and Sustainability: the draft Mandatory Water Efficiency Labelling Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108909</agendaitemid>
+      <agendaitemtitle>Letter to the Cabinet Minister for Rural Resilience and Sustainability: the draft Persistent Organic Pollutants (Amendment) Regulations 2026</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>c)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.3</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>c)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177747</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.3a - Letter to the Cabinet Minister for Rural Resilience and Sustainability, 15 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177747</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter to the Cabinet Minister for Rural Resilience and Sustainability: the draft Persistent Organic Pollutants (Amendment) Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108958</agendaitemid>
+      <agendaitemtitle>Letter to the Counsel General: Errors in subordinate legislation prepared outside the new software for Welsh statutory instruments</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>d)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.4</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>d)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177768</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.4a - Letter to the Counsel General, 15 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177768</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter to the Counsel General: Errors in subordinate legislation prepared outside the new software for Welsh statutory instruments</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108847</agendaitemid>
+      <agendaitemtitle>Incoming papers</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>0</agendaitemnumber>
+      <agendaitemsubnumber>a)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>
+      </fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>True</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>0</minutesitemnumber>
+      <minutesitemsubnumber>a)  </minutesitemsubnumber>
+      <preferreddate>
+      </preferreddate>
+      <refertocommittee>
+      </refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108857</agendaitemid>
+      <agendaitemtitle>Letter from the Cabinet Minister for Enterprise, Connectivity and Energy: Supplementary Legislative Consent Memorandum (Memorandum No. 2) on the Commercial Payments Bill</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>e)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.5</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>e)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177625</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.5a - Letter from the Cabinet Minister for Enterprise, Connectivity and Energy, 12 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177625</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter from the Cabinet Minister for Enterprise, Connectivity and Energy: Supplementary Legislative Consent Memorandum (Memorandum No. 2) on the Commercial Payments Bill</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108858</agendaitemid>
+      <agendaitemtitle>Letter from the Deputy Minister for Public and Preventative Health: Statutory Instrument Consent Memorandum for the Tobacco and Vapes Act 2026 (Display of Tobacco Products) (Consequential Amendments) Regulations 2026</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>f)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.6</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>f)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177626</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.6a - Letter from the Deputy Minister for Public and Preventative Health, 12 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177626</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter from the Deputy Minister for Public and Preventative Health: Statutory Instrument Consent Memorandum for the Tobacco and Vapes Act 2026 (Display of Tobacco Products) (Consequential Amendments) Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108861</agendaitemid>
+      <agendaitemtitle>Correspondence from the Welsh Government: Response to the Committee&amp;#39;s report on the Welsh Government&amp;#39;s Legislative Consent Memorandum on the Armed Forces Bill</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>g)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.7</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>g)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177629</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.7a - Welsh Government response, 12 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177629</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Correspondence from the Welsh Government: Response to the Committee's report on the Welsh Government's Legislative Consent Memorandum on the Armed Forces Bill</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108912</agendaitemid>
+      <agendaitemtitle>Letter from the Cabinet Minister for Local Government, Housing and Planning: The Transport and Works (Applications, Objections, Listed Buildings, Inquiries and Decisions Procedure) (England and Wales) Regulations 2026</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>h)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.8</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>h)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177726</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.8a - Letter from the Cabinet Minister for Local Government, Housing and Planning, 13 October 2026 (received 14 October 2026)</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177726</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter from the Cabinet Minister for Local Government, Housing and Planning: The Transport and Works (Applications, Objections, Listed Buildings, Inquiries and Decisions Procedure) (England and Wales) Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108933</agendaitemid>
+      <agendaitemtitle>Letter from the Chair of the Equality, Human Rights and Social Justice Committee to the Deputy First Minister and Cabinet Minister for Equality and Social Justice: The Immigration and Asylum Bill</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>i)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.9</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>i)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177727</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.9a - Letter from the Chair of the Equality, Human Rights and Social Justice Committee, 14 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177727</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter from the Chair of the Equality, Human Rights and Social Justice Committee to the Deputy First Minister and Cabinet Minister for Equality and Social Justice: The Immigration and Asylum Bill</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108960</agendaitemid>
+      <agendaitemtitle>Letter from the Cabinet Minister for Local Government, Housing and Planning: Supplementary Legislative Consent Memorandum (Memorandum No. 2) on the Representation of the People Bill</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>j)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.10</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>j)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177750</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.10a - Letter from the Cabinet Minister for Local Government, Housing and Planning, 14 October 2026 (received 15 October 2026)</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177750</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter from the Cabinet Minister for Local Government, Housing and Planning: Supplementary Legislative Consent Memorandum (Memorandum No. 2) on the Representation of the People Bill</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108961</agendaitemid>
+      <agendaitemtitle>Correspondence from the Welsh Government: Response to the Committee&amp;#39;s report on the Welsh Government&amp;#39;s Legislative Consent Memorandum on the Cyber Security and Resilience (Network and Information Systems) Bill</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>k)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.11</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>k)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177773</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.11a - Welsh Government response, 15 October 2026</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177773</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Correspondence from the Welsh Government: Response to the Committee's report on the Welsh Government's Legislative Consent Memorandum on the Cyber Security and Resilience (Network and Information Systems) Bill</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108966</agendaitemid>
+      <agendaitemtitle>Letter from the Cabinet Minister for Rural Resilience and Sustainability: The Sea Fisheries (Amendment and Transitional Provision) Regulations 2026</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>5</agendaitemnumber>
+      <agendaitemsubnumber>l)  </agendaitemsubnumber>
+      <fulldisplaynumberformat>5.12</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>5</minutesitemnumber>
+      <minutesitemsubnumber>l)  </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177774</attachmentid>
+          <title>LC(7)-09-26 - Paper 5.12a - Letter from the Cabinet Minister for Rural Resilience and Sustainability, 14 October 2026 (received 15 October 2026)</title>
+          <isurl>False</isurl>
+          <url>https://business.senedd.wales/mgConvert2PDF.aspx?ID=177774</url>
+          <isrestricted>False</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Letter from the Cabinet Minister for Rural Resilience and Sustainability: The Sea Fisheries (Amendment and Transitional Provision) Regulations 2026</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>107925</agendaitemid>
+      <agendaitemtitle>Motion under Standing Order 17.42(vi) and (ix) to resolve to exclude the public from the remainder of the meeting</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>6</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>6.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>6</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>107927</agendaitemid>
+      <agendaitemtitle>Private meeting</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>0</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>
+      </fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>True</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>0</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>
+      </preferreddate>
+      <refertocommittee>
+      </refertocommittee>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108848</agendaitemid>
+      <agendaitemtitle>Statutory Instrument Consent Memorandum on the Tobacco And Vapes Act 2026 (Display Of Tobacco Products) (Consequential Amendments) Regulations 2026: Draft report</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>7</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>7.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>7</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177644</attachmentid>
+          <title>LC(7)-09-26 - Paper 7a - Draft report</title>
+          <isurl>False</isurl>
+          <url>
+          </url>
+          <isrestricted>True</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Statutory Instrument Consent Memorandum on the Tobacco And Vapes Act 2026 (Display Of Tobacco Products) (Consequential Amendments) Regulations 2026: Draft report</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108850</agendaitemid>
+      <agendaitemtitle>Supplementary Legislative Consent Memorandum (Memorandum No. 3) on the Commercial Payments Bill</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>8</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>8.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>8</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177731</attachmentid>
+          <title>LC(7)-09-26 - Paper 8a - Legal Advice Note</title>
+          <isurl>False</isurl>
+          <url>
+          </url>
+          <isrestricted>True</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Supplementary Legislative Consent Memorandum (Memorandum No. 3) on the Commercial Payments Bill</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108851</agendaitemid>
+      <agendaitemtitle>Supplementary Legislative Consent Memorandum (Memorandum No. 3) on the Representation of the People Bill</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>9</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>9.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>9</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177630</attachmentid>
+          <title>LC(7)-09-26 - Paper 9a - Legal Advice Note</title>
+          <isurl>False</isurl>
+          <url>
+          </url>
+          <isrestricted>True</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Supplementary Legislative Consent Memorandum (Memorandum No. 3) on the Representation of the People Bill</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108852</agendaitemid>
+      <agendaitemtitle>Legislative Consent Memorandum on the Railways Bill: Draft report</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>10</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>10.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>10</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177781</attachmentid>
+          <title>LC(7)-09-26 - Paper 10a - Draft report</title>
+          <isurl>False</isurl>
+          <url>
+          </url>
+          <isrestricted>True</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Legislative Consent Memorandum on the Railways Bill: Draft report</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108854</agendaitemid>
+      <agendaitemtitle>Legislative Consent Memorandum on the Health Bill: Draft report</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>11</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>11.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>11</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177772</attachmentid>
+          <title>LC(7)-09-26 - Paper 11a - Draft report</title>
+          <isurl>False</isurl>
+          <url>
+          </url>
+          <isrestricted>True</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Legislative Consent Memorandum on the Health Bill: Draft report</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108855</agendaitemid>
+      <agendaitemtitle>Review of the legislative consent process</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>12</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>12.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>12</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177771</attachmentid>
+          <title>LC(7)-09-26 - Paper 12a - Discussion paper</title>
+          <isurl>False</isurl>
+          <url>
+          </url>
+          <isrestricted>True</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Review of the legislative consent process</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+    <agendaitem>
+      <agendaitemid>108856</agendaitemid>
+      <agendaitemtitle>Forward work programme update</agendaitemtitle>
+      <agendatext>
+      </agendatext>
+      <actualmeetingdate>19/10/2026</actualmeetingdate>
+      <agendaitemnumber>13</agendaitemnumber>
+      <agendaitemsubnumber>
+      </agendaitemsubnumber>
+      <fulldisplaynumberformat>13.</fulldisplaynumberformat>
+      <authorusername>
+      </authorusername>
+      <commentlabel1>Presented By</commentlabel1>
+      <commenttext1>
+      </commenttext1>
+      <commentlabel2>Actions</commentlabel2>
+      <commenttext2>
+      </commenttext2>
+      <declarationcount>0</declarationcount>
+      <iscallin>False</iscallin>
+      <iscomment>False</iscomment>
+      <isdecision>False</isdecision>
+      <isdecisionpublished>False</isdecisionpublished>
+      <isminutepublished>False</isminutepublished>
+      <ispubliccanspeak>False</ispubliccanspeak>
+      <isrestricted>False</isrestricted>
+      <isdisplayallowed>True</isdisplayallowed>
+      <meetingdate>19/10/2026</meetingdate>
+      <meetingtime>13.30</meetingtime>
+      <minutesitemnumber>13</minutesitemnumber>
+      <minutesitemsubnumber>
+      </minutesitemsubnumber>
+      <preferreddate>19/10/2026</preferreddate>
+      <refertocommittee>Legislation Committee</refertocommittee>
+      <linkeddocuments>
+        <linkeddoc>
+          <attachmentid>177802</attachmentid>
+          <title>LC(7)-09-26 - Paper 13a - Forward work programme update paper</title>
+          <isurl>False</isurl>
+          <url>
+          </url>
+          <isrestricted>True</isrestricted>
+          <restrictionsRef>
+          </restrictionsRef>
+          <itemnum>1</itemnum>
+          <publicationdate>15/09/2026</publicationdate>
+          <meetingdate>19/10/2026</meetingdate>
+          <decisiondate>19/10/2026</decisiondate>
+          <committeetitle>Legislation Committee</committeetitle>
+          <isdecisionattachment>False</isdecisionattachment>
+          <ownertitle>Forward work programme update</ownertitle>
+        </linkeddoc>
+      </linkeddocuments>
+    </agendaitem>
+  </agendaitems>
+  <attendees>
+    <attendee membertype="U" memberid="12185" name="Cristiana Emsley MS" roledescription="Chair" attendance="Present, as expected" politicalparty="Reform" ward="Fflint Wrecsam">
+      <url>https://business.senedd.wales/mgUserInfo.aspx?UID=12185</url>
+      <photosmallurl>https://business.senedd.wales/UserData/5/8/1/Info00012185/smallpic.jpg</photosmallurl>
+      <photobigurl>https://business.senedd.wales/UserData/5/8/1/Info00012185/bigpic.jpg</photobigurl>
+    </attendee>
+    <attendee membertype="U" memberid="12186" name="Beca Brown MS" roledescription="Member" attendance="Present, as expected" politicalparty="PCYM" ward="Gwynedd Maldwyn">
+      <url>https://business.senedd.wales/mgUserInfo.aspx?UID=12186</url>
+      <photosmallurl>https://business.senedd.wales/UserData/6/8/1/Info00012186/smallpic.jpg</photosmallurl>
+      <photobigurl>https://business.senedd.wales/UserData/6/8/1/Info00012186/bigpic.jpg</photobigurl>
+    </attendee>
+    <attendee membertype="U" memberid="4787" name="Peter Fox MS" roledescription="Member" attendance="Apologies" politicalparty="CON" ward="Sir Fynwy Torfaen">
+      <url>https://business.senedd.wales/mgUserInfo.aspx?UID=4787</url>
+      <photosmallurl>https://business.senedd.wales/UserData/7/8/7/Info00004787/smallpic.jpg</photosmallurl>
+      <photobigurl>https://business.senedd.wales/UserData/7/8/7/Info00004787/bigpic.jpg</photobigurl>
+    </attendee>
+    <attendee membertype="U" memberid="12181" name="Adrian Mason MS" roledescription="Member" attendance="Present, as expected" politicalparty="Reform" ward="Clwyd">
+      <url>https://business.senedd.wales/mgUserInfo.aspx?UID=12181</url>
+      <photosmallurl>https://business.senedd.wales/UserData/1/8/1/Info00012181/smallpic.jpg</photosmallurl>
+      <photobigurl>https://business.senedd.wales/UserData/1/8/1/Info00012181/bigpic.jpg</photobigurl>
+    </attendee>
+    <attendee membertype="U" memberid="8579" name="Peredur Owen Griffiths MS" roledescription="Member" attendance="Present, as expected" politicalparty="PCYM" ward="Casnewydd Islwyn" keyposts="Commissioner">
+      <url>https://business.senedd.wales/mgUserInfo.aspx?UID=8579</url>
+      <photosmallurl>https://business.senedd.wales/UserData/9/7/5/Info00008579/smallpic.jpg</photosmallurl>
+      <photobigurl>https://business.senedd.wales/UserData/9/7/5/Info00008579/bigpic.jpg</photobigurl>
+    </attendee>
+    <attendee membertype="U" memberid="12156" name="Huw Thomas MS" roledescription="Member" attendance="Present, as expected" politicalparty="LAB" ward="Caerdydd Penarth">
+      <url>https://business.senedd.wales/mgUserInfo.aspx?UID=12156</url>
+      <photosmallurl>https://business.senedd.wales/UserData/6/5/1/Info00012156/smallpic.jpg</photosmallurl>
+      <photobigurl>https://business.senedd.wales/UserData/6/5/1/Info00012156/bigpic.jpg</photobigurl>
+    </attendee>
+    <attendee membertype="U" memberid="12167" name="Sarah Cooper-Lesadd MS" roledescription="Member" attendance="Present, as expected" politicalparty="PCYM" ward="Pen-y-bont Bro Morgannwg">
+      <url>https://business.senedd.wales/mgUserInfo.aspx?UID=12167</url>
+      <photosmallurl>https://business.senedd.wales/UserData/7/6/1/Info00012167/smallpic.jpg</photosmallurl>
+      <photobigurl>https://business.senedd.wales/UserData/7/6/1/Info00012167/bigpic.jpg</photobigurl>
+    </attendee>
+    <attendee membertype="U" memberid="126" name="Sarah Sargent" roledescription="Clerk" attendance="In attendance" keyposts="Clerk of the Legislation Committee">
+    </attendee>
+    <attendee membertype="U" memberid="7490" name="Tom Lewis-White" roledescription="Second Clerk" attendance="In attendance">
+    </attendee>
+    <attendee membertype="U" memberid="6408" name="Elizabeth Foster" roledescription="Deputy Clerk" attendance="Expected">
+    </attendee>
+    <attendee membertype="U" memberid="9662" name="Kate Rabaiotti" roledescription="Legal Adviser" attendance="In attendance" representing="Legal Service">
+    </attendee>
+    <attendee membertype="U" memberid="8257" name="David Lakin" roledescription="Deputy Clerk" attendance="Expected" representing="(SoC and LLC)">
+    </attendee>
+  </attendees>
+</meeting>

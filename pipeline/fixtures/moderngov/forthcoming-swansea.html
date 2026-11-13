@@ -1,0 +1,994 @@
+<html><head>
+<meta http-equiv='X-UA-Compatible' content='IE=edge, chrome=1' /><meta name="DC.date" scheme="W3CDTF"  content="2026-11-11"/>
+<meta name="DC.coverage.temporal"  content="2026-10-29/2026-11-12"/>
+
+<link type="text/css" href="jquery-ui/css/Smoothness/jquery-ui-1.13.2.custom.min.css" rel="stylesheet" /> 
+<link type="text/css" href="jquery-ui/Add-ons/mg.jqueryaddons.css" rel="stylesheet" /> 
+	<link rel="stylesheet" href="SiteSpecific/ssMgStyles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="SiteSpecific/ssWordStyles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="SiteSpecific/ssmgResponsive.css" type="text/css" media="all" />
+<title></title></head><body><ul>
+<li><a href="mgWhatsNew.aspx?bcr=1&LLL=0" title="Link to latest updates">Latest updates</a></li>
+<li><a href="ieDocHome.aspx?bcr=1&LLL=0" title="Link to agendas and minutes">Agendas and Minutes</a></li>
+<li><a href="mgGeneric.aspx?bcr=1&MD=assemblymembers&LLL=0" title="Link to Members of the Senedd">Members of the Senedd</a></li>
+<li><a href="mgDelegatedDecisions.aspx?XXR=0&ACT=Find&RP=0&K=0&V=0&DM=3&HD=0&DS=0&Next=true&META=mgdelegateddecisions&LLL=0" title="Link to cabinet member decisions">Cabinet Member Decisions</a></li>
+<li><a href="mgListExecPosts.aspx?bcr=1&LLL=0" title="Link to cabinet portfolios">Cabinet Portfolios</a></li>
+<li><a href="mgCalendarMonthView.aspx?GL=1&bcr=1&LLL=0" title="Link to calendar of meetings">Calendar</a></li>
+<li><a href="mgGeneric.aspx?bcr=1&MD=chairs&LLL=0" title="Link to chairs & vice chairs">Chairs & Vice Chairs</a></li>
+<li><a href="mgMemberIndexGroup.aspx?G=CoMembers&M=CoMembers&bcr=1&LLL=0" title="Link to list of co-opted members">Co-opted Members</a></li>
+<li><a href="mgListCommittees.aspx?bcr=1&LLL=0" title="Link to committees">Committees</a></li>
+<li><a href="mgParishCouncilDetails.aspx?bcr=1&LLL=0" title="Link to community/town councils">Community/Town Councils</a></li>
+<li><a href="mgGeneric.aspx?MD=mglistcommcatconstitution&bcr=1&LLL=0" title="Link to constitution">Constitution</a></li>
+<li><a href="mgMemberIndex.aspx?bcr=1&LLL=0" title="Link to councillors">Councillors</a></li>
+<li><a href="mgGeneric.aspx?MD=CouncillorChampions&bcr=1&LLL=0" title="Link to councillor champions">Councillor Champions</a></li>
+<li><a href="mgGeneric.aspx?MD=mglistcommcathandbook&bcr=1&LLL=0" title="Link to councillors handbook">Councillors Handbook</a></li>
+<li><a href="mgManageElectionResults.aspx?bcr=1&LLL=0" title="Link to election results">Election results</a></li>
+<li><a href="mgePetitionListDisplay.aspx?bcr=1&LLL=0" title="Link to ePetitions">ePetitions</a></li>
+<li><a href="mgPlansHome.aspx?bcr=1&LLL=0" title="Link to Forward Plans">Forward plans</a></li>
+<li><a href="ecCatDisplay.aspx?bcr=1&sch=doc&LLL=0" title="Link to documents library">Library</a></li>
+<li><a href="mgMemberIndexMP.aspx?bcr=1&LLL=0" title="Link to MPs">MPs</a></li>
+<li><a href="mgListOfficerDecisions.aspx?bcr=1&BAM=0&LLL=0" title="Link to officer decisions">Officer Decisions</a></li>
+<li><a href="mgListOutsideBodies.aspx?bcr=1&LLL=0" title="Link to outside bodies">Outside bodies</a></li>
+<li><a href="ieDocSearch.aspx?bcr=1&LLL=0" title="Link to free text search">Search documents</a></li>
+<li><a href="mgRegisterKeywordInterest.aspx?bcr=1&LLL=0" title="Link to subscribe to updates">Subscribe to updates</a></li></ul><div id="modgov">
+<script type="text/javascript">
+	if(window.$ModernGov === undefined)
+	{
+		Object.defineProperty(window, "$ModernGov", { value: {} });
+		Object.defineProperty($ModernGov, "Settings", {value: {} });
+		Object.defineProperty($ModernGov, "Translations", {value: {} });
+		Object.defineProperty($ModernGov.Settings, "DisableDateTimePickers", { value: false });
+Object.defineProperty($ModernGov.Settings, "RequiredLanguage", { value: -1 });
+
+	}
+</script>
+	<div class="mgContent" >	
+
+
+	<form   action="mgDelegatedDecisions.aspx"  method="post" id="mgFormDateSelect" >
+    
+	<div class="mgHiddenField" >
+	<input type="hidden" name="hView"  value="1" />
+	<input type="hidden" name="meta" value="mgforthcomingdecisions" />
+ 	<input type="hidden" name="H" value="0" />
+   
+	</div>
+
+        <div class="mgFormRow"  >
+		
+	<label  for="DateRange"   >Date range&#58;</label>
+	<input type="text" class=" mgDateRangeField"  id="DateRange" name="DateRange" size="27" value="29&#47;10&#47;2026&#32;-&#32;12&#47;11&#47;2026" title="Date range" />
+
+		</div>
+		
+	<div class="mgFormRow" >
+		<label for="DecMaker">Decision Makers:</label> 
+		
+		  <select	 id="DecMaker" name="DecMaker"> 
+		  
+			<optgroup label="Decision maker groups"> 		  		<option  selected="selected"   value="0">Any</option> 
+
+		  		<option   value="3">All executive members</option> 
+		  		<option   value="2">All committees</option>
+
+			</optgroup>
+		  	
+			<optgroup label="Individual decision makers">
+		  		<option   value="193C">Armed Forces Community Co</option>
+		  		<option   value="124C">Cabinet</option>
+		  		<option   value="572X">Cabinet Member - Communit</option>
+		  		<option   value="720X">Cabinet Member - Culture,</option>
+		  		<option   value="196X">Cabinet Member - Economy,</option>
+		  		<option   value="201X">Cabinet Member - Educatio</option>
+		  		<option   value="571X">Cabinet Member - Environm</option>
+		  		<option   value="759X">Cabinet Member - Investme</option>
+		  		<option   value="203X">Cabinet Member - Transfor</option>
+		  		<option   value="673P">Chair of Audit Committee</option>
+		  		<option   value="674P">Chair of Standards Commit</option>
+		  		<option   value="463O">Chief Executive</option>
+		  		<option   value="146C">Chief Executive&#39;s Apprais</option>
+		  		<option   value="623O">Chief Legal Officer</option>
+		  		<option   value="467O">Chief Operating Officer</option>
+		  		<option   value="532O">Chief Transformation Offi</option>
+		  		<option   value="736C">Climate Change &#38; Nature R</option>
+		  		<option   value="679P">Conservative Group Leader</option>
+		  		<option   value="177C">Council</option>
+		  		<option   value="612C">Councillor Handbook, Sect</option>
+		  		<option   value="613C">Councillor Handbook, Sect</option>
+		  		<option   value="614C">Councillor Handbook, Sect</option>
+		  		<option   value="615C">Councillor Handbook, Sect</option>
+		  		<option   value="661O">Deputy Chief Executive</option>
+		  		<option   value="662O">Deputy Chief Finance Offi</option>
+		  		<option   value="649O">Deputy Chief Legal Office</option>
+		  		<option   value="700O">Digital Services Manager</option>
+		  		<option   value="728O">Director of Corporate Ser</option>
+		  		<option   value="469O">Director of Education</option>
+		  		<option   value="624O">Director of Finance</option>
+		  		<option   value="464O">Director of Place</option>
+		  		<option   value="465O">Director of Resources</option>
+		  		<option   value="468O">Director of Social Servic</option>
+		  		<option   value="738C">Economy &#38; Infrastructure </option>
+		  		<option   value="739C">Education &#38; Skills Servic</option>
+		  		<option   value="123C">Governance &#38; Audit Commit</option>
+		  		<option   value="735C">Gower National Landscape </option>
+		  		<option   value="471O">Head of Democratic Servic</option>
+		  		<option   value="629O">Head of Service - Achieve</option>
+		  		<option   value="626O">Head of Service - Adult S</option>
+		  		<option   value="631O">Head of Service - Buildin</option>
+		  		<option   value="627O">Head of Service - Child &#38;</option>
+		  		<option   value="634O">Head of Service - Communi</option>
+		  		<option   value="639O">Head of Service - Cultura</option>
+		  		<option   value="636O">Head of Service - Digital</option>
+		  		<option   value="630O">Head of Service - Educati</option>
+		  		<option   value="641O">Head of Service - Highway</option>
+		  		<option   value="633O">Head of Service - Housing</option>
+		  		<option   value="690O">Head of Service - HR &#38; Se</option>
+		  		<option   value="688O">Head of Service - Integra</option>
+		  		<option   value="640O">Head of Service - Plannin</option>
+		  		<option   value="638O">Head of Service - Poverty</option>
+		  		<option   value="632O">Head of Service - Propert</option>
+		  		<option   value="689O">Head of Service - Revenue</option>
+		  		<option   value="681P">Liberal Democrats &#38; Indep</option>
+		  		<option   value="164C">Pension Fund Committee</option>
+		  		<option   value="314C">Petitions Committee</option>
+		  		<option   value="493C">Planning Committee</option>
+		  		<option   value="668O">Returning Officer</option>
+		  		<option   value="744C">Scrutiny Inquiry Panel - </option>
+		  		<option   value="755C">Scrutiny Inquiry Panel - </option>
+		  		<option   value="670C">Scrutiny Performance Pane</option>
+		  		<option   value="691C">Scrutiny Performance Pane</option>
+		  		<option   value="741C">Scrutiny Performance Pane</option>
+		  		<option   value="588C">Scrutiny Performance Pane</option>
+		  		<option   value="589C">Scrutiny Performance Pane</option>
+		  		<option   value="590C">Scrutiny Performance Pane</option>
+		  		<option   value="776C">Scrutiny Working Group - </option>
+		  		<option   value="779C">Scrutiny Working Group - </option>
+		  		<option   value="760C">Scrutiny Working Group - </option>
+		  		<option   value="778C">Scrutiny Working Group - </option>
+		  		<option   value="763C">Scrutiny Working Group - </option>
+		  		<option   value="762C">Scrutiny Working Group - </option>
+		  		<option   value="766C">Scrutiny Working Group - </option>
+		  		<option   value="740C">Social Care &#38; Tackling Po</option>
+		  		<option   value="706C">South West Wales Corporat</option>
+		  		<option   value="155C">Standards Committee</option>
+		  		<option   value="651C">Statutory Licensing Sub C</option>
+		  		<option   value="676C">Swansea Bay City Region J</option>
+		  		<option   value="665C">Swansea Public Services B</option>
+		  		<option   value="680P">Uplands Group Leader</option>
+		  		<option   value="157C">West Glamorgan Archives C</option>
+				
+			</optgroup>
+		  </select>
+		
+		</div>
+                <div class="mgFormRow"  >
+                <label for="DecStatus">Decision status:</label>
+                
+                        <select size="1" id="DecStatus" name="DecStatus" > 
+                        <optgroup label="General statuses">
+
+                                  <option   value="0">Any</option> 
+                                  <option   value="4">Approved</option> 
+ <option   value="3">For call-in</option>                                   <option   value="8">For consultation</option>                                                                
+                                  <option  selected="selected"   value="1">Forthcoming decisions</option> 
+                                  <option   value="2">Published</option>
+                                  <option   value="5">To be reconsidered</option> 
+</optgroup><optgroup label="Implemented statuses">                                  <option   value="6">Awaiting implementation</option>                                                                
+                                  <option   value="7">Implemented</option>
+</optgroup>                        </select>        
+        </div>
+
+	<div class="mgFormRow" >
+		<label for="TitleContains">Title contains:</label>
+		<input type="text" name="TitleContains" id="TitleContains"  style='width:350px'  value="" />
+
+	</div>
+	<p >
+			<input type="checkbox" name="KeyDec" id="KeyDec" value="1"  /><label for="KeyDec">Show Key decisions only</label>			
+	</p>		
+	
+	<div class="mgFormRow" ><input  class="mgSubmitButton"  type="submit" name="Submit" value="Find" id="mgSubmit1"/></div>
+	
+	</form>
+	
+<div class='mgTabArea'>
+<div class="mgTabs" >
+
+		<ul>
+			<li><a  class="mgTabUnSelectTitleLnk"   href="mgDelegatedDecisions.aspx?&amp;DR=29%2f10%2f2026-12%2f11%2f2026&amp;RP=0&amp;K=0&amp;DM=0&amp;HD=0&amp;DS=1&amp;Next=true&amp;META=mgforthcomingdecisions&amp;V=0"  title="Summary&#32;tab">Summary</a></li>
+			<li><a  class="mgTabSelectTitleLnk"   href="mgDelegatedDecisions.aspx?&amp;DR=29%2f10%2f2026-12%2f11%2f2026&amp;RP=0&amp;K=0&amp;DM=0&amp;HD=0&amp;DS=1&amp;Next=true&amp;META=mgforthcomingdecisions&amp;V=1"  title="Detail&#32;tab">Details</a></li>
+ 
+		</ul>&nbsp;
+		
+</div>
+
+				<p  class="mgSectionTitle" ></p>
+                </div>
+
+<div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Adoption of the Council Tax Reduction Scheme.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62187&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;33">Find out more about this decision <span  class="mgHide" >(item 33)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To explain the
+requirement to annually consider whether to revise or replace the
+Council’s existing Council Tax Reduction Scheme and the
+requirement to either adopt a new scheme or re-adopt the existing
+scheme by 31 January 2027.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 28&#47;01&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 06&#47;11&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Civic Centre Next Steps.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62186&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;32">Find out more about this decision <span  class="mgHide" >(item 32)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>FPR7 Report
+seeking budget authorisation for strip out works to enable future
+redevelopment of the Civic Centre.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 17&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 06&#47;11&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Fully exempt&nbsp;  - <a  href="mgReasonsRestricted.aspx?OID=62186&amp;OT=I"  title="View&#32;the&#32;anticipated&#32;reasons&#32;why&#32;the&#32;issue&#32;is&#32;restricted">view reasons</a></p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Annual Review of Charges &#40;Social Services&#41; 27&#47;28.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62168&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;31">Find out more about this decision <span  class="mgHide" >(item 31)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>This report
+sets out the annual review Charges (Social Services) and amended
+Policy, providing a transparent framework for the setting of
+charges and the application of allowances for residents who receive
+managed care and support, provided or arranged by the
+council.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 21&#47;01&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 30&#47;10&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Review of the Charter between Swansea Council &#38; Community &#47; Town Councils.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62159&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;30">Find out more about this decision <span  class="mgHide" >(item 30)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>Report to
+update the charter</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 03&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 30&#47;10&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Treasury Management Mid-Year Report 2026&#47;27.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62102&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;29">Find out more about this decision <span  class="mgHide" >(item 29)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To provide an
+economic update and a review of the Authorities Treasury Management
+Strategy Statement and Investment Strategy for the first half of
+the 2026/27 Financial Year.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 04&#47;03&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 23&#47;10&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Adoption of HR Policies.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62101&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;28">Find out more about this decision <span  class="mgHide" >(item 28)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>Several HR
+Policies have been reviewed and updated. They require formal
+adoption.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;11&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 23&#47;10&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Swansea Museum Roof Replacement &#8211; Retrospective Grant Acceptance.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62098&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;27">Find out more about this decision <span  class="mgHide" >(item 27)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 0"><span style="font-family: Arial">This report seeks retrospective Cabinet
+approval for submission of the grant application and acceptance of
+a Welsh Government capital grant for Swansea Museum’s roof
+replacement, including agreement to the grant terms and
+conditions.</span></p>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>&nbsp;</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;11&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 23&#47;10&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Annual Complaints and Compliments Report 2025-26.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62056&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;26">Find out more about this decision <span  class="mgHide" >(item 26)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>This report
+presents the annual complaints and compliments to Swansea Council
+for 2025-26, including the annual letter from the Public Services
+Ombudsman for Wales.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 21&#47;01&#47;2027</p><p><span  class="mgLabel" >Notice of decision:</span> 06&#47;11&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Financial Procedural Rule 7 - Additional Community Investment Capital 2026&#47;2027 &#38; 2027&#47;2028.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=62012&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;25">Find out more about this decision <span  class="mgHide" >(item 25)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>Cabinet will be
+requested to:</span><br>
+<span>To confirm and delegate to Officers and relevant Cabinet
+Members for approval of Community Investment Capital fund Programme
+for the year 26/27, 27/28.</span><br>
+<span>&nbsp;</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 21&#47;01&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 16&#47;10&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Corporate Parenting Board Update and Annual Report</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61918&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;24">Find out more about this decision <span  class="mgHide" >(item 24)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>Corporate
+Parenting Board Presentation will share progress and updates,
+identifying any themes and trends, examples of the proposed
+Corporate Parenting Strategy and actions that have been escalated
+from the participation groups.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 28&#47;01&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 02&#47;10&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Swansea Central Block A Site Development Proposals.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61870&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;23">Find out more about this decision <span  class="mgHide" >(item 23)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>The report will
+provide an update on the development proposals for the Swansea
+Central Block A site and seek approval of the Stage 2 Project Plan
+to allow the project to proceed with the next stage of design
+development.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;11&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 25&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Fully exempt&nbsp;  - <a  href="mgReasonsRestricted.aspx?OID=61870&amp;OT=I"  title="View&#32;the&#32;anticipated&#32;reasons&#32;why&#32;the&#32;issue&#32;is&#32;restricted">view reasons</a></p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Regulation of Investigatory Powers &#40;RIPA&#41; Policy 2026.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61839&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;22">Find out more about this decision <span  class="mgHide" >(item 22)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To seek
+approval of the Regulation of Investigatory Powers (RIPA) Policy
+2026 and to update Cabinet on the use of RIPA during
+2025/6.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 17&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 18&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Youth Work Strategy.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61819&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;21">Find out more about this decision <span  class="mgHide" >(item 21)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>Swansea's Youth
+Work Strategy 2027-2032 brings together partners to strengthen
+youth work across the city. The strategy focuses on safe and
+inclusive spaces, early help, positive wellbeing, life skills,
+participation and workforce development, ensuring young people can
+access trusted support and opportunities to achieve their
+potential.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;02&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 18&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Parks Development Strategy.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61817&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;20">Find out more about this decision <span  class="mgHide" >(item 20)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>The Parks
+Development strategy is intended to guide the development,
+management and enhancement of Swansea’s parks, establishing
+shared aims, measurable objectives and a practical workplan for the
+Parks Development function. It sets out a co designed approach with
+council teams, partners, volunteers and users, aligning parks with
+wider local strategies.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;11&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 18&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Sufficiency Plan.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61811&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;19">Find out more about this decision <span  class="mgHide" >(item 19)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>Child and
+Family Services are working to ensure there are sufficient
+high-quality local placements to meet the needs of children and
+young people in our care. The plan focuses on growing in-house
+provision, strengthening placement stability, reducing reliance on
+external placements and supporting Welsh Government's
+not-for-profit agenda, while improving outcomes for children and
+families.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 21&#47;01&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 11&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Quarter 3 2026&#47;27 Performance Monitoring Report.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61787&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;18">Find out more about this decision <span  class="mgHide" >(item 18)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To report the
+performance indicator results and summarise the Council’s
+performance meetings its priorities for the third quarter period
+October 2026 – December 2026.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 15&#47;04&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 11&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Quarter 2 2026&#47;27 Performance Monitoring Report.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61772&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;17">Find out more about this decision <span  class="mgHide" >(item 17)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To report the
+performance indicator results and summarise the Council’s
+performance meetings its priorities for the quarter period July
+2026 – September 2027.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 21&#47;01&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 11&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Council Tax Base Calculation &#8211; 2027&#47;2028.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61706&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;16">Find out more about this decision <span  class="mgHide" >(item 16)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>This report
+details the calculation of the Council Tax Base for the City and
+County of Swansea, its Community Councils and the Swansea Bay Port
+Health Authority for 2027/20/28. The Council is required to
+determine the Council Tax Base for 2027/2028 by 31 December
+2026.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 03&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 11&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Swansea Events Strategy 2026-2036 &#40;Draft&#41;.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61701&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;15">Find out more about this decision <span  class="mgHide" >(item 15)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>The report
+seeks consideration of of the Draft Swansea Events Strategy
+2026-2036 and adoption of its recommendations, following evidence
+gathering, stakeholder engagement and public consultation. The
+strategy provides a framework for a coordinated, sustainable and
+inclusive events programme supporting the economy, culture,
+communities, destination management, regeneration, placemaking and
+nature recovery.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 21&#47;01&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 04&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Swansea Council Tackling Poverty Strategy 2027 &#8211; 2031.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61687&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;14">Find out more about this decision <span  class="mgHide" >(item 14)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>Report
+presenting the Swansea Council Tackling Poverty Strategy 2027
+– 2031 for adoption approval.</span><br>
+<br>
+<span>The strategy sets out the strategic priorities and approach
+to tackling poverty for Swansea Council over the next five
+years.</span><br>
+<br>
+<span>The strategy is informed by evidence and lived experience of
+poverty.</span><br>
+<span>&nbsp;</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 17&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 04&#47;09&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Co-ordinated School Admission Arrangements Scheme September 2029.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61627&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;13">Find out more about this decision <span  class="mgHide" >(item 13)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To determine
+the co-ordinated schools admission arrangements scheme for Swansea
+(there is a requirement on the Local Authority to formulate and
+publish a qualifying scheme to co-ordinate admission arrangements
+for maintained schools (except for school sixth form places,
+maintained special schools and maintained nursery schools) within
+its area.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 03&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 28&#47;08&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Housing Revenue Account &#40;HRA&#41; &#8211; Revenue Budget 2027&#47;28.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61606&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;12">Find out more about this decision <span  class="mgHide" >(item 12)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>This report
+will make recommendations to Council in respect of the Housing
+Revenue Account revenue budget for 2027/28.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 04&#47;03&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 21&#47;08&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Revenue Budget 2027&#47;28.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61577&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;11">Find out more about this decision <span  class="mgHide" >(item 11)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>This report
+will make recommendations to Council in respect of the Revenue
+Budget for 2027/28 and the financing thereof.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 04&#47;03&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 21&#47;08&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Medium Term Financial Planning 2028&#47;29 &#8211; 2030&#47;31.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61562&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;10">Find out more about this decision <span  class="mgHide" >(item 10)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>This report
+will set out a range of planning assumptions and associated budget
+scenarios for the years 2028/29 – 2030/31.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 04&#47;03&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 21&#47;08&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Budget Proposals 2027&#47;28 &#8211; 2030&#47;31.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61558&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;9">Find out more about this decision <span  class="mgHide" >(item 9)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To consider
+budget proposals for 2027/28 to 2030/31 as part of the
+Council’s Budget Strategy. To enable consultation to take
+place with residents, employees, partners and other interested
+parties.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 08&#47;01&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 21&#47;08&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Adult Services Day Services Transformation &#40;Phase 2&#41;.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61520&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;8">Find out more about this decision <span  class="mgHide" >(item 8)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>The report
+outlines the next phase of Adult Day Service Transformation
+programme. Following on from the Cabinet Report from March 20 2025
+which outlined the new model for Adult Day Services, the report
+outlines progress to date and phase 2 proposals.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 17&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 14&#47;08&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Adult Services Care Home Fees 2027&#47;28.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61516&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;7">Find out more about this decision <span  class="mgHide" >(item 7)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>The proposed
+adult residential care home fees for 2027/28, highlighting cost
+implications and risks associated with funding
+decisions.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;03&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 14&#47;08&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Annual Review of Charges &#40;Social Services&#41; 27&#47;28.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61509&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;6">Find out more about this decision <span  class="mgHide" >(item 6)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>This report
+sets out the annual review Charges (Social Services) and amended
+Policy, providing a transparent framework for the setting of
+charges and the application of allowances for residents who receive
+managed care and support, provided or arranged by the
+council.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;03&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 14&#47;08&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Proposed Changes to Mileage Rates.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61173&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;5">Find out more about this decision <span  class="mgHide" >(item 5)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>HMRC has
+increased the approved tax free mileage rate from 45p to 55p per
+mile, backdated to 6 April. This report seeks a policy decision on
+whether to adopt the revised rate and align out of county mileage
+payments with current in county arrangements for
+consistency.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 17&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 03&#47;07&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - HRA Rent Setting 2027&#47;28.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61141&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;4">Find out more about this decision <span  class="mgHide" >(item 4)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>Report to agree
+the rents and other charges for HRA properties for
+2027/28.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Council</p><p><span  class="mgLabel" >Decision due date:</span> 03&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 03&#47;07&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Revenue and Capital Budget Monitoring 3rd Quarter 2026&#47;27.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61135&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;3">Find out more about this decision <span  class="mgHide" >(item 3)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To note any
+significant variations from the agreed budget 2026/27 and savings
+plan and the actions planned to achieve a balanced
+budget.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;02&#47;2027</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 03&#47;07&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Revenue and Capital Budget Monitoring 2nd Quarter 2026&#47;27.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=61085&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;2">Find out more about this decision <span  class="mgHide" >(item 2)</span></a></li>
+</ul>
+<div class="mgWordPara">
+
+
+
+
+
+
+
+
+
+<div>
+<p style="margin-top: 0; margin-bottom: 12pt"><span>To note any
+significant variations from the agreed budget 2026/27 and savings
+plan and the actions planned to achieve a balanced
+budget.</span></p>
+</div>
+
+
+</div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 17&#47;12&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 03&#47;07&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgDetailsBlock"><h3 class="mgSubSubTitleTxt">06&#47;11&#47;2026 - Adoption of Special Leave Policy.</h3>
+<ul  class="mgActionList" >
+<li><a  href="mgIssueHistoryHome.aspx?IId=59502&amp;Opt=0"  title="Link&#32;to&#32;Find&#32;out&#32;more&#32;about&#32;this&#32;issue&#32;for&#32;item&#32;1">Find out more about this decision <span  class="mgHide" >(item 1)</span></a></li>
+</ul>
+<div class="mgWordPara">
+<p>The Special Leave Policy has been reviewed and updated. It requires formal adoption.<br></p></div><p><span  class="mgLabel" >Decision Maker:</span> Cabinet</p><p><span  class="mgLabel" >Decision due date:</span> 18&#47;11&#47;2026</p><p><span  class="mgLabel" >Lead officer:&nbsp;</span>(name removed)</p><p><span  class="mgLabel" >Notice of decision:</span> 27&#47;02&#47;2026</p><p><span  class="mgLabel" >Anticipated restriction: </span>Open</p></div><hr /><div class="mgHelpLine" >	
+</div>	
+</div>
+<div class="mgFooter" >		
+
+	<p>&nbsp;</p>
+
+<input type="hidden" value="false" id="hidIsExtLinkNewWindow" name="hidIsExtLinkNewWindow"><!--#79852 remove trailing slash-->
+
+
+    <script src="edit-doc-activex.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="Scripts/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.13.2.min.js"></script>
+
+    <script type="text/javascript">
+	var mgJQuery = jQuery.noConflict(true);
+        var thisFormValidator;
+    </script>
+
+    <script type="text/javascript" src="jquery-ui/json/json2.js"></script>
+    <script type="text/javascript" src="jquery-ui/Add-ons/mg.jqueryaddons.min.js"></script>
+    <script type="text/javascript" src="mgAjaxScripts.js"></script> 
+    
+	    <script type="text/javascript" src="mgGraphScripts.js"></script> 
+          
+    <script type="text/javascript">
+        function CommonAjaxInit()
+        {
+            Common_DocumentReady(true, 0);	// FB16622 - Default changed from Mark T's original to 0 thereby disabling it if no value set.
+        }
+
+        mgJQuery(document).ready(CommonAjaxInit);
+
+        //FB39842 RBFRS Website - Modern.Gov Councillors Page. JK
+        mgJQuery(window).on('load', function ()
+        {
+            Common_WindowLoad();
+        });
+
+    </script>  
+
+<script type="text/javascript" src='mgStarRatingScripts.js'></script>
+</div>
+</div></body></html><!-- modern.gov reverse CMS: undefined -->

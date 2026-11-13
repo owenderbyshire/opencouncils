@@ -1,0 +1,262 @@
+<html><head>
+<meta http-equiv='X-UA-Compatible' content='IE=edge, chrome=1' /><meta name="DC.date" scheme="W3CDTF"  content="2026-11-11"/>
+<meta name="DC.coverage.temporal"  content="2026-10-29/2026-11-12"/>
+
+<link type="text/css" href="jquery-ui/css/Smoothness/jquery-ui-1.13.2.custom.min.css" rel="stylesheet" /> 
+<link type="text/css" href="jquery-ui/Add-ons/mg.jqueryaddons.css" rel="stylesheet" /> 
+	<link rel="stylesheet" href="SiteSpecific/ssMgStyles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="SiteSpecific/ssWordStyles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="SiteSpecific/ssmgResponsive.css" type="text/css" media="all" />
+<title></title></head><body><ul>
+<li><a href="mgWhatsNew.aspx?bcr=1&LLL=0" title="Link to latest updates">Latest updates</a></li>
+<li><a href="ieDocHome.aspx?bcr=1&LLL=0" title="Link to agendas and minutes">Agendas and Minutes</a></li>
+<li><a href="mgGeneric.aspx?bcr=1&MD=assemblymembers&LLL=0" title="Link to Members of the Senedd">Members of the Senedd</a></li>
+<li><a href="mgDelegatedDecisions.aspx?XXR=0&ACT=Find&RP=0&K=0&V=0&DM=3&HD=0&DS=0&Next=true&META=mgdelegateddecisions&LLL=0" title="Link to cabinet member decisions">Cabinet Member Decisions</a></li>
+<li><a href="mgListExecPosts.aspx?bcr=1&LLL=0" title="Link to cabinet portfolios">Cabinet Portfolios</a></li>
+<li><a href="mgCalendarMonthView.aspx?GL=1&bcr=1&LLL=0" title="Link to calendar of meetings">Calendar</a></li>
+<li><a href="mgGeneric.aspx?bcr=1&MD=chairs&LLL=0" title="Link to chairs & vice chairs">Chairs & Vice Chairs</a></li>
+<li><a href="mgMemberIndexGroup.aspx?G=CoMembers&M=CoMembers&bcr=1&LLL=0" title="Link to list of co-opted members">Co-opted Members</a></li>
+<li><a href="mgListCommittees.aspx?bcr=1&LLL=0" title="Link to committees">Committees</a></li>
+<li><a href="mgParishCouncilDetails.aspx?bcr=1&LLL=0" title="Link to community/town councils">Community/Town Councils</a></li>
+<li><a href="mgGeneric.aspx?MD=mglistcommcatconstitution&bcr=1&LLL=0" title="Link to constitution">Constitution</a></li>
+<li><a href="mgMemberIndex.aspx?bcr=1&LLL=0" title="Link to councillors">Councillors</a></li>
+<li><a href="mgGeneric.aspx?MD=CouncillorChampions&bcr=1&LLL=0" title="Link to councillor champions">Councillor Champions</a></li>
+<li><a href="mgGeneric.aspx?MD=mglistcommcathandbook&bcr=1&LLL=0" title="Link to councillors handbook">Councillors Handbook</a></li>
+<li><a href="mgManageElectionResults.aspx?bcr=1&LLL=0" title="Link to election results">Election results</a></li>
+<li><a href="mgePetitionListDisplay.aspx?bcr=1&LLL=0" title="Link to ePetitions">ePetitions</a></li>
+<li><a href="mgPlansHome.aspx?bcr=1&LLL=0" title="Link to Forward Plans">Forward plans</a></li>
+<li><a href="ecCatDisplay.aspx?bcr=1&sch=doc&LLL=0" title="Link to documents library">Library</a></li>
+<li><a href="mgMemberIndexMP.aspx?bcr=1&LLL=0" title="Link to MPs">MPs</a></li>
+<li><a href="mgListOfficerDecisions.aspx?bcr=1&BAM=0&LLL=0" title="Link to officer decisions">Officer Decisions</a></li>
+<li><a href="mgListOutsideBodies.aspx?bcr=1&LLL=0" title="Link to outside bodies">Outside bodies</a></li>
+<li><a href="ieDocSearch.aspx?bcr=1&LLL=0" title="Link to free text search">Search documents</a></li>
+<li><a href="mgRegisterKeywordInterest.aspx?bcr=1&LLL=0" title="Link to subscribe to updates">Subscribe to updates</a></li></ul><div id="modgov">
+<script type="text/javascript">
+	if(window.$ModernGov === undefined)
+	{
+		Object.defineProperty(window, "$ModernGov", { value: {} });
+		Object.defineProperty($ModernGov, "Settings", {value: {} });
+		Object.defineProperty($ModernGov, "Translations", {value: {} });
+		Object.defineProperty($ModernGov.Settings, "DisableDateTimePickers", { value: false });
+Object.defineProperty($ModernGov.Settings, "RequiredLanguage", { value: -1 });
+
+	}
+</script>
+	<div class="mgContent" >	
+
+
+	<form   action="mgDelegatedDecisions.aspx"  method="post" id="mgFormDateSelect" >
+    
+	<div class="mgHiddenField" >
+	<input type="hidden" name="hView"  value="0" />
+	<input type="hidden" name="meta" value="mgforthcomingdecisions" />
+ 	<input type="hidden" name="H" value="0" />
+   
+	</div>
+
+        <div class="mgFormRow"  >
+		
+	<label  for="DateRange"   >Date range&#58;</label>
+	<input type="text" class=" mgDateRangeField"  id="DateRange" name="DateRange" size="27" value="29&#47;10&#47;2026&#32;-&#32;12&#47;11&#47;2026" title="Date range" />
+
+		</div>
+		
+	<div class="mgFormRow" >
+		<label for="DecMaker">Decision Makers:</label> 
+		
+		  <select	 id="DecMaker" name="DecMaker"> 
+		  
+			<optgroup label="Decision maker groups"> 		  		<option  selected="selected"   value="0">Any</option> 
+
+		  		<option   value="3">All executive members</option> 
+		  		<option   value="2">All committees</option>
+
+			</optgroup>
+		  	
+			<optgroup label="Individual decision makers">
+		  		<option   value="193C">Armed Forces Community Co</option>
+		  		<option   value="124C">Cabinet</option>
+		  		<option   value="572X">Cabinet Member - Communit</option>
+		  		<option   value="720X">Cabinet Member - Culture,</option>
+		  		<option   value="196X">Cabinet Member - Economy,</option>
+		  		<option   value="201X">Cabinet Member - Educatio</option>
+		  		<option   value="571X">Cabinet Member - Environm</option>
+		  		<option   value="759X">Cabinet Member - Investme</option>
+		  		<option   value="203X">Cabinet Member - Transfor</option>
+		  		<option   value="673P">Chair of Audit Committee</option>
+		  		<option   value="674P">Chair of Standards Commit</option>
+		  		<option   value="463O">Chief Executive</option>
+		  		<option   value="146C">Chief Executive&#39;s Apprais</option>
+		  		<option   value="623O">Chief Legal Officer</option>
+		  		<option   value="467O">Chief Operating Officer</option>
+		  		<option   value="532O">Chief Transformation Offi</option>
+		  		<option   value="736C">Climate Change &#38; Nature R</option>
+		  		<option   value="679P">Conservative Group Leader</option>
+		  		<option   value="177C">Council</option>
+		  		<option   value="612C">Councillor Handbook, Sect</option>
+		  		<option   value="613C">Councillor Handbook, Sect</option>
+		  		<option   value="614C">Councillor Handbook, Sect</option>
+		  		<option   value="615C">Councillor Handbook, Sect</option>
+		  		<option   value="661O">Deputy Chief Executive</option>
+		  		<option   value="662O">Deputy Chief Finance Offi</option>
+		  		<option   value="649O">Deputy Chief Legal Office</option>
+		  		<option   value="700O">Digital Services Manager</option>
+		  		<option   value="728O">Director of Corporate Ser</option>
+		  		<option   value="469O">Director of Education</option>
+		  		<option   value="624O">Director of Finance</option>
+		  		<option   value="464O">Director of Place</option>
+		  		<option   value="465O">Director of Resources</option>
+		  		<option   value="468O">Director of Social Servic</option>
+		  		<option   value="738C">Economy &#38; Infrastructure </option>
+		  		<option   value="739C">Education &#38; Skills Servic</option>
+		  		<option   value="123C">Governance &#38; Audit Commit</option>
+		  		<option   value="735C">Gower National Landscape </option>
+		  		<option   value="471O">Head of Democratic Servic</option>
+		  		<option   value="629O">Head of Service - Achieve</option>
+		  		<option   value="626O">Head of Service - Adult S</option>
+		  		<option   value="631O">Head of Service - Buildin</option>
+		  		<option   value="627O">Head of Service - Child &#38;</option>
+		  		<option   value="634O">Head of Service - Communi</option>
+		  		<option   value="639O">Head of Service - Cultura</option>
+		  		<option   value="636O">Head of Service - Digital</option>
+		  		<option   value="630O">Head of Service - Educati</option>
+		  		<option   value="641O">Head of Service - Highway</option>
+		  		<option   value="633O">Head of Service - Housing</option>
+		  		<option   value="690O">Head of Service - HR &#38; Se</option>
+		  		<option   value="688O">Head of Service - Integra</option>
+		  		<option   value="640O">Head of Service - Plannin</option>
+		  		<option   value="638O">Head of Service - Poverty</option>
+		  		<option   value="632O">Head of Service - Propert</option>
+		  		<option   value="689O">Head of Service - Revenue</option>
+		  		<option   value="681P">Liberal Democrats &#38; Indep</option>
+		  		<option   value="164C">Pension Fund Committee</option>
+		  		<option   value="314C">Petitions Committee</option>
+		  		<option   value="493C">Planning Committee</option>
+		  		<option   value="668O">Returning Officer</option>
+		  		<option   value="744C">Scrutiny Inquiry Panel - </option>
+		  		<option   value="755C">Scrutiny Inquiry Panel - </option>
+		  		<option   value="670C">Scrutiny Performance Pane</option>
+		  		<option   value="691C">Scrutiny Performance Pane</option>
+		  		<option   value="741C">Scrutiny Performance Pane</option>
+		  		<option   value="588C">Scrutiny Performance Pane</option>
+		  		<option   value="589C">Scrutiny Performance Pane</option>
+		  		<option   value="590C">Scrutiny Performance Pane</option>
+		  		<option   value="776C">Scrutiny Working Group - </option>
+		  		<option   value="779C">Scrutiny Working Group - </option>
+		  		<option   value="760C">Scrutiny Working Group - </option>
+		  		<option   value="778C">Scrutiny Working Group - </option>
+		  		<option   value="763C">Scrutiny Working Group - </option>
+		  		<option   value="762C">Scrutiny Working Group - </option>
+		  		<option   value="766C">Scrutiny Working Group - </option>
+		  		<option   value="740C">Social Care &#38; Tackling Po</option>
+		  		<option   value="706C">South West Wales Corporat</option>
+		  		<option   value="155C">Standards Committee</option>
+		  		<option   value="651C">Statutory Licensing Sub C</option>
+		  		<option   value="676C">Swansea Bay City Region J</option>
+		  		<option   value="665C">Swansea Public Services B</option>
+		  		<option   value="680P">Uplands Group Leader</option>
+		  		<option   value="157C">West Glamorgan Archives C</option>
+				
+			</optgroup>
+		  </select>
+		
+		</div>
+                <div class="mgFormRow"  >
+                <label for="DecStatus">Decision status:</label>
+                
+                        <select size="1" id="DecStatus" name="DecStatus" > 
+                        <optgroup label="General statuses">
+
+                                  <option   value="0">Any</option> 
+                                  <option   value="4">Approved</option> 
+ <option   value="3">For call-in</option>                                   <option   value="8">For consultation</option>                                                                
+                                  <option  selected="selected"   value="1">Forthcoming decisions</option> 
+                                  <option   value="2">Published</option>
+                                  <option   value="5">To be reconsidered</option> 
+</optgroup><optgroup label="Implemented statuses">                                  <option   value="6">Awaiting implementation</option>                                                                
+                                  <option   value="7">Implemented</option>
+</optgroup>                        </select>        
+        </div>
+
+	<div class="mgFormRow" >
+		<label for="TitleContains">Title contains:</label>
+		<input type="text" name="TitleContains" id="TitleContains"  style='width:350px'  value="" />
+
+	</div>
+	<p >
+			<input type="checkbox" name="KeyDec" id="KeyDec" value="1" checked /><label for="KeyDec">Show Key decisions only</label>			
+	</p>		
+	
+	<div class="mgFormRow" ><input  class="mgSubmitButton"  type="submit" name="Submit" value="Find" id="mgSubmit1"/></div>
+	
+	</form>
+	
+<div class='mgTabArea'>
+<div class="mgTabs" >
+
+		<ul>
+			<li><a  class="mgTabSelectTitleLnk"   href="mgDelegatedDecisions.aspx?&amp;DR=29%2f10%2f2026-12%2f11%2f2026&amp;RP=0&amp;K=1&amp;DM=0&amp;HD=0&amp;DS=1&amp;Next=true&amp;META=mgforthcomingdecisions&amp;V=0"  title="Summary&#32;tab">Summary</a></li>
+			<li><a  class="mgTabUnSelectTitleLnk"   href="mgDelegatedDecisions.aspx?&amp;DR=29%2f10%2f2026-12%2f11%2f2026&amp;RP=0&amp;K=1&amp;DM=0&amp;HD=0&amp;DS=1&amp;Next=true&amp;META=mgforthcomingdecisions&amp;V=1"  title="Detail&#32;tab">Details</a></li>
+ 
+		</ul>&nbsp;
+		
+</div>
+
+</div>
+                <table class="mgTabTable tablesorter"  summary="Table of decision summary data"> 
+                <caption  class="mgSectionTitle" ></caption> 
+				<thead class='mgFilterHeaderRow'><tr>
+                <th abbr='Title'  data-placeholder='Enter&#32;text&#32;to&#32;match'  scope='col'>Title<!--Pending Key Decisions--></th>
+					<th abbr='Published' data-placeholder='Enter&#32;date' scope='col'>Notice published<!--Date Made/Published--></th>
+					<th class='filter-select' abbr="Urgent" scope="col" data-placeholder='Select&#32;urgency'>Urgent&#63;</th>
+					<th abbr='Applies'  data-placeholder='Enter&#32;date' scope='col'>Status<!--Date Decision Applies--></th>
+ 					<th abbr='Due' data-placeholder='Enter&#32;date' scope='col'>Decision due</th>
+
+				</tr></thead><tbody>
+				
+<tr><td><a  href="mgIssueHistoryHome.aspx?IId=62187&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Adoption&#32;of&#32;the&#32;Council&#32;Tax&#32;Reduction&#32;Scheme.">Adoption of the Council Tax Reduction Scheme.</a></td><td>06&#47;11&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>28&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=62186&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Civic&#32;Centre&#32;Next&#32;Steps.">Civic Centre Next Steps.</a></td><td>06&#47;11&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>17&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=62168&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Annual&#32;Review&#32;of&#32;Charges&#32;&#40;Social&#32;Services&#41;&#32;27&#47;28.">Annual Review of Charges &#40;Social Services&#41; 27&#47;28.</a></td><td>30&#47;10&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>21&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=62159&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Review&#32;of&#32;the&#32;Charter&#32;between&#32;Swansea&#32;Council&#32;&#38;&#32;Community&#32;&#47;&#32;Town&#32;Councils.">Review of the Charter between Swansea Council &#38; Community &#47; Town Councils.</a></td><td>30&#47;10&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>03&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=62102&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Treasury&#32;Management&#32;Mid-Year&#32;Report&#32;2026&#47;27.">Treasury Management Mid-Year Report 2026&#47;27.</a></td><td>23&#47;10&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>04&#47;03&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=62101&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Adoption&#32;of&#32;HR&#32;Policies.">Adoption of HR Policies.</a></td><td>23&#47;10&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;11&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=62098&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Swansea&#32;Museum&#32;Roof&#32;Replacement&#32;&#8211;&#32;Retrospective&#32;Grant&#32;Acceptance.">Swansea Museum Roof Replacement &#8211; Retrospective Grant Acceptance.</a></td><td>23&#47;10&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;11&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=62056&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Annual&#32;Complaints&#32;and&#32;Compliments&#32;Report&#32;2025-26.">Annual Complaints and Compliments Report 2025-26.</a></td><td>06&#47;11&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>21&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=62012&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Financial&#32;Procedural&#32;Rule&#32;7&#32;-&#32;Additional&#32;Community&#32;Investment&#32;Capital&#32;2026&#47;2027&#32;&#38;&#32;2027&#47;2028.">Financial Procedural Rule 7 - Additional Community Investment Capital 2026&#47;2027 &#38; 2027&#47;2028.</a></td><td>16&#47;10&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>21&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61918&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Corporate&#32;Parenting&#32;Board&#32;Update&#32;and&#32;Annual&#32;Report">Corporate Parenting Board Update and Annual Report</a></td><td>02&#47;10&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>28&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61870&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Swansea&#32;Central&#32;Block&#32;A&#32;Site&#32;Development&#32;Proposals.">Swansea Central Block A Site Development Proposals.</a></td><td>25&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;11&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61839&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Regulation&#32;of&#32;Investigatory&#32;Powers&#32;&#40;RIPA&#41;&#32;Policy&#32;2026.">Regulation of Investigatory Powers &#40;RIPA&#41; Policy 2026.</a></td><td>18&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>17&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61819&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Youth&#32;Work&#32;Strategy.">Youth Work Strategy.</a></td><td>18&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;02&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61817&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Parks&#32;Development&#32;Strategy.">Parks Development Strategy.</a></td><td>18&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;11&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61811&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Sufficiency&#32;Plan.">Sufficiency Plan.</a></td><td>11&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>21&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61787&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Quarter&#32;3&#32;2026&#47;27&#32;Performance&#32;Monitoring&#32;Report.">Quarter 3 2026&#47;27 Performance Monitoring Report.</a></td><td>11&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>15&#47;04&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61772&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Quarter&#32;2&#32;2026&#47;27&#32;Performance&#32;Monitoring&#32;Report.">Quarter 2 2026&#47;27 Performance Monitoring Report.</a></td><td>11&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>21&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61706&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Council&#32;Tax&#32;Base&#32;Calculation&#32;&#8211;&#32;2027&#47;2028.">Council Tax Base Calculation &#8211; 2027&#47;2028.</a></td><td>11&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>03&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61701&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Swansea&#32;Events&#32;Strategy&#32;2026-2036&#32;&#40;Draft&#41;.">Swansea Events Strategy 2026-2036 &#40;Draft&#41;.</a></td><td>04&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>21&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61687&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Swansea&#32;Council&#32;Tackling&#32;Poverty&#32;Strategy&#32;2027&#32;&#8211;&#32;2031.">Swansea Council Tackling Poverty Strategy 2027 &#8211; 2031.</a></td><td>04&#47;09&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>17&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61627&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Co-ordinated&#32;School&#32;Admission&#32;Arrangements&#32;Scheme&#32;September&#32;2029.">Co-ordinated School Admission Arrangements Scheme September 2029.</a></td><td>28&#47;08&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>03&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61606&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Housing&#32;Revenue&#32;Account&#32;&#40;HRA&#41;&#32;&#8211;&#32;Revenue&#32;Budget&#32;2027&#47;28.">Housing Revenue Account &#40;HRA&#41; &#8211; Revenue Budget 2027&#47;28.</a></td><td>21&#47;08&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>04&#47;03&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61577&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Revenue&#32;Budget&#32;2027&#47;28.">Revenue Budget 2027&#47;28.</a></td><td>21&#47;08&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>04&#47;03&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61562&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Medium&#32;Term&#32;Financial&#32;Planning&#32;2028&#47;29&#32;&#8211;&#32;2030&#47;31.">Medium Term Financial Planning 2028&#47;29 &#8211; 2030&#47;31.</a></td><td>21&#47;08&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>04&#47;03&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61558&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Budget&#32;Proposals&#32;2027&#47;28&#32;&#8211;&#32;2030&#47;31.">Budget Proposals 2027&#47;28 &#8211; 2030&#47;31.</a></td><td>21&#47;08&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>08&#47;01&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61520&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Adult&#32;Services&#32;Day&#32;Services&#32;Transformation&#32;&#40;Phase&#32;2&#41;.">Adult Services Day Services Transformation &#40;Phase 2&#41;.</a></td><td>14&#47;08&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>17&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61516&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Adult&#32;Services&#32;Care&#32;Home&#32;Fees&#32;2027&#47;28.">Adult Services Care Home Fees 2027&#47;28.</a></td><td>14&#47;08&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;03&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61509&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Annual&#32;Review&#32;of&#32;Charges&#32;&#40;Social&#32;Services&#41;&#32;27&#47;28.">Annual Review of Charges &#40;Social Services&#41; 27&#47;28.</a></td><td>14&#47;08&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;03&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61173&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Proposed&#32;Changes&#32;to&#32;Mileage&#32;Rates.">Proposed Changes to Mileage Rates.</a></td><td>03&#47;07&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>17&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61141&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;HRA&#32;Rent&#32;Setting&#32;2027&#47;28.">HRA Rent Setting 2027&#47;28.</a></td><td>03&#47;07&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>03&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61135&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Revenue&#32;and&#32;Capital&#32;Budget&#32;Monitoring&#32;3rd&#32;Quarter&#32;2026&#47;27.">Revenue and Capital Budget Monitoring 3rd Quarter 2026&#47;27.</a></td><td>03&#47;07&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;02&#47;2027</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=61085&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Revenue&#32;and&#32;Capital&#32;Budget&#32;Monitoring&#32;2nd&#32;Quarter&#32;2026&#47;27.">Revenue and Capital Budget Monitoring 2nd Quarter 2026&#47;27.</a></td><td>03&#47;07&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>17&#47;12&#47;2026</td><tr><td><a  href="mgIssueHistoryHome.aspx?IId=59502&amp;Opt=0"  title="Link&#32;to&#32;Decision&#32;Makers&#32;for&#32;Adoption&#32;of&#32;Special&#32;Leave&#32;Policy.">Adoption of Special Leave Policy.</a></td><td>27&#47;02&#47;2026</td><td  class="mgMainTxt" ></td><td>For&nbsp;Determination</td><td>18&#47;11&#47;2026</td>			</tbody></table>
+			<div class="mgHelpLine" >	
+</div>	
+</div>
+<div class="mgFooter" >		
+
+	<p>&nbsp;</p>
+
+<input type="hidden" value="false" id="hidIsExtLinkNewWindow" name="hidIsExtLinkNewWindow"><!--#79852 remove trailing slash-->
+
+
+    <script src="edit-doc-activex.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="Scripts/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.13.2.min.js"></script>
+
+    <script type="text/javascript">
+	var mgJQuery = jQuery.noConflict(true);
+        var thisFormValidator;
+    </script>
+
+    <script type="text/javascript" src="jquery-ui/json/json2.js"></script>
+    <script type="text/javascript" src="jquery-ui/Add-ons/mg.jqueryaddons.min.js"></script>
+    <script type="text/javascript" src="mgAjaxScripts.js"></script> 
+    
+	    <script type="text/javascript" src="mgGraphScripts.js"></script> 
+          
+    <script type="text/javascript">
+        function CommonAjaxInit()
+        {
+            Common_DocumentReady(true, 0);	// FB16622 - Default changed from Mark T's original to 0 thereby disabling it if no value set.
+        }
+
+        mgJQuery(document).ready(CommonAjaxInit);
+
+        //FB39842 RBFRS Website - Modern.Gov Councillors Page. JK
+        mgJQuery(window).on('load', function ()
+        {
+            Common_WindowLoad();
+        });
+
+    </script>  
+
+<script type="text/javascript" src='mgStarRatingScripts.js'></script>
+</div>
+</div></body></html><!-- modern.gov reverse CMS: undefined -->
