@@ -78,8 +78,9 @@ export function guesses(website: string | null, c: RegisterEntry): string[] {
   const out: string[] = [];
   if (website) {
     const host = new URL(website).hostname.replace(/^www\./, "");
-    for (const sub of ["democracy", "moderngov", "committees", "meetings", "democratic", "councillors", "modgov", "mgov", "decisionmaking", "minutes"]) out.push(`https://${sub}.${host}`);
-    out.push(`https://www.${host}/moderngov`, `https://${host}/moderngov`);
+    // The commonest ModernGov addresses first; a long list made the first census run for over an hour.
+    for (const sub of ["democracy", "moderngov", "committees", "modgov", "meetings", "democratic"]) out.push(`https://${sub}.${host}`);
+    out.push(`https://www.${host}/moderngov`);
   }
   const short = c.short.toLowerCase().replace(/^the /, "").replace(/&/g, "and").replace(/[^a-z]/g, "");
   out.push(`https://${short}.moderngov.co.uk`);
@@ -88,7 +89,7 @@ export function guesses(website: string | null, c: RegisterEntry): string[] {
 
 /** Whether a base's ModernGov web service answers with councillors. */
 async function feedAnswers(base: string): Promise<boolean> {
-  const r = await fetchText(`${base}/mgWebService.asmx/GetCouncillorsByWard`, { accept: "text/xml", retries: 1, timeoutMs: 20_000 });
+  const r = await fetchText(`${base}/mgWebService.asmx/GetCouncillorsByWard`, { accept: "text/xml", retries: 0, timeoutMs: 12_000 });
   return r.ok && /<councillorsbyward|<ward>|<councillor>/i.test(r.text);
 }
 
@@ -135,6 +136,8 @@ export const censusJob: Job = {
     const state = (await ctx.getState<Record<string, CensusEntry>>(STATE_KEY)) ?? {};
     const only = typeof ctx.args.council === "string" ? ctx.args.council : null;
     const limit = Number(ctx.args.limit) || Infinity;
+    // Stop in time for the workflow to save what was found (its limit is two hours).
+    const deadline = Date.now() + (Number(ctx.args.minutes) || 95) * 60_000;
     let todo = CURRENT_COUNCILS.filter((c) => (only ? c.id === only : ctx.args.all || c.nation !== "Wales"));
     if (only && !todo.length) throw new Error(`Unknown council: ${only}`);
     // Least recently checked first, so a limited run works through the list.
@@ -144,7 +147,7 @@ export const censusJob: Job = {
     const save = () => ctx.setState(STATE_KEY, state);
     // Councils are on different hosts, so a few can be checked at once; http.ts limits each host.
     const worker = async () => {
-      while (i < todo.length) {
+      while (i < todo.length && Date.now() < deadline) {
         const c = todo[i++];
         try {
           state[c.id] = await censusOne(c, state[c.id]);
@@ -156,9 +159,10 @@ export const censusJob: Job = {
         if (i % 20 === 0) await save();
       }
     };
-    await Promise.all(Array.from({ length: 6 }, worker));
+    await Promise.all(Array.from({ length: 10 }, worker));
     await save();
-    ctx.stats.checked = todo.length;
+    ctx.stats.checked = Math.min(i, todo.length);
+    if (i < todo.length) ctx.warn(`Stopped at the time limit: ${todo.length - i} councils left for the next run`);
     ctx.stats.held = Object.keys(state).length;
   },
 };

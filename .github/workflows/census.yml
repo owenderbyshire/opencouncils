@@ -37,16 +37,21 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm db:migrate
       - name: Run the census
+        timeout-minutes: 100
         env:
           ARGS: ${{ github.event.inputs.args }}
         run: pnpm pipeline census $ARGS
+      # Saved even if the census step failed part-way: whatever it found is kept.
       - name: Write platforms.json
+        if: always()
         run: node scripts/export-platforms.mjs
       - name: Commit if changed
+        if: always()
         run: |
           git config user.name "opencouncils-census"
           git config user.email "actions@users.noreply.github.com"
           git add data/curated/platforms.json
           git diff --cached --quiet && echo "No change" && exit 0
           git commit -m "Platform census: update platforms.json"
+          git pull --rebase -q origin main
           git push
