@@ -156,5 +156,5 @@ A council gets AI decision summaries once someone is monitoring it, which ties r
 
 ## Still open
 
-- **Domain.** opencouncils.com is not yet bought. There is something already at the address, so its availability and price need checking before purchase.
-- **Infrastructure:** opencouncils repo set up (13 November 2026). Vercel project and Neon database still to create, following the OpenWestminster set-up.
+- **Domain.** opencouncils.com is available to buy; attach it to the Vercel project once bought.
+- **Infrastructure (done 13 November 2026):** repo owenderbyshire/opencouncils; Vercel project opencouncils in the Datblygu team, production branch main; Neon database connected as DATABASE_URL (pooled) and DATABASE_URL_UNPOOLED (direct, for migrations and Hetzner jobs).
