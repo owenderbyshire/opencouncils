@@ -171,3 +171,9 @@ A council gets AI decision summaries once someone is monitoring it, which ties r
 - The 22 Welsh councils use the addresses already checked on opencouncil.wales; their records load once the pipeline runs.
 
 **Next:** run the census, switch on the first councils outside Wales, UK control map (needs composition data and UK boundaries), Democracy Club elections.
+
+**14 November 2026: first councils outside Wales live.**
+- Census: 194 of the 360 councils outside Wales have a working ModernGov feed (189 England, 4 Scotland, Belfast). Two-tier mix-up (districts given their county's site) fixed; addresses shared by more than one council are ignored as a safeguard.
+- Pilot switched on: Manchester, Sheffield, Cornwall, Edinburgh, Aberdeenshire, Belfast. Councillors, committees, meetings, Cabinet and forward plans loaded; meeting summaries started.
+- Welsh data: 16 of 22 councils loaded. Bridgend, Caerphilly, Denbighshire, Flintshire, Anglesey and Wrexham block GitHub's servers and wait on the relay (needs the domain plus REVALIDATE_SECRET and SITE_URL).
+- Fixes: Welsh-only blocks removed from council pages; Scottish and Northern Irish parties added, with SDLP no longer read as Labour.
