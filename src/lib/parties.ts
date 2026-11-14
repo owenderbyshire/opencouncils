@@ -1,7 +1,7 @@
 import type { Locale } from "@/i18n/config";
 
 /**
- * Parties on Welsh councils. Councils record each councillor's party in their
+ * Parties on UK councils (the Welsh site's list, with Scottish and Northern Irish parties added). Councils record each councillor's party in their
  * own words; national parties are mapped to an ID (pipeline/sources/moderngov.ts)
  * for colour and a consistent name. Local groups keep the council's label.
  */
@@ -12,6 +12,15 @@ const NAMES: Record<string, { en: string; cy: string }> = {
   ld: { en: "Liberal Democrat", cy: "Democratiaid Rhyddfrydol" },
   green: { en: "Green", cy: "Gwyrdd" },
   reform: { en: "Reform UK", cy: "Reform UK" },
+  snp: { en: "SNP", cy: "SNP" },
+  alba: { en: "Alba", cy: "Alba" },
+  sf: { en: "Sinn Féin", cy: "Sinn Féin" },
+  dup: { en: "DUP", cy: "DUP" },
+  alliance: { en: "Alliance", cy: "Alliance" },
+  uup: { en: "UUP", cy: "UUP" },
+  sdlp: { en: "SDLP", cy: "SDLP" },
+  tuv: { en: "TUV", cy: "TUV" },
+  pbp: { en: "People Before Profit", cy: "People Before Profit" },
   ind: { en: "Independent", cy: "Annibynnol" },
 };
 

@@ -64,6 +64,16 @@ export function partyIdFor(label: string | null | undefined): string | null {
   if (green && t.includes("plaid cymru")) return null;
   if (green) return "green";
   if (t.includes("plaid")) return "pc";
+  // Northern Ireland and Scotland (OpenCouncils). SDLP before Labour: its name contains "Labour".
+  if (t.includes("social democratic and labour") || t === "sdlp") return "sdlp";
+  if (/sinn f[eé]in/.test(t)) return "sf";
+  if (t.includes("democratic unionist") || t === "dup") return "dup";
+  if (t.includes("traditional unionist") || t === "tuv") return "tuv";
+  if (t.includes("ulster unionist") || t === "uup") return "uup";
+  if (t.includes("people before profit")) return "pbp";
+  if (t.startsWith("alliance")) return "alliance";
+  if (t.includes("scottish national") || t === "snp") return "snp";
+  if (t.startsWith("alba")) return "alba";
   if (t.includes("reform")) return "reform";
   if (t.includes("conservative")) return "con";
   if (t.includes("labour")) return "lab";

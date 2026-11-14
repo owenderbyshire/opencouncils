@@ -136,6 +136,18 @@ describe("attendanceStatus", () => {
 });
 
 describe("partyIdFor", () => {
+  it("reads Northern Irish and Scottish parties, SDLP before Labour", () => {
+    expect(partyIdFor("Social Democratic and Labour Party")).toBe("sdlp");
+    expect(partyIdFor("Sinn Fein")).toBe("sf");
+    expect(partyIdFor("Democratic Unionist Party")).toBe("dup");
+    expect(partyIdFor("Alliance Party")).toBe("alliance");
+    expect(partyIdFor("Ulster Unionist Party")).toBe("uup");
+    expect(partyIdFor("Traditional Unionist Voice")).toBe("tuv");
+    expect(partyIdFor("People Before Profit Alliance")).toBe("pbp");
+    expect(partyIdFor("Scottish National Party")).toBe("snp");
+    expect(partyIdFor("Scottish Labour")).toBe("lab");
+  });
+
   it("tells the Greens from Plaid Cymru", () => {
     expect(partyIdFor("Green Party / Plaid Werdd")).toBe("green");
     expect(partyIdFor("Wales Green Party / Plaid Werdd Cymru")).toBe("green");
