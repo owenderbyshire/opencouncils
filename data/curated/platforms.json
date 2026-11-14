@@ -1,6 +1,2589 @@
 {
-  "note": "Written by scripts/export-platforms.mjs from the platform census (pnpm pipeline census). 'active' lists councils outside Wales switched on for full pages.",
-  "checked": null,
-  "active": [],
-  "councils": {}
+ "note": "Written by scripts/export-platforms.mjs from the platform census (pnpm pipeline census). 'active' lists councils outside Wales switched on for full pages.",
+ "checked": "2026-11-14",
+ "active": [],
+ "councils": {
+  "aberdeen-city": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.aberdeencity.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-14",
+   "note": "home page: TypeError: fetch failed"
+  },
+  "aberdeenshire": {
+   "platform": "moderngov",
+   "base": "https://aberdeenshire.moderngov.co.uk",
+   "website": "https://www.aberdeenshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "adur": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.westsussex.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "amber-valley": {
+   "platform": "moderngov",
+   "base": "https://democracy.derbyshire.gov.uk",
+   "website": "https://www.derbyshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "angus": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.angus.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "antrim-and-newtownabbey": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://antrimandnewtownabbey.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "ards-and-north-down": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.ardsandnorthdown.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "argyll-and-bute": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.argyll-bute.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "armagh-city-banbridge-and-craigavon": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.armaghbanbridgecraigavon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "arun": {
+   "platform": "moderngov",
+   "base": "https://arun.moderngov.co.uk",
+   "website": "http://www.westsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "ashfield": {
+   "platform": "moderngov",
+   "base": "https://ashfield.moderngov.co.uk",
+   "website": "http://www.nottinghamshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "ashford": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "babergh": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.suffolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "barking-and-dagenham": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.lbbd.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: 403 Forbidden 403 Forbidden"
+  },
+  "barnet": {
+   "platform": "moderngov",
+   "base": "https://barnet.moderngov.co.uk",
+   "website": "https://www.barnet.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "barnsley": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.barnsley.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "basildon": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.essex.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "basingstoke-and-deane": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "bassetlaw": {
+   "platform": "moderngov",
+   "base": "https://bassetlaw.moderngov.co.uk",
+   "website": "http://www.nottinghamshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "bath-and-north-east-somerset": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.bathnes.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "bedford": {
+   "platform": "moderngov",
+   "base": "https://councillorsupport.bedford.gov.uk",
+   "website": "https://www.bedford.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "belfast": {
+   "platform": "moderngov",
+   "base": "https://minutes.belfastcity.gov.uk",
+   "website": "https://www.belfastcity.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "bexley": {
+   "platform": "moderngov",
+   "base": "https://democracy.bexley.gov.uk",
+   "website": "https://www.bexley.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "birmingham": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.birmingham.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "blaby": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.leicestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Access Denied Access Denied You don't have permiss"
+  },
+  "blackburn-with-darwen": {
+   "platform": "moderngov",
+   "base": "https://democracy.blackburn.gov.uk",
+   "website": "https://www.blackburn.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "blackpool": {
+   "platform": "moderngov",
+   "base": "https://democracy.blackpool.gov.uk",
+   "website": "https://www.blackpool.gov.uk/Home.aspx",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "bolsover": {
+   "platform": "moderngov",
+   "base": "https://democracy.derbyshire.gov.uk",
+   "website": "https://www.derbyshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "bolton": {
+   "platform": "moderngov",
+   "base": "https://bolton.moderngov.co.uk",
+   "website": "http://www.bolton.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "boston": {
+   "platform": "moderngov",
+   "base": "https://lincolnshire.moderngov.co.uk",
+   "website": "https://www.lincolnshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "bournemouth-christchurch-and-poole": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "bracknell-forest": {
+   "platform": "moderngov",
+   "base": "https://democratic.bracknell-forest.gov.uk",
+   "website": "https://www.bracknell-forest.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "bradford": {
+   "platform": "moderngov",
+   "base": "https://bradford.moderngov.co.uk",
+   "website": "https://www.bradford.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "braintree": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.essex.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "breckland": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.norfolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "brent": {
+   "platform": "moderngov",
+   "base": "https://democracy.brent.gov.uk",
+   "website": "https://www.brent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "brentwood": {
+   "platform": "moderngov",
+   "base": "https://brentwood.moderngov.co.uk",
+   "website": "https://www.essex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "brighton-and-hove": {
+   "platform": "moderngov",
+   "base": "https://democracy.brighton-hove.gov.uk",
+   "website": "https://www.brighton-hove.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "broadland": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.norfolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "bromley": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.bromley.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "bromsgrove": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.worcestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "broxbourne": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "broxtowe": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.nottinghamshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "buckinghamshire": {
+   "platform": "moderngov",
+   "base": "https://buckinghamshire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "burnley": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "bury": {
+   "platform": "moderngov",
+   "base": "https://councildecisions.bury.gov.uk",
+   "website": "https://www.bury.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "calderdale": {
+   "platform": "moderngov",
+   "base": "https://calderdale.moderngov.co.uk",
+   "website": "https://www.calderdale.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "cambridge": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.cambridgeshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "cambridgeshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "camden": {
+   "platform": "moderngov",
+   "base": "https://camden.moderngov.co.uk",
+   "website": "https://www.camden.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "cannock-chase": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": "https://www.staffordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "canterbury": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "castle-point": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.essex.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "causeway-coast-and-glens": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.causewaycoastandglens.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "central-bedfordshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.centralbedfordshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "charnwood": {
+   "platform": "moderngov",
+   "base": "https://charnwood.moderngov.co.uk",
+   "website": "https://www.leicestershire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "chelmsford": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.essex.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "cheltenham": {
+   "platform": "moderngov",
+   "base": "https://glostext.gloucestershire.gov.uk",
+   "website": "https://www.gloucestershire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "cherwell": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.oxfordshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "cheshire-east": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.cheshireeast.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "cheshire-west-and-chester": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.cheshirewestandchester.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "chesterfield": {
+   "platform": "moderngov",
+   "base": "https://democracy.derbyshire.gov.uk",
+   "website": "https://www.derbyshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "chichester": {
+   "platform": "moderngov",
+   "base": "https://chichester.moderngov.co.uk",
+   "website": "http://www.westsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "chorley": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "city-of-bristol": {
+   "platform": "moderngov",
+   "base": "https://democracy.bristol.gov.uk",
+   "website": "https://www.bristol.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "city-of-edinburgh": {
+   "platform": "moderngov",
+   "base": "https://democracy.edinburgh.gov.uk",
+   "website": "https://www.edinburgh.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "city-of-lincoln": {
+   "platform": "moderngov",
+   "base": "https://lincolnshire.moderngov.co.uk",
+   "website": "https://www.lincolnshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "city-of-london": {
+   "platform": "moderngov",
+   "base": "https://democracy.cityoflondon.gov.uk",
+   "website": "https://www.cityoflondon.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "clackmannanshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.clacks.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "colchester": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.essex.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "cornwall": {
+   "platform": "moderngov",
+   "base": "https://democracy.cornwall.gov.uk",
+   "website": "https://www.cornwall.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "cotswold": {
+   "platform": "moderngov",
+   "base": "https://glostext.gloucestershire.gov.uk",
+   "website": "https://www.gloucestershire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "county-durham": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.durham.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "coventry": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.coventry.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "crawley": {
+   "platform": "moderngov",
+   "base": "https://crawley.moderngov.co.uk",
+   "website": "http://www.westsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "croydon": {
+   "platform": "moderngov",
+   "base": "https://democracy.croydon.gov.uk",
+   "website": "http://www.croydon.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "cumberland": {
+   "platform": "moderngov",
+   "base": "https://cumberland.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "dacorum": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "darlington": {
+   "platform": "moderngov",
+   "base": "https://democracy.darlington.gov.uk",
+   "website": "https://www.darlington.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "dartford": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "derby": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.derby.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "derbyshire": {
+   "platform": "moderngov",
+   "base": "https://derbyshire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "derbyshire-dales": {
+   "platform": "moderngov",
+   "base": "https://democracy.derbyshire.gov.uk",
+   "website": "https://www.derbyshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "derry-city-and-strabane": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.derrystrabane.com",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "devon": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "doncaster": {
+   "platform": "moderngov",
+   "base": "https://doncaster.moderngov.co.uk",
+   "website": "http://www.doncaster.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "dorset-council": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "dover": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "dudley": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.dudley.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "dumfries-and-galloway": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.dumgal.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "dundee-city": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.dundeecity.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "ealing": {
+   "platform": "moderngov",
+   "base": "https://ealing.moderngov.co.uk",
+   "website": "https://www.ealing.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "east-ayrshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.east-ayrshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "east-cambridgeshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.cambridgeshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "east-devon": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://new.devon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Error 403 Forbidden 403 Forbidden"
+  },
+  "east-dunbartonshire": {
+   "platform": "moderngov",
+   "base": "https://eastdunbarton.moderngov.co.uk",
+   "website": "https://www.eastdunbarton.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "east-hampshire": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "east-hertfordshire": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "east-lindsey": {
+   "platform": "moderngov",
+   "base": "https://lincolnshire.moderngov.co.uk",
+   "website": "https://www.lincolnshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "east-lothian": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.eastlothian.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "east-renfrewshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.eastrenfrewshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "east-riding-of-yorkshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.eastriding.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "east-staffordshire": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": "https://www.staffordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "east-suffolk": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "east-sussex": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "eastbourne": {
+   "platform": "moderngov",
+   "base": "https://democracy.eastsussex.gov.uk",
+   "website": "https://www.eastsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "eastleigh": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "eilean-siar": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.cne-siar.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "elmbridge": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "enfield": {
+   "platform": "moderngov",
+   "base": "https://enfield.moderngov.co.uk",
+   "website": "https://new.enfield.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "epping-forest": {
+   "platform": "moderngov",
+   "base": "https://eppingforest.moderngov.co.uk",
+   "website": "https://www.essex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "epsom-and-ewell": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "erewash": {
+   "platform": "moderngov",
+   "base": "https://democracy.derbyshire.gov.uk",
+   "website": "https://www.derbyshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "essex": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "exeter": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://new.devon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Error 403 Forbidden 403 Forbidden"
+  },
+  "falkirk": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.falkirk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "fareham": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "fenland": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.cambridgeshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "fermanagh-and-omagh": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.fermanaghomagh.com",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "fife": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.fife.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "folkestone-and-hythe": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "forest-of-dean": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.gloucestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "fylde": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "gateshead": {
+   "platform": "moderngov",
+   "base": "https://democracy.gateshead.gov.uk",
+   "website": "https://www.gateshead.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "gedling": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.nottinghamshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "glasgow-city": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.glasgow.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "gloucester": {
+   "platform": "moderngov",
+   "base": "https://gloucester.moderngov.co.uk",
+   "website": "https://www.gloucestershire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "gloucestershire": {
+   "platform": "moderngov",
+   "base": "https://gloucestershire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "gosport": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "gravesham": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "great-yarmouth": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.norfolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "greenwich": {
+   "platform": "moderngov",
+   "base": "https://committees.royalgreenwich.gov.uk",
+   "website": "http://www.royalgreenwich.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "guildford": {
+   "platform": "moderngov",
+   "base": "https://guildford.moderngov.co.uk",
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "hackney": {
+   "platform": "moderngov",
+   "base": "https://hackney.moderngov.co.uk",
+   "website": "https://hackney.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "halton": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www3.halton.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: Error: Too many redirects from https://www3.halton.gov.uk"
+  },
+  "hammersmith-and-fulham": {
+   "platform": "moderngov",
+   "base": "https://democracy.lbhf.gov.uk",
+   "website": "http://www.lbhf.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "hampshire": {
+   "platform": "moderngov",
+   "base": "https://hampshire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "harborough": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.leicestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Access Denied Access Denied You don't have permiss"
+  },
+  "haringey": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.haringey.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "harlow": {
+   "platform": "moderngov",
+   "base": "https://harlow.moderngov.co.uk",
+   "website": "https://www.essex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "harrow": {
+   "platform": "moderngov",
+   "base": "https://moderngov.harrow.gov.uk",
+   "website": "https://www.harrow.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "hart": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "hartlepool": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.hartlepool.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "hastings": {
+   "platform": "moderngov",
+   "base": "https://democracy.eastsussex.gov.uk",
+   "website": "https://www.eastsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "havant": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "havering": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.havering.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "herefordshire": {
+   "platform": "moderngov",
+   "base": "https://councillors.herefordshire.gov.uk",
+   "website": "https://www.herefordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "hertfordshire": {
+   "platform": "moderngov",
+   "base": "https://hertfordshire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "hertsmere": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "high-peak": {
+   "platform": "moderngov",
+   "base": "https://democracy.derbyshire.gov.uk",
+   "website": "https://www.derbyshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "highland": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.highland.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "hillingdon": {
+   "platform": "moderngov",
+   "base": "https://modgov.hillingdon.gov.uk",
+   "website": "https://www.hillingdon.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "hinckley-and-bosworth": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.leicestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Access Denied Access Denied You don't have permiss"
+  },
+  "horsham": {
+   "platform": "moderngov",
+   "base": "https://horsham.moderngov.co.uk",
+   "website": "http://www.westsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "hounslow": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.hounslow.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "huntingdonshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.cambridgeshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "hyndburn": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "inverclyde": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.inverclyde.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: TypeError: fetch failed"
+  },
+  "ipswich": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.suffolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "isle-of-wight": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.iow.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "isles-of-scilly": {
+   "platform": "moderngov",
+   "base": "http://committees.scilly.gov.uk",
+   "website": "http://www.scilly.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "islington": {
+   "platform": "moderngov",
+   "base": "https://democracy.islington.gov.uk",
+   "website": "https://www.islington.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "kensington-and-chelsea": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.rbkc.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "kent": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "kings-lynn-and-west-norfolk": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.norfolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "kingston-upon-hull": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.hull.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "kingston-upon-thames": {
+   "platform": "moderngov",
+   "base": "https://moderngov.kingston.gov.uk",
+   "website": "https://www.kingston.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "kirklees": {
+   "platform": "moderngov",
+   "base": "https://democracy.kirklees.gov.uk",
+   "website": "https://www.kirklees.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "knowsley": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.knowsley.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "lambeth": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.lambeth.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "lancashire": {
+   "platform": "moderngov",
+   "base": "https://lancashire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "lancaster": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "leeds": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.leeds.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "leicester": {
+   "platform": "moderngov",
+   "base": "https://leicester.moderngov.co.uk",
+   "website": "https://www.leicester.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "leicestershire": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "lewes": {
+   "platform": "moderngov",
+   "base": "https://democracy.eastsussex.gov.uk",
+   "website": "https://www.eastsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "lewisham": {
+   "platform": "moderngov",
+   "base": "https://lewisham.moderngov.co.uk",
+   "website": "https://lewisham.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "lichfield": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": "https://www.staffordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "lincolnshire": {
+   "platform": "moderngov",
+   "base": "https://lincolnshire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "lisburn-and-castlereagh": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.lisburncastlereagh.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "liverpool": {
+   "platform": "moderngov",
+   "base": "https://councillors.liverpool.gov.uk",
+   "website": "https://liverpool.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "luton": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://m.luton.gov.uk/Page/Show",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "maidstone": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "maldon": {
+   "platform": "moderngov",
+   "base": "https://maldon.moderngov.co.uk",
+   "website": "https://www.essex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "malvern-hills": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.worcestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "manchester": {
+   "platform": "moderngov",
+   "base": "https://democracy.manchester.gov.uk",
+   "website": "http://www.manchester.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "mansfield": {
+   "platform": "moderngov",
+   "base": "https://mansfield.moderngov.co.uk",
+   "website": "http://www.nottinghamshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "medway": {
+   "platform": "other",
+   "base": "https://democracy.medway.gov.uk",
+   "website": "https://www.medway.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "democracy site, system not recognised"
+  },
+  "melton": {
+   "platform": "moderngov",
+   "base": "https://melton.moderngov.co.uk",
+   "website": "https://www.leicestershire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "merton": {
+   "platform": "moderngov",
+   "base": "https://democracy.merton.gov.uk",
+   "website": "http://www.merton.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "mid-and-east-antrim": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.midandeastantrim.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "mid-devon": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://new.devon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Error 403 Forbidden 403 Forbidden"
+  },
+  "mid-suffolk": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.suffolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "mid-sussex": {
+   "platform": "moderngov",
+   "base": "https://midsussex.moderngov.co.uk",
+   "website": "http://www.westsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "mid-ulster": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.midulstercouncil.org",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "middlesbrough": {
+   "platform": "moderngov",
+   "base": "https://moderngov.middlesbrough.gov.uk",
+   "website": "https://www.middlesbrough.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "midlothian": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.midlothian.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "milton-keynes": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.milton-keynes.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "mole-valley": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "moray": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.moray.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "new-forest": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "newark-and-sherwood": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.nottinghamshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "newcastle-under-lyme": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": "https://www.staffordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "newcastle-upon-tyne": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.newcastle.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "newham": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.newham.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "newry-mourne-and-down": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.newrymournedown.org",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "norfolk": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "north-ayrshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.north-ayrshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "north-devon": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://new.devon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Error 403 Forbidden 403 Forbidden"
+  },
+  "north-east-derbyshire": {
+   "platform": "moderngov",
+   "base": "https://democracy.derbyshire.gov.uk",
+   "website": "https://www.derbyshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "north-east-lincolnshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.nelincs.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "north-hertfordshire": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "north-kesteven": {
+   "platform": "moderngov",
+   "base": "https://lincolnshire.moderngov.co.uk",
+   "website": "https://www.lincolnshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "north-lanarkshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.northlanarkshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "north-lincolnshire": {
+   "platform": "moderngov",
+   "base": "https://northlincolnshire.moderngov.co.uk",
+   "website": "https://www.northlincs.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "north-norfolk": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.norfolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "north-northamptonshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "north-somerset": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.n-somerset.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "north-tyneside": {
+   "platform": "moderngov",
+   "base": "https://northtyneside.moderngov.co.uk",
+   "website": "https://my.northtyneside.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "north-warwickshire": {
+   "platform": "moderngov",
+   "base": "https://democracy.warwickshire.gov.uk",
+   "website": "https://www.warwickshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "north-west-leicestershire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.leicestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Access Denied Access Denied You don't have permiss"
+  },
+  "north-yorkshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "northumberland": {
+   "platform": "moderngov",
+   "base": "https://northumberland.moderngov.co.uk",
+   "website": "https://www.northumberland.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "norwich": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.norfolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "nottingham": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.nottinghamcity.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "nottinghamshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "nuneaton-and-bedworth": {
+   "platform": "moderngov",
+   "base": "https://democracy.warwickshire.gov.uk",
+   "website": "https://www.warwickshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "oadby-and-wigston": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.leicestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Access Denied Access Denied You don't have permiss"
+  },
+  "oldham": {
+   "platform": "moderngov",
+   "base": "https://committees.oldham.gov.uk",
+   "website": "https://www.oldham.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "orkney-islands": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.orkney.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "oxford": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.oxfordshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "oxfordshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "pendle": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "perth-and-kinross": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.pkc.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "peterborough": {
+   "platform": "moderngov",
+   "base": "https://democracy.peterborough.gov.uk",
+   "website": "http://www.peterborough.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "plymouth": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.plymouth.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "portsmouth": {
+   "platform": "moderngov",
+   "base": "https://democracy.portsmouth.gov.uk",
+   "website": "https://www.portsmouth.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "preston": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "reading": {
+   "platform": "moderngov",
+   "base": "https://democracy.reading.gov.uk",
+   "website": "https://www.reading.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "redbridge": {
+   "platform": "moderngov",
+   "base": "https://moderngov.redbridge.gov.uk",
+   "website": "https://www.redbridge.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "redcar-and-cleveland": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.redcar-cleveland.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: 403 Forbidden 403 Forbidden"
+  },
+  "redditch": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.worcestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "reigate-and-banstead": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "renfrewshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.renfrewshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "ribble-valley": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "richmond-upon-thames": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.richmond.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "rochdale": {
+   "platform": "moderngov",
+   "base": "https://democracy.rochdale.gov.uk",
+   "website": "http://www.rochdale.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "rochford": {
+   "platform": "moderngov",
+   "base": "https://rochford.moderngov.co.uk",
+   "website": "https://www.essex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "rossendale": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "rother": {
+   "platform": "moderngov",
+   "base": "https://democracy.eastsussex.gov.uk",
+   "website": "https://www.eastsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "rotherham": {
+   "platform": "moderngov",
+   "base": "https://moderngov.rotherham.gov.uk",
+   "website": "https://www.rotherham.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "rugby": {
+   "platform": "moderngov",
+   "base": "https://democracy.warwickshire.gov.uk",
+   "website": "https://www.warwickshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "runnymede": {
+   "platform": "moderngov",
+   "base": "https://runnymede.moderngov.co.uk",
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "rushcliffe": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.nottinghamshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "rushmoor": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "rutland": {
+   "platform": "moderngov",
+   "base": "https://rutlandcounty.moderngov.co.uk",
+   "website": "https://www.rutland.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "salford": {
+   "platform": "moderngov",
+   "base": "https://salford.moderngov.co.uk",
+   "website": "https://www.salford.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "sandwell": {
+   "platform": "moderngov",
+   "base": "https://sandwell.moderngov.co.uk",
+   "website": "http://www.sandwell.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "sefton": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.sefton.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "sevenoaks": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "sheffield": {
+   "platform": "moderngov",
+   "base": "https://democracy.sheffield.gov.uk",
+   "website": "https://www.sheffield.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "shetland-islands": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.shetland.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "shropshire": {
+   "platform": "moderngov",
+   "base": "https://www.shropshire.gov.uk/committee-services",
+   "website": "https://next.shropshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "slough": {
+   "platform": "moderngov",
+   "base": "https://democracy.slough.gov.uk",
+   "website": "https://www.slough.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "solihull": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.solihull.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "somerset": {
+   "platform": "moderngov",
+   "base": "https://somerset.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "south-ayrshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.south-ayrshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "south-cambridgeshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.cambridgeshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "south-derbyshire": {
+   "platform": "moderngov",
+   "base": "https://democracy.derbyshire.gov.uk",
+   "website": "https://www.derbyshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "south-gloucestershire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.southglos.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: 403 Forbidden Access denied"
+  },
+  "south-hams": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://new.devon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Error 403 Forbidden 403 Forbidden"
+  },
+  "south-holland": {
+   "platform": "moderngov",
+   "base": "https://lincolnshire.moderngov.co.uk",
+   "website": "https://www.lincolnshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "south-kesteven": {
+   "platform": "moderngov",
+   "base": "https://lincolnshire.moderngov.co.uk",
+   "website": "https://www.lincolnshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "south-lanarkshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.southlanarkshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "south-norfolk": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.norfolk.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "south-oxfordshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.oxfordshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "south-ribble": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "south-staffordshire": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": "https://www.staffordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "south-tyneside": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.southtyneside.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "southampton": {
+   "platform": "moderngov",
+   "base": "https://www.southampton.gov.uk/moderngov",
+   "website": "http://www.southampton.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "southend-on-sea": {
+   "platform": "moderngov",
+   "base": "https://democracy.southend.gov.uk",
+   "website": "http://www.southend.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "southwark": {
+   "platform": "moderngov",
+   "base": "https://moderngov.southwark.gov.uk",
+   "website": "https://www.southwark.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "spelthorne": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "st-albans": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "st-helens": {
+   "platform": "moderngov",
+   "base": "https://sthelens.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "stafford": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": "https://www.staffordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "staffordshire": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "staffordshire-moorlands": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": "https://www.staffordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "stevenage": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "stirling": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://stirling.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: body { font-family: Arial; margin-left: 40px; } im"
+  },
+  "stockport": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.stockport.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: TypeError: fetch failed"
+  },
+  "stockton-on-tees": {
+   "platform": "moderngov",
+   "base": "https://moderngov.stockton.gov.uk",
+   "website": "https://www.stockton.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "stoke-on-trent": {
+   "platform": "moderngov",
+   "base": "https://moderngov.stoke.gov.uk",
+   "website": "https://www.stoke.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "stratford-on-avon": {
+   "platform": "moderngov",
+   "base": "https://democracy.warwickshire.gov.uk",
+   "website": "https://www.warwickshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "stroud": {
+   "platform": "moderngov",
+   "base": "https://stroud.moderngov.co.uk",
+   "website": "https://www.gloucestershire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "suffolk": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "sunderland": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.sunderland.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "surrey": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "surrey-heath": {
+   "platform": "moderngov",
+   "base": "https://surreyheath.moderngov.co.uk",
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "sutton": {
+   "platform": "moderngov",
+   "base": "https://moderngov.sutton.gov.uk",
+   "website": "https://www.sutton.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "swale": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "swindon": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.swindon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "tameside": {
+   "platform": "moderngov",
+   "base": "https://tameside.moderngov.co.uk",
+   "website": "https://www.tameside.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "tamworth": {
+   "platform": "moderngov",
+   "base": "https://staffordshire.moderngov.co.uk",
+   "website": "https://www.staffordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "tandridge": {
+   "platform": "moderngov",
+   "base": "https://tandridge.moderngov.co.uk",
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "teignbridge": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://new.devon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Error 403 Forbidden 403 Forbidden"
+  },
+  "telford-and-wrekin": {
+   "platform": "moderngov",
+   "base": "https://democracy.telford.gov.uk",
+   "website": "https://www.telford.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "tendring": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.essex.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "test-valley": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "tewkesbury": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.gloucestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "thanet": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "the-scottish-borders": {
+   "platform": "moderngov",
+   "base": "https://scottishborders.moderngov.co.uk",
+   "website": "https://www.scotborders.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "three-rivers": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "thurrock": {
+   "platform": "moderngov",
+   "base": "https://democracy.thurrock.gov.uk",
+   "website": "https://www.thurrock.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "tonbridge-and-malling": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "torbay": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.torbay.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "torridge": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://new.devon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "tower-hamlets": {
+   "platform": "moderngov",
+   "base": "http://democracy.towerhamlets.gov.uk",
+   "website": "https://www.towerhamlets.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "trafford": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.trafford.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: ERROR: The request could not be satisfied 403 ERRO"
+  },
+  "tunbridge-wells": {
+   "platform": "moderngov",
+   "base": "https://democracy.kent.gov.uk",
+   "website": "http://www.kent.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "uttlesford": {
+   "platform": "moderngov",
+   "base": "https://uttlesford.moderngov.co.uk",
+   "website": "https://www.essex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "vale-of-white-horse": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.oxfordshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "wakefield": {
+   "platform": "moderngov",
+   "base": "https://wakefield.moderngov.co.uk",
+   "website": "https://www.wakefield.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "walsall": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://go.walsall.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "waltham-forest": {
+   "platform": "moderngov",
+   "base": "https://democracy.walthamforest.gov.uk",
+   "website": "https://www.walthamforest.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "wandsworth": {
+   "platform": "moderngov",
+   "base": "https://democracy.wandsworth.gov.uk",
+   "website": "https://www.wandsworth.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "warrington": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.warrington.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "warwick": {
+   "platform": "moderngov",
+   "base": "https://democracy.warwickshire.gov.uk",
+   "website": "https://www.warwickshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "warwickshire": {
+   "platform": "moderngov",
+   "base": "https://warwickshire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "watford": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "waverley": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "wealden": {
+   "platform": "moderngov",
+   "base": "https://democracy.eastsussex.gov.uk",
+   "website": "https://www.eastsussex.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "welwyn-hatfield": {
+   "platform": "moderngov",
+   "base": "https://democracy.hertfordshire.gov.uk",
+   "website": "https://www.hertfordshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "west-berkshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.westberks.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "west-devon": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://new.devon.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Error 403 Forbidden 403 Forbidden"
+  },
+  "west-dunbartonshire": {
+   "platform": "cmis",
+   "base": "https://wdccmis.west-dunbarton.gov.uk/cmis5",
+   "website": "https://www.west-dunbarton.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "west-lancashire": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "west-lindsey": {
+   "platform": "moderngov",
+   "base": "https://lincolnshire.moderngov.co.uk",
+   "website": "https://www.lincolnshire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "west-lothian": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.westlothian.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "west-northamptonshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "west-oxfordshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.oxfordshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "west-suffolk": {
+   "platform": "unknown",
+   "base": null,
+   "website": null,
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "no website from GOV.UK"
+  },
+  "west-sussex": {
+   "platform": "moderngov",
+   "base": "https://westsussex.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "westminster": {
+   "platform": "moderngov",
+   "base": "https://westminster.moderngov.co.uk",
+   "website": "https://www.westminster.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "westmorland-and-furness": {
+   "platform": "moderngov",
+   "base": "https://westmorlandandfurness.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "wigan": {
+   "platform": "moderngov",
+   "base": "https://democracy.wigan.gov.uk",
+   "website": "https://www.wigan.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "wiltshire": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.wiltshire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13",
+   "note": "home page: HTTP 403: Just a moment... *{box-sizing:border-box;margin:0;"
+  },
+  "winchester": {
+   "platform": "moderngov",
+   "base": "https://democracy.hants.gov.uk",
+   "website": "https://www.hants.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "windsor-and-maidenhead": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.rbwm.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "wirral": {
+   "platform": "moderngov",
+   "base": "https://democracy.wirral.gov.uk",
+   "website": "http://www.wirral.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "woking": {
+   "platform": "moderngov",
+   "base": "https://woking.moderngov.co.uk",
+   "website": "http://www.surreycc.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "wokingham": {
+   "platform": "moderngov",
+   "base": "https://wokingham.moderngov.co.uk",
+   "website": "https://www.wokingham.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "wolverhampton": {
+   "platform": "moderngov",
+   "base": "https://wolverhampton.moderngov.co.uk",
+   "website": "http://www.wolverhampton.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "worcester": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.worcestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "worcestershire": {
+   "platform": "moderngov",
+   "base": "https://worcestershire.moderngov.co.uk",
+   "website": null,
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "worthing": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.westsussex.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "wychavon": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.worcestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "wyre": {
+   "platform": "moderngov",
+   "base": "https://council.lancashire.gov.uk",
+   "website": "https://www.lancashire.gov.uk",
+   "feedOk": true,
+   "checked": "2026-11-13"
+  },
+  "wyre-forest": {
+   "platform": "unknown",
+   "base": null,
+   "website": "http://www.worcestershire.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  },
+  "york": {
+   "platform": "unknown",
+   "base": null,
+   "website": "https://www.york.gov.uk",
+   "feedOk": false,
+   "checked": "2026-11-13"
+  }
+ }
 }
