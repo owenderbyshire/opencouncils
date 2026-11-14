@@ -17,7 +17,7 @@ export type PartySeatsRow = {
 export const NO_PARTY = "No party recorded";
 
 /** Left to right across the chamber, roughly as Welsh councils sit. Local groups go after independents. */
-export const CHAMBER_ORDER = ["lab", "pc", "green", "ld", "ind", "local", "none", "con", "reform"];
+export const CHAMBER_ORDER = ["pbp", "sf", "sdlp", "lab", "snp", "alba", "pc", "green", "alliance", "ld", "ind", "local", "none", "uup", "con", "dup", "tuv", "reform"];
 
 export interface SeatGroup {
   key: string;
