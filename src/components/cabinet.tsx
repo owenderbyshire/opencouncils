@@ -130,7 +130,7 @@ export async function CouncilCabinetBlock({ locale, councilId }: { locale: Local
   const missing = missingPortfolios(locale, c);
   const noPosts = !c.members.some((m) => m.posts.length);
   return (
-    <Section id="cabinet" icon="council" title={t.block.title} className="border-t border-rule" aside={<Link href={href(locale, "/cabinets")}>{t.block.all}</Link>}>
+    <Section id="cabinet" icon="council" title={t.block.title} className="border-t border-rule">
       <p className="-mt-1 mb-2 max-w-[62ch] text-small text-ink-2">{t.block.lede}</p>
       <CabinetRows locale={locale} councilId={councilId} members={first} noPosts={noPosts} />
       {rest.length ? (
