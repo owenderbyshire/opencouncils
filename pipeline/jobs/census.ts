@@ -40,14 +40,24 @@ export interface CensusEntry {
 
 const STATE_KEY = "census";
 
-/** The council's website, from GOV.UK. */
+/**
+ * The council's website, from GOV.UK. A district's page lists its county
+ * council too, county first, so the link chosen is the one naming this council.
+ */
+export function pickWebsite(html: string, c: Pick<RegisterEntry, "short" | "name">): string | null {
+  const links = [...html.matchAll(/<a[^>]+href="(https?:\/\/[^"]+)"[^>]*>\s*Go to ([^<]*?)\s*website/gi)].map((m) => ({ url: m[1].replace(/\/+$/, ""), text: m[2].toLowerCase() }));
+  if (!links.length) return null;
+  const key = (x: string) => x.toLowerCase().replace(/^the /, "").replace(/ (borough|district|city|county|metropolitan borough) council$/, "").replace(/ council$/, "");
+  const want = [key(c.short), key(c.name)];
+  const match = links.find((l) => want.some((w) => l.text.includes(w)));
+  if (match) return match.url;
+  return links.length === 1 ? links[0].url : null;
+}
+
 async function websiteFromGovUk(c: RegisterEntry): Promise<string | null> {
   if (!c.govUkSlug) return null;
   const r = await fetchText(`https://www.gov.uk/find-local-council/${c.govUkSlug}`, { retries: 1, timeoutMs: 20_000 });
-  if (!r.ok) return null;
-  // The page's main link: "Go to <council> website".
-  const m = r.text.match(/<a[^>]+href="(https?:\/\/[^"]+)"[^>]*>\s*Go to [^<]*website/i);
-  return m ? m[1].replace(/\/+$/, "") : null;
+  return r.ok ? pickWebsite(r.text, c) : null;
 }
 
 /** The ModernGov base of a link: everything before the mg*.aspx / ie*.aspx page. */
@@ -105,7 +115,7 @@ export async function censusOne(c: RegisterEntry, known?: CensusEntry): Promise<
   if (known?.via === "manual" && known.base) {
     return { ...known, feedOk: known.platform === "moderngov" ? await feedAnswers(known.base) : false, checked };
   }
-  const website = known?.website ?? (await websiteFromGovUk(c));
+  const website = await websiteFromGovUk(c);
   const notes: string[] = [];
   let systems = { moderngov: [] as string[], cmis: [] as string[], democracy: [] as string[] };
   if (website) {
@@ -139,6 +149,12 @@ export const censusJob: Job = {
     // Stop in time for the workflow to save what was found (its limit is two hours).
     const deadline = Date.now() + (Number(ctx.args.minutes) || 95) * 60_000;
     let todo = CURRENT_COUNCILS.filter((c) => (only ? c.id === only : ctx.args.all || c.nation !== "Wales"));
+    // --shared: only councils whose base another council also holds (two-tier mix-ups).
+    if (ctx.args.shared) {
+      const counts = new Map<string, number>();
+      for (const e of Object.values(state)) if (e.base) counts.set(e.base, (counts.get(e.base) ?? 0) + 1);
+      todo = todo.filter((c) => (counts.get(state[c.id]?.base ?? "") ?? 0) > 1 || (c.county && state[c.county] && !state[c.county].base));
+    }
     if (only && !todo.length) throw new Error(`Unknown council: ${only}`);
     // Least recently checked first, so a limited run works through the list.
     todo = todo.sort((a, b) => (state[a.id]?.checked ?? "").localeCompare(state[b.id]?.checked ?? "")).slice(0, limit);

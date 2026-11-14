@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { findSystems, guesses, moderngovBaseOf } from "./census";
+import { findSystems, guesses, moderngovBaseOf, pickWebsite } from "./census";
 
 describe("census", () => {
   it("takes the ModernGov base from a page link", () => {
@@ -21,5 +21,12 @@ describe("census", () => {
     const g = guesses("https://www.woking.gov.uk", { short: "Woking" } as never);
     expect(g).toContain("https://democracy.woking.gov.uk");
     expect(g).toContain("https://woking.moderngov.co.uk");
+  });
+
+  it("picks the district's own website when GOV.UK lists the county first", () => {
+    const html = `<a href="https://www.kent.gov.uk/">Go to Kent County Council website</a>
+      <a href="https://www.maidstone.gov.uk/">Go to Maidstone Borough Council website</a>`;
+    expect(pickWebsite(html, { short: "Maidstone", name: "Maidstone Borough Council" })).toBe("https://www.maidstone.gov.uk");
+    expect(pickWebsite(html, { short: "Kent", name: "Kent County Council" })).toBe("https://www.kent.gov.uk");
   });
 });

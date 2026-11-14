@@ -86,6 +86,16 @@ export interface CouncilConfig {
 
 export const REGISTER = register.councils as RegisterEntry[];
 const PLATFORMS = platforms.councils as Record<string, PlatformEntry>;
+/**
+ * Safeguard: a ModernGov address the census gave to more than one council is
+ * not trusted (a district once picked up its county's site), so none of those
+ * councils is fetched until the census tells them apart.
+ */
+const SHARED_BASES = (() => {
+  const n = new Map<string, number>();
+  for (const p of Object.values(PLATFORMS)) if (p.base) n.set(p.base, (n.get(p.base) ?? 0) + 1);
+  return new Set([...n].filter(([, k]) => k > 1).map(([b]) => b));
+})();
 
 /** Councils in place today, from the four nations: the ones the site lists. */
 export const CURRENT_COUNCILS = REGISTER.filter((c) => c.current && c.kind !== "combined");
@@ -177,7 +187,7 @@ export const COUNCILS: CouncilConfig[] = CURRENT_COUNCILS.map((r) => {
   const welsh = WELSH.get(r.id);
   if (welsh) return { ...base, ...welsh };
   const p = PLATFORMS[r.id];
-  const mg = p?.platform === "moderngov" && p.feedOk ? p.base : null;
+  const mg = p?.platform === "moderngov" && p.feedOk && p.base && !SHARED_BASES.has(p.base) ? p.base : null;
   return {
     ...base,
     nameEn: r.name,
@@ -191,7 +201,7 @@ export const COUNCILS: CouncilConfig[] = CURRENT_COUNCILS.map((r) => {
     // Switched on council by council once the census has confirmed the feed (ACTIVE_IDS).
     active: Boolean(mg) && ACTIVE_IDS.has(r.id),
     system: mg ? "moderngov" : "none",
-    recordsUrl: p?.base ?? null,
+    recordsUrl: p?.base && !SHARED_BASES.has(p.base) ? p.base : null,
   };
 });
 
