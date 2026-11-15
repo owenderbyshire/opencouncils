@@ -177,3 +177,8 @@ A council gets AI decision summaries once someone is monitoring it, which ties r
 - Pilot switched on: Manchester, Sheffield, Cornwall, Edinburgh, Aberdeenshire, Belfast. Councillors, committees, meetings, Cabinet and forward plans loaded; meeting summaries started.
 - Welsh data: 16 of 22 councils loaded. Bridgend, Caerphilly, Denbighshire, Flintshire, Anglesey and Wrexham block GitHub's servers and wait on the relay (needs the domain plus REVALIDATE_SECRET and SITE_URL).
 - Fixes: Welsh-only blocks removed from council pages; Scottish and Northern Irish parties added, with SDLP no longer read as Labour.
+
+**15 November 2026: second batch switched on.**
+- 20 more councils, largest first: Hampshire, Lancashire, Hertfordshire, West Sussex, Derbyshire, Lincolnshire, Gloucestershire, Worcestershire, Warwickshire, Somerset, Buckinghamshire, Bradford, Liverpool, Bristol, Kirklees, Barnet, Croydon, Leicester, Wakefield, Ealing. 26 councils outside Wales now live.
+- Summaries for councils outside Wales are written in English only, so the £60 cap isn't spent on Welsh nobody reads there.
+- Census: council names now match as whole words. Stafford had been given Staffordshire County Council's site; fixed, which also frees Staffordshire to be switched on.
