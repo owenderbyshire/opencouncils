@@ -232,3 +232,20 @@ describe("the recent-only window", () => {
     expect(recentWindow("2026-11-09", null)).toBeNull();
   });
 });
+
+describe("English-only summaries", () => {
+  it("drops every Welsh field from the schema and the prompt", async () => {
+    const { SCHEMA_EN, SYSTEM_EN } = await import("./summaries");
+    expect(JSON.stringify(SCHEMA_EN)).not.toMatch(/_cy/);
+    expect(SYSTEM_EN).not.toMatch(/Welsh/);
+    expect(SYSTEM_EN).toMatch(/Begin with the substance/);
+  });
+  it("fills the Welsh fields with the English", async () => {
+    const { withEnglishAsWelsh } = await import("./summaries");
+    expect(withEnglishAsWelsh({ overview_en: "A", items: [{ item: 1, why_en: "B" }] })).toEqual({
+      overview_en: "A",
+      overview_cy: "A",
+      items: [{ item: 1, why_en: "B", why_cy: "B" }],
+    });
+  });
+});

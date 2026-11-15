@@ -346,7 +346,7 @@ const Output = z.object({
   ),
 });
 
-const SYSTEM = `You summarise Welsh local council meetings for OpenCouncil, an independent, non-partisan public record. Readers are residents, journalists and community groups who may know nothing about how councils work.
+const SYSTEM = `You summarise UK local council meetings for an independent, non-partisan public record. Readers are residents, journalists and community groups who may know nothing about how councils work.
 
 Councils publish no transcript. You have the meeting's minutes, when they have been published, and the reports on its agenda. When an item says "Minute: none published", the meeting hasn't been minuted yet: say what is proposed, never what was decided, and leave decided_en empty. In the overview, say what the meeting will consider or considered, not what it decided, unless a minute records it.
 
@@ -363,6 +363,37 @@ Welsh grammar to get right:
 - Numbers agree with the noun's gender and mutate it. "Cais" (application) is masculine: "dau gais", "tri chais", "pedwar cais", never "tair cais" or "dwy gais". Feminine nouns take "dwy", "tair", "pedair".
 - "A" (and) becomes "ac" before a vowel: "ac estyniad", "ac adroddiad".
 - Read each Welsh sentence again for repeated letters or syllables (write "sefyllfa", never "sefsefyllfa").`;
+
+/** The schema without its Welsh fields, for councils outside Wales: nobody reads the Welsh there, so it isn't paid for. */
+export function englishSchema(node: unknown): unknown {
+  if (Array.isArray(node)) return node.filter((v) => !(typeof v === "string" && v.endsWith("_cy"))).map(englishSchema);
+  if (!node || typeof node !== "object") return node;
+  return Object.fromEntries(
+    Object.entries(node as Record<string, unknown>)
+      .filter(([k]) => !k.endsWith("_cy"))
+      .map(([k, v]) => [k, englishSchema(v)]),
+  );
+}
+
+/** Fills each Welsh field of an English-only reply with its English, so the stored summary keeps one shape. */
+export function withEnglishAsWelsh(node: unknown): unknown {
+  if (Array.isArray(node)) return node.map(withEnglishAsWelsh);
+  if (!node || typeof node !== "object") return node;
+  const out: Record<string, unknown> = {};
+  for (const [k, v] of Object.entries(node as Record<string, unknown>)) {
+    out[k] = withEnglishAsWelsh(v);
+    if (k.endsWith("_en")) out[k.slice(0, -3) + "_cy"] = v;
+  }
+  return out;
+}
+
+export const SYSTEM_EN = SYSTEM.split("\n")
+  .filter((line) => !/Welsh|Cyngor llawn|"Cais"|"A" \(and\)|sefyllfa|English and Welsh/.test(line))
+  .join("\n")
+  .replace(/\n{3,}/g, "\n\n")
+  .trim()
+  .concat("\n- Begin with the substance (what was decided or proposed); don't open with when or where the meeting met.");
+export const SCHEMA_EN = englishSchema(SCHEMA) as typeof SCHEMA;
 
 type ItemRow = { id: number; seq: number; number: string | null; title: string; minutes: string | null; agendaText: string | null };
 type DocRow = { id: number; agendaItemId: number | null; title: string; text: string | null };
@@ -601,6 +632,7 @@ export const summariesJob: Job = {
     const councils = [...recordCouncilsFor(ctx)].sort((a, b) => (heldBy.get(a.id) ?? 0) - (heldBy.get(b.id) ?? 0));
     for (const council of councils) {
       if (outOfCredit || budgetReached) break;
+      const welsh = council.nation === "Wales";
       const repairIds = toRepair.get(council.id) ?? [];
       if (repair && !repairIds.length) continue;
       const failed = (await ctx.getState<Record<string, string>>(failedKey(council.id))) ?? {};
@@ -679,9 +711,9 @@ export const summariesJob: Job = {
             .stream({
               model: MODEL,
               max_tokens: 32000,
-              system: cachedSystem(SYSTEM),
+              system: cachedSystem(welsh ? SYSTEM : SYSTEM_EN),
               messages: [{ role: "user", content: text }],
-              output_config: { format: { type: "json_schema", schema: SCHEMA } },
+              output_config: { format: { type: "json_schema", schema: welsh ? SCHEMA : SCHEMA_EN } },
             })
             .finalMessage();
         } catch (err) {
@@ -713,7 +745,7 @@ export const summariesJob: Job = {
           rememberFailure(m.id, inputHash, pence);
           return;
         }
-        const parsed = Output.safeParse(json);
+        const parsed = Output.safeParse(welsh ? json : withEnglishAsWelsh(json));
         if (!parsed.success) {
           ctx.warn(`${council.id}: summary for meeting ${m.id} didn't match the schema`);
           ctx.count("failures");
