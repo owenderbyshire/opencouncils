@@ -30,3 +30,12 @@ describe("census", () => {
     expect(pickWebsite(html, { short: "Kent", name: "Kent County Council" })).toBe("https://www.kent.gov.uk");
   });
 });
+
+describe("pickWebsite whole words", () => {
+  it("doesn't give Stafford the county's link", () => {
+    const html = `<a href="https://www.staffordshire.gov.uk">Go to Staffordshire County Council website</a>
+      <a href="https://www.staffordbc.gov.uk">Go to Stafford Borough Council website</a>`;
+    expect(pickWebsite(html, { short: "Stafford", name: "Stafford Borough Council" })).toBe("https://www.staffordbc.gov.uk");
+    expect(pickWebsite(html, { short: "Staffordshire", name: "Staffordshire County Council" })).toBe("https://www.staffordshire.gov.uk");
+  });
+});

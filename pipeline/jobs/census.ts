@@ -49,7 +49,10 @@ export function pickWebsite(html: string, c: Pick<RegisterEntry, "short" | "name
   if (!links.length) return null;
   const key = (x: string) => x.toLowerCase().replace(/^the /, "").replace(/ (borough|district|city|county|metropolitan borough) council$/, "").replace(/ council$/, "");
   const want = [key(c.short), key(c.name)];
-  const match = links.find((l) => want.some((w) => l.text.includes(w)));
+  // Whole words only, so "Stafford" doesn't take "Staffordshire County Council"'s link; an exact name wins.
+  const esc = (w: string) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const exact = links.find((l) => want.includes(key(l.text)));
+  const match = exact ?? links.find((l) => want.some((w) => new RegExp(`(^|[^a-z])${esc(w)}([^a-z]|$)`).test(l.text)));
   if (match) return match.url;
   return links.length === 1 ? links[0].url : null;
 }
