@@ -52,9 +52,27 @@ export async function notifyOwner(
   }
 }
 
+/** Anthropic's monthly spend limit for the organisation, separate from credit: raised in the Console, or it lifts on the 1st. */
+export const SPEND_LIMIT = {
+  key: "anthropic-spend-limit",
+  subject: "OpenCouncils: the Anthropic account has reached its monthly spend limit",
+  body: [
+    "The AI meeting summaries have stopped because the Anthropic API organisation has reached its monthly spend limit. Anthropic lifts it on the 1st of next month.",
+    "",
+    "To carry on sooner: go to https://console.anthropic.com, open Settings, then Limits, and raise the monthly spend limit (a higher usage tier may be needed).",
+    "",
+    "Nothing else is affected. Summaries carry on from where they stopped on the next run after that.",
+  ].join("\n"),
+};
+
+/** Whether an Anthropic error means the organisation's monthly spend limit, which no retry this month will get past. */
+export function isSpendLimit(message: string): boolean {
+  return /enforced_spend_limit_reached|monthly API usage threshold|reached your API usage limits/i.test(message);
+}
+
 export const OUT_OF_CREDIT = {
   key: "anthropic-credit",
-  subject: "OpenCouncil: the Anthropic account has run out of credit",
+  subject: "OpenCouncils: the Anthropic account has run out of credit",
   body: [
     "The AI meeting summaries have stopped because the Anthropic API account has no credit left.",
     "",

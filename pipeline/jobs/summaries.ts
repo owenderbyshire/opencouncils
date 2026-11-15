@@ -57,7 +57,7 @@ import { formatDate } from "../../src/i18n/format";
 import { welshCommitteeName } from "../../src/lib/committees";
 import { recordCouncilsFor } from "../lib/councils";
 import { PartialFailure, type Job, type JobContext } from "../lib/job";
-import { notifyOwner, OUT_OF_CREDIT } from "../lib/notify";
+import { isSpendLimit, notifyOwner, OUT_OF_CREDIT, SPEND_LIMIT } from "../lib/notify";
 import { nameKeys } from "../lib/text";
 import { argNumber, sha1 } from "../lib/util";
 import { isDeclarationsItem } from "../sources/moderngov";
@@ -721,6 +721,11 @@ export const summariesJob: Job = {
           ctx.count("failures");
           if (/credit balance/i.test((err as Error).message)) {
             await notifyOwner(ctx, OUT_OF_CREDIT.key, OUT_OF_CREDIT.subject, OUT_OF_CREDIT.body);
+            outOfCredit = true;
+            return;
+          }
+          if (isSpendLimit((err as Error).message)) {
+            await notifyOwner(ctx, SPEND_LIMIT.key, SPEND_LIMIT.subject, SPEND_LIMIT.body);
             outOfCredit = true;
             return;
           }
