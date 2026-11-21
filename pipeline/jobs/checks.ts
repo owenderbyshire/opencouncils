@@ -98,7 +98,11 @@ export const checksJob: Job = {
     // src/data/forward-plans.ts), so the owner should hear before then.
     const unread = await ctx.db.execute<{ council: string; source: string; last: string; outcome: string }>(sql`
       select council_id as council, source, (read_at at time zone 'Europe/London')::date::text as last, outcome
-      from source_reads where read_at is not null and read_at < now() - interval '4 days' order by 1, 2
+      from source_reads r where read_at is not null and read_at < now() - interval '4 days'
+        -- A council run by committees (Belfast, Sheffield) has no Cabinet or forward plan: its pages read empty every
+        -- time, which is right. Only an empty look at a council that has had executive posts is a problem.
+        and not (r.outcome = 'empty' and not exists (select 1 from executive_posts e where e.council_id = r.council_id))
+      order by 1, 2
     `);
     ctx.count("pagesUnread", unread.length);
     for (const u of unread) problems.push(`${u.council}: its ${u.source} pages were last read in full on ${u.last} (the last look: ${u.outcome})`);
