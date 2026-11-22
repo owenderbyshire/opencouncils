@@ -197,3 +197,8 @@ A council gets AI decision summaries once someone is monitoring it, which ties r
 - /find takes any UK postcode (postcodes.io, free): both councils in two-tier areas, and the ward's councillors where we hold them. No MapIt subscription needed.
 - All three refresh weekly with the census; each refuses to store a file that matches fewer than 300 councils.
 - Safeguard: the 16 November census lost Liverpool's and Belfast's meetings sites and switched both off. The census now keeps any address that worked, and a switched-on council stays on through a bad week. Both restored.
+
+**22 November 2026: fourth batch, and the speed fix.**
+- 20 more councils: Waltham Forest, Cumberland, Westminster, Rotherham, Wolverhampton, Salford, Stoke-on-Trent, Southampton, Harrow, Bexley, Islington, Oldham, Tameside, Westmorland and Furness, Rochdale, Portsmouth, Calderdale, North Tyneside, Sutton, Merton.
+- The run took 2h55m for 66 councils (batch three: over four hours for 46). Committees 8m (was 37m), councillors 20m (was 2h22m), meetings 31m (was 1h31m). Meeting details took 85m; it, Cabinet posts and forward plans now also read six councils at once.
+- Camden, Brighton and Hove and Wandsworth block GitHub's servers, so nothing could be read and their pages were empty. Switched off and listed under "waitingForRelay" in platforms.json, to switch back on when the relay works. 63 councils outside Wales now live.
