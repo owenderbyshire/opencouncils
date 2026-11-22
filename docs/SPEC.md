@@ -25,7 +25,7 @@ Wales has 22 councils. The UK has around 370, and that number is moving because 
 | 5 | UK summary cap £60 a month |
 | 6 | Launch before the May 2027 elections |
 | 7 | Combined and strategic authorities in phase two; planning and parish councils out for now |
-| 8 | No approach to Open Council Data UK |
+| 8 | No approach to Open Council Data UK. Their free files are used for party balance (agreed 22 November 2026), credited, and the derived figures shared on the same terms |
 | 9 | Monitoring and briefing prices match the rest of the suite |
 | 10 | Yellow accent colour |
 | 11 | Own repo: opencouncils |
@@ -60,7 +60,7 @@ For the build, the data model treats councils as things that are created, merged
 
 **Code.** Copied from the Welsh OpenCouncil codebase on 13 November 2026 (decision 12) and widened to the UK. The two codebases are separate from here on; changes are not shared back.
 
-**Name clash.** Open Council Data UK (opencouncildata.co.uk) uses a similar name for council and councillor data. No approach planned. Its free data carries a share-alike licence, which would oblige OpenCouncils to release derived data on the same terms, so councils' own sites are the primary source instead.
+**Name clash.** Open Council Data UK (opencouncildata.co.uk) uses a similar name for council and councillor data. No approach planned. Its free data carries a share-alike licence. Since 22 November 2026 OpenCouncils uses it for party balance and control across every council, credits it on each page and on the open data page, and shares the derived figures on the same terms. Councils' own sites stay the primary source wherever we read them.
 
 ## Scope and coverage
 
@@ -189,3 +189,11 @@ A council gets AI decision summaries once someone is monitoring it, which ties r
 - The run hit its time limit before summaries: committees, councillors and meetings read one council at a time took over four hours. They now read six councils at once (each site still gets at most two requests at a time).
 - 29 councils' Cabinet and forward-plan pages answer GitHub with a Cloudflare challenge (Manchester among them). They wait on the relay, which needs the domain plus REVALIDATE_SECRET and SITE_URL.
 - Checks no longer flag empty Cabinet pages at councils run by committees (Belfast, Sheffield).
+
+**22 November 2026: data from other open sources.** Agreed with Owen: take what helps from mySociety and Open Council Data UK, including features first planned for later.
+- Party balance and who has the most seats for every council (Open Council Data UK), on register pages and as a chart by nation on the home page. Worked out from seat counts, so "majority" means more than half the seats.
+- Climate emergency, net zero date and latest action plan for every council (CAPE, mySociety and Climate Emergency UK).
+- Freedom of information: each council's WhatDoTheyKnow page.
+- /find takes any UK postcode (postcodes.io, free): both councils in two-tier areas, and the ward's councillors where we hold them. No MapIt subscription needed.
+- All three refresh weekly with the census; each refuses to store a file that matches fewer than 300 councils.
+- Safeguard: the 16 November census lost Liverpool's and Belfast's meetings sites and switched both off. The census now keeps any address that worked, and a switched-on council stays on through a bad week. Both restored.
