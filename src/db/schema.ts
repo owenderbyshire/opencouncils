@@ -846,3 +846,47 @@ export const sourceReads = pgTable(
   },
   (t) => [primaryKey({ columns: [t.councilId, t.source] })],
 );
+
+/**
+ * Each council's party balance and who controls it, from Open Council Data UK's free files (CC BY-SA, credited on
+ * every page that shows it). Covers every council, including the ones whose own records we don't read; for councils
+ * we do read, the councillors table is the fresher source. Keyed by register id.
+ */
+export const councilCompositions = pgTable(
+  "council_compositions",
+  {
+    councilId: text("council_id").notNull(),
+    /** The May the figures date from (their files are taken shortly after each May's elections). */
+    year: integer("year").notNull(),
+    seats: integer("seats").notNull(),
+    /** Seats by party, largest first: their party name, our party id where we know it, and the count. */
+    parties: jsonb("parties").$type<{ label: string; partyId: string | null; seats: number }[]>().notNull(),
+    /** Their description of control, as given ("Lab", "Con plurality", "Other"). Null for Northern Ireland. */
+    control: text("control"),
+    readAt: ts("read_at").notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.councilId, t.year] })],
+);
+
+/** Each council's climate emergency and action plan, from mySociety and Climate Emergency UK's CAPE. */
+export const councilClimate = pgTable("council_climate", {
+  councilId: text("council_id").primaryKey(),
+  /** The council's page on CAPE. */
+  capeUrl: text("cape_url").notNull(),
+  planCount: integer("plan_count").notNull(),
+  /** The council's most recent action plan in CAPE: its title and the council's own address for it. */
+  planTitle: text("plan_title"),
+  planUrl: text("plan_url"),
+  plansLastUpdate: date("plans_last_update", { mode: "string" }),
+  declaredEmergency: date("declared_emergency", { mode: "string" }),
+  /** The year or date the council says it will be carbon neutral, as given. */
+  carbonNeutral: text("carbon_neutral"),
+  readAt: ts("read_at").notNull().defaultNow(),
+});
+
+/** Each council's page on WhatDoTheyKnow, mySociety's freedom of information site (CC BY-SA). */
+export const councilWdtk = pgTable("council_wdtk", {
+  councilId: text("council_id").primaryKey(),
+  urlName: text("url_name").notNull(),
+  readAt: ts("read_at").notNull().defaultNow(),
+});

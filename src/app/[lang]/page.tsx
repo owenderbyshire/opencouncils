@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
+import { ControlByNation } from "@/components/control-by-nation";
 import { Section } from "@/components/page-header";
+import { PostcodeForm } from "@/components/postcode-form";
+import { BlockSkeleton } from "@/components/skeleton";
 import { SearchForm } from "@/components/search-form";
 import { href } from "@/i18n/config";
 import { formatDate, formatNumber } from "@/i18n/format";
@@ -70,6 +74,19 @@ export default async function HomePage() {
             </Link>
           </p>
         </Section>
+
+        <div className="grid gap-x-12 md:grid-cols-[3fr_2fr]">
+          <Section title={t.outside.controlTitle}>
+            <p className="mb-5 max-w-[58ch] text-small text-ink-2">{t.outside.controlLede}</p>
+            <Suspense fallback={<BlockSkeleton lines={4} label={common[locale].words.loading} />}>
+              <ControlByNation locale={locale} />
+            </Suspense>
+          </Section>
+          <Section title={t.find.title}>
+            <p className="mb-4 max-w-[48ch] text-small text-ink-2">{t.find.lede}</p>
+            <PostcodeForm locale={locale} placeholder={t.find.placeholder} />
+          </Section>
+        </div>
 
         <div className="grid gap-x-12 md:grid-cols-2">
           <Section title={t.home.reorgTitle}>

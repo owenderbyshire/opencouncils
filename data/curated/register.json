@@ -1,6 +1,6 @@
 {
  "source": "mySociety, UK local authority names and codes",
- "built": "2026-11-13",
+ "built": "2026-11-22",
  "councils": [
   {
    "id": "aberdeen-city",
@@ -21,6 +21,8 @@
    "lat": 57.1558,
    "lng": -2.1736,
    "govUkSlug": "aberdeen",
+   "wdtkId": 39,
+   "ocdId": "295.0",
    "current": true
   },
   {
@@ -42,6 +44,8 @@
    "lat": 57.2411,
    "lng": -2.632,
    "govUkSlug": "aberdeenshire",
+   "wdtkId": 40,
+   "ocdId": "296.0",
    "current": true
   },
   {
@@ -63,6 +67,8 @@
    "lat": 50.8444,
    "lng": -0.2985,
    "govUkSlug": "adur",
+   "wdtkId": 41,
+   "ocdId": "165.0",
    "current": true
   },
   {
@@ -86,6 +92,8 @@
    "lat": 54.7111,
    "lng": -3.2472,
    "govUkSlug": "allerdale",
+   "wdtkId": 42,
+   "ocdId": "28.0",
    "current": false
   },
   {
@@ -107,6 +115,8 @@
    "lat": 53.0292,
    "lng": -1.4667,
    "govUkSlug": "amber-valley",
+   "wdtkId": 44,
+   "ocdId": "170.0",
    "current": true
   },
   {
@@ -128,6 +138,8 @@
    "lat": 56.724,
    "lng": -2.9174,
    "govUkSlug": "angus",
+   "wdtkId": 45,
+   "ocdId": "297.0",
    "current": true
   },
   {
@@ -149,6 +161,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -170,6 +184,8 @@
    "lat": 54.7018,
    "lng": -6.1978,
    "govUkSlug": "antrim-newtownabbey",
+   "wdtkId": 54905,
+   "ocdId": "1001.0",
    "current": true
   },
   {
@@ -191,6 +207,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -212,6 +230,8 @@
    "lat": 54.5343,
    "lng": -5.6293,
    "govUkSlug": "ards-and-north-down",
+   "wdtkId": 54914,
+   "ocdId": "1011.0",
    "current": true
   },
   {
@@ -233,6 +253,8 @@
    "lat": 56.1219,
    "lng": -5.5028,
    "govUkSlug": "argyll-and-bute",
+   "wdtkId": 48,
+   "ocdId": "298.0",
    "current": true
   },
   {
@@ -254,6 +276,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -275,6 +299,8 @@
    "lat": 54.3692,
    "lng": -6.4567,
    "govUkSlug": "armagh-banbridge-craigavon",
+   "wdtkId": 54906,
+   "ocdId": "1002.0",
    "current": true
   },
   {
@@ -296,6 +322,8 @@
    "lat": 50.8409,
    "lng": -0.5682,
    "govUkSlug": "arun",
+   "wdtkId": 50,
+   "ocdId": "29.0",
    "current": true
   },
   {
@@ -317,6 +345,8 @@
    "lat": 53.0923,
    "lng": -1.2592,
    "govUkSlug": "ashfield",
+   "wdtkId": 51,
+   "ocdId": "30.0",
    "current": true
   },
   {
@@ -338,6 +368,8 @@
    "lat": 51.1253,
    "lng": 0.8113,
    "govUkSlug": "ashford",
+   "wdtkId": 52,
+   "ocdId": "31.0",
    "current": true
   },
   {
@@ -361,6 +393,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "aylesbury-vale",
+   "wdtkId": 53,
+   "ocdId": "32.0",
    "current": false
   },
   {
@@ -382,6 +416,8 @@
    "lat": 52.0506,
    "lng": 0.9153,
    "govUkSlug": "babergh",
+   "wdtkId": 54,
+   "ocdId": "33.0",
    "current": true
   },
   {
@@ -403,6 +439,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -424,6 +462,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -445,6 +485,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -466,6 +508,8 @@
    "lat": 51.544,
    "lng": 0.1332,
    "govUkSlug": "barking-and-dagenham",
+   "wdtkId": 58,
+   "ocdId": "227.0",
    "current": true
   },
   {
@@ -487,6 +531,8 @@
    "lat": 51.616,
    "lng": -0.21,
    "govUkSlug": "barnet",
+   "wdtkId": 59,
+   "ocdId": "228.0",
    "current": true
   },
   {
@@ -508,6 +554,8 @@
    "lat": 53.5359,
    "lng": -1.5326,
    "govUkSlug": "barnsley",
+   "wdtkId": 60,
+   "ocdId": "264.0",
    "current": true
   },
   {
@@ -531,6 +579,8 @@
    "lat": 54.1266,
    "lng": -3.2123,
    "govUkSlug": "barrow-in-furness",
+   "wdtkId": 61,
+   "ocdId": "34.0",
    "current": false
   },
   {
@@ -552,6 +602,8 @@
    "lat": 51.5901,
    "lng": 0.4663,
    "govUkSlug": "basildon",
+   "wdtkId": 62,
+   "ocdId": "171.0",
    "current": true
   },
   {
@@ -573,6 +625,8 @@
    "lat": 51.2735,
    "lng": -1.2009,
    "govUkSlug": "basingstoke-and-deane",
+   "wdtkId": 63,
+   "ocdId": "172.0",
    "current": true
   },
   {
@@ -594,6 +648,8 @@
    "lat": 53.3328,
    "lng": -0.9589,
    "govUkSlug": "bassetlaw",
+   "wdtkId": 64,
+   "ocdId": "35.0",
    "current": true
   },
   {
@@ -615,6 +671,8 @@
    "lat": 51.356,
    "lng": -2.4753,
    "govUkSlug": "bath-and-north-east-somerset",
+   "wdtkId": 65,
+   "ocdId": "327.0",
    "current": true
   },
   {
@@ -636,6 +694,8 @@
    "lat": 52.1892,
    "lng": -0.4771,
    "govUkSlug": "bedford",
+   "wdtkId": 66,
+   "ocdId": "328.0",
    "current": true
   },
   {
@@ -657,6 +717,8 @@
    "lat": 54.5963,
    "lng": -5.9428,
    "govUkSlug": "belfast",
+   "wdtkId": 68,
+   "ocdId": "1003.0",
    "current": true
   },
   {
@@ -678,6 +740,8 @@
    "lat": 51.4609,
    "lng": 0.1423,
    "govUkSlug": "bexley",
+   "wdtkId": 70,
+   "ocdId": "229.0",
    "current": true
   },
   {
@@ -699,6 +763,8 @@
    "lat": 52.4885,
    "lng": -1.8748,
    "govUkSlug": "birmingham",
+   "wdtkId": 71,
+   "ocdId": "259.0",
    "current": true
   },
   {
@@ -720,6 +786,8 @@
    "lat": 52.5715,
    "lng": -1.222,
    "govUkSlug": "blaby",
+   "wdtkId": 72,
+   "ocdId": "36.0",
    "current": true
   },
   {
@@ -741,6 +809,8 @@
    "lat": 53.6926,
    "lng": -2.4675,
    "govUkSlug": "blackburn-with-darwen",
+   "wdtkId": 73,
+   "ocdId": "365.0",
    "current": true
   },
   {
@@ -762,6 +832,8 @@
    "lat": 53.8177,
    "lng": -3.0355,
    "govUkSlug": "blackpool",
+   "wdtkId": 74,
+   "ocdId": "329.0",
    "current": true
   },
   {
@@ -783,6 +855,8 @@
    "lat": 51.7667,
    "lng": -3.1938,
    "govUkSlug": "blaenau-gwent",
+   "wdtkId": 75,
+   "ocdId": "382.0",
    "current": true
   },
   {
@@ -804,6 +878,8 @@
    "lat": 53.2156,
    "lng": -1.2773,
    "govUkSlug": "bolsover",
+   "wdtkId": 77,
+   "ocdId": "37.0",
    "current": true
   },
   {
@@ -825,6 +901,8 @@
    "lat": 53.5786,
    "lng": -2.467,
    "govUkSlug": "bolton",
+   "wdtkId": 78,
+   "ocdId": "265.0",
    "current": true
   },
   {
@@ -846,6 +924,8 @@
    "lat": 52.9742,
    "lng": -0.0223,
    "govUkSlug": "boston",
+   "wdtkId": 79,
+   "ocdId": "38.0",
    "current": true
   },
   {
@@ -869,6 +949,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "bournemouth",
+   "wdtkId": 80,
+   "ocdId": "330.0",
    "current": false
   },
   {
@@ -890,6 +972,8 @@
    "lat": 50.747,
    "lng": -1.8833,
    "govUkSlug": null,
+   "wdtkId": 91513,
+   "ocdId": null,
    "current": true
   },
   {
@@ -911,6 +995,8 @@
    "lat": 51.4081,
    "lng": -0.7397,
    "govUkSlug": "bracknell-forest",
+   "wdtkId": 81,
+   "ocdId": "331.0",
    "current": true
   },
   {
@@ -932,6 +1018,8 @@
    "lat": 53.8447,
    "lng": -1.8547,
    "govUkSlug": "bradford",
+   "wdtkId": 82,
+   "ocdId": "266.0",
    "current": true
   },
   {
@@ -953,6 +1041,8 @@
    "lat": 51.9418,
    "lng": 0.5899,
    "govUkSlug": "braintree",
+   "wdtkId": 83,
+   "ocdId": "39.0",
    "current": true
   },
   {
@@ -974,6 +1064,8 @@
    "lat": 52.5879,
    "lng": 0.8373,
    "govUkSlug": "breckland",
+   "wdtkId": 84,
+   "ocdId": "40.0",
    "current": true
   },
   {
@@ -995,6 +1087,8 @@
    "lat": 51.5585,
    "lng": -0.2678,
    "govUkSlug": "brent",
+   "wdtkId": 85,
+   "ocdId": "230.0",
    "current": true
   },
   {
@@ -1016,6 +1110,8 @@
    "lat": 51.6386,
    "lng": 0.3108,
    "govUkSlug": "brentwood",
+   "wdtkId": 86,
+   "ocdId": "173.0",
    "current": true
   },
   {
@@ -1037,6 +1133,8 @@
    "lat": 51.5558,
    "lng": -3.6004,
    "govUkSlug": "bridgend",
+   "wdtkId": 87,
+   "ocdId": "383.0",
    "current": true
   },
   {
@@ -1058,6 +1156,8 @@
    "lat": 50.8435,
    "lng": -0.1331,
    "govUkSlug": "brighton-and-hove",
+   "wdtkId": 89,
+   "ocdId": "332.0",
    "current": true
   },
   {
@@ -1079,6 +1179,8 @@
    "lat": 52.7012,
    "lng": 1.3106,
    "govUkSlug": "broadland",
+   "wdtkId": 91,
+   "ocdId": "41.0",
    "current": true
   },
   {
@@ -1100,6 +1202,8 @@
    "lat": 51.372,
    "lng": 0.0515,
    "govUkSlug": "bromley",
+   "wdtkId": 92,
+   "ocdId": "231.0",
    "current": true
   },
   {
@@ -1121,6 +1225,8 @@
    "lat": 52.3618,
    "lng": -2.016,
    "govUkSlug": "bromsgrove",
+   "wdtkId": 93,
+   "ocdId": "42.0",
    "current": true
   },
   {
@@ -1142,6 +1248,8 @@
    "lat": 51.7251,
    "lng": -0.0474,
    "govUkSlug": "broxbourne",
+   "wdtkId": 94,
+   "ocdId": "174.0",
    "current": true
   },
   {
@@ -1163,6 +1271,8 @@
    "lat": 52.9764,
    "lng": -1.2621,
    "govUkSlug": "broxtowe",
+   "wdtkId": 95,
+   "ocdId": "43.0",
    "current": true
   },
   {
@@ -1184,6 +1294,8 @@
    "lat": 51.785,
    "lng": -0.8116,
    "govUkSlug": null,
+   "wdtkId": 96,
+   "ocdId": null,
    "current": true
   },
   {
@@ -1207,6 +1319,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "buckinghamshire",
+   "wdtkId": 96,
+   "ocdId": "1.0",
    "current": false
   },
   {
@@ -1228,6 +1342,8 @@
    "lat": 53.7789,
    "lng": -2.2219,
    "govUkSlug": "burnley",
+   "wdtkId": 97,
+   "ocdId": "175.0",
    "current": true
   },
   {
@@ -1249,6 +1365,8 @@
    "lat": 53.5878,
    "lng": -2.3126,
    "govUkSlug": "bury",
+   "wdtkId": 98,
+   "ocdId": "267.0",
    "current": true
   },
   {
@@ -1270,6 +1388,8 @@
    "lat": 51.6533,
    "lng": -3.2049,
    "govUkSlug": "caerphilly",
+   "wdtkId": 99,
+   "ocdId": "384.0",
    "current": true
   },
   {
@@ -1291,6 +1411,8 @@
    "lat": 53.7212,
    "lng": -1.9734,
    "govUkSlug": "calderdale",
+   "wdtkId": 100,
+   "ocdId": "268.0",
    "current": true
   },
   {
@@ -1312,6 +1434,8 @@
    "lat": 52.1994,
    "lng": 0.1329,
    "govUkSlug": "cambridge",
+   "wdtkId": 101,
+   "ocdId": "176.0",
    "current": true
   },
   {
@@ -1333,6 +1457,8 @@
    "lat": 52.3304,
    "lng": 0.0699,
    "govUkSlug": "cambridgeshire",
+   "wdtkId": 102,
+   "ocdId": "2.0",
    "current": true
   },
   {
@@ -1354,6 +1480,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": 64630,
+   "ocdId": null,
    "current": true
   },
   {
@@ -1375,6 +1503,8 @@
    "lat": 51.5464,
    "lng": -0.1574,
    "govUkSlug": "camden",
+   "wdtkId": 103,
+   "ocdId": "232.0",
    "current": true
   },
   {
@@ -1396,6 +1526,8 @@
    "lat": 52.7124,
    "lng": -1.9802,
    "govUkSlug": "cannock-chase",
+   "wdtkId": 104,
+   "ocdId": "177.0",
    "current": true
   },
   {
@@ -1417,6 +1549,8 @@
    "lat": 51.2832,
    "lng": 1.1018,
    "govUkSlug": "canterbury",
+   "wdtkId": 105,
+   "ocdId": "44.0",
    "current": true
   },
   {
@@ -1438,6 +1572,8 @@
    "lat": 51.5084,
    "lng": -3.1996,
    "govUkSlug": "cardiff",
+   "wdtkId": 107,
+   "ocdId": "385.0",
    "current": true
   },
   {
@@ -1461,6 +1597,8 @@
    "lat": 54.9709,
    "lng": -2.8094,
    "govUkSlug": "carlisle",
+   "wdtkId": 108,
+   "ocdId": "178.0",
    "current": false
   },
   {
@@ -1482,6 +1620,8 @@
    "lat": 51.8997,
    "lng": -4.1632,
    "govUkSlug": "carmarthenshire",
+   "wdtkId": 109,
+   "ocdId": "386.0",
    "current": true
   },
   {
@@ -1503,6 +1643,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -1524,6 +1666,8 @@
    "lat": 51.5364,
    "lng": 0.5946,
    "govUkSlug": "castle-point",
+   "wdtkId": 113,
+   "ocdId": "179.0",
    "current": true
   },
   {
@@ -1545,6 +1689,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -1566,6 +1712,8 @@
    "lat": 55.0603,
    "lng": -6.5916,
    "govUkSlug": "causeway-coast-and-glens",
+   "wdtkId": 54907,
+   "ocdId": "1004.0",
    "current": true
   },
   {
@@ -1587,6 +1735,8 @@
    "lat": 52.0066,
    "lng": -0.4363,
    "govUkSlug": "central-bedfordshire",
+   "wdtkId": 4311,
+   "ocdId": "333.0",
    "current": true
   },
   {
@@ -1608,6 +1758,8 @@
    "lat": 52.2559,
    "lng": -4.0731,
    "govUkSlug": "ceredigion",
+   "wdtkId": 115,
+   "ocdId": "387.0",
    "current": true
   },
   {
@@ -1629,6 +1781,8 @@
    "lat": 52.737,
    "lng": -1.1461,
    "govUkSlug": "charnwood",
+   "wdtkId": 116,
+   "ocdId": "45.0",
    "current": true
   },
   {
@@ -1650,6 +1804,8 @@
    "lat": 51.7254,
    "lng": 0.4809,
    "govUkSlug": "chelmsford",
+   "wdtkId": 117,
+   "ocdId": "46.0",
    "current": true
   },
   {
@@ -1671,6 +1827,8 @@
    "lat": 51.897,
    "lng": -2.074,
    "govUkSlug": "cheltenham",
+   "wdtkId": 118,
+   "ocdId": "166.0",
    "current": true
   },
   {
@@ -1692,6 +1850,8 @@
    "lat": 51.9588,
    "lng": -1.2756,
    "govUkSlug": "cherwell",
+   "wdtkId": 119,
+   "ocdId": "180.0",
    "current": true
   },
   {
@@ -1713,6 +1873,8 @@
    "lat": 53.1803,
    "lng": -2.3499,
    "govUkSlug": "cheshire-east",
+   "wdtkId": 4305,
+   "ocdId": "334.0",
    "current": true
   },
   {
@@ -1734,6 +1896,8 @@
    "lat": 53.2002,
    "lng": -2.7359,
    "govUkSlug": "cheshire-west-and-chester",
+   "wdtkId": 4306,
+   "ocdId": "335.0",
    "current": true
   },
   {
@@ -1755,6 +1919,8 @@
    "lat": 53.2563,
    "lng": -1.4012,
    "govUkSlug": "chesterfield",
+   "wdtkId": 123,
+   "ocdId": "47.0",
    "current": true
   },
   {
@@ -1776,6 +1942,8 @@
    "lat": 50.9374,
    "lng": -0.7423,
    "govUkSlug": "chichester",
+   "wdtkId": 124,
+   "ocdId": "48.0",
    "current": true
   },
   {
@@ -1799,6 +1967,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "chiltern",
+   "wdtkId": 125,
+   "ocdId": "49.0",
    "current": false
   },
   {
@@ -1820,6 +1990,8 @@
    "lat": 53.6615,
    "lng": -2.6479,
    "govUkSlug": "chorley",
+   "wdtkId": 126,
+   "ocdId": "181.0",
    "current": true
   },
   {
@@ -1843,6 +2015,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "christchurch",
+   "wdtkId": 127,
+   "ocdId": "50.0",
    "current": false
   },
   {
@@ -1864,6 +2038,8 @@
    "lat": 51.4527,
    "lng": -2.7708,
    "govUkSlug": "bristol",
+   "wdtkId": 90,
+   "ocdId": "366.0",
    "current": true
   },
   {
@@ -1885,6 +2061,8 @@
    "lat": 55.9265,
    "lng": -3.2884,
    "govUkSlug": "edinburgh",
+   "wdtkId": 185,
+   "ocdId": "306.0",
    "current": true
   },
   {
@@ -1906,6 +2084,8 @@
    "lat": 53.2247,
    "lng": -0.555,
    "govUkSlug": "lincoln",
+   "wdtkId": 245,
+   "ocdId": "196.0",
    "current": true
   },
   {
@@ -1927,6 +2107,8 @@
    "lat": 51.5144,
    "lng": -0.0924,
    "govUkSlug": "city-of-london",
+   "wdtkId": 128,
+   "ocdId": "406.0",
    "current": true
   },
   {
@@ -1948,6 +2130,8 @@
    "lat": 56.1505,
    "lng": -3.7422,
    "govUkSlug": "clackmannanshire",
+   "wdtkId": 130,
+   "ocdId": "299.0",
    "current": true
   },
   {
@@ -1969,6 +2153,8 @@
    "lat": 51.8725,
    "lng": 0.8609,
    "govUkSlug": "colchester",
+   "wdtkId": 131,
+   "ocdId": "182.0",
    "current": true
   },
   {
@@ -1990,6 +2176,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -2011,6 +2199,8 @@
    "lat": 53.1403,
    "lng": -3.7358,
    "govUkSlug": "conwy",
+   "wdtkId": 135,
+   "ocdId": "388.0",
    "current": true
   },
   {
@@ -2032,6 +2222,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -2055,6 +2247,8 @@
    "lat": 54.4139,
    "lng": -3.3731,
    "govUkSlug": "copeland",
+   "wdtkId": 137,
+   "ocdId": "51.0",
    "current": false
   },
   {
@@ -2078,6 +2272,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "corby",
+   "wdtkId": 138,
+   "ocdId": "52.0",
    "current": false
   },
   {
@@ -2099,6 +2295,8 @@
    "lat": 50.4056,
    "lng": -4.8272,
    "govUkSlug": "cornwall",
+   "wdtkId": 139,
+   "ocdId": "336.0",
    "current": true
   },
   {
@@ -2120,6 +2318,8 @@
    "lat": 51.8165,
    "lng": -1.893,
    "govUkSlug": "cotswold",
+   "wdtkId": 140,
+   "ocdId": "53.0",
    "current": true
   },
   {
@@ -2141,6 +2341,8 @@
    "lat": 54.6955,
    "lng": -1.8399,
    "govUkSlug": "county-durham",
+   "wdtkId": 165,
+   "ocdId": "338.0",
    "current": true
   },
   {
@@ -2162,6 +2364,8 @@
    "lat": 52.4169,
    "lng": -1.5198,
    "govUkSlug": "coventry",
+   "wdtkId": 141,
+   "ocdId": "269.0",
    "current": true
   },
   {
@@ -2183,6 +2387,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -2206,6 +2412,8 @@
    "lat": 54.0798,
    "lng": -2.1743,
    "govUkSlug": "craven",
+   "wdtkId": 143,
+   "ocdId": "183.0",
    "current": false
   },
   {
@@ -2227,6 +2435,8 @@
    "lat": 51.1255,
    "lng": -0.182,
    "govUkSlug": "crawley",
+   "wdtkId": 144,
+   "ocdId": "184.0",
    "current": true
   },
   {
@@ -2248,6 +2458,8 @@
    "lat": 51.3553,
    "lng": -0.0872,
    "govUkSlug": "croydon",
+   "wdtkId": 146,
+   "ocdId": "233.0",
    "current": true
   },
   {
@@ -2269,6 +2481,8 @@
    "lat": 54.6986,
    "lng": -3.1433,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -2292,6 +2506,8 @@
    "lat": 54.5216,
    "lng": -3.0197,
    "govUkSlug": "cumbria",
+   "wdtkId": 147,
+   "ocdId": "3.0",
    "current": false
   },
   {
@@ -2313,6 +2529,8 @@
    "lat": 51.7782,
    "lng": -0.5409,
    "govUkSlug": "dacorum",
+   "wdtkId": 148,
+   "ocdId": "54.0",
    "current": true
   },
   {
@@ -2334,6 +2552,8 @@
    "lat": 54.5487,
    "lng": -1.5526,
    "govUkSlug": "darlington",
+   "wdtkId": 149,
+   "ocdId": "337.0",
    "current": true
   },
   {
@@ -2355,6 +2575,8 @@
    "lat": 51.4315,
    "lng": 0.2532,
    "govUkSlug": "dartford",
+   "wdtkId": 150,
+   "ocdId": "55.0",
    "current": true
   },
   {
@@ -2378,6 +2600,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "daventry",
+   "wdtkId": 151,
+   "ocdId": "185.0",
    "current": false
   },
   {
@@ -2399,6 +2623,8 @@
    "lat": 53.0919,
    "lng": -3.3541,
    "govUkSlug": "denbighshire",
+   "wdtkId": 152,
+   "ocdId": "389.0",
    "current": true
   },
   {
@@ -2420,6 +2646,8 @@
    "lat": 52.9125,
    "lng": -1.4683,
    "govUkSlug": "derby",
+   "wdtkId": 153,
+   "ocdId": "367.0",
    "current": true
   },
   {
@@ -2441,6 +2669,8 @@
    "lat": 53.0872,
    "lng": -1.5643,
    "govUkSlug": "derbyshire",
+   "wdtkId": 154,
+   "ocdId": "4.0",
    "current": true
   },
   {
@@ -2462,6 +2692,8 @@
    "lat": 53.1282,
    "lng": -1.6937,
    "govUkSlug": "derbyshire-dales",
+   "wdtkId": 155,
+   "ocdId": "56.0",
    "current": true
   },
   {
@@ -2483,6 +2715,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -2504,6 +2738,8 @@
    "lat": 54.8203,
    "lng": -7.3604,
    "govUkSlug": "derry-strabane",
+   "wdtkId": 54908,
+   "ocdId": "1005.0",
    "current": true
   },
   {
@@ -2525,6 +2761,8 @@
    "lat": 51.4359,
    "lng": -3.1713,
    "govUkSlug": "devon",
+   "wdtkId": 157,
+   "ocdId": "5.0",
    "current": true
   },
   {
@@ -2546,6 +2784,8 @@
    "lat": 53.5443,
    "lng": -1.0958,
    "govUkSlug": "doncaster",
+   "wdtkId": 158,
+   "ocdId": "260.0",
    "current": true
   },
   {
@@ -2567,6 +2807,8 @@
    "lat": 50.8064,
    "lng": -2.3336,
    "govUkSlug": null,
+   "wdtkId": 91365,
+   "ocdId": null,
    "current": true
   },
   {
@@ -2590,6 +2832,8 @@
    "lat": 50.4902,
    "lng": -3.7401,
    "govUkSlug": "dorset",
+   "wdtkId": 159,
+   "ocdId": "6.0",
    "current": false
   },
   {
@@ -2611,6 +2855,8 @@
    "lat": 51.2123,
    "lng": 1.2892,
    "govUkSlug": "dover",
+   "wdtkId": 160,
+   "ocdId": "57.0",
    "current": true
   },
   {
@@ -2632,6 +2878,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -2653,6 +2901,8 @@
    "lat": 52.4829,
    "lng": -2.1087,
    "govUkSlug": "dudley",
+   "wdtkId": 161,
+   "ocdId": "270.0",
    "current": true
   },
   {
@@ -2674,6 +2924,8 @@
    "lat": 55.0711,
    "lng": -3.9595,
    "govUkSlug": "dumfries-and-galloway",
+   "wdtkId": 162,
+   "ocdId": "300.0",
    "current": true
   },
   {
@@ -2695,6 +2947,8 @@
    "lat": 56.4771,
    "lng": -2.9697,
    "govUkSlug": "dundee",
+   "wdtkId": 163,
+   "ocdId": "301.0",
    "current": true
   },
   {
@@ -2716,6 +2970,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -2737,6 +2993,8 @@
    "lat": 51.5225,
    "lng": -0.331,
    "govUkSlug": "ealing",
+   "wdtkId": 166,
+   "ocdId": "234.0",
    "current": true
   },
   {
@@ -2758,6 +3016,8 @@
    "lat": 55.485,
    "lng": -4.3142,
    "govUkSlug": "east-ayrshire",
+   "wdtkId": 168,
+   "ocdId": "302.0",
    "current": true
   },
   {
@@ -2779,6 +3039,8 @@
    "lat": 52.3429,
    "lng": 0.2948,
    "govUkSlug": "east-cambridgeshire",
+   "wdtkId": 169,
+   "ocdId": "58.0",
    "current": true
   },
   {
@@ -2800,6 +3062,8 @@
    "lat": 50.7644,
    "lng": -3.2242,
    "govUkSlug": "east-devon",
+   "wdtkId": 170,
+   "ocdId": "59.0",
    "current": true
   },
   {
@@ -2823,6 +3087,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "east-dorset",
+   "wdtkId": 171,
+   "ocdId": "60.0",
    "current": false
   },
   {
@@ -2844,6 +3110,8 @@
    "lat": 55.956,
    "lng": -4.2256,
    "govUkSlug": "east-dunbartonshire",
+   "wdtkId": 172,
+   "ocdId": "303.0",
    "current": true
   },
   {
@@ -2865,6 +3133,8 @@
    "lat": 51.0746,
    "lng": -0.9551,
    "govUkSlug": "east-hampshire",
+   "wdtkId": 173,
+   "ocdId": "61.0",
    "current": true
   },
   {
@@ -2886,6 +3156,8 @@
    "lat": 51.8651,
    "lng": -0.0083,
    "govUkSlug": "east-hertfordshire",
+   "wdtkId": 174,
+   "ocdId": "62.0",
    "current": true
   },
   {
@@ -2907,6 +3179,8 @@
    "lat": 53.2494,
    "lng": 0.0303,
    "govUkSlug": "east-lindsey",
+   "wdtkId": 175,
+   "ocdId": "63.0",
    "current": true
   },
   {
@@ -2928,6 +3202,8 @@
    "lat": 55.9419,
    "lng": -2.7207,
    "govUkSlug": "east-lothian",
+   "wdtkId": 176,
+   "ocdId": "304.0",
    "current": true
   },
   {
@@ -2949,6 +3225,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -2972,6 +3250,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "east-northamptonshire",
+   "wdtkId": 177,
+   "ocdId": "64.0",
    "current": false
   },
   {
@@ -2993,6 +3273,8 @@
    "lat": 55.7531,
    "lng": -4.3595,
    "govUkSlug": "east-renfrewshire",
+   "wdtkId": 178,
+   "ocdId": "305.0",
    "current": true
   },
   {
@@ -3014,6 +3296,8 @@
    "lat": 53.868,
    "lng": -0.4825,
    "govUkSlug": "east-riding-of-yorkshire",
+   "wdtkId": 179,
+   "ocdId": "339.0",
    "current": true
   },
   {
@@ -3035,6 +3319,8 @@
    "lat": 52.8633,
    "lng": -1.8121,
    "govUkSlug": "east-staffordshire",
+   "wdtkId": 180,
+   "ocdId": "65.0",
    "current": true
   },
   {
@@ -3056,6 +3342,8 @@
    "lat": 52.237,
    "lng": 1.4615,
    "govUkSlug": null,
+   "wdtkId": 91370,
+   "ocdId": "412.0",
    "current": true
   },
   {
@@ -3077,6 +3365,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false,
    "shadow": true,
    "status": "confirmed",
@@ -3109,6 +3399,8 @@
    "lat": 50.8895,
    "lng": 0.3158,
    "govUkSlug": "east-sussex",
+   "wdtkId": 181,
+   "ocdId": "7.0",
    "current": true
   },
   {
@@ -3130,6 +3422,8 @@
    "lat": 50.7762,
    "lng": 0.2662,
    "govUkSlug": "eastbourne",
+   "wdtkId": 182,
+   "ocdId": "66.0",
    "current": true
   },
   {
@@ -3151,6 +3445,8 @@
    "lat": 50.933,
    "lng": -1.3272,
    "govUkSlug": "eastleigh",
+   "wdtkId": 183,
+   "ocdId": "67.0",
    "current": true
   },
   {
@@ -3174,6 +3470,8 @@
    "lat": 54.6128,
    "lng": -2.6218,
    "govUkSlug": "eden",
+   "wdtkId": 184,
+   "ocdId": "68.0",
    "current": false
   },
   {
@@ -3195,6 +3493,8 @@
    "lat": 57.9076,
    "lng": -6.8747,
    "govUkSlug": "eilean-siar",
+   "wdtkId": 133,
+   "ocdId": "307.0",
    "current": true
   },
   {
@@ -3218,6 +3518,8 @@
    "lat": 51.3571,
    "lng": -0.3922,
    "govUkSlug": "elmbridge",
+   "wdtkId": 600,
+   "ocdId": "186.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -3240,6 +3542,8 @@
    "lat": 51.651,
    "lng": -0.0873,
    "govUkSlug": "enfield",
+   "wdtkId": 1604,
+   "ocdId": "235.0",
    "current": true
   },
   {
@@ -3261,6 +3565,8 @@
    "lat": 51.7089,
    "lng": 0.1487,
    "govUkSlug": "epping-forest",
+   "wdtkId": 186,
+   "ocdId": "187.0",
    "current": true
   },
   {
@@ -3284,6 +3590,8 @@
    "lat": 51.3392,
    "lng": -0.2614,
    "govUkSlug": "epsom-and-ewell",
+   "wdtkId": 187,
+   "ocdId": "69.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -3306,6 +3614,8 @@
    "lat": 52.9355,
    "lng": -1.3467,
    "govUkSlug": "erewash",
+   "wdtkId": 188,
+   "ocdId": "70.0",
    "current": true
   },
   {
@@ -3327,6 +3637,8 @@
    "lat": 51.6392,
    "lng": 0.4067,
    "govUkSlug": "essex",
+   "wdtkId": 189,
+   "ocdId": "8.0",
    "current": true
   },
   {
@@ -3348,6 +3660,8 @@
    "lat": 50.7216,
    "lng": -3.5102,
    "govUkSlug": "exeter",
+   "wdtkId": 190,
+   "ocdId": "188.0",
    "current": true
   },
   {
@@ -3369,6 +3683,8 @@
    "lat": 55.9973,
    "lng": -3.7906,
    "govUkSlug": "falkirk",
+   "wdtkId": 191,
+   "ocdId": "308.0",
    "current": true
   },
   {
@@ -3390,6 +3706,8 @@
    "lat": 50.8526,
    "lng": -1.2247,
    "govUkSlug": "fareham",
+   "wdtkId": 601,
+   "ocdId": "189.0",
    "current": true
   },
   {
@@ -3411,6 +3729,8 @@
    "lat": 52.5628,
    "lng": 0.0608,
    "govUkSlug": "fenland",
+   "wdtkId": 192,
+   "ocdId": "71.0",
    "current": true
   },
   {
@@ -3432,6 +3752,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -3453,6 +3775,8 @@
    "lat": 54.4423,
    "lng": -7.5038,
    "govUkSlug": "fermanagh-omagh",
+   "wdtkId": 54909,
+   "ocdId": "1006.0",
    "current": true
   },
   {
@@ -3474,6 +3798,8 @@
    "lat": 56.229,
    "lng": -3.1249,
    "govUkSlug": "fife",
+   "wdtkId": 603,
+   "ocdId": "309.0",
    "current": true
   },
   {
@@ -3495,6 +3821,8 @@
    "lat": 53.2179,
    "lng": -3.1632,
    "govUkSlug": "flintshire",
+   "wdtkId": 193,
+   "ocdId": "390.0",
    "current": true
   },
   {
@@ -3516,6 +3844,8 @@
    "lat": 51.0539,
    "lng": 0.9941,
    "govUkSlug": "shepway",
+   "wdtkId": 338,
+   "ocdId": "123.0",
    "current": true
   },
   {
@@ -3539,6 +3869,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "forest-heath",
+   "wdtkId": 604,
+   "ocdId": "72.0",
    "current": false
   },
   {
@@ -3560,6 +3892,8 @@
    "lat": 51.8284,
    "lng": -2.49,
    "govUkSlug": "forest-of-dean",
+   "wdtkId": 605,
+   "ocdId": "73.0",
    "current": true
   },
   {
@@ -3581,6 +3915,8 @@
    "lat": 53.7841,
    "lng": -2.9221,
    "govUkSlug": "fylde",
+   "wdtkId": 194,
+   "ocdId": "74.0",
    "current": true
   },
   {
@@ -3602,6 +3938,8 @@
    "lat": 54.9354,
    "lng": -1.6829,
    "govUkSlug": "gateshead",
+   "wdtkId": 195,
+   "ocdId": "271.0",
    "current": true
   },
   {
@@ -3623,6 +3961,8 @@
    "lat": 53.0284,
    "lng": -1.1193,
    "govUkSlug": "gedling",
+   "wdtkId": 196,
+   "ocdId": "75.0",
    "current": true
   },
   {
@@ -3644,6 +3984,8 @@
    "lat": 55.8579,
    "lng": -4.2531,
    "govUkSlug": "glasgow",
+   "wdtkId": 197,
+   "ocdId": "310.0",
    "current": true
   },
   {
@@ -3665,6 +4007,8 @@
    "lat": 51.8494,
    "lng": -2.2403,
    "govUkSlug": "gloucester",
+   "wdtkId": 198,
+   "ocdId": "76.0",
    "current": true
   },
   {
@@ -3686,6 +4030,8 @@
    "lat": 51.8524,
    "lng": -0.7477,
    "govUkSlug": "gloucestershire",
+   "wdtkId": 199,
+   "ocdId": "9.0",
    "current": true
   },
   {
@@ -3707,6 +4053,8 @@
    "lat": 50.8052,
    "lng": -1.1595,
    "govUkSlug": "gosport",
+   "wdtkId": 200,
+   "ocdId": "167.0",
    "current": true
   },
   {
@@ -3728,6 +4076,8 @@
    "lat": 51.4051,
    "lng": 0.395,
    "govUkSlug": "gravesham",
+   "wdtkId": 201,
+   "ocdId": "77.0",
    "current": true
   },
   {
@@ -3749,6 +4099,8 @@
    "lat": 52.6407,
    "lng": 1.6614,
    "govUkSlug": "great-yarmouth",
+   "wdtkId": 202,
+   "ocdId": "190.0",
    "current": true
   },
   {
@@ -3770,6 +4122,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -3791,6 +4145,8 @@
    "lat": 51.5044,
    "lng": -0.1195,
    "govUkSlug": null,
+   "wdtkId": 606,
+   "ocdId": null,
    "current": true
   },
   {
@@ -3812,6 +4168,8 @@
    "lat": 53.5092,
    "lng": -2.2726,
    "govUkSlug": null,
+   "wdtkId": 8211,
+   "ocdId": null,
    "current": true
   },
   {
@@ -3833,6 +4191,8 @@
    "lat": 51.4744,
    "lng": 0.0555,
    "govUkSlug": "greenwich",
+   "wdtkId": 203,
+   "ocdId": "236.0",
    "current": true
   },
   {
@@ -3856,6 +4216,8 @@
    "lat": 51.2478,
    "lng": -0.5616,
    "govUkSlug": "guildford",
+   "wdtkId": 204,
+   "ocdId": "78.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -3878,6 +4240,8 @@
    "lat": 52.8947,
    "lng": -4.0243,
    "govUkSlug": "gwynedd",
+   "wdtkId": 205,
+   "ocdId": "391.0",
    "current": true
   },
   {
@@ -3899,6 +4263,8 @@
    "lat": 51.5523,
    "lng": -0.0633,
    "govUkSlug": "hackney",
+   "wdtkId": 206,
+   "ocdId": "237.0",
    "current": true
   },
   {
@@ -3920,6 +4286,8 @@
    "lat": 53.3437,
    "lng": -2.7188,
    "govUkSlug": "halton",
+   "wdtkId": 607,
+   "ocdId": "368.0",
    "current": true
   },
   {
@@ -3943,6 +4311,8 @@
    "lat": 54.2868,
    "lng": -1.3191,
    "govUkSlug": "hambleton",
+   "wdtkId": 207,
+   "ocdId": "79.0",
    "current": false
   },
   {
@@ -3964,6 +4334,8 @@
    "lat": 51.495,
    "lng": -0.2208,
    "govUkSlug": "hammersmith-and-fulham",
+   "wdtkId": 208,
+   "ocdId": "238.0",
    "current": true
   },
   {
@@ -3985,6 +4357,8 @@
    "lat": 50.9807,
    "lng": -1.0748,
    "govUkSlug": "hampshire",
+   "wdtkId": 209,
+   "ocdId": "10.0",
    "current": true
   },
   {
@@ -4006,6 +4380,8 @@
    "lat": 52.5393,
    "lng": -1.0081,
    "govUkSlug": "harborough",
+   "wdtkId": 210,
+   "ocdId": "80.0",
    "current": true
   },
   {
@@ -4027,6 +4403,8 @@
    "lat": 51.5904,
    "lng": -0.1075,
    "govUkSlug": "haringey",
+   "wdtkId": 211,
+   "ocdId": "239.0",
    "current": true
   },
   {
@@ -4048,6 +4426,8 @@
    "lat": 51.7683,
    "lng": 0.1085,
    "govUkSlug": "harlow",
+   "wdtkId": 608,
+   "ocdId": "191.0",
    "current": true
   },
   {
@@ -4071,6 +4451,8 @@
    "lat": 54.0671,
    "lng": -1.5955,
    "govUkSlug": "harrogate",
+   "wdtkId": 589,
+   "ocdId": "81.0",
    "current": false
   },
   {
@@ -4092,6 +4474,8 @@
    "lat": 51.5977,
    "lng": -0.3413,
    "govUkSlug": "harrow",
+   "wdtkId": 609,
+   "ocdId": "240.0",
    "current": true
   },
   {
@@ -4113,6 +4497,8 @@
    "lat": 51.2848,
    "lng": -0.8975,
    "govUkSlug": "hart",
+   "wdtkId": 212,
+   "ocdId": "192.0",
    "current": true
   },
   {
@@ -4134,6 +4520,8 @@
    "lat": 54.669,
    "lng": -1.2557,
    "govUkSlug": "hartlepool",
+   "wdtkId": 213,
+   "ocdId": "369.0",
    "current": true
   },
   {
@@ -4155,6 +4543,8 @@
    "lat": 50.8694,
    "lng": 0.5704,
    "govUkSlug": "hastings",
+   "wdtkId": 214,
+   "ocdId": "82.0",
    "current": true
   },
   {
@@ -4176,6 +4566,8 @@
    "lat": 50.8384,
    "lng": -0.9894,
    "govUkSlug": "havant",
+   "wdtkId": 610,
+   "ocdId": "193.0",
    "current": true
   },
   {
@@ -4197,6 +4589,8 @@
    "lat": 51.5631,
    "lng": 0.2204,
    "govUkSlug": "havering",
+   "wdtkId": 611,
+   "ocdId": "241.0",
    "current": true
   },
   {
@@ -4218,6 +4612,8 @@
    "lat": 52.1035,
    "lng": -2.745,
    "govUkSlug": "herefordshire",
+   "wdtkId": 612,
+   "ocdId": "340.0",
    "current": true
   },
   {
@@ -4239,6 +4635,8 @@
    "lat": 51.4406,
    "lng": -0.7155,
    "govUkSlug": "hertfordshire",
+   "wdtkId": 215,
+   "ocdId": "11.0",
    "current": true
   },
   {
@@ -4260,6 +4658,8 @@
    "lat": 51.6773,
    "lng": -0.2811,
    "govUkSlug": "hertsmere",
+   "wdtkId": 216,
+   "ocdId": "83.0",
    "current": true
   },
   {
@@ -4281,6 +4681,8 @@
    "lat": 53.373,
    "lng": -1.8739,
    "govUkSlug": "high-peak",
+   "wdtkId": 217,
+   "ocdId": "84.0",
    "current": true
   },
   {
@@ -4302,6 +4704,8 @@
    "lat": 57.5729,
    "lng": -4.7714,
    "govUkSlug": "highland",
+   "wdtkId": 613,
+   "ocdId": "311.0",
    "current": true
   },
   {
@@ -4323,6 +4727,8 @@
    "lat": 51.5415,
    "lng": -0.4457,
    "govUkSlug": "hillingdon",
+   "wdtkId": 218,
+   "ocdId": "242.0",
    "current": true
   },
   {
@@ -4344,6 +4750,8 @@
    "lat": 52.6165,
    "lng": -1.3911,
    "govUkSlug": "hinckley-and-bosworth",
+   "wdtkId": 614,
+   "ocdId": "85.0",
    "current": true
   },
   {
@@ -4365,6 +4773,8 @@
    "lat": 50.9938,
    "lng": -0.3663,
    "govUkSlug": "horsham",
+   "wdtkId": 219,
+   "ocdId": "86.0",
    "current": true
   },
   {
@@ -4386,6 +4796,8 @@
    "lat": 51.4685,
    "lng": -0.3661,
    "govUkSlug": "hounslow",
+   "wdtkId": 1585,
+   "ocdId": "243.0",
    "current": true
   },
   {
@@ -4407,6 +4819,8 @@
    "lat": 52.3736,
    "lng": -0.2208,
    "govUkSlug": "huntingdonshire",
+   "wdtkId": 615,
+   "ocdId": "87.0",
    "current": true
   },
   {
@@ -4428,6 +4842,8 @@
    "lat": 53.7586,
    "lng": -2.3898,
    "govUkSlug": "hyndburn",
+   "wdtkId": 220,
+   "ocdId": "194.0",
    "current": true
   },
   {
@@ -4449,6 +4865,8 @@
    "lat": 55.9044,
    "lng": -4.7427,
    "govUkSlug": "inverclyde",
+   "wdtkId": 616,
+   "ocdId": "312.0",
    "current": true
   },
   {
@@ -4470,6 +4888,8 @@
    "lat": 52.0559,
    "lng": 1.1598,
    "govUkSlug": "ipswich",
+   "wdtkId": 221,
+   "ocdId": "195.0",
    "current": true
   },
   {
@@ -4491,6 +4911,8 @@
    "lat": 53.286,
    "lng": -4.3745,
    "govUkSlug": "isle-of-anglesey",
+   "wdtkId": 222,
+   "ocdId": "392.0",
    "current": true
   },
   {
@@ -4512,6 +4934,8 @@
    "lat": 50.6758,
    "lng": -1.2966,
    "govUkSlug": "isle-of-wight",
+   "wdtkId": 223,
+   "ocdId": "342.0",
    "current": true
   },
   {
@@ -4533,6 +4957,8 @@
    "lat": 49.9369,
    "lng": -6.3172,
    "govUkSlug": "isles-of-scilly",
+   "wdtkId": 224,
+   "ocdId": "405.0",
    "current": true
   },
   {
@@ -4554,6 +4980,8 @@
    "lat": 51.5485,
    "lng": -0.1102,
    "govUkSlug": "islington",
+   "wdtkId": 225,
+   "ocdId": "244.0",
    "current": true
   },
   {
@@ -4575,6 +5003,8 @@
    "lat": 51.5012,
    "lng": -0.1922,
    "govUkSlug": "kensington-and-chelsea",
+   "wdtkId": 227,
+   "ocdId": "245.0",
    "current": true
   },
   {
@@ -4596,6 +5026,8 @@
    "lat": 51.5154,
    "lng": 0.0944,
    "govUkSlug": "kent",
+   "wdtkId": 228,
+   "ocdId": "12.0",
    "current": true
   },
   {
@@ -4619,6 +5051,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "kettering",
+   "wdtkId": 230,
+   "ocdId": "88.0",
    "current": false
   },
   {
@@ -4640,6 +5074,8 @@
    "lat": 52.7267,
    "lng": 0.4705,
    "govUkSlug": "kings-lynn-and-west-norfolk",
+   "wdtkId": 231,
+   "ocdId": "89.0",
    "current": true
   },
   {
@@ -4661,6 +5097,8 @@
    "lat": 53.7599,
    "lng": -0.3354,
    "govUkSlug": "kingston-upon-hull",
+   "wdtkId": 232,
+   "ocdId": "341.0",
    "current": true
   },
   {
@@ -4682,6 +5120,8 @@
    "lat": 51.3879,
    "lng": -0.2869,
    "govUkSlug": "kingston-upon-thames",
+   "wdtkId": 233,
+   "ocdId": "246.0",
    "current": true
   },
   {
@@ -4703,6 +5143,8 @@
    "lat": 53.6274,
    "lng": -1.7633,
    "govUkSlug": "kirklees",
+   "wdtkId": 234,
+   "ocdId": "272.0",
    "current": true
   },
   {
@@ -4724,6 +5166,8 @@
    "lat": 53.4251,
    "lng": -2.834,
    "govUkSlug": "knowsley",
+   "wdtkId": 235,
+   "ocdId": "273.0",
    "current": true
   },
   {
@@ -4745,6 +5189,8 @@
    "lat": 51.4538,
    "lng": -0.1183,
    "govUkSlug": "lambeth",
+   "wdtkId": 236,
+   "ocdId": "247.0",
    "current": true
   },
   {
@@ -4766,6 +5212,8 @@
    "lat": 52.5046,
    "lng": -0.8088,
    "govUkSlug": "lancashire",
+   "wdtkId": 237,
+   "ocdId": "13.0",
    "current": true
   },
   {
@@ -4787,6 +5235,8 @@
    "lat": 54.069,
    "lng": -2.7147,
    "govUkSlug": "lancaster",
+   "wdtkId": 238,
+   "ocdId": "90.0",
    "current": true
   },
   {
@@ -4808,6 +5258,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -4829,6 +5281,8 @@
    "lat": 53.8257,
    "lng": -1.506,
    "govUkSlug": "leeds",
+   "wdtkId": 239,
+   "ocdId": "261.0",
    "current": true
   },
   {
@@ -4850,6 +5304,8 @@
    "lat": 52.6379,
    "lng": -1.1285,
    "govUkSlug": "leicester",
+   "wdtkId": 240,
+   "ocdId": "343.0",
    "current": true
   },
   {
@@ -4871,6 +5327,8 @@
    "lat": 53.2452,
    "lng": -1.7361,
    "govUkSlug": "leicestershire",
+   "wdtkId": 241,
+   "ocdId": "14.0",
    "current": true
   },
   {
@@ -4892,6 +5350,8 @@
    "lat": 50.8821,
    "lng": 0.005,
    "govUkSlug": "lewes",
+   "wdtkId": 242,
+   "ocdId": "91.0",
    "current": true
   },
   {
@@ -4913,6 +5373,8 @@
    "lat": 51.4483,
    "lng": -0.0203,
    "govUkSlug": "lewisham",
+   "wdtkId": 243,
+   "ocdId": "248.0",
    "current": true
   },
   {
@@ -4934,6 +5396,8 @@
    "lat": 52.6882,
    "lng": -1.8049,
    "govUkSlug": "lichfield",
+   "wdtkId": 244,
+   "ocdId": "92.0",
    "current": true
   },
   {
@@ -4955,6 +5419,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -4976,6 +5442,8 @@
    "lat": 52.9915,
    "lng": -0.422,
    "govUkSlug": "lincolnshire",
+   "wdtkId": 246,
+   "ocdId": "15.0",
    "current": true
   },
   {
@@ -4997,6 +5465,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -5018,6 +5488,8 @@
    "lat": 54.5082,
    "lng": -6.0524,
    "govUkSlug": "lisburn-castlereagh",
+   "wdtkId": 54910,
+   "ocdId": "1007.0",
    "current": true
   },
   {
@@ -5039,6 +5511,8 @@
    "lat": 53.3955,
    "lng": -2.917,
    "govUkSlug": "liverpool",
+   "wdtkId": 3,
+   "ocdId": "274.0",
    "current": true
   },
   {
@@ -5060,6 +5534,8 @@
    "lat": 53.4263,
    "lng": -2.8835,
    "govUkSlug": null,
+   "wdtkId": 52349,
+   "ocdId": null,
    "current": true
   },
   {
@@ -5081,6 +5557,8 @@
    "lat": 51.8942,
    "lng": -0.4256,
    "govUkSlug": "luton",
+   "wdtkId": 247,
+   "ocdId": "344.0",
    "current": true
   },
   {
@@ -5102,6 +5580,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -5123,6 +5603,8 @@
    "lat": 51.235,
    "lng": 0.5806,
    "govUkSlug": "maidstone",
+   "wdtkId": 250,
+   "ocdId": "197.0",
    "current": true
   },
   {
@@ -5144,6 +5626,8 @@
    "lat": 51.7095,
    "lng": 0.7838,
    "govUkSlug": "maldon",
+   "wdtkId": 251,
+   "ocdId": "93.0",
    "current": true
   },
   {
@@ -5165,6 +5649,8 @@
    "lat": 52.1828,
    "lng": -2.3447,
    "govUkSlug": "malvern-hills",
+   "wdtkId": 252,
+   "ocdId": "94.0",
    "current": true
   },
   {
@@ -5186,6 +5672,8 @@
    "lat": 53.4515,
    "lng": -2.2325,
    "govUkSlug": "manchester",
+   "wdtkId": 253,
+   "ocdId": "262.0",
    "current": true
   },
   {
@@ -5207,6 +5695,8 @@
    "lat": 53.1707,
    "lng": -1.1728,
    "govUkSlug": "mansfield",
+   "wdtkId": 254,
+   "ocdId": "95.0",
    "current": true
   },
   {
@@ -5228,6 +5718,8 @@
    "lat": 51.4257,
    "lng": 0.5695,
    "govUkSlug": "medway",
+   "wdtkId": 255,
+   "ocdId": "345.0",
    "current": true
   },
   {
@@ -5249,6 +5741,8 @@
    "lat": 52.7964,
    "lng": -0.8562,
    "govUkSlug": "melton",
+   "wdtkId": 256,
+   "ocdId": "96.0",
    "current": true
   },
   {
@@ -5272,6 +5766,8 @@
    "lat": 51.2029,
    "lng": -2.5447,
    "govUkSlug": "mendip",
+   "wdtkId": 257,
+   "ocdId": "97.0",
    "current": false
   },
   {
@@ -5293,6 +5789,8 @@
    "lat": 51.7409,
    "lng": -3.3611,
    "govUkSlug": "merthyr-tydfil",
+   "wdtkId": 258,
+   "ocdId": "393.0",
    "current": true
   },
   {
@@ -5314,6 +5812,8 @@
    "lat": 51.4099,
    "lng": -0.1972,
    "govUkSlug": "merton",
+   "wdtkId": 259,
+   "ocdId": "249.0",
    "current": true
   },
   {
@@ -5335,6 +5835,8 @@
    "lat": 54.8744,
    "lng": -6.1012,
    "govUkSlug": "mid-and-east-antrim",
+   "wdtkId": 54911,
+   "ocdId": "1008.0",
    "current": true
   },
   {
@@ -5356,6 +5858,8 @@
    "lat": 50.8763,
    "lng": -3.5564,
    "govUkSlug": "mid-devon",
+   "wdtkId": 261,
+   "ocdId": "98.0",
    "current": true
   },
   {
@@ -5377,6 +5881,8 @@
    "lat": 52.2468,
    "lng": 1.0924,
    "govUkSlug": "mid-suffolk",
+   "wdtkId": 262,
+   "ocdId": "99.0",
    "current": true
   },
   {
@@ -5398,6 +5904,8 @@
    "lat": 51.0208,
    "lng": -0.1271,
    "govUkSlug": "mid-sussex",
+   "wdtkId": 263,
+   "ocdId": "100.0",
    "current": true
   },
   {
@@ -5419,6 +5927,8 @@
    "lat": 54.6215,
    "lng": -6.792,
    "govUkSlug": "mid-ulster",
+   "wdtkId": 54912,
+   "ocdId": "1009.0",
    "current": true
   },
   {
@@ -5440,6 +5950,8 @@
    "lat": 54.5425,
    "lng": -1.2224,
    "govUkSlug": "middlesbrough",
+   "wdtkId": 264,
+   "ocdId": "346.0",
    "current": true
   },
   {
@@ -5461,6 +5973,8 @@
    "lat": 55.8322,
    "lng": -3.1104,
    "govUkSlug": "midlothian",
+   "wdtkId": 265,
+   "ocdId": "313.0",
    "current": true
   },
   {
@@ -5482,6 +5996,8 @@
    "lat": 52.0838,
    "lng": -0.7335,
    "govUkSlug": "milton-keynes",
+   "wdtkId": 266,
+   "ocdId": "370.0",
    "current": true
   },
   {
@@ -5505,6 +6021,8 @@
    "lat": 51.2123,
    "lng": -0.3251,
    "govUkSlug": "mole-valley",
+   "wdtkId": 267,
+   "ocdId": "198.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -5527,6 +6045,8 @@
    "lat": 51.7578,
    "lng": -2.8673,
    "govUkSlug": "monmouthshire",
+   "wdtkId": 268,
+   "ocdId": "394.0",
    "current": true
   },
   {
@@ -5548,6 +6068,8 @@
    "lat": 57.4755,
    "lng": -3.2676,
    "govUkSlug": "moray",
+   "wdtkId": 269,
+   "ocdId": "314.0",
    "current": true
   },
   {
@@ -5569,6 +6091,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -5590,6 +6114,8 @@
    "lat": 51.6797,
    "lng": -3.7434,
    "govUkSlug": "neath-port-talbot",
+   "wdtkId": 621,
+   "ocdId": "395.0",
    "current": true
   },
   {
@@ -5611,6 +6137,8 @@
    "lat": 50.8585,
    "lng": -1.6247,
    "govUkSlug": "new-forest",
+   "wdtkId": 270,
+   "ocdId": "101.0",
    "current": true
   },
   {
@@ -5632,6 +6160,8 @@
    "lat": 53.124,
    "lng": -0.9197,
    "govUkSlug": "newark-and-sherwood",
+   "wdtkId": 271,
+   "ocdId": "102.0",
    "current": true
   },
   {
@@ -5653,6 +6183,8 @@
    "lat": 55.0077,
    "lng": -1.6578,
    "govUkSlug": "newcastle-upon-tyne",
+   "wdtkId": 272,
+   "ocdId": "263.0",
    "current": true
   },
   {
@@ -5674,6 +6206,8 @@
    "lat": 52.9931,
    "lng": -2.3189,
    "govUkSlug": "newcastle-under-lyme",
+   "wdtkId": 622,
+   "ocdId": "103.0",
    "current": true
   },
   {
@@ -5695,6 +6229,8 @@
    "lat": 51.5269,
    "lng": 0.0375,
    "govUkSlug": "newham",
+   "wdtkId": 273,
+   "ocdId": "250.0",
    "current": true
   },
   {
@@ -5716,6 +6252,8 @@
    "lat": 51.5738,
    "lng": -2.9618,
    "govUkSlug": "newport",
+   "wdtkId": 274,
+   "ocdId": "396.0",
    "current": true
   },
   {
@@ -5737,6 +6275,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -5758,6 +6298,8 @@
    "lat": 54.2362,
    "lng": -6.068,
    "govUkSlug": "newry-mourne-down",
+   "wdtkId": 54913,
+   "ocdId": "1010.0",
    "current": true
   },
   {
@@ -5779,6 +6321,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -5800,6 +6344,8 @@
    "lat": 52.7574,
    "lng": 0.9445,
    "govUkSlug": "norfolk",
+   "wdtkId": 276,
+   "ocdId": "16.0",
    "current": true
   },
   {
@@ -5821,6 +6367,8 @@
    "lat": 55.6505,
    "lng": -4.9804,
    "govUkSlug": "north-ayrshire",
+   "wdtkId": 624,
+   "ocdId": "315.0",
    "current": true
   },
   {
@@ -5842,6 +6390,8 @@
    "lat": 51.0698,
    "lng": -3.9146,
    "govUkSlug": "north-devon",
+   "wdtkId": 278,
+   "ocdId": "104.0",
    "current": true
   },
   {
@@ -5865,6 +6415,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "north-dorset",
+   "wdtkId": 279,
+   "ocdId": "105.0",
    "current": false
   },
   {
@@ -5886,6 +6438,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -5907,6 +6461,8 @@
    "lat": 54.8688,
    "lng": -1.6051,
    "govUkSlug": null,
+   "wdtkId": 52428,
+   "ocdId": null,
    "current": true
   },
   {
@@ -5928,6 +6484,8 @@
    "lat": 53.2258,
    "lng": -1.4483,
    "govUkSlug": "north-east-derbyshire",
+   "wdtkId": 626,
+   "ocdId": "106.0",
    "current": true
   },
   {
@@ -5949,6 +6507,8 @@
    "lat": 53.544,
    "lng": -0.1334,
    "govUkSlug": "north-east-lincolnshire",
+   "wdtkId": 627,
+   "ocdId": "371.0",
    "current": true
   },
   {
@@ -5970,6 +6530,8 @@
    "lat": 51.9591,
    "lng": -0.1927,
    "govUkSlug": "north-hertfordshire",
+   "wdtkId": 628,
+   "ocdId": "199.0",
    "current": true
   },
   {
@@ -5991,6 +6553,8 @@
    "lat": 53.0811,
    "lng": -0.4459,
    "govUkSlug": "north-kesteven",
+   "wdtkId": 280,
+   "ocdId": "107.0",
    "current": true
   },
   {
@@ -6012,6 +6576,8 @@
    "lat": 55.8748,
    "lng": -3.9483,
    "govUkSlug": "north-lanarkshire",
+   "wdtkId": 281,
+   "ocdId": "316.0",
    "current": true
   },
   {
@@ -6033,6 +6599,8 @@
    "lat": 53.5943,
    "lng": -0.5925,
    "govUkSlug": "north-lincolnshire",
+   "wdtkId": 282,
+   "ocdId": "347.0",
    "current": true
   },
   {
@@ -6054,6 +6622,8 @@
    "lat": 52.8505,
    "lng": 1.1698,
    "govUkSlug": "north-norfolk",
+   "wdtkId": 283,
+   "ocdId": "108.0",
    "current": true
   },
   {
@@ -6075,6 +6645,8 @@
    "lat": 52.4255,
    "lng": -0.6261,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -6096,6 +6668,8 @@
    "lat": 55.0926,
    "lng": -1.7466,
    "govUkSlug": null,
+   "wdtkId": 91532,
+   "ocdId": null,
    "current": true
   },
   {
@@ -6117,6 +6691,8 @@
    "lat": 51.3892,
    "lng": -2.8009,
    "govUkSlug": "north-somerset",
+   "wdtkId": 285,
+   "ocdId": "348.0",
    "current": true
   },
   {
@@ -6138,6 +6714,8 @@
    "lat": 55.028,
    "lng": -1.5174,
    "govUkSlug": "north-tyneside",
+   "wdtkId": 286,
+   "ocdId": "275.0",
    "current": true
   },
   {
@@ -6159,6 +6737,8 @@
    "lat": 52.5475,
    "lng": -1.6281,
    "govUkSlug": "north-warwickshire",
+   "wdtkId": 287,
+   "ocdId": "109.0",
    "current": true
   },
   {
@@ -6180,6 +6760,8 @@
    "lat": 52.7531,
    "lng": -1.4051,
    "govUkSlug": "north-west-leicestershire",
+   "wdtkId": 288,
+   "ocdId": "110.0",
    "current": true
   },
   {
@@ -6201,6 +6783,8 @@
    "lat": 54.1656,
    "lng": -1.3778,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -6224,6 +6808,8 @@
    "lat": 54.133,
    "lng": -1.5012,
    "govUkSlug": "north-yorkshire",
+   "wdtkId": 290,
+   "ocdId": "17.0",
    "current": false
   },
   {
@@ -6247,6 +6833,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "northampton",
+   "wdtkId": 629,
+   "ocdId": "111.0",
    "current": false
   },
   {
@@ -6270,6 +6858,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "northamptonshire",
+   "wdtkId": 291,
+   "ocdId": "18.0",
    "current": false
   },
   {
@@ -6291,6 +6881,8 @@
    "lat": 55.2415,
    "lng": -2.0663,
    "govUkSlug": "northumberland",
+   "wdtkId": 292,
+   "ocdId": "349.0",
    "current": true
   },
   {
@@ -6312,6 +6904,8 @@
    "lat": 52.6318,
    "lng": 1.2828,
    "govUkSlug": "norwich",
+   "wdtkId": 293,
+   "ocdId": "200.0",
    "current": true
   },
   {
@@ -6333,6 +6927,8 @@
    "lat": 52.9606,
    "lng": -1.1765,
    "govUkSlug": "nottingham",
+   "wdtkId": 294,
+   "ocdId": "350.0",
    "current": true
   },
   {
@@ -6354,6 +6950,8 @@
    "lat": 53.2372,
    "lng": -1.0599,
    "govUkSlug": "nottinghamshire",
+   "wdtkId": 630,
+   "ocdId": "19.0",
    "current": true
   },
   {
@@ -6375,6 +6973,8 @@
    "lat": 52.5011,
    "lng": -1.4759,
    "govUkSlug": "nuneaton-and-bedworth",
+   "wdtkId": 1602,
+   "ocdId": "168.0",
    "current": true
   },
   {
@@ -6396,6 +6996,8 @@
    "lat": 52.5871,
    "lng": -1.0934,
    "govUkSlug": "oadby-and-wigston",
+   "wdtkId": 631,
+   "ocdId": "112.0",
    "current": true
   },
   {
@@ -6417,6 +7019,8 @@
    "lat": 53.5519,
    "lng": -2.0507,
    "govUkSlug": "oldham",
+   "wdtkId": 295,
+   "ocdId": "276.0",
    "current": true
   },
   {
@@ -6438,6 +7042,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -6459,6 +7065,8 @@
    "lat": 59.0292,
    "lng": -3.036,
    "govUkSlug": "orkney-islands",
+   "wdtkId": 296,
+   "ocdId": "317.0",
    "current": true
   },
   {
@@ -6480,6 +7088,8 @@
    "lat": 51.7546,
    "lng": -1.241,
    "govUkSlug": "oxford",
+   "wdtkId": 298,
+   "ocdId": "169.0",
    "current": true
   },
   {
@@ -6501,6 +7111,8 @@
    "lat": 52.0255,
    "lng": -1.2509,
    "govUkSlug": "oxfordshire",
+   "wdtkId": 28,
+   "ocdId": "20.0",
    "current": true
   },
   {
@@ -6522,6 +7134,8 @@
    "lat": 51.8536,
    "lng": -4.8875,
    "govUkSlug": "pembrokeshire",
+   "wdtkId": 299,
+   "ocdId": "397.0",
    "current": true
   },
   {
@@ -6543,6 +7157,8 @@
    "lat": 53.8655,
    "lng": -2.1849,
    "govUkSlug": "pendle",
+   "wdtkId": 300,
+   "ocdId": "201.0",
    "current": true
   },
   {
@@ -6564,6 +7180,8 @@
    "lat": 56.5654,
    "lng": -3.8186,
    "govUkSlug": "perth-and-kinross",
+   "wdtkId": 302,
+   "ocdId": "318.0",
    "current": true
   },
   {
@@ -6585,6 +7203,8 @@
    "lat": 52.6086,
    "lng": -0.2531,
    "govUkSlug": "peterborough",
+   "wdtkId": 303,
+   "ocdId": "372.0",
    "current": true
   },
   {
@@ -6606,6 +7226,8 @@
    "lat": 50.3918,
    "lng": -4.1199,
    "govUkSlug": "plymouth",
+   "wdtkId": 304,
+   "ocdId": "373.0",
    "current": true
   },
   {
@@ -6629,6 +7251,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "poole",
+   "wdtkId": 305,
+   "ocdId": "351.0",
    "current": false
   },
   {
@@ -6650,6 +7274,8 @@
    "lat": 50.8204,
    "lng": -1.0784,
    "govUkSlug": "portsmouth",
+   "wdtkId": 306,
+   "ocdId": "374.0",
    "current": true
   },
   {
@@ -6671,6 +7297,8 @@
    "lat": 52.3237,
    "lng": -3.4099,
    "govUkSlug": "powys",
+   "wdtkId": 307,
+   "ocdId": "398.0",
    "current": true
   },
   {
@@ -6692,6 +7320,8 @@
    "lat": 53.8118,
    "lng": -2.6977,
    "govUkSlug": "preston",
+   "wdtkId": 308,
+   "ocdId": "202.0",
    "current": true
   },
   {
@@ -6715,6 +7345,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "purbeck",
+   "wdtkId": 309,
+   "ocdId": "113.0",
    "current": false
   },
   {
@@ -6736,6 +7368,8 @@
    "lat": 51.453,
    "lng": -0.9838,
    "govUkSlug": "reading",
+   "wdtkId": 310,
+   "ocdId": "375.0",
    "current": true
   },
   {
@@ -6757,6 +7391,8 @@
    "lat": 51.5857,
    "lng": 0.0759,
    "govUkSlug": "redbridge",
+   "wdtkId": 311,
+   "ocdId": "251.0",
    "current": true
   },
   {
@@ -6778,6 +7414,8 @@
    "lat": 54.5536,
    "lng": -1.0216,
    "govUkSlug": "redcar-and-cleveland",
+   "wdtkId": 312,
+   "ocdId": "352.0",
    "current": true
   },
   {
@@ -6799,6 +7437,8 @@
    "lat": 52.2823,
    "lng": -1.9519,
    "govUkSlug": "redditch",
+   "wdtkId": 313,
+   "ocdId": "203.0",
    "current": true
   },
   {
@@ -6822,6 +7462,8 @@
    "lat": 51.2532,
    "lng": -0.1919,
    "govUkSlug": "reigate-and-banstead",
+   "wdtkId": 314,
+   "ocdId": "204.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -6844,6 +7486,8 @@
    "lat": 55.8478,
    "lng": -4.5428,
    "govUkSlug": "renfrewshire",
+   "wdtkId": 315,
+   "ocdId": "319.0",
    "current": true
   },
   {
@@ -6865,6 +7509,8 @@
    "lat": 51.6503,
    "lng": -3.4355,
    "govUkSlug": "rhondda-cynon-taff",
+   "wdtkId": 317,
+   "ocdId": "399.0",
    "current": true
   },
   {
@@ -6886,6 +7532,8 @@
    "lat": 53.9072,
    "lng": -2.4448,
    "govUkSlug": "ribble-valley",
+   "wdtkId": 318,
+   "ocdId": "114.0",
    "current": true
   },
   {
@@ -6907,6 +7555,8 @@
    "lat": 51.4427,
    "lng": -0.3124,
    "govUkSlug": "richmond-upon-thames",
+   "wdtkId": 319,
+   "ocdId": "252.0",
    "current": true
   },
   {
@@ -6930,6 +7580,8 @@
    "lat": 54.3615,
    "lng": -1.9343,
    "govUkSlug": "richmondshire",
+   "wdtkId": 320,
+   "ocdId": "115.0",
    "current": false
   },
   {
@@ -6951,6 +7603,8 @@
    "lat": 53.6166,
    "lng": -2.1579,
    "govUkSlug": "rochdale",
+   "wdtkId": 321,
+   "ocdId": "277.0",
    "current": true
   },
   {
@@ -6972,6 +7626,8 @@
    "lat": 51.5914,
    "lng": 0.8092,
    "govUkSlug": "rochford",
+   "wdtkId": 633,
+   "ocdId": "205.0",
    "current": true
   },
   {
@@ -6993,6 +7649,8 @@
    "lat": 53.6938,
    "lng": -2.2673,
    "govUkSlug": "rossendale",
+   "wdtkId": 322,
+   "ocdId": "206.0",
    "current": true
   },
   {
@@ -7014,6 +7672,8 @@
    "lat": 50.9517,
    "lng": 0.5389,
    "govUkSlug": "rother",
+   "wdtkId": 323,
+   "ocdId": "116.0",
    "current": true
   },
   {
@@ -7035,6 +7695,8 @@
    "lat": 53.4086,
    "lng": -1.2862,
    "govUkSlug": "rotherham",
+   "wdtkId": 324,
+   "ocdId": "278.0",
    "current": true
   },
   {
@@ -7056,6 +7718,8 @@
    "lat": 52.3844,
    "lng": -1.3283,
    "govUkSlug": "rugby",
+   "wdtkId": 325,
+   "ocdId": "207.0",
    "current": true
   },
   {
@@ -7079,6 +7743,8 @@
    "lat": 51.3938,
    "lng": -0.5413,
    "govUkSlug": "runnymede",
+   "wdtkId": 634,
+   "ocdId": "208.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -7101,6 +7767,8 @@
    "lat": 52.9008,
    "lng": -1.0377,
    "govUkSlug": "rushcliffe",
+   "wdtkId": 326,
+   "ocdId": "117.0",
    "current": true
   },
   {
@@ -7122,6 +7790,8 @@
    "lat": 51.2734,
    "lng": -0.7675,
    "govUkSlug": "rushmoor",
+   "wdtkId": 327,
+   "ocdId": "209.0",
    "current": true
   },
   {
@@ -7143,6 +7813,8 @@
    "lat": 52.6607,
    "lng": -0.6547,
    "govUkSlug": "rutland",
+   "wdtkId": 328,
+   "ocdId": "353.0",
    "current": true
   },
   {
@@ -7166,6 +7838,8 @@
    "lat": 54.2105,
    "lng": -0.852,
    "govUkSlug": "ryedale",
+   "wdtkId": 329,
+   "ocdId": "118.0",
    "current": false
   },
   {
@@ -7187,6 +7861,8 @@
    "lat": 53.4895,
    "lng": -2.3702,
    "govUkSlug": "salford",
+   "wdtkId": 330,
+   "ocdId": "279.0",
    "current": true
   },
   {
@@ -7208,6 +7884,8 @@
    "lat": 52.5154,
    "lng": -2.009,
    "govUkSlug": "sandwell",
+   "wdtkId": 331,
+   "ocdId": "280.0",
    "current": true
   },
   {
@@ -7231,6 +7909,8 @@
    "lat": 54.3665,
    "lng": -0.635,
    "govUkSlug": "scarborough",
+   "wdtkId": 332,
+   "ocdId": "119.0",
    "current": false
   },
   {
@@ -7254,6 +7934,8 @@
    "lat": 51.1845,
    "lng": -2.9529,
    "govUkSlug": "sedgemoor",
+   "wdtkId": 334,
+   "ocdId": "120.0",
    "current": false
   },
   {
@@ -7275,6 +7957,8 @@
    "lat": 53.5654,
    "lng": -3.015,
    "govUkSlug": "sefton",
+   "wdtkId": 637,
+   "ocdId": "281.0",
    "current": true
   },
   {
@@ -7298,6 +7982,8 @@
    "lat": 53.7871,
    "lng": -1.1347,
    "govUkSlug": "selby",
+   "wdtkId": 335,
+   "ocdId": "121.0",
    "current": false
   },
   {
@@ -7319,6 +8005,8 @@
    "lat": 51.2754,
    "lng": 0.172,
    "govUkSlug": "sevenoaks",
+   "wdtkId": 336,
+   "ocdId": "122.0",
    "current": true
   },
   {
@@ -7340,6 +8028,8 @@
    "lat": 53.4044,
    "lng": -1.5504,
    "govUkSlug": "sheffield",
+   "wdtkId": 337,
+   "ocdId": "282.0",
    "current": true
   },
   {
@@ -7361,6 +8051,8 @@
    "lat": 60.3949,
    "lng": -1.254,
    "govUkSlug": "shetland-islands",
+   "wdtkId": 339,
+   "ocdId": "321.0",
    "current": true
   },
   {
@@ -7382,6 +8074,8 @@
    "lat": 52.6349,
    "lng": -2.7341,
    "govUkSlug": "shropshire",
+   "wdtkId": 341,
+   "ocdId": "354.0",
    "current": true
   },
   {
@@ -7403,6 +8097,8 @@
    "lat": 51.5084,
    "lng": -0.5862,
    "govUkSlug": "slough",
+   "wdtkId": 342,
+   "ocdId": "376.0",
    "current": true
   },
   {
@@ -7424,6 +8120,8 @@
    "lat": 52.4131,
    "lng": -1.7271,
    "govUkSlug": "solihull",
+   "wdtkId": 343,
+   "ocdId": "283.0",
    "current": true
   },
   {
@@ -7445,6 +8143,8 @@
    "lat": 51.1156,
    "lng": -2.8925,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -7468,6 +8168,8 @@
    "lat": 51.1253,
    "lng": -2.7358,
    "govUkSlug": "somerset",
+   "wdtkId": 344,
+   "ocdId": "21.0",
    "current": false
   },
   {
@@ -7491,6 +8193,8 @@
    "lat": 51.0869,
    "lng": -3.3626,
    "govUkSlug": null,
+   "wdtkId": 91531,
+   "ocdId": "411.0",
    "current": false
   },
   {
@@ -7512,6 +8216,8 @@
    "lat": 55.2683,
    "lng": -4.6893,
    "govUkSlug": "south-ayrshire",
+   "wdtkId": 345,
+   "ocdId": "322.0",
    "current": true
   },
   {
@@ -7535,6 +8241,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "south-bucks",
+   "wdtkId": 347,
+   "ocdId": "124.0",
    "current": false
   },
   {
@@ -7556,6 +8264,8 @@
    "lat": 52.1728,
    "lng": 0.0813,
    "govUkSlug": "south-cambridgeshire",
+   "wdtkId": 348,
+   "ocdId": "125.0",
    "current": true
   },
   {
@@ -7577,6 +8287,8 @@
    "lat": 52.831,
    "lng": -1.5595,
    "govUkSlug": "south-derbyshire",
+   "wdtkId": 349,
+   "ocdId": "126.0",
    "current": true
   },
   {
@@ -7598,6 +8310,8 @@
    "lat": 51.5469,
    "lng": -2.4705,
    "govUkSlug": "south-gloucestershire",
+   "wdtkId": 350,
+   "ocdId": "355.0",
    "current": true
   },
   {
@@ -7619,6 +8333,8 @@
    "lat": 50.374,
    "lng": -3.8229,
    "govUkSlug": "south-hams",
+   "wdtkId": 351,
+   "ocdId": "127.0",
    "current": true
   },
   {
@@ -7640,6 +8356,8 @@
    "lat": 52.7976,
    "lng": -0.0323,
    "govUkSlug": "south-holland",
+   "wdtkId": 352,
+   "ocdId": "128.0",
    "current": true
   },
   {
@@ -7661,6 +8379,8 @@
    "lat": 52.8543,
    "lng": -0.5178,
    "govUkSlug": "south-kesteven",
+   "wdtkId": 638,
+   "ocdId": "129.0",
    "current": true
   },
   {
@@ -7684,6 +8404,8 @@
    "lat": 54.2927,
    "lng": -2.8501,
    "govUkSlug": "south-lakeland",
+   "wdtkId": 353,
+   "ocdId": "130.0",
    "current": false
   },
   {
@@ -7705,6 +8427,8 @@
    "lat": 55.6127,
    "lng": -3.8106,
    "govUkSlug": "south-lanarkshire",
+   "wdtkId": 354,
+   "ocdId": "323.0",
    "current": true
   },
   {
@@ -7726,6 +8450,8 @@
    "lat": 52.5146,
    "lng": 1.276,
    "govUkSlug": "south-norfolk",
+   "wdtkId": 355,
+   "ocdId": "131.0",
    "current": true
   },
   {
@@ -7749,6 +8475,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "south-northamptonshire",
+   "wdtkId": 356,
+   "ocdId": "132.0",
    "current": false
   },
   {
@@ -7770,6 +8498,8 @@
    "lat": 51.6337,
    "lng": -1.0714,
    "govUkSlug": "south-oxfordshire",
+   "wdtkId": 357,
+   "ocdId": "133.0",
    "current": true
   },
   {
@@ -7791,6 +8521,8 @@
    "lat": 53.7281,
    "lng": -2.7102,
    "govUkSlug": "south-ribble",
+   "wdtkId": 358,
+   "ocdId": "134.0",
    "current": true
   },
   {
@@ -7814,6 +8546,8 @@
    "lat": 50.9881,
    "lng": -2.7099,
    "govUkSlug": "south-somerset",
+   "wdtkId": 360,
+   "ocdId": "135.0",
    "current": false
   },
   {
@@ -7835,6 +8569,8 @@
    "lat": 52.6254,
    "lng": -2.1768,
    "govUkSlug": "south-staffordshire",
+   "wdtkId": 361,
+   "ocdId": "136.0",
    "current": true
   },
   {
@@ -7856,6 +8592,8 @@
    "lat": 54.9635,
    "lng": -1.4443,
    "govUkSlug": "south-tyneside",
+   "wdtkId": 362,
+   "ocdId": "284.0",
    "current": true
   },
   {
@@ -7877,6 +8615,8 @@
    "lat": 53.4734,
    "lng": -1.3663,
    "govUkSlug": null,
+   "wdtkId": 52350,
+   "ocdId": null,
    "current": true
   },
   {
@@ -7898,6 +8638,8 @@
    "lat": 50.917,
    "lng": -1.3987,
    "govUkSlug": "southampton",
+   "wdtkId": 363,
+   "ocdId": "377.0",
    "current": true
   },
   {
@@ -7919,6 +8661,8 @@
    "lat": 51.538,
    "lng": 0.7286,
    "govUkSlug": "southend-on-sea",
+   "wdtkId": 364,
+   "ocdId": "378.0",
    "current": true
   },
   {
@@ -7940,6 +8684,8 @@
    "lat": 51.4742,
    "lng": -0.0741,
    "govUkSlug": "southwark",
+   "wdtkId": 365,
+   "ocdId": "253.0",
    "current": true
   },
   {
@@ -7963,6 +8709,8 @@
    "lat": 51.4248,
    "lng": -0.468,
    "govUkSlug": "spelthorne",
+   "wdtkId": 366,
+   "ocdId": "137.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -7985,6 +8733,8 @@
    "lat": 51.7721,
    "lng": -0.3425,
    "govUkSlug": "st-albans",
+   "wdtkId": 367,
+   "ocdId": "210.0",
    "current": true
   },
   {
@@ -8008,6 +8758,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "st-edmundsbury",
+   "wdtkId": 368,
+   "ocdId": "138.0",
    "current": false
   },
   {
@@ -8029,6 +8781,8 @@
    "lat": 53.4595,
    "lng": -2.7236,
    "govUkSlug": "st.-helens",
+   "wdtkId": 369,
+   "ocdId": "285.0",
    "current": true
   },
   {
@@ -8050,6 +8804,8 @@
    "lat": 52.8482,
    "lng": -2.1765,
    "govUkSlug": "stafford",
+   "wdtkId": 370,
+   "ocdId": "407.0",
    "current": true
   },
   {
@@ -8071,6 +8827,8 @@
    "lat": 52.7492,
    "lng": -2.022,
    "govUkSlug": "staffordshire",
+   "wdtkId": 371,
+   "ocdId": "22.0",
    "current": true
   },
   {
@@ -8092,6 +8850,8 @@
    "lat": 53.0793,
    "lng": -1.9813,
    "govUkSlug": "staffordshire-moorlands",
+   "wdtkId": 372,
+   "ocdId": "139.0",
    "current": true
   },
   {
@@ -8113,6 +8873,8 @@
    "lat": 51.9043,
    "lng": -0.1893,
    "govUkSlug": "stevenage",
+   "wdtkId": 373,
+   "ocdId": "211.0",
    "current": true
   },
   {
@@ -8134,6 +8896,8 @@
    "lat": 56.244,
    "lng": -4.3403,
    "govUkSlug": "stirling",
+   "wdtkId": 374,
+   "ocdId": "324.0",
    "current": true
   },
   {
@@ -8155,6 +8919,8 @@
    "lat": 53.394,
    "lng": -2.1281,
    "govUkSlug": "stockport",
+   "wdtkId": 375,
+   "ocdId": "286.0",
    "current": true
   },
   {
@@ -8176,6 +8942,8 @@
    "lat": 54.5627,
    "lng": -1.329,
    "govUkSlug": "stockton-on-tees",
+   "wdtkId": 376,
+   "ocdId": "356.0",
    "current": true
   },
   {
@@ -8197,6 +8965,8 @@
    "lat": 53.018,
    "lng": -2.1645,
    "govUkSlug": "stoke-on-trent",
+   "wdtkId": 377,
+   "ocdId": "357.0",
    "current": true
   },
   {
@@ -8218,6 +8988,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false
   },
   {
@@ -8239,6 +9011,8 @@
    "lat": 52.1788,
    "lng": -1.6228,
    "govUkSlug": "stratford-on-avon",
+   "wdtkId": 379,
+   "ocdId": "140.0",
    "current": true
   },
   {
@@ -8260,6 +9034,8 @@
    "lat": 51.7293,
    "lng": -2.3001,
    "govUkSlug": "stroud",
+   "wdtkId": 380,
+   "ocdId": "212.0",
    "current": true
   },
   {
@@ -8281,6 +9057,8 @@
    "lat": 52.4679,
    "lng": -0.1112,
    "govUkSlug": "suffolk",
+   "wdtkId": 382,
+   "ocdId": "23.0",
    "current": true
   },
   {
@@ -8304,6 +9082,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "suffolk-coastal",
+   "wdtkId": 381,
+   "ocdId": "141.0",
    "current": false
   },
   {
@@ -8325,6 +9105,8 @@
    "lat": 54.8804,
    "lng": -1.452,
    "govUkSlug": "sunderland",
+   "wdtkId": 383,
+   "ocdId": "287.0",
    "current": true
   },
   {
@@ -8349,6 +9131,8 @@
    "lat": 51.3468,
    "lng": -0.5324,
    "govUkSlug": "surrey",
+   "wdtkId": 384,
+   "ocdId": "24.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -8373,6 +9157,8 @@
    "lat": 51.3429,
    "lng": -0.6705,
    "govUkSlug": "surrey-heath",
+   "wdtkId": 385,
+   "ocdId": "142.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -8395,6 +9181,8 @@
    "lat": 51.3621,
    "lng": -0.1776,
    "govUkSlug": "sutton",
+   "wdtkId": 386,
+   "ocdId": "254.0",
    "current": true
   },
   {
@@ -8416,6 +9204,8 @@
    "lat": 51.3417,
    "lng": 0.8132,
    "govUkSlug": "swale",
+   "wdtkId": 387,
+   "ocdId": "143.0",
    "current": true
   },
   {
@@ -8437,6 +9227,8 @@
    "lat": 51.6416,
    "lng": -4.0612,
    "govUkSlug": "swansea",
+   "wdtkId": 388,
+   "ocdId": "400.0",
    "current": true
   },
   {
@@ -8458,6 +9250,8 @@
    "lat": 51.5715,
    "lng": -1.7438,
    "govUkSlug": "swindon",
+   "wdtkId": 389,
+   "ocdId": "379.0",
    "current": true
   },
   {
@@ -8479,6 +9273,8 @@
    "lat": 53.4775,
    "lng": -2.0628,
    "govUkSlug": "tameside",
+   "wdtkId": 641,
+   "ocdId": "288.0",
    "current": true
   },
   {
@@ -8500,6 +9296,8 @@
    "lat": 52.6264,
    "lng": -1.6778,
    "govUkSlug": "tamworth",
+   "wdtkId": 390,
+   "ocdId": "213.0",
    "current": true
   },
   {
@@ -8523,6 +9321,8 @@
    "lat": 51.227,
    "lng": -0.0434,
    "govUkSlug": "tandridge",
+   "wdtkId": 391,
+   "ocdId": "214.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -8547,6 +9347,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "taunton-deane",
+   "wdtkId": 392,
+   "ocdId": "144.0",
    "current": false
   },
   {
@@ -8568,6 +9370,8 @@
    "lat": 54.5754,
    "lng": -1.2763,
    "govUkSlug": null,
+   "wdtkId": 87984,
+   "ocdId": null,
    "current": true
   },
   {
@@ -8589,6 +9393,8 @@
    "lat": 50.6063,
    "lng": -3.6568,
    "govUkSlug": "teignbridge",
+   "wdtkId": 394,
+   "ocdId": "145.0",
    "current": true
   },
   {
@@ -8610,6 +9416,8 @@
    "lat": 52.7302,
    "lng": -2.4888,
    "govUkSlug": "telford-and-wrekin",
+   "wdtkId": 395,
+   "ocdId": "358.0",
    "current": true
   },
   {
@@ -8631,6 +9439,8 @@
    "lat": 51.8713,
    "lng": 1.115,
    "govUkSlug": "tendring",
+   "wdtkId": 396,
+   "ocdId": "146.0",
    "current": true
   },
   {
@@ -8652,6 +9462,8 @@
    "lat": 51.1284,
    "lng": -1.5107,
    "govUkSlug": "test-valley",
+   "wdtkId": 397,
+   "ocdId": "147.0",
    "current": true
   },
   {
@@ -8673,6 +9485,8 @@
    "lat": 51.9456,
    "lng": -2.0874,
    "govUkSlug": "tewkesbury",
+   "wdtkId": 398,
+   "ocdId": "148.0",
    "current": true
   },
   {
@@ -8694,6 +9508,8 @@
    "lat": 51.3545,
    "lng": 1.3406,
    "govUkSlug": "thanet",
+   "wdtkId": 399,
+   "ocdId": "149.0",
    "current": true
   },
   {
@@ -8715,6 +9531,8 @@
    "lat": 55.5762,
    "lng": -2.7885,
    "govUkSlug": "scottish-borders",
+   "wdtkId": 636,
+   "ocdId": "320.0",
    "current": true
   },
   {
@@ -8736,6 +9554,8 @@
    "lat": 51.4447,
    "lng": -3.3992,
    "govUkSlug": "vale-of-glamorgan",
+   "wdtkId": 410,
+   "ocdId": "402.0",
    "current": true
   },
   {
@@ -8757,6 +9577,8 @@
    "lat": 51.661,
    "lng": -0.4606,
    "govUkSlug": "three-rivers",
+   "wdtkId": 400,
+   "ocdId": "215.0",
    "current": true
   },
   {
@@ -8778,6 +9600,8 @@
    "lat": 51.506,
    "lng": 0.3732,
    "govUkSlug": "thurrock",
+   "wdtkId": 401,
+   "ocdId": "380.0",
    "current": true
   },
   {
@@ -8799,6 +9623,8 @@
    "lat": 51.2736,
    "lng": 0.3578,
    "govUkSlug": "tonbridge-and-malling",
+   "wdtkId": 402,
+   "ocdId": "150.0",
    "current": true
   },
   {
@@ -8820,6 +9646,8 @@
    "lat": 50.4406,
    "lng": -3.5302,
    "govUkSlug": "torbay",
+   "wdtkId": 403,
+   "ocdId": "359.0",
    "current": true
   },
   {
@@ -8841,6 +9669,8 @@
    "lat": 51.6986,
    "lng": -3.0534,
    "govUkSlug": "torfaen",
+   "wdtkId": 404,
+   "ocdId": "401.0",
    "current": true
   },
   {
@@ -8862,6 +9692,8 @@
    "lat": 50.8874,
    "lng": -4.2508,
    "govUkSlug": "torridge",
+   "wdtkId": 642,
+   "ocdId": "151.0",
    "current": true
   },
   {
@@ -8883,6 +9715,8 @@
    "lat": 51.5157,
    "lng": -0.0347,
    "govUkSlug": "tower-hamlets",
+   "wdtkId": 405,
+   "ocdId": "255.0",
    "current": true
   },
   {
@@ -8904,6 +9738,8 @@
    "lat": 53.419,
    "lng": -2.3553,
    "govUkSlug": "trafford",
+   "wdtkId": 406,
+   "ocdId": "289.0",
    "current": true
   },
   {
@@ -8925,6 +9761,8 @@
    "lat": 51.1144,
    "lng": 0.4308,
    "govUkSlug": "tunbridge-wells",
+   "wdtkId": 407,
+   "ocdId": "216.0",
    "current": true
   },
   {
@@ -8946,6 +9784,8 @@
    "lat": 51.9346,
    "lng": 0.2798,
    "govUkSlug": "uttlesford",
+   "wdtkId": 409,
+   "ocdId": "152.0",
    "current": true
   },
   {
@@ -8967,6 +9807,8 @@
    "lat": 51.6342,
    "lng": -1.4417,
    "govUkSlug": "vale-of-white-horse",
+   "wdtkId": 411,
+   "ocdId": "153.0",
    "current": true
   },
   {
@@ -8988,6 +9830,8 @@
    "lat": 53.6607,
    "lng": -1.4118,
    "govUkSlug": "wakefield",
+   "wdtkId": 412,
+   "ocdId": "290.0",
    "current": true
   },
   {
@@ -9009,6 +9853,8 @@
    "lat": 52.5993,
    "lng": -1.9663,
    "govUkSlug": "walsall",
+   "wdtkId": 413,
+   "ocdId": "291.0",
    "current": true
   },
   {
@@ -9030,6 +9876,8 @@
    "lat": 51.594,
    "lng": -0.0126,
    "govUkSlug": "waltham-forest",
+   "wdtkId": 414,
+   "ocdId": "256.0",
    "current": true
   },
   {
@@ -9051,6 +9899,8 @@
    "lat": 51.452,
    "lng": -0.1862,
    "govUkSlug": "wandsworth",
+   "wdtkId": 415,
+   "ocdId": "257.0",
    "current": true
   },
   {
@@ -9072,6 +9922,8 @@
    "lat": 53.3988,
    "lng": -2.5636,
    "govUkSlug": "warrington",
+   "wdtkId": 416,
+   "ocdId": "360.0",
    "current": true
   },
   {
@@ -9093,6 +9945,8 @@
    "lat": 52.31,
    "lng": -1.5847,
    "govUkSlug": "warwick",
+   "wdtkId": 644,
+   "ocdId": "154.0",
    "current": true
   },
   {
@@ -9114,6 +9968,8 @@
    "lat": 51.812,
    "lng": -0.9017,
    "govUkSlug": "warwickshire",
+   "wdtkId": 417,
+   "ocdId": "25.0",
    "current": true
   },
   {
@@ -9135,6 +9991,8 @@
    "lat": 51.6681,
    "lng": -0.4034,
    "govUkSlug": "watford",
+   "wdtkId": 418,
+   "ocdId": "217.0",
    "current": true
   },
   {
@@ -9158,6 +10016,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "waveney",
+   "wdtkId": 419,
+   "ocdId": "155.0",
    "current": false
   },
   {
@@ -9181,6 +10041,8 @@
    "lat": 51.1498,
    "lng": -0.6327,
    "govUkSlug": "waverley",
+   "wdtkId": 420,
+   "ocdId": "156.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -9203,6 +10065,8 @@
    "lat": 50.9674,
    "lng": 0.1987,
    "govUkSlug": "wealden",
+   "wdtkId": 421,
+   "ocdId": "157.0",
    "current": true
   },
   {
@@ -9226,6 +10090,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "wellingborough",
+   "wdtkId": 423,
+   "ocdId": "158.0",
    "current": false
   },
   {
@@ -9247,6 +10113,8 @@
    "lat": 51.7669,
    "lng": -0.1941,
    "govUkSlug": "welwyn-hatfield",
+   "wdtkId": 424,
+   "ocdId": "218.0",
    "current": true
   },
   {
@@ -9268,6 +10136,8 @@
    "lat": 51.4496,
    "lng": -1.3044,
    "govUkSlug": "west-berkshire",
+   "wdtkId": 425,
+   "ocdId": "361.0",
    "current": true
   },
   {
@@ -9289,6 +10159,8 @@
    "lat": 50.6561,
    "lng": -4.0462,
    "govUkSlug": "west-devon",
+   "wdtkId": 426,
+   "ocdId": "159.0",
    "current": true
   },
   {
@@ -9312,6 +10184,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "west-dorset",
+   "wdtkId": 427,
+   "ocdId": "404.0",
    "current": false
   },
   {
@@ -9333,6 +10207,8 @@
    "lat": 55.9849,
    "lng": -4.5176,
    "govUkSlug": "west-dunbartonshire",
+   "wdtkId": 428,
+   "ocdId": "325.0",
    "current": true
   },
   {
@@ -9354,6 +10230,8 @@
    "lat": 53.6095,
    "lng": -2.8824,
    "govUkSlug": "west-lancashire",
+   "wdtkId": 429,
+   "ocdId": "219.0",
    "current": true
   },
   {
@@ -9375,6 +10253,8 @@
    "lat": 53.3928,
    "lng": -0.4771,
    "govUkSlug": "west-lindsey",
+   "wdtkId": 645,
+   "ocdId": "160.0",
    "current": true
   },
   {
@@ -9396,6 +10276,8 @@
    "lat": 55.885,
    "lng": -3.5738,
    "govUkSlug": "west-lothian",
+   "wdtkId": 430,
+   "ocdId": "326.0",
    "current": true
   },
   {
@@ -9417,6 +10299,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": 64997,
+   "ocdId": null,
    "current": true
   },
   {
@@ -9438,6 +10322,8 @@
    "lat": 52.2228,
    "lng": -1.0363,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -9459,6 +10345,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": 88002,
+   "ocdId": null,
    "current": true
   },
   {
@@ -9480,6 +10368,8 @@
    "lat": 51.8376,
    "lng": -1.5069,
    "govUkSlug": "west-oxfordshire",
+   "wdtkId": 646,
+   "ocdId": "220.0",
    "current": true
   },
   {
@@ -9503,6 +10393,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "west-somerset",
+   "wdtkId": 647,
+   "ocdId": "161.0",
    "current": false
   },
   {
@@ -9524,6 +10416,8 @@
    "lat": 52.2777,
    "lng": 0.6221,
    "govUkSlug": null,
+   "wdtkId": 91366,
+   "ocdId": "410.0",
    "current": true
   },
   {
@@ -9545,6 +10439,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": false,
    "shadow": true,
    "status": "confirmed",
@@ -9578,6 +10474,8 @@
    "lat": 50.9581,
    "lng": -0.3972,
    "govUkSlug": "west-sussex",
+   "wdtkId": 431,
+   "ocdId": "26.0",
    "current": true
   },
   {
@@ -9599,6 +10497,8 @@
    "lat": 53.7361,
    "lng": -1.7018,
    "govUkSlug": null,
+   "wdtkId": 52339,
+   "ocdId": null,
    "current": true
   },
   {
@@ -9620,6 +10520,8 @@
    "lat": 51.5134,
    "lng": -0.1605,
    "govUkSlug": "westminster",
+   "wdtkId": 433,
+   "ocdId": "258.0",
    "current": true
   },
   {
@@ -9641,6 +10543,8 @@
    "lat": 54.344,
    "lng": -2.8947,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -9664,6 +10568,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "weymouth-and-portland",
+   "wdtkId": 434,
+   "ocdId": "221.0",
    "current": false
   },
   {
@@ -9685,6 +10591,8 @@
    "lat": 53.5241,
    "lng": -2.5895,
    "govUkSlug": "wigan",
+   "wdtkId": 435,
+   "ocdId": "292.0",
    "current": true
   },
   {
@@ -9706,6 +10614,8 @@
    "lat": 51.2971,
    "lng": -1.9446,
    "govUkSlug": "wiltshire",
+   "wdtkId": 436,
+   "ocdId": "362.0",
    "current": true
   },
   {
@@ -9727,6 +10637,8 @@
    "lat": 51.0282,
    "lng": -1.2211,
    "govUkSlug": "winchester",
+   "wdtkId": 437,
+   "ocdId": "222.0",
    "current": true
   },
   {
@@ -9748,6 +10660,8 @@
    "lat": 51.4857,
    "lng": -0.6995,
    "govUkSlug": "windsor-and-maidenhead",
+   "wdtkId": 438,
+   "ocdId": "363.0",
    "current": true
   },
   {
@@ -9769,6 +10683,8 @@
    "lat": 53.3683,
    "lng": -3.0927,
    "govUkSlug": "wirral",
+   "wdtkId": 439,
+   "ocdId": "293.0",
    "current": true
   },
   {
@@ -9792,6 +10708,8 @@
    "lat": 51.3139,
    "lng": -0.5608,
    "govUkSlug": "woking",
+   "wdtkId": 440,
+   "ocdId": "223.0",
    "current": true,
    "reorganisation": "surrey-2027"
   },
@@ -9814,6 +10732,8 @@
    "lat": 51.4294,
    "lng": -0.8838,
    "govUkSlug": "wokingham",
+   "wdtkId": 441,
+   "ocdId": "381.0",
    "current": true
   },
   {
@@ -9835,6 +10755,8 @@
    "lat": 52.5892,
    "lng": -2.121,
    "govUkSlug": "wolverhampton",
+   "wdtkId": 648,
+   "ocdId": "294.0",
    "current": true
   },
   {
@@ -9856,6 +10778,8 @@
    "lat": 52.1967,
    "lng": -2.2113,
    "govUkSlug": "worcester",
+   "wdtkId": 649,
+   "ocdId": "224.0",
    "current": true
   },
   {
@@ -9877,6 +10801,8 @@
    "lat": 52.0607,
    "lng": -1.8712,
    "govUkSlug": "worcestershire",
+   "wdtkId": 442,
+   "ocdId": "27.0",
    "current": true
   },
   {
@@ -9898,6 +10824,8 @@
    "lat": 50.8292,
    "lng": -0.3958,
    "govUkSlug": "worthing",
+   "wdtkId": 443,
+   "ocdId": "225.0",
    "current": true
   },
   {
@@ -9919,6 +10847,8 @@
    "lat": 52.9903,
    "lng": -3.0179,
    "govUkSlug": "wrexham",
+   "wdtkId": 444,
+   "ocdId": "403.0",
    "current": true
   },
   {
@@ -9940,6 +10870,8 @@
    "lat": 52.1642,
    "lng": -2.0508,
    "govUkSlug": "wychavon",
+   "wdtkId": 445,
+   "ocdId": "162.0",
    "current": true
   },
   {
@@ -9963,6 +10895,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": "wycombe",
+   "wdtkId": 446,
+   "ocdId": "163.0",
    "current": false
   },
   {
@@ -9984,6 +10918,8 @@
    "lat": 53.9029,
    "lng": -2.8539,
    "govUkSlug": "wyre",
+   "wdtkId": 447,
+   "ocdId": "164.0",
    "current": true
   },
   {
@@ -10005,6 +10941,8 @@
    "lat": 52.3796,
    "lng": -2.2747,
    "govUkSlug": "wyre-forest",
+   "wdtkId": 448,
+   "ocdId": "226.0",
    "current": true
   },
   {
@@ -10026,6 +10964,8 @@
    "lat": 53.9587,
    "lng": -1.0614,
    "govUkSlug": "york",
+   "wdtkId": 129,
+   "ocdId": "364.0",
    "current": true
   },
   {
@@ -10047,6 +10987,8 @@
    "lat": 54.1656,
    "lng": -1.3778,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   },
   {
@@ -10068,6 +11010,8 @@
    "lat": null,
    "lng": null,
    "govUkSlug": null,
+   "wdtkId": null,
+   "ocdId": null,
    "current": true
   }
  ]

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { Suspense } from "react";
 import { PageHeader, Section } from "@/components/page-header";
+import { ClimateAndFoi, PartyBalance } from "@/components/outside";
 import { BlockSkeleton } from "@/components/skeleton";
 import { href, type Locale } from "@/i18n/config";
 import { formatDate, formatNumber } from "@/i18n/format";
@@ -91,6 +92,12 @@ async function Body({ locale, params }: { locale: Locale; params: Promise<{ id: 
           ))}
         </dl>
       </Section>
+      {c.current && (
+        <>
+          <PartyBalance locale={locale} councilId={id} name={c.name} />
+          <ClimateAndFoi locale={locale} councilId={id} name={c.name} />
+        </>
+      )}
     </>
   );
 }

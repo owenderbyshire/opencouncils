@@ -11,7 +11,7 @@ export interface SeatPart {
   colour: string;
 }
 
-const ORDER = ["lab", "pc", "con", "ld", "reform", "green", "ind", "other"];
+const ORDER = ["lab", "pc", "snp", "sf", "con", "ld", "reform", "green", "alliance", "dup", "uup", "sdlp", "alba", "tuv", "pbp", "ind", "other"];
 
 /**
  * Seats by national party, with independents, local groups and unrecorded

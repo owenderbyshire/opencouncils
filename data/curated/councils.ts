@@ -43,6 +43,10 @@ export interface RegisterEntry {
   lat: number | null;
   lng: number | null;
   govUkSlug: string | null;
+  /** The council's number on WhatDoTheyKnow, mySociety's freedom of information site. */
+  wdtkId: number | null;
+  /** The council's id in Open Council Data UK's files. */
+  ocdId: string | null;
   current: boolean;
   shadow?: boolean;
   status?: string;

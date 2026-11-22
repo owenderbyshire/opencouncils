@@ -17,10 +17,10 @@ import { CY_ORIGIN } from "@/i18n/config";
 const CY_HOST = CY_ORIGIN ? new URL(CY_ORIGIN).host : null;
 /**
  * Sections copied from opencouncil.wales that only make sense for Wales
- * (planning, LDPs, consultations, StatsWales performance, the Welsh postcode
- * finder and 2027 Welsh elections). Their pages stay in the code, unrouted.
+ * (planning, LDPs, consultations, StatsWales performance and 2027 Welsh
+ * elections). Their pages stay in the code, unrouted.
  */
-const WALES_ONLY = /^\/(planning|consultations|performance|find|elections|cabinets|issues)(\/|$)|^\/[a-z0-9-]+\/(planning|performance|money|area|issues)(\/|$)/;
+const WALES_ONLY = /^\/(planning|consultations|performance|elections|cabinets|issues)(\/|$)|^\/[a-z0-9-]+\/(planning|performance|money|area|issues)(\/|$)/;
 
 export function proxy(req: NextRequest): NextResponse {
   const { pathname, search } = req.nextUrl;

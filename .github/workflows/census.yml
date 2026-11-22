@@ -1,5 +1,6 @@
 # Platform census: finds every UK council's committee system and checks its
 # ModernGov data service, then commits data/curated/platforms.json if it changed.
+# Also refreshes every council's party balance and climate plans.
 # Weekly, and by hand from the Actions tab (args e.g. "--council woking" or "--limit 50").
 name: Platform census
 
@@ -41,6 +42,14 @@ jobs:
         env:
           ARGS: ${{ github.event.inputs.args }}
         run: pnpm pipeline census $ARGS
+      # Party balance (Open Council Data UK), climate plans (mySociety's CAPE) and WhatDoTheyKnow pages: weekly is plenty.
+      - name: Party balance and climate plans
+        if: always() && (github.event_name == 'schedule' || github.event.inputs.args == '')
+        continue-on-error: true
+        run: |
+          pnpm pipeline compositions
+          pnpm pipeline climate
+          pnpm pipeline wdtk
       # Saved even if the census step failed part-way: whatever it found is kept.
       - name: Write platforms.json
         if: always()

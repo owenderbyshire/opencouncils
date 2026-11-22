@@ -14,6 +14,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { MeetingItem } from "@/components/meeting-item";
 import { PageHeader, Section } from "@/components/page-header";
+import { ClimateAndFoi } from "@/components/outside";
 import { BlockSkeleton, ListSkeleton } from "@/components/skeleton";
 import { councilCabinet } from "@/data/cabinets";
 import { councilFacts, hasMeetings, recentlySummarised, upcomingMeetings } from "@/data/council";
@@ -67,6 +68,7 @@ export default async function CouncilPage({ params }: PageProps<"/[lang]/[counci
       <Suspense fallback={<ListSkeleton rows={6} label={loading} />}>
         <Body locale={locale} params={params} />
         <More locale={locale} params={params} />
+        <Outside locale={locale} params={params} />
         <Elsewhere locale={locale} params={params} />
       </Suspense>
     </div>
@@ -209,6 +211,11 @@ async function More({ locale, params }: { locale: Locale; params: Params }) {
   );
 }
 
+/** Climate plans and freedom of information, from mySociety's CAPE and WhatDoTheyKnow. */
+async function Outside({ locale, params }: { locale: Locale; params: Params }) {
+  const c = await councilFrom(params);
+  return <ClimateAndFoi locale={locale} councilId={c.id} name={c.nameEn} />;
+}
 
 /** The same area on the sibling sites, by its ONS code or the sibling's own slug: plain links, nothing fetched. */
 async function Elsewhere({ locale, params }: { locale: Locale; params: Params }) {

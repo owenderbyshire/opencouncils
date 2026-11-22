@@ -4,15 +4,15 @@ import { defineMessages } from "../server";
 export const dataMessages = defineMessages({
   en: {
     title: "Open data",
-    lede: "Everything OpenCouncils collects is free to download: meetings, decisions, councillors, planning applications and consultations from all 22 councils. The licence below says what you may reuse.",
+    lede: "Everything OpenCouncils collects is free to download: meetings, decisions and councillors from every council whose records we read. The licence below says what you may reuse.",
     licenceTitle: "Licence",
     licence:
-      "Council records are public sector information, published under the [Open Government Licence v3.0](ogl). The plain-language summaries are written by OpenCouncils with the help of AI and are free to reuse. Please credit \"OpenCouncils\" and link to the page the data came from. Planning applications are collected by UK PlanIt from each authority's register; no licence is stated for them, so they are All rights reserved.",
+      "Council records are public sector information, published under the [Open Government Licence v3.0](ogl). The plain-language summaries are written by OpenCouncils with the help of AI and are free to reuse. Please credit \"OpenCouncils\" and link to the page the data came from. Party balance for every council comes from [Open Council Data UK](ocd) (Creative Commons Attribution-ShareAlike), climate plans from [CAPE](cape) by mySociety and Climate Emergency UK, freedom of information pages from mySociety's [WhatDoTheyKnow](wdtk) authorities list (Creative Commons Attribution-ShareAlike), and postcode lookups from [postcodes.io](pcio) using Office for National Statistics data. Reuse of those parts follows their licences.",
     downloadsTitle: "Download",
     downloadsLede: "Spreadsheet files (CSV) of the latest records. Each file opens in Excel, Numbers or Google Sheets.",
     downloads: {
-      councils: "The 22 councils, with links to their sites",
-      decisions: "The latest 1,000 decisions across Wales",
+      councils: "The councils we read, with links to their sites",
+      decisions: "The latest 1,000 decisions",
       planning: "The latest 1,000 planning applications",
       consultations: "Consultations, open and recently closed",
       cabinets: "Who holds what: every council's leader, Cabinet members and committee chairs",
@@ -28,7 +28,7 @@ export const dataMessages = defineMessages({
     endpoint: "Address",
     gives: "What it gives",
     endpoints: [
-      ["/api/v1/councils", "The 22 councils"],
+      ["/api/v1/councils", "The councils we read"],
       ["/api/v1/councils/cardiff/meetings?from=2026-01-01", "A council's meetings, newest first"],
       ["/api/v1/councils/cardiff/meetings/{id}", "One meeting: agenda, minutes, recorded decisions, papers, attendance and summary"],
       ["/api/v1/councils/cardiff/councillors", "A council's councillors, current and former"],

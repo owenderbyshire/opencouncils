@@ -101,7 +101,7 @@ export default async function DataPage() {
       </Section>
       <Section id="licence" title={t.licenceTitle} className="border-t border-rule">
         <p className="max-w-[62ch]">
-          <Rich text={t.licence} links={{ ogl }} />
+          <Rich text={t.licence} links={{ ogl, ocd: "https://opencouncildata.co.uk", cape: "https://cape.mysociety.org", wdtk: "https://www.whatdotheyknow.com", pcio: "https://postcodes.io" }} />
         </p>
       </Section>
       <Section id="fair-use" title={t.fairTitle} className="border-t border-rule">

@@ -28,6 +28,7 @@ export const navMessages = defineMessages<{
         label: "Councils",
         items: [
           { path: "/councils", label: "All UK councils" },
+          { path: "/find", label: "Find your councillors" },
           { path: "/reorganisation", label: "Councils being reorganised" },
           { path: "/compare", label: "Compare councils" },
         ],
@@ -72,6 +73,7 @@ export const navMessages = defineMessages<{
         label: "Councils",
         items: [
           { path: "/councils", label: "All UK councils" },
+          { path: "/find", label: "Find your councillors" },
           { path: "/reorganisation", label: "Councils being reorganised" },
           { path: "/compare", label: "Compare councils" },
         ],

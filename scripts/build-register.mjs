@@ -88,6 +88,8 @@ const councils = rows.map((r) => {
     lat: r.lat ? Number(Number(r.lat).toFixed(4)) : null,
     lng: r.long ? Number(Number(r.long).toFixed(4)) : null,
     govUkSlug: r["gov-uk-slug"] || null,
+    wdtkId: r["wdtk-id"] ? Number(r["wdtk-id"]) : null,
+    ocdId: r["open-council-data-id"] || null,
     current: r["current-authority"] === "True",
   };
 });
@@ -99,7 +101,7 @@ for (const change of reorg.changes) {
     councils.push({
       id: n.id, code: null, name: n.name, short: n.short, nation: "England", region: n.region ?? null, kind: "unitary",
       typeName: "Unitary authority", gss: n.gss ?? null, startDate: change.vestingDate, endDate: null, replacedBy: [],
-      county: null, combinedAuthority: null, population: null, lat: n.lat ?? null, lng: n.lng ?? null, govUkSlug: null,
+      county: null, combinedAuthority: null, population: null, lat: n.lat ?? null, lng: n.lng ?? null, govUkSlug: null, wdtkId: null, ocdId: null,
       current: false, shadow: true, status: change.status, reorganisation: change.id, replaces: n.replaces,
     });
   }

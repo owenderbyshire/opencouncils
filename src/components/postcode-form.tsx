@@ -2,7 +2,7 @@ import { href, type Locale } from "@/i18n/config";
 import { walesMessages } from "@/i18n/messages/wales";
 
 /** A GET form to the postcode lookup, so it works without JavaScript. */
-export function PostcodeForm({ locale, label, value = "" }: { locale: Locale; label?: string; value?: string }) {
+export function PostcodeForm({ locale, label, value = "", placeholder }: { locale: Locale; label?: string; value?: string; placeholder?: string }) {
   const t = walesMessages[locale].find;
   return (
     <form action={href(locale, "/find")} method="get" className="max-w-[24rem]">
@@ -15,7 +15,7 @@ export function PostcodeForm({ locale, label, value = "" }: { locale: Locale; la
           name="postcode"
           defaultValue={value}
           className="field rounded-r-none uppercase placeholder:normal-case"
-          placeholder={t.placeholder}
+          placeholder={placeholder ?? t.placeholder}
           autoComplete="postal-code"
           maxLength={10}
         />

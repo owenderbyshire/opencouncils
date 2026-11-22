@@ -1,6 +1,7 @@
 import "server-only";
 import { cacheLife, cacheTag } from "next/cache";
 import { COUNCILS } from "@/lib/councils";
+import { CURRENT_COUNCILS } from "@/lib/register";
 import { rows, sql } from "./db";
 
 /**
@@ -95,4 +96,60 @@ export async function lookupPostcode(postcode: string): Promise<PostcodeResult> 
 /** A council's ONS code from its OpenCouncil id. */
 export function onsCodeFor(councilId: string): string | null {
   return Object.entries(ONS).find(([, id]) => id === councilId)?.[0] ?? null;
+}
+
+/** One council a postcode sits in, with its ward (or county division) there. */
+export type PostcodeCouncil = { councilId: string; onsWard: string | null; wardSlug: string | null };
+
+export type UkPostcodeResult =
+  | { ok: false; reason: "invalid" | "notFound" | "unavailable" | "noCouncil" }
+  | { ok: true; postcode: string; councils: PostcodeCouncil[] };
+
+async function matchWard(councilId: string, name: string | null | undefined): Promise<string | null> {
+  if (!name) return null;
+  const wards = await rows<{ slug: string; nameEn: string }>(sql`select slug, name_en as "nameEn" from wards where council_id = ${councilId}`);
+  const target = fold(name);
+  const exact = wards.filter((w) => fold(w.nameEn) === target);
+  const loose = wards.filter((w) => fold(w.nameEn).includes(target) || target.includes(fold(w.nameEn)));
+  const pick = exact.length === 1 ? exact : loose.length === 1 ? loose : [];
+  return pick[0]?.slug ?? null;
+}
+
+/**
+ * Any UK postcode to the councils it sits in: the local council, and in two-tier England the county council too,
+ * matched by the ONS codes in the council register. A ward is matched only when the names agree.
+ */
+export async function lookupPostcodeUk(postcode: string): Promise<UkPostcodeResult> {
+  "use cache";
+  cacheLife("pipeline");
+  cacheTag("reference", "councillors");
+  type Reply = {
+    result?: {
+      admin_ward?: string | null;
+      admin_district?: string | null;
+      ced?: string | null;
+      codes?: { admin_district?: string; admin_county?: string };
+    };
+  };
+  let data: Reply;
+  try {
+    const res = await fetch(`https://api.postcodes.io/postcodes/${encodeURIComponent(postcode)}`, {
+      headers: { "user-agent": "OpenCouncils (+https://opencouncils.com)" },
+    });
+    if (res.status === 404) return { ok: false, reason: "notFound" };
+    if (!res.ok) return { ok: false, reason: "unavailable" };
+    data = await res.json();
+  } catch {
+    return { ok: false, reason: "unavailable" };
+  }
+  const r = data.result;
+  if (!r) return { ok: false, reason: "notFound" };
+  const byGss = (code: string | undefined) => (code ? CURRENT_COUNCILS.find((c) => c.gss === code) : undefined);
+  const local = byGss(r.codes?.admin_district);
+  const county = byGss(r.codes?.admin_county);
+  const councils: PostcodeCouncil[] = [];
+  if (local) councils.push({ councilId: local.id, onsWard: r.admin_ward ?? null, wardSlug: await matchWard(local.id, r.admin_ward) });
+  if (county && county.id !== local?.id) councils.push({ councilId: county.id, onsWard: r.ced ?? null, wardSlug: await matchWard(county.id, r.ced) });
+  if (!councils.length) return { ok: false, reason: "noCouncil" };
+  return { ok: true, postcode, councils };
 }

@@ -29,6 +29,9 @@ import { councilPapersJob } from "./jobs/council-papers";
 import { indexJob } from "./jobs/index";
 import { probeJob } from "./jobs/probe";
 import { peekJob } from "./jobs/peek";
+import { compositionsJob } from "./jobs/compositions";
+import { climateJob } from "./jobs/climate";
+import { wdtkJob } from "./jobs/wdtk";
 import { placesJob } from "./jobs/places";
 import { revalidateSite } from "./lib/revalidate";
 import { DAILY_SEQUENCE } from "./sequences";
@@ -79,6 +82,9 @@ const JOBS: Record<string, Job> = {
   index: indexJob,
   probe: probeJob,
   peek: peekJob,
+  compositions: compositionsJob,
+  climate: climateJob,
+  wdtk: wdtkJob,
   places: placesJob,
   "council-data": councilDataJob,
   digest: digestJob,
