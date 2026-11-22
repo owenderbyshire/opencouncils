@@ -23,7 +23,7 @@ import { fetchText } from "../lib/http";
 import { PartialFailure, type Job } from "../lib/job";
 import { recordRead, refusalOutcome } from "../lib/reads";
 import { permission } from "../lib/robots";
-import { argString } from "../lib/util";
+import { argString, COUNCILS_AT_ONCE, mapLimit } from "../lib/util";
 import { execPostsUrl, execPostUrl, isModernGovPage, parseExecPost, parseExecPostList } from "../sources/moderngov-pages";
 import { parseValeCabinet, VALE_CABINET_URL } from "../sources/vale-cabinet";
 import { valeId } from "./vale";
@@ -101,7 +101,7 @@ export const executivePostsJob: Job = {
     const list = RECORD_COUNCILS.filter((c: CouncilConfig) => !only || c.id === only);
     if (only && !list.length) throw new Error(`No active council called "${only}"`);
     const trouble: string[] = [];
-    for (const council of list) {
+    await mapLimit(list, COUNCILS_AT_ONCE, async (council) => {
       // A site that was closed to the pipeline or refused it is asked again after a few days, not every day.
       const [last] = await ctx.db
         .select({ outcome: sourceReads.outcome, checkedAt: sourceReads.checkedAt })
@@ -109,7 +109,7 @@ export const executivePostsJob: Job = {
         .where(and(eq(sourceReads.councilId, council.id), eq(sourceReads.source, "executive-posts")));
       if (!only && ctx.args.force !== true && last && ["robots", "challenge", "missing"].includes(last.outcome) && Date.now() - last.checkedAt.getTime() < RETRY_CLOSED_DAYS * 86_400_000) {
         ctx.count("leftAlone");
-        continue;
+        return;
       }
       let read: Read;
       try {
@@ -122,7 +122,7 @@ export const executivePostsJob: Job = {
         await recordRead(ctx, council.id, "executive-posts", read.outcome, 0, read.note);
         ctx.log(`${council.id}: not read (${read.outcome}: ${read.note})`);
         if (read.outcome === "failed") trouble.push(`${council.id}: ${read.note}`);
-        continue;
+        return;
       }
       // Holders the council's own list of councillors doesn't have are dropped: a post can't be shown without its councillor.
       const known = new Set(
@@ -138,7 +138,7 @@ export const executivePostsJob: Job = {
       await recordRead(ctx, council.id, "executive-posts", rows.length ? "ok" : "empty", rows.length, read.note ?? null);
       ctx.count("posts", rows.length);
       ctx.log(`${council.id}: ${rows.length} posts with holders`);
-    }
+    });
     if (trouble.length) throw new PartialFailure(`executive posts could not be read: ${trouble.join("; ")}`);
   },
 };

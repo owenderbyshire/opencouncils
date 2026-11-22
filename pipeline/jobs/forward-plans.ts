@@ -26,7 +26,7 @@ import { fetchText } from "../lib/http";
 import { PartialFailure, type Job } from "../lib/job";
 import { recordRead, refusalOutcome } from "../lib/reads";
 import { mayRead, permission } from "../lib/robots";
-import { addDays, sha1, today } from "../lib/util";
+import { addDays, COUNCILS_AT_ONCE, mapLimit, sha1, today } from "../lib/util";
 import { forthcomingKeyUrl, forthcomingUrl, isKeyType, issueUrl, parseDecisionTableIds, parseForthcoming, parseIssue, type ForthcomingDecision } from "../sources/moderngov-pages";
 
 /** The council's pages for single matters read in one run, per council. */
@@ -51,7 +51,7 @@ export const forwardPlansJob: Job = {
     const force = ctx.args.force === true || typeof ctx.args.council === "string";
     const trouble: string[] = [];
     const now = today();
-    for (const council of councilsFor(ctx)) {
+    await mapLimit(councilsFor(ctx), COUNCILS_AT_ONCE, async (council) => {
       const base = council.moderngovBase;
       const [last] = await ctx.db
         .select({ outcome: sourceReads.outcome, checkedAt: sourceReads.checkedAt })
@@ -59,20 +59,20 @@ export const forwardPlansJob: Job = {
         .where(and(eq(sourceReads.councilId, council.id), eq(sourceReads.source, "forward-plan")));
       if (!force && last && ["robots", "challenge", "missing"].includes(last.outcome) && Date.now() - last.checkedAt.getTime() < RETRY_CLOSED_DAYS * 86_400_000) {
         ctx.count("leftAlone");
-        continue;
+        return;
       }
 
       const url = forthcomingUrl(base);
       const may = await permission(url);
       if (may === "closed") {
         await recordRead(ctx, council.id, "forward-plan", "robots", 0, "robots.txt closes the page");
-        continue;
+        return;
       }
       if (may === "unknown") {
         // Not the same as a site that closes the page: nobody is told its robots.txt keeps the pipeline out.
         await recordRead(ctx, council.id, "forward-plan", "failed", 0, "robots.txt could not be read, so the page was not asked for");
         trouble.push(`${council.id}: robots.txt could not be read`);
-        continue;
+        return;
       }
       const r = await fetchText(url, { fresh: true, retries: 1 });
       if (!r.ok) {
@@ -80,13 +80,13 @@ export const forwardPlansJob: Job = {
         await recordRead(ctx, council.id, "forward-plan", outcome, 0, r.error.slice(0, 200));
         ctx.log(`${council.id}: not read (${outcome})`);
         if (outcome === "failed") trouble.push(`${council.id}: ${r.error.slice(0, 120)}`);
-        continue;
+        return;
       }
       const list = parseForthcoming(r.text);
       if (!list.recognised) {
         await recordRead(ctx, council.id, "forward-plan", "failed", 0, "the reply was not the decisions list");
         trouble.push(`${council.id}: the reply was not the decisions list`);
-        continue;
+        return;
       }
 
       const held = await ctx.db.select().from(plannedDecisions).where(eq(plannedDecisions.councilId, council.id));
@@ -96,7 +96,7 @@ export const forwardPlansJob: Job = {
       if (!list.decisions.length && listedBefore >= 5) {
         await recordRead(ctx, council.id, "forward-plan", "failed", 0, `the list came back empty; ${listedBefore} were listed before and are left as they were`);
         trouble.push(`${council.id}: the list came back empty where ${listedBefore} were listed`);
-        continue;
+        return;
       }
 
       // Which of them the council's own filter calls key decisions. If that can't be read, what was known stays.
@@ -216,7 +216,7 @@ export const forwardPlansJob: Job = {
       ctx.count("issuePagesUnread", unread);
       await recordRead(ctx, council.id, "forward-plan", list.decisions.length ? "ok" : "empty", list.decisions.length);
       ctx.log(`${council.id}: ${list.decisions.length} listed, ${gone.length} no longer listed, ${pages} pages read`);
-    }
+    });
     if (trouble.length) throw new PartialFailure(`forthcoming decisions could not be read: ${trouble.join("; ")}`);
   },
 };

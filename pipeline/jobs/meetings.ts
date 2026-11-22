@@ -118,7 +118,7 @@ export const meetingDetailsJob: Job = {
     let total = 0;
     let sampleFailure = "";
     let sampleNotPdf = "";
-    for (const council of councilsFor(ctx)) {
+    await mapLimit(councilsFor(ctx), COUNCILS_AT_ONCE, async (council) => {
       const known = new Set(
         (await ctx.db.select({ id: councillors.id }).from(councillors).where(eq(councillors.councilId, council.id))).map(
           (c) => c.id,
@@ -325,7 +325,7 @@ export const meetingDetailsJob: Job = {
         ctx.count("attendance", attendees.length);
         ctx.touched.add(`meeting:${council.id}:${row.id}`);
       });
-    }
+    });
     if (ctx.stats.meetings) {
       ctx.touched.add("meetings");
       ctx.touched.add("councillors");
