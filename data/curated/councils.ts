@@ -191,7 +191,9 @@ export const COUNCILS: CouncilConfig[] = CURRENT_COUNCILS.map((r) => {
   const welsh = WELSH.get(r.id);
   if (welsh) return { ...base, ...welsh };
   const p = PLATFORMS[r.id];
-  const mg = p?.platform === "moderngov" && p.feedOk && p.base && !SHARED_BASES.has(p.base) ? p.base : null;
+  // A council already switched on stays on when one week's census can't reach its feed: the daily checks report a
+  // council whose meetings stop arriving, and its pages keep what was read. Others need a feed that answered.
+  const mg = p?.platform === "moderngov" && p.base && !SHARED_BASES.has(p.base) && (p.feedOk || ACTIVE_IDS.has(r.id)) ? p.base : null;
   return {
     ...base,
     nameEn: r.name,

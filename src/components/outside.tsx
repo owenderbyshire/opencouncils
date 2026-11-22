@@ -1,6 +1,6 @@
 import { Section } from "@/components/page-header";
 import { partsFrom, SeatsBar } from "@/components/seats";
-import { controlOf, getClimate, getComposition, getWdtkUrl } from "@/data/outside";
+import { leadOf, getClimate, getComposition, getWdtkUrl } from "@/data/outside";
 import type { Locale } from "@/i18n/config";
 import { formatDate } from "@/i18n/format";
 import { ukMessages } from "@/i18n/messages/uk";
@@ -12,7 +12,7 @@ export async function PartyBalance({ locale, councilId, name }: { locale: Locale
   const c = await getComposition(councilId);
   if (!c || !c.seats) return null;
   const parts = partsFrom(locale, c.parties, t.otherGroups);
-  const lead = controlOf(c.control);
+  const lead = leadOf(c);
   const leadName = lead ? (lead.partyId === "other" ? t.otherGroups : partyName(locale, lead.partyId, null)) : null;
   return (
     <Section title={t.balanceTitle} icon="councillors">

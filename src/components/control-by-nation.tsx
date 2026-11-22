@@ -1,5 +1,5 @@
 import { SeatsBar, type SeatPart } from "@/components/seats";
-import { controlOf, listCompositions } from "@/data/outside";
+import { leadOf, listCompositions } from "@/data/outside";
 import type { Locale } from "@/i18n/config";
 import { formatNumber } from "@/i18n/format";
 import { ukMessages } from "@/i18n/messages/uk";
@@ -25,7 +25,7 @@ export async function ControlByNation({ locale }: { locale: Locale }) {
         const councils = councilsIn(n).filter((c) => byId.has(c.id));
         const counts = new Map<string, { n: number; majority: number }>();
         for (const c of councils) {
-          const lead = controlOf(byId.get(c.id)!.control);
+          const lead = leadOf(byId.get(c.id)!);
           const key = lead ? (ORDER.includes(lead.partyId) ? lead.partyId : "other") : "unclear";
           const x = counts.get(key) ?? { n: 0, majority: 0 };
           x.n++;

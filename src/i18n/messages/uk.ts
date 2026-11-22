@@ -95,7 +95,7 @@ const en = {
     controlTitle: "Who has the most seats",
     controlLede: "Councils by the party with the most seats. A majority means more than half the seats; without one, a party usually leads with support from others.",
     controlNation: "{nation}: {n} councils",
-    unclear: "Not clear from the source",
+    unclear: "Two groups tied for most seats",
     controlSource: "From Open Council Data UK, May {year}. Northern Ireland's councils share power between parties, so they are not included.",
   },
   council: {
@@ -123,7 +123,7 @@ const en = {
     noCouncil: "We found that postcode but couldn't match it to a council in the register.",
     twoTier: "{postcode} has two councils. Here, the district council runs services such as bins, housing and planning, and the county council runs services such as schools, social care and roads.",
     inWard: "{postcode} is in {ward}, {council}.",
-    inCouncil: "{postcode} is in {council}.",
+    inCouncil: "{postcode} is in the area of {council}.",
     yourCouncillors: "Your councillors on {council}",
     wardUnmatched: "The Office for National Statistics calls this area {ward}. We couldn't match that to one of the council's wards: see all its councillors.",
     notLive: "We don't hold {council}'s councillors yet.",

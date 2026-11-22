@@ -222,11 +222,11 @@
       "checked": "2026-11-16"
     },
     "belfast": {
-      "platform": "unknown",
-      "base": null,
+      "platform": "moderngov",
+      "base": "https://minutes.belfastcity.gov.uk",
       "website": "https://www.belfastcity.gov.uk",
-      "feedOk": false,
-      "checked": "2026-11-16"
+      "feedOk": true,
+      "checked": "2026-11-13"
     },
     "bexley": {
       "platform": "moderngov",
@@ -1363,11 +1363,11 @@
       "checked": "2026-11-16"
     },
     "liverpool": {
-      "platform": "unknown",
-      "base": null,
+      "platform": "moderngov",
+      "base": "https://councillors.liverpool.gov.uk",
       "website": "https://liverpool.gov.uk",
-      "feedOk": false,
-      "checked": "2026-11-16"
+      "feedOk": true,
+      "checked": "2026-11-13"
     },
     "luton": {
       "platform": "unknown",

@@ -1,6 +1,7 @@
 import "server-only";
 import { cacheLife, cacheTag } from "next/cache";
 import { rows, sql } from "./db";
+export { leadOf } from "@/lib/composition";
 
 /**
  * Data about councils from other open sources: party balance from Open Council Data UK and climate plans from
@@ -57,21 +58,6 @@ export async function getClimate(councilId: string): Promise<Climate | null> {
     from council_climate where council_id = ${councilId}
   `);
   return c ?? null;
-}
-
-/**
- * Who has the most seats, from Open Council Data's description: "Lab" (a majority), "Lab plurality" (the largest
- * party without a majority), "Other" (independents and local groups together). "other" stands for independents and
- * local groups. Null for anything else, which the page then leaves out.
- */
-export function controlOf(control: string | null): { partyId: string; majority: boolean } | null {
-  if (!control) return null;
-  const m = control.trim().match(/^([A-Za-z]+)(\s+plurality)?$/);
-  if (!m) return null;
-  const code = m[1].toLowerCase();
-  const ids: Record<string, string> = { lab: "lab", con: "con", ld: "ld", green: "green", grn: "green", ref: "reform", reform: "reform", snp: "snp", pc: "pc", ind: "other", other: "other", oth: "other" };
-  const partyId = ids[code];
-  return partyId ? { partyId, majority: !m[2] } : null;
 }
 
 /** The council's page on WhatDoTheyKnow, or null if we don't have it. */

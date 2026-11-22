@@ -22,6 +22,7 @@
  * Polite: one council at a time per host, a few requests each.
  */
 import { CURRENT_COUNCILS, type RegisterEntry } from "../../data/curated/councils";
+import PLATFORM_FILE from "../../data/curated/platforms.json";
 import { fetchText } from "../lib/http";
 import type { Job } from "../lib/job";
 
@@ -118,6 +119,11 @@ export async function censusOne(c: RegisterEntry, known?: CensusEntry): Promise<
   if (known?.via === "manual" && known.base) {
     return { ...known, feedOk: known.platform === "moderngov" ? await feedAnswers(known.base) : false, checked };
   }
+  // An address that worked before is tried first and kept while it answers, so a change to the council's home page
+  // (Liverpool and Belfast, November 2026) can't lose a working feed.
+  if (known?.platform === "moderngov" && known.base && known.feedOk && (await feedAnswers(known.base))) {
+    return { ...known, checked };
+  }
   const website = await websiteFromGovUk(c);
   const notes: string[] = [];
   let systems = { moderngov: [] as string[], cmis: [] as string[], democracy: [] as string[] };
@@ -139,6 +145,11 @@ export async function censusOne(c: RegisterEntry, known?: CensusEntry): Promise<
   }
   if (systems.cmis.length) return { platform: "cmis", base: systems.cmis[0], website, feedOk: false, via: "homepage", note: null, checked };
   if (systems.democracy.length) return { platform: "other", base: systems.democracy[0], website, feedOk: false, via: "homepage", note: "democracy site, system not recognised", checked };
+  // Nothing found this time, but a ModernGov address worked before: keep it, marked as not answering, rather than
+  // forget it. A council that is switched on keeps being read from it (data/curated/councils.ts).
+  if (known?.platform === "moderngov" && known.base) {
+    return { ...known, feedOk: false, note: `not answering on ${checked}; last worked ${known.checked}`, checked: known.checked };
+  }
   return { platform: "unknown", base: null, website, feedOk: false, via: null, note: notes.join("; ") || null, checked };
 }
 
@@ -147,6 +158,12 @@ export const censusJob: Job = {
   description: "Finds each UK council's committee system and checks its ModernGov data service",
   async run(ctx) {
     const state = (await ctx.getState<Record<string, CensusEntry>>(STATE_KEY)) ?? {};
+    // A working address in the committed platforms.json, which the stored state has lost, is taken back as known:
+    // so a fix made by hand to that file survives the next census.
+    for (const [id, e] of Object.entries(PLATFORM_FILE.councils as unknown as Record<string, CensusEntry>)) {
+      const now = state[id];
+      if (e.platform === "moderngov" && e.base && e.feedOk && !(now?.platform === "moderngov" && now.base)) state[id] = { ...e, via: e.via ?? "homepage", note: e.note ?? null };
+    }
     const only = typeof ctx.args.council === "string" ? ctx.args.council : null;
     const limit = Number(ctx.args.limit) || Infinity;
     // Stop in time for the workflow to save what was found (its limit is two hours).

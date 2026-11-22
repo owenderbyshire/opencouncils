@@ -39,3 +39,15 @@ describe("pickWebsite whole words", () => {
     expect(pickWebsite(html, { short: "Staffordshire", name: "Staffordshire County Council" })).toBe("https://www.staffordshire.gov.uk");
   });
 });
+
+describe("censusOne keeps a working address", () => {
+  it("keeps a ModernGov base that worked before when nothing else is found", async () => {
+    const { censusOne } = await import("./census");
+    const known = { platform: "moderngov" as const, base: "https://example.invalid", website: null, feedOk: true, via: "homepage", note: null, checked: "2026-11-13" };
+    // No GOV.UK slug, and the address can't answer: nothing is found, so the old base is kept, marked as not answering.
+    const r = await censusOne({ id: "x", name: "X Council", short: "X", govUkSlug: null } as never, known);
+    expect(r.base).toBe("https://example.invalid");
+    expect(r.platform).toBe("moderngov");
+    expect(r.feedOk).toBe(false);
+  }, 60_000);
+});
