@@ -183,3 +183,9 @@ A council gets AI decision summaries once someone is monitoring it, which ties r
 - Summaries for councils outside Wales are written in English only, so the £60 cap isn't spent on Welsh nobody reads there.
 - Census: council names now match as whole words. Stafford had been given Staffordshire County Council's site; fixed, which also frees Staffordshire to be switched on.
 - The batch loaded (1,358 meetings, 2,763 councillors across the run). Summaries stopped: the Anthropic API organisation reached its monthly spend limit (lifts 1 December, or raise it in the Console). OpenCouncils' own cap had spent under £1. The job now stops at that error and notifies the owner.
+
+**21 to 22 November 2026: third batch switched on.**
+- 20 more councils: Staffordshire, Enfield, Tower Hamlets, Wigan, Wandsworth, Sandwell, Brent, Shropshire, Wirral, Northumberland, Southwark, Doncaster, Hillingdon, Redbridge, Lewisham, Brighton and Hove, Greenwich, Bolton, Hackney, Camden. 46 councils outside Wales now live; 130 more ready.
+- The run hit its time limit before summaries: committees, councillors and meetings read one council at a time took over four hours. They now read six councils at once (each site still gets at most two requests at a time).
+- 29 councils' Cabinet and forward-plan pages answer GitHub with a Cloudflare challenge (Manchester among them). They wait on the relay, which needs the domain plus REVALIDATE_SECRET and SITE_URL.
+- Checks no longer flag empty Cabinet pages at councils run by committees (Belfast, Sheffield).
