@@ -27,7 +27,7 @@ import { councilsFor } from "../lib/councils";
 import { fetchBytes, fetchText } from "../lib/http";
 import { PartialFailure, type Job } from "../lib/job";
 import { pdfText } from "../lib/pdf";
-import { addDays, argNumber, argString, dateWindows, mapLimit, sha1, today } from "../lib/util";
+import { addDays, argNumber, argString, COUNCILS_AT_ONCE, dateWindows, mapLimit, sha1, today } from "../lib/util";
 import {
   attendanceStatus,
   isoToUk,
@@ -52,7 +52,7 @@ export const meetingsJob: Job = {
     const to = argString(ctx.args, "to") ?? addDays(today(), 56);
     let failures = 0;
     let requests = 0;
-    for (const council of councilsFor(ctx)) {
+    await mapLimit(councilsFor(ctx), COUNCILS_AT_ONCE, async (council) => {
       const active = await ctx.db
         .select({ id: committees.id })
         .from(committees)
@@ -97,7 +97,7 @@ export const meetingsJob: Job = {
           }
         },
       );
-    }
+    });
     if (failures > requests / 4) throw new PartialFailure(`${failures} of ${requests} calendars could not be fetched`);
   },
 };

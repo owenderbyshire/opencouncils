@@ -11,6 +11,7 @@ import { councilsFor } from "../lib/councils";
 import { fetchText } from "../lib/http";
 import { PartialFailure, type Job } from "../lib/job";
 import { committeeKind, parseCommittees, parseWelshCommitteeNames } from "../sources/moderngov";
+import { COUNCILS_AT_ONCE, mapLimit } from "../lib/util";
 
 export const committeesJob: Job = {
   name: "committees",
@@ -23,19 +24,19 @@ export const committeesJob: Job = {
   description: "Committees of each council, from its ModernGov web service",
   async run(ctx) {
     const failed: string[] = [];
-    for (const council of councilsFor(ctx)) {
+    await mapLimit(councilsFor(ctx), COUNCILS_AT_ONCE, async (council) => {
       const r = await fetchText(webServiceUrl(council.moderngovBase, "GetCommittees"), { accept: "text/xml" });
       if (!r.ok) {
         ctx.warn(`${council.id}: committees could not be fetched (${r.error})`);
         failed.push(`${council.id}: committees could not be fetched (${r.error})`);
-        continue;
+        return;
       }
       const rows = parseCommittees(r.text).filter((c) => !c.deleted);
       // A council with no committees in the reply means the reply was wrong, not that the council has none.
       if (!rows.length) {
         ctx.warn(`${council.id}: GetCommittees returned no committees`);
         failed.push(`${council.id}: GetCommittees returned no committees`);
-        continue;
+        return;
       }
 
       const welsh = new Map<number, string>();
@@ -75,7 +76,7 @@ export const committeesJob: Job = {
         ctx.count("committees");
       }
       ctx.count("welshNames", [...welsh.keys()].length);
-    }
+    });
     if (failed.length) throw new PartialFailure(`committees could not be read: ${failed.join("; ")}`);
   },
 };

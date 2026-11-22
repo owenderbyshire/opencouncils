@@ -13,7 +13,7 @@ import { webServiceUrl } from "../../src/lib/official-urls";
 import { councilsFor } from "../lib/councils";
 import { fetchText } from "../lib/http";
 import { PartialFailure, type Job } from "../lib/job";
-import { mapLimit } from "../lib/util";
+import { COUNCILS_AT_ONCE, mapLimit } from "../lib/util";
 import { committeeRole, parseCommitteesByUser, parseCouncillorsByWard } from "../sources/moderngov";
 
 export const councillorsJob: Job = {
@@ -27,18 +27,18 @@ export const councillorsJob: Job = {
   description: "Councillors, wards and committee membership, from each council's ModernGov web service",
   async run(ctx) {
     const failed: string[] = [];
-    for (const council of councilsFor(ctx)) {
+    await mapLimit(councilsFor(ctx), COUNCILS_AT_ONCE, async (council) => {
       const r = await fetchText(webServiceUrl(council.moderngovBase, "GetCouncillorsByWard"), { accept: "text/xml" });
       if (!r.ok) {
         ctx.warn(`${council.id}: councillors could not be fetched (${r.error})`);
         failed.push(`${council.id}: councillors could not be fetched (${r.error})`);
-        continue;
+        return;
       }
       const list = parseCouncillorsByWard(r.text);
       if (!list.length) {
         ctx.warn(`${council.id}: GetCouncillorsByWard returned nobody`);
         failed.push(`${council.id}: GetCouncillorsByWard returned nobody`);
-        continue;
+        return;
       }
 
       // Wards, with the number of seats each has now.
@@ -139,7 +139,7 @@ export const councillorsJob: Job = {
         );
       if (membershipFailures > list.length / 4) failed.push(`${council.id}: ${membershipFailures} of ${list.length} councillors' committees unread`);
       ctx.count("membershipFailures", membershipFailures);
-    }
+    });
     if (failed.length) throw new PartialFailure(`councillors could not be read in full: ${failed.join("; ")}`);
   },
 };
