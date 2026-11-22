@@ -80,7 +80,7 @@ export function argNumber(
 }
 
 /**
- * Councils read at the same time by the jobs that go through every council. Each council is a different site,
+ * Councils read at the same time by the jobs that go through every council (10 since all 173 were switched on). Each council is a different site,
  * and each job still asks any one site at most two things at once, so this speeds the run without leaning on anyone.
  */
-export const COUNCILS_AT_ONCE = 6;
+export const COUNCILS_AT_ONCE = 10;
