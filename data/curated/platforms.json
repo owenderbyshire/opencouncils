@@ -47,7 +47,27 @@
     "greenwich",
     "bolton",
     "hackney",
-    "camden"
+    "camden",
+    "waltham-forest",
+    "cumberland",
+    "westminster",
+    "rotherham",
+    "wolverhampton",
+    "salford",
+    "stoke-on-trent",
+    "southampton",
+    "harrow",
+    "bexley",
+    "islington",
+    "oldham",
+    "tameside",
+    "westmorland-and-furness",
+    "rochdale",
+    "portsmouth",
+    "calderdale",
+    "north-tyneside",
+    "sutton",
+    "merton"
   ],
   "councils": {
     "aberdeen-city": {
