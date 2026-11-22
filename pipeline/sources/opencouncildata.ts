@@ -68,7 +68,8 @@ const fold = (s: string) =>
  * current council is left unmatched.
  */
 export function councilMatcher(register: RegisterEntry[], history: OcdHistoryRow[]): (name: string) => string | null {
-  const current = register.filter((c) => c.current && c.kind !== "combined");
+  // Shadow councils (East and West Surrey until April 2027) have councillors already.
+  const current = register.filter((c) => (c.current || c.shadow) && c.kind !== "combined");
   const byOcd = new Map(current.filter((c) => c.ocdId).map((c) => [String(Number(c.ocdId)), c.id]));
   const byHistoryName = new Map<string, string>();
   for (const h of history) {

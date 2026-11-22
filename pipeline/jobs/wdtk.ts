@@ -12,7 +12,7 @@ import { fetchText } from "../lib/http";
 import { PartialFailure, type Job } from "../lib/job";
 import { csvRecords } from "../sources/statswales";
 
-export const WDTK_AUTHORITIES_CSV = "https://pages.mysociety.org/wdtk_authorities_list/downloads/whatdotheyknow-authorities-dataset-authorities-csv/latest";
+export const WDTK_AUTHORITIES_CSV = "https://pages.mysociety.org/wdtk_authorities_list/data/whatdotheyknow_authorities_dataset/latest/authorities.csv";
 
 export const wdtkJob: Job = {
   name: "wdtk",
