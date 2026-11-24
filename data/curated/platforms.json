@@ -74,7 +74,6 @@
   "bedford",
   "blackburn-with-darwen",
   "blackpool",
-  "bolsover",
   "bracknell-forest",
   "brentwood",
   "broxbourne",
@@ -2773,6 +2772,7 @@
  "waitingForRelay": [
   "camden",
   "brighton-and-hove",
-  "wandsworth"
+  "wandsworth",
+  "bolsover"
  ]
 }

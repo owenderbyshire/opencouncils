@@ -202,3 +202,9 @@ A council gets AI decision summaries once someone is monitoring it, which ties r
 - 20 more councils: Waltham Forest, Cumberland, Westminster, Rotherham, Wolverhampton, Salford, Stoke-on-Trent, Southampton, Harrow, Bexley, Islington, Oldham, Tameside, Westmorland and Furness, Rochdale, Portsmouth, Calderdale, North Tyneside, Sutton, Merton.
 - The run took 2h55m for 66 councils (batch three: over four hours for 46). Committees 8m (was 37m), councillors 20m (was 2h22m), meetings 31m (was 1h31m). Meeting details took 85m; it, Cabinet posts and forward plans now also read six councils at once.
 - Camden, Brighton and Hove and Wandsworth block GitHub's servers, so nothing could be read and their pages were empty. Switched off and listed under "waitingForRelay" in platforms.json, to switch back on when the relay works. 63 councils outside Wales now live.
+
+**22 to 24 November 2026: every usable council switched on.**
+- The remaining 110 councils went on at once, reading ten councils at a time. The first full load took 1h45m; daily runs since take about 1h35m.
+- 172 councils outside Wales live. Bolsover joined Camden, Brighton and Hove and Wandsworth under "waitingForRelay": it blocks GitHub entirely.
+- 85 councils' Cabinet and forward-plan pages answer GitHub with a Cloudflare challenge. Their meetings, councillors and decisions load; the Cabinet list and upcoming decisions wait on the relay.
+- Summaries: 227 written in the first full run, then about 60 a day. £57.74 of November's £60 left on 23 November.
