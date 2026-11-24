@@ -58,8 +58,22 @@ export function pickWebsite(html: string, c: Pick<RegisterEntry, "short" | "name
   return links.length === 1 ? links[0].url : null;
 }
 
+/** The council's own address for its home page, from GOV.UK's local authority data (England and Wales). */
+export function homepageFromApi(json: string): string | null {
+  try {
+    const url = (JSON.parse(json) as { local_authority?: { homepage_url?: string } }).local_authority?.homepage_url;
+    return url && /^https?:\/\//.test(url) ? url.replace(/\/+$/, "") : null;
+  } catch {
+    return null;
+  }
+}
+
 async function websiteFromGovUk(c: RegisterEntry): Promise<string | null> {
   if (!c.govUkSlug) return null;
+  // GOV.UK's find-local-council pages became a postcode form in November 2026 and no longer link to the council.
+  const api = await fetchText(`https://www.gov.uk/api/local-authority/${c.govUkSlug}`, { retries: 1, timeoutMs: 20_000 });
+  const fromApi = api.ok ? homepageFromApi(api.text) : null;
+  if (fromApi) return fromApi;
   const r = await fetchText(`https://www.gov.uk/find-local-council/${c.govUkSlug}`, { retries: 1, timeoutMs: 20_000 });
   return r.ok ? pickWebsite(r.text, c) : null;
 }
@@ -93,7 +107,7 @@ export function guesses(website: string | null, c: RegisterEntry): string[] {
   if (website) {
     const host = new URL(website).hostname.replace(/^www\./, "");
     // The commonest ModernGov addresses first; a long list made the first census run for over an hour.
-    for (const sub of ["democracy", "moderngov", "committees", "modgov", "meetings", "democratic"]) out.push(`https://${sub}.${host}`);
+    for (const sub of ["democracy", "moderngov", "committees", "modgov", "meetings", "democratic", "councillors", "minutes"]) out.push(`https://${sub}.${host}`);
     out.push(`https://www.${host}/moderngov`);
   }
   const short = c.short.toLowerCase().replace(/^the /, "").replace(/&/g, "and").replace(/[^a-z]/g, "");
@@ -124,7 +138,7 @@ export async function censusOne(c: RegisterEntry, known?: CensusEntry): Promise<
   if (known?.platform === "moderngov" && known.base && known.feedOk && (await feedAnswers(known.base))) {
     return { ...known, checked };
   }
-  const website = await websiteFromGovUk(c);
+  const website = (await websiteFromGovUk(c)) ?? known?.website ?? null;
   const notes: string[] = [];
   let systems = { moderngov: [] as string[], cmis: [] as string[], democracy: [] as string[] };
   if (website) {

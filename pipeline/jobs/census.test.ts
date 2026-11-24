@@ -51,3 +51,11 @@ describe("censusOne keeps a working address", () => {
     expect(r.feedOk).toBe(false);
   }, 60_000);
 });
+
+describe("homepageFromApi", () => {
+  it("reads GOV.UK's local authority data", async () => {
+    const { homepageFromApi } = await import("./census");
+    expect(homepageFromApi('{"local_authority":{"name":"Kent County Council","homepage_url":"http://www.kent.gov.uk/","tier":"county","slug":"kent"}}')).toBe("http://www.kent.gov.uk");
+    expect(homepageFromApi("<html>")).toBeNull();
+  });
+});
